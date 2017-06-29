@@ -7,13 +7,21 @@ import {TranslateService} from "@ngx-translate/core";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  param = {value: 'world'};
+
+  public translate: TranslateService;
 
   constructor(translate: TranslateService) {
-    // this language will be used as a fallback when a translation isn't found in the current language
+
     translate.setDefaultLang('en');
-    translate.addLangs(["en","es","ca"]);
-    translate.use("en");
+    translate.addLangs(["en", "es", "ca"]);
+
+    let browserLang = translate.getBrowserLang();
+    translate.use(browserLang.match(/en|es|ca/) ? browserLang : 'en');
+
+    console.clear();
+
+    this.translate = translate;
+
   }
 
 }

@@ -18,8 +18,6 @@ export class AppComponent {
     let browserLang = translate.getBrowserLang();
     translate.use(browserLang.match(/en|es|ca/) ? browserLang : 'en');
 
-    console.clear();
-
     this.translate = translate;
 
   }

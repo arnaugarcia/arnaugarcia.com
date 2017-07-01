@@ -1,3 +1,18 @@
 {
-  "HELLO": "Hola"
+  "NAVBAR": {
+    "HOME": "Inicio",
+    "PROFILE": "Perfil",
+    "SERVICES": "Servicios",
+    "RESUME": "Resumen",
+    "TECHNOLOGIES": "Tecnologias",
+    "PROJECTS": "Proyectos",
+    "CONTACT": "Contacto",
+    "LANGUAGES": {
+      "TITLE": "Idiomas",
+      "CA": "Catalan",
+      "ES": "Castellano",
+      "EN": "Inglés"
+    }
+  },
+  "HELLO": "Hola, soy Arnau García"
 }

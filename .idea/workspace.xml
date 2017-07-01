@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3c1872a9-47ad-4cae-b4e2-9950f81e38be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arnaugarcia/package-lock.json" afterPath="$PROJECT_DIR$/arnaugarcia/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arnaugarcia/package.json" afterPath="$PROJECT_DIR$/arnaugarcia/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arnaugarcia/src/app/app.component.html" afterPath="$PROJECT_DIR$/arnaugarcia/src/app/app.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arnaugarcia/src/app/app.component.ts" afterPath="$PROJECT_DIR$/arnaugarcia/src/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css" afterPath="$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json" afterPath="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json" afterPath="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json" afterPath="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arnaugarcia/src/assets/js/custom.js" afterPath="$PROJECT_DIR$/arnaugarcia/src/assets/js/custom.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +26,53 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="419">
+              <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="763" column="26" lean-forward="false" selection-start-line="763" selection-start-column="26" selection-end-line="763" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arnaugarcia/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arnaugarcia/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -36,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -45,8 +91,8 @@
       <file leaf-file-name="en.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="195">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -55,18 +101,18 @@
       <file leaf-file-name="es.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="195">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="150">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -78,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -95,7 +141,10 @@
       <find>hackintosh</find>
       <find>img</find>
       <find>multi</find>
+      <find>navbar</find>
+      <find>dropdown-menu</find>
       <find>mvc</find>
+      <find>hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,13 +166,15 @@
         <option value="$PROJECT_DIR$/arnaugarcia/src/app/i18n/ca.json" />
         <option value="$PROJECT_DIR$/arnaugarcia/src/app/i18n/es.json" />
         <option value="$PROJECT_DIR$/arnaugarcia/.angular-cli.json" />
-        <option value="$PROJECT_DIR$/arnaugarcia/src/index.html" />
         <option value="$PROJECT_DIR$/arnaugarcia/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json" />
+        <option value="$PROJECT_DIR$/arnaugarcia/src/assets/js/custom.js" />
+        <option value="$PROJECT_DIR$/arnaugarcia/src/index.html" />
         <option value="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json" />
         <option value="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json" />
-        <option value="$PROJECT_DIR$/arnaugarcia/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json" />
         <option value="$PROJECT_DIR$/arnaugarcia/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/arnaugarcia/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -137,9 +188,8 @@
     <handled-path value="$PROJECT_DIR$/arnaugarcia/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="962" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -221,6 +271,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arnaugarcia.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arnaugarcia.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arnaugarcia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arnaugarcia.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arnaugarcia.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arnaugarcia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -236,6 +334,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="typescript-compiler-editor-notification" value="false" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -262,13 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/arnaugarcia.com/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/arnaugarcia.com/arnaugarcia/dist/index.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="npm.Start">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -335,16 +428,16 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+    <configuration default="false" name="Start" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/arnaugarcia/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="npm.Start" />
     </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -364,7 +457,10 @@
       <workItem from="1497818806740" duration="640000" />
       <workItem from="1498562863289" duration="115000" />
       <workItem from="1498563023539" duration="1779000" />
-      <workItem from="1498730564542" duration="5454000" />
+      <workItem from="1498730564542" duration="8523000" />
+      <workItem from="1498757884606" duration="1000" />
+      <workItem from="1498767785312" duration="551000" />
+      <workItem from="1498832292999" duration="6393000" />
     </task>
     <task id="LOCAL-00001" summary="Added new technologies">
       <created>1492785727592</created>
@@ -401,24 +497,31 @@
       <option name="project" value="LOCAL" />
       <updated>1498745854162</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added a dropdown to select the languages">
+      <created>1498747100900</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1498747100900</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12914000" />
+    <option name="totallyTimeSpent" value="22928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="962" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21800947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.28252032" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="-1440" y="22" width="1440" height="878" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -442,18 +545,154 @@
     <MESSAGE value="Added angularcamp and assessoriatorrelles project" />
     <MESSAGE value="Configured as app-root" />
     <MESSAGE value="Configured ngx-translate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configured ngx-translate" />
+    <MESSAGE value="Added a dropdown to select the languages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a dropdown to select the languages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6705">
+          <caret line="447" column="29" lean-forward="false" selection-start-line="447" selection-start-column="29" selection-end-line="447" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="90" lean-forward="false" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7050">
+          <caret line="470" column="1" lean-forward="false" selection-start-line="470" selection-start-column="1" selection-end-line="470" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/arnaugarcia/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -489,9 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -499,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -523,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -550,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -564,18 +787,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/indexold.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="769" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,91 +802,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.yarn-integrity">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="51" column="7" lean-forward="false" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/i18n/en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/i18n/es.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.yarn-integrity" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/i18n/en.json" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/i18n/es.json" />
     <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/i18n/ca.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/i18n/ca.json" />
     <entry file="file://$PROJECT_DIR$/arnaugarcia/.angular-cli.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json">
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json">
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -678,28 +846,78 @@
     <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="763" column="26" lean-forward="false" selection-start-line="763" selection-start-column="26" selection-end-line="763" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

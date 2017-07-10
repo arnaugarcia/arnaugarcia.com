@@ -38,8 +38,7 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{'NAVBAR.LANGUAGES.TITLE' | translate}}
               <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <!-- TODO: ADD TRANSLATION to language -->
-              <li *ngFor="let lang of translate.getLangs()"><a (click)="translate.use(lang)">{{ lang }}</a></li>
+              <li *ngFor="let lang of translate.getLangs()"><a (click)="translate.use(lang)" translate="{{'NAVBAR.LANGUAGES.' + lang.toUpperCase()}}"></a></li>
             </ul>
           </li>
         </ul>

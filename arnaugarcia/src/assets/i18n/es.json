@@ -1,4 +1,7 @@
 {
+  "APP":{
+    "TITLE": "Arnau García - Página web personal y profesional"
+  },
   "NAVBAR": {
     "HOME": "Inicio",
     "PROFILE": "Perfil",
@@ -14,5 +17,32 @@
       "EN": "Inglés"
     }
   },
-  "HELLO": "Hola, soy Arnau García"
+  "INTRO": {
+    "TITLE" : "Hola, soy Arnau García",
+    "SUBTITLE": "Desarollador Web | Angular | Programador multiplataforma | Android | SpringMVC"
+  },
+  "PROFILE-CONTACT": {
+    "EMAIL": "arnau.garcia.gallego@gmail.com",
+    "PHONE": "(+34) 692 46 46 45",
+    "ADDRESS": "Torrelles de Llobregat - España"
+  },
+  "PROFILE": {
+    "TITLE": "Arnau García Gallego",
+    "SUBTITLE": "Desarollador Web | Técnico Informático | Programador multiplataforma",
+    "SKILLS": {
+      "TITLE": "HABILIDADES",
+      "SKILL1": "Java",
+      "SKILL2": "HTML / CSS3 / JAVASCRIPT",
+      "SKILL3": "Sping MVC",
+      "SKILL4": "Angular"
+    },
+    "SOCIAL": "REDES SOCIALES",
+    "TEXT": {
+      "TITLE": "ACERCA DE MI",
+      "PARAGRAPH1": "Soy un informático con ganas de cambiar el mundo y aportar nuevas cosas tanto a empresas como personales. Mi curiosidad para la informática y la programación empezó desde muy pequeño y aún sigue en aumento, día tras día sin perder las ganas de aprender y superarme.",
+      "PARAGRAPH2": "Actualmente estoy diseñando varios proyectos personales y ampliando mis conocimientos en informática/programación"
+    }
+
+  }
+
 }

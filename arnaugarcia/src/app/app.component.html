@@ -38,13 +38,11 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{'NAVBAR.LANGUAGES.TITLE' | translate}}
               <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li *ngFor="let lang of translate.getLangs()"><a (click)="translate.use(lang)" translate="{{'NAVBAR.LANGUAGES.' + lang.toUpperCase()}}"></a></li>
+              <!-- <li *ngFor="let lang of translate.getLangs()"><a (click)="translate.use(lang)" translate="{{'NAVBAR.LANGUAGES.' + lang.toUpperCase()}}">LANGUAGE</a></li> -->
+              <li *ngFor="let lang of translate.getLangs()"><a (click)="changeLanguage(lang)" translate="{{'NAVBAR.LANGUAGES.' + lang.toUpperCase()}}">LANGUAGE</a></li>
             </ul>
           </li>
         </ul>
-        <!--<select #langSelect (change)="translate.use(langSelect.value)" >
-          <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
-        </select>-->
       </div>
 
     </div>
@@ -63,8 +61,8 @@
         <div class="col-md-12">
 
           <div class="hello wow bounceInDown">
-            <h1>{{ 'HELLO' | translate }}</h1>
-            <h3><span class="rotate">Desarollador Web | Angular | Programador multiplataforma | Android | SpringMVC</span></h3>
+            <h1>{{ 'INTRO.TITLE' | translate }}</h1>
+            <h3><span class="rotate">{{ 'INTRO.SUBTITLE' | translate }}</span></h3>
           </div>
 
           <a href="#profile">
@@ -94,21 +92,21 @@
         <div class="col-sm-4 wow bounceInLeft">
           <div class="profile-item">
             <i class="fa fa-envelope-o"></i>
-            <h5><a href="#contact">arnau.garcia.gallego@gmail.com</a></h5>
+            <h5><a href="#contact">{{ 'PROFILE-CONTACT.EMAIL' | translate }}</a></h5>
           </div>
         </div>
 
         <div class="col-sm-4 wow bounceInUp">
           <div class="profile-item">
             <i class="fa fa-phone"></i>
-            <h5>(+34) 692 46 46 45</h5>
+            <h5>{{ 'PROFILE-CONTACT.PHONE' | translate }}</h5>
           </div>
         </div>
 
         <div class="col-sm-4 wow bounceInRight">
           <div class="profile-item">
             <i class="fa fa-map-marker"></i>
-            <h5><a href="#">Torrelles de Llobregat - España</a></h5>
+            <h5><a href="#contact">{{ 'PROFILE-CONTACT.ADDRESS' | translate }}</a></h5>
           </div>
         </div>
 
@@ -129,8 +127,8 @@
       <div class="row">
 
         <div class="col-md-12 headline wow bounceInDown">
-          <h2>Arnau García Gallego</h2>
-          <p>Desarollador Web | Técnico Informático | Programador multiplataforma</p>
+          <h2>{{ 'PROFILE.TITLE' | translate }}</h2>
+          <p>{{ 'PROFILE.SUBTITLE' | translate }}</p>
         </div>
 
         <div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
@@ -139,29 +137,29 @@
 
         <div class="col-md-3 col-sm-6 wow bounceInUp">
           <div class="profile-widget">
-            <h3>habilidades</h3>
-            <h5>Java</h5>
+            <h3>{{ 'PROFILE.SKILLS.TITLE' | translate }}</h3>
+            <h5>{{ 'PROFILE.SKILLS.SKILL1' | translate }}</h5>
             <div class="skill-bar">
               <div class="skill-rate-on"></div>
               <div class="skill-rate-on"></div>
               <div class="skill-rate-on"></div>
               <div class="skill-rate-on"></div>
             </div>
-            <h5>HTML / CSS3 / JAVASCRIPT</h5>
-            <div class="skill-bar">
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-off"></div>
-            </div>
-            <h5>Sping MVC</h5>
+            <h5>{{ 'PROFILE.SKILLS.SKILL2' | translate }}</h5>
             <div class="skill-bar">
               <div class="skill-rate-on"></div>
               <div class="skill-rate-on"></div>
               <div class="skill-rate-on"></div>
               <div class="skill-rate-off"></div>
             </div>
-            <h5>Angular</h5>
+            <h5>{{ 'PROFILE.SKILLS.SKILL3' | translate }}</h5>
+            <div class="skill-bar">
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-off"></div>
+            </div>
+            <h5>{{ 'PROFILE.SKILLS.SKILL4' | translate }}</h5>
             <div class="skill-bar">
               <div class="skill-rate-on"></div>
               <div class="skill-rate-on"></div>
@@ -171,7 +169,7 @@
           </div>
 
           <div class="profile-widget">
-            <h3>Redes sociales</h3>
+            <h3>{{ 'PROFILE.SOCIAL' | translate }}</h3>
 
             <ul class="widget-social">
               <li><a href="https://twitter.com/arnaugarcia97"><i class="fa fa-twitter"></i></a></li>
@@ -184,9 +182,9 @@
         </div><!-- .col-md-3 -->
 
         <div class="col-md-6 col-sm-12 wow bounceInRight">
-          <h3>Acerca de mi</h3>
-          <p>Soy un informático con ganas de cambiar el mundo y aportar nuevas cosas tanto a empresas como personales. Mi curiosidad para la informática y la programación empezó desde muy pequeño y aún sigue en aumento, día tras día sin perder las ganas de aprender y superarme.</p>
-          <p>Actualmente estoy diseñando varios proyectos personales y ampliando mis conocimientos en informática/programación.</p>
+          <h3>{{ 'PROFILE.TEXT.TITLE' | translate }}</h3>
+          <p>{{ 'PROFILE.TEXT.PARAGRAPH1' | translate }}</p>
+          <p>{{ 'PROFILE.TEXT.PARAGRAPH2' | translate }}</p>
         </div>
 
       </div><!-- .row -->

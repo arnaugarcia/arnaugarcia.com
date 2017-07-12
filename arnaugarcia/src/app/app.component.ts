@@ -16,15 +16,13 @@ export class AppComponent {
   ) {
 
     translate.addLangs(["en", "es", "ca"]);
-    translate.setDefaultLang('en');
-
     let browserLang = translate.getBrowserLang();
     translate.use(browserLang.match(/en|es|ca/) ? browserLang : 'en');
   }
 
   public changeLanguage(lang: string){
       this.translate.use(lang);
-      this.titleService.setTitle( this.translate.instant("APP.TITLE"));
+      this.titleService.setTitle(this.translate.instant("APP.TITLE"));
   }
 
 }

@@ -1,0 +1,24 @@
+{
+  "APP":{
+    "TITLE": "Arnau García - Web page personal and profesional"
+  },
+  "NAVBAR": {
+    "HOME": "Home",
+    "PROFILE": "Profile",
+    "SERVICES": "Services",
+    "RESUME": "Resume",
+    "TECHNOLOGIES": "Technologies",
+    "PROJECTS": "Projects",
+    "CONTACT": "Contact",
+    "LANGUAGES": {
+      "TITLE": "Languages",
+      "CA": "Catalan",
+      "ES": "Spanish",
+      "EN": "English"
+    }
+   },
+  "INTRO": {
+    "TITLE" : "Hello, I'm Arnau García",
+    "SUBTITLE": "Desarollador Web | Angular | Programador multiplataforma | Android | SpringMVC"
+  }
+}

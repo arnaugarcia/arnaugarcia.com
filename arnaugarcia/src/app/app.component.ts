@@ -11,7 +11,7 @@ export class AppComponent {
 
 
   public constructor(
-    private translate: TranslateService,
+    public translate: TranslateService,
     private titleService: Title
   ) {
 

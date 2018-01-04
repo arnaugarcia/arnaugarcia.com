@@ -1,15 +1,13 @@
+import {NgModule} from '@angular/core';
 import {BrowserModule, Title} from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
-import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
-
-import {Http, HttpModule} from "@angular/http";
-import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {AppComponent} from "./app.component";
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 // AoT requires an exported function for factories
-export function HttpLoaderFactory(http: Http) {
-  return new TranslateHttpLoader(http);
+export function HttpLoaderFactory(httpClient: HttpClient) {
+  return new TranslateHttpLoader(httpClient);
 }
 
 @NgModule({
@@ -18,12 +16,12 @@ export function HttpLoaderFactory(http: Http) {
   ],
   imports: [
     BrowserModule,
-    HttpModule,
+    HttpClientModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
-        deps: [Http]
+        deps: [HttpClient]
       }
     })
   ],

@@ -146,8 +146,8 @@
     "TECHNOLOGY1": "Java",
     "TECHNOLOGY2": "Spring",
     "TECHNOLOGY3": "HTML5",
-    "TECHNOLOGY4": "Angular 4",
-    "TECHNOLOGY5": "PHP",
+    "TECHNOLOGY4": "Angular 6",
+    "TECHNOLOGY5": "Jenkins",
     "TECHNOLOGY6": "Git",
     "TECHNOLOGY7": "Bootstrap",
     "TECHNOLOGY8": "JavaScript",
@@ -166,16 +166,16 @@
         "SUBTITLE": "Presentador a l'AngularCamp 2017"
       },
       "ITEM3": {
-        "TITLE": "AssessoriaTorrelles",
-        "SUBTITLE": "Programació de l'AssessoriaTorrelles"
+        "TITLE": "Uplace",
+        "SUBTITLE": "Programació de Uplace.es"
       },
       "ITEM4": {
         "TITLE": "Aprenent JHipster",
         "SUBTITLE": "STUCOM"
       },
       "ITEM5": {
-        "TITLE": "Angular 4",
-        "SUBTITLE": "Curs d'Angular 4 en udemy.com"
+        "TITLE": "Angular 6",
+        "SUBTITLE": "Curs d'Angular 6 en udemy.com"
       },
       "ITEM6": {
         "TITLE": "HCSSpain.es",

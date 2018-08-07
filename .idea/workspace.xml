@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c1872a9-47ad-4cae-b4e2-9950f81e38be" name="Default" comment="Added new keywords">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/uplace.png" afterDir="false" />
+    <list default="true" id="3c1872a9-47ad-4cae-b4e2-9950f81e38be" name="Default" comment="Added uplace and translated all the descriptions of the technologies">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logo-jhipster-drink-coffee.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/i18n/ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/i18n/ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/php.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/php.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/i18n/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/i18n/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/i18n/es.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,7 +39,7 @@
           <entry key="html" value="4" />
           <entry key="ico" value="1" />
           <entry key="js" value="1" />
-          <entry key="json" value="4" />
+          <entry key="json" value="6" />
           <entry key="md" value="1" />
           <entry key="ts" value="1" />
           <entry key="txt" value="1" />
@@ -52,7 +51,7 @@
           <entry key="Git file" value="1" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="4" />
+          <entry key="JSON" value="6" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -62,16 +61,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="322" />
-          <entry key="json" value="161" />
-          <entry key="txt" value="44" />
+          <entry key="html" value="338" />
+          <entry key="json" value="188" />
+          <entry key="txt" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="322" />
-          <entry key="JSON" value="161" />
-          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="HTML" value="338" />
+          <entry key="JSON" value="188" />
+          <entry key="PLAIN_TEXT" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -95,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="552" column="83" lean-forward="true" selection-start-line="552" selection-start-column="83" selection-end-line="552" selection-end-column="83" />
+            <state relative-caret-position="254">
+              <caret line="531" column="84" lean-forward="true" selection-start-line="531" selection-start-column="84" selection-end-line="531" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -107,8 +106,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/i18n/ca.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="209">
+              <caret line="147" column="28" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/i18n/en.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
               <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/i18n/es.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="146" column="23" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -135,8 +152,10 @@
       <find>call</find>
       <find>CALLOUT</find>
       <find>callout</find>
-      <find>asse</find>
       <find>alt</find>
+      <find>asse</find>
+      <find>html</find>
+      <find>HTML</find>
     </findStrings>
     <replaceStrings>
       <replace>[alt]</replace>
@@ -178,6 +197,8 @@
         <option value="$PROJECT_DIR$/angular.json" />
         <option value="$PROJECT_DIR$/src/assets/i18n/ca.json" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/assets/i18n/es.json" />
+        <option value="$PROJECT_DIR$/src/assets/i18n/en.json" />
       </list>
     </option>
   </component>
@@ -252,6 +273,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="i18n" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arnaugarcia.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arnaugarcia.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -382,7 +410,7 @@
       <workItem from="1511807584068" duration="1131000" />
       <workItem from="1515072420052" duration="1918000" />
       <workItem from="1529305976745" duration="379000" />
-      <workItem from="1533641074264" duration="3258000" />
+      <workItem from="1533641074264" duration="3504000" />
     </task>
     <task id="LOCAL-00001" summary="Added new technologies">
       <created>1492785727592</created>
@@ -461,11 +489,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533643435874</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added uplace and translated all the descriptions of the technologies">
+      <created>1533644435248</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533644435248</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49415000" />
+    <option name="totallyTimeSpent" value="49661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,7 +558,8 @@
     <MESSAGE value="Updated font-awesome and added dynamic translation in all the DOM" />
     <MESSAGE value="Updated to Angular 6" />
     <MESSAGE value="Added new keywords" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new keywords" />
+    <MESSAGE value="Added uplace and translated all the descriptions of the technologies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added uplace and translated all the descriptions of the technologies" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/yarn.lock" />
@@ -558,20 +594,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/i18n/en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="68" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/i18n/es.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -663,17 +685,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/i18n/ca.json">
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+        <state relative-caret-position="254">
+          <caret line="531" column="84" lean-forward="true" selection-start-line="531" selection-start-column="84" selection-end-line="531" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/src/assets/i18n/ca.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="552" column="83" lean-forward="true" selection-start-line="552" selection-start-column="83" selection-end-line="552" selection-end-column="83" />
+        <state relative-caret-position="209">
+          <caret line="147" column="28" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/i18n/es.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="146" column="23" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,36 @@
+<!-- Header-->
+<header class="header header-center">
+  <div class="container-fluid">
+    <!-- Brand-->
+    <div class="inner-header"><a class="inner-brand" href="index.html"><img class="brand-dark" src="assets/images/logo.png" width="30px" alt=""><img class="brand-light" src="assets/images/logo-light.png" width="30px" alt=""></a></div>
+    <!-- Navigation-->
+    <div class="inner-navigation collapse">
+      <div class="inner-nav onepage-nav">
+        <ul>
+          <li><a href="#home"><span class="menu-item-span" translate="NAVBAR.HOME">Home</span></a></li>
+          <li><a href="#profile"><span class="menu-item-span" translate="NAVBAR.PROFILE">Profile</span></a></li>
+          <li><a href="#portfolio"><span class="menu-item-span" translate="NAVBAR.PROJECTS">Work</span></a></li>
+          <li><a href="#services"><span class="menu-item-span" translate="NAVBAR.SERVICES">Services</span></a></li>
+          <li><a href="#resume"><span class="menu-item-span" translate="NAVBAR.RESUME">Resume</span></a></li>
+          <li><a href="#blog"><span class="menu-item-span">Blog</span></a></li>
+          <li><a href="#contact"><span class="menu-item-span" translate="NAVBAR.CONTACT">Connect</span></a></li>
+          <li class="menu-item-has-children" [ngClass]="menuOpen" (mouseover)="menuOpen='sub-menu-open'" (mouseout)="menuOpen=''" *ngIf="translate.getLangs().length > 1">
+            <a href="#">
+              <span class="menu-item-span" translate="NAVBAR.LANGUAGES.TITLE">Pages</span>
+            </a>
+            <ul class="sub-menu">
+              <li class="menu-item" *ngFor="let lang of translate.getLangs()">
+                <a [ngClass]="" (click)="changeLanguage(lang)" translate="{{'NAVBAR.LANGUAGES.' + lang.toUpperCase()}}">LANGUAGE</a>
+              </li>
+            </ul>
+          </li>
+          <!--<li><a href="start.html"><span class="menu-item-span">All Demos</span></a></li>-->
+        </ul>
+      </div>
+    </div>
+    <!-- Mobile menu-->
+    <div class="nav-toggle"><a href="#" data-toggle="collapse" data-target=".inner-navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a></div>
+  </div>
+</header>
+<!-- Header end-->
+<!-- Header end-->

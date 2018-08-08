@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
 import {Title} from "@angular/platform-browser";
 
-@Component({
+/*@Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css']
@@ -10,8 +10,6 @@ import {Title} from "@angular/platform-browser";
 export class AppComponent {
 
     menuOpen: string = '';
-
-
 
     public constructor(
         public translate: TranslateService,
@@ -28,4 +26,4 @@ export class AppComponent {
         this.titleService.setTitle(this.translate.instant("APP.TITLE"));
     }
 
-}
+}*/

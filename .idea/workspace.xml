@@ -2,9 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c1872a9-47ad-4cae-b4e2-9950f81e38be" name="Default" comment="Added JHipster and updated technology of Angular to 6">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/jenkins.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/owl.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/simpletextrotator.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cv/CV_ArnauGarcia_rev2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/i18n/ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/i18n/es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/488.GIF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/angular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/angular4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/angular_camp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/angularjs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/assessoriatorrelles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/git.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/grabbing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/hackintosh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/halo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/html5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/jHipster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/javascript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/jenkins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/laravel-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/laravel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo-jhipster-drink-coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/client120-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/client120-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/client120-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/client160-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/client160-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/client240-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/client240-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/client240-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/malta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/mysql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/p5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/p6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/p8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/spring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/swift.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/swift.jpg.crdownload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/uplace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery-1.11.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery.backstretch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery.backstretch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery.countTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery.fitvids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery.magnific-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery.simple-text-rotator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery.simple-text-rotator.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/jquery.waypoints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/smoothscroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/php/contactForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/video/AsessoriaTorrelles.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,61 +119,30 @@
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1371756589">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="Angular2LanguageService" value="1" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="browserslist" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="4" />
-          <entry key="ico" value="1" />
-          <entry key="js" value="1" />
-          <entry key="json" value="6" />
-          <entry key="md" value="1" />
-          <entry key="ts" value="1" />
-          <entry key="txt" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="css" value="2" />
+          <entry key="html" value="3" />
+          <entry key="json" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Git file" value="1" />
-          <entry key="HTML" value="4" />
-          <entry key="Image" value="1" />
-          <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="TypeScript" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="3" />
+          <entry key="JSON" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="354" />
-          <entry key="json" value="188" />
-          <entry key="txt" value="182" />
+          <entry key="css" value="1" />
+          <entry key="html" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="354" />
-          <entry key="JSON" value="188" />
-          <entry key="PLAIN_TEXT" value="182" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.create.new" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -83,46 +153,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
+        <entry file="file://$PROJECT_DIR$/angular.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="-561" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="542" column="70" selection-start-line="542" selection-start-column="70" selection-end-line="542" selection-end-column="70" />
+            <state relative-caret-position="527">
+              <caret line="605" column="19" selection-start-line="605" selection-start-column="19" selection-end-line="605" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#7;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/i18n/ca.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="147" column="28" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/app/app.component.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/i18n/en.json">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="154" column="4" lean-forward="true" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/i18n/es.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="146" column="23" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+            <state relative-caret-position="476">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -149,20 +226,13 @@
       <find>call</find>
       <find>CALLOUT</find>
       <find>callout</find>
-      <find>alt</find>
-      <find>asse</find>
-      <find>HTML</find>
-      <find>html</find>
     </findStrings>
-    <replaceStrings>
-      <replace>[alt]</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="angular-6-update" />
       </map>
     </option>
   </component>
@@ -187,15 +257,10 @@
         <option value="$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json" />
         <option value="$PROJECT_DIR$/arnaugarcia/package.json" />
         <option value="$PROJECT_DIR$/arnaugarcia/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.angular-cli.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/index-old.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/angular.json" />
-        <option value="$PROJECT_DIR$/src/assets/i18n/ca.json" />
-        <option value="$PROJECT_DIR$/src/assets/i18n/es.json" />
-        <option value="$PROJECT_DIR$/src/assets/i18n/en.json" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/styles.css" />
       </list>
     </option>
   </component>
@@ -245,73 +310,408 @@
             <path>
               <item name="arnaugarcia.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="arnaugarcia.com" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arnaugarcia.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arnaugarcia.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arnaugarcia.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arnaugarcia.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arnaugarcia.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arnaugarcia.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arnaugarcia.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arnaugarcia.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="i18n" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arnaugarcia.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arnaugarcia.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.3" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
-    <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/arnaugarcia/src/assets/i18n" />
       <recent name="$PROJECT_DIR$/arnaugarcia/src/assets" />
       <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/cv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/arnaugarcia/src/assets/css" />
       <recent name="$PROJECT_DIR$/arnaugarcia/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/arnaugarcia/src/assets" />
       <recent name="$PROJECT_DIR$/arnaugarcia/src" />
+      <recent name="$PROJECT_DIR$/arnaugarcia" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/yarn.lock</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/angular.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/e2e/protractor.conf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/e2e/src/app.e2e-spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/e2e/src/app.po.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/e2e/tsconfig.e2e.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package-lock.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/.gitkeep</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap-theme.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap-theme.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap-theme.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap-theme.min.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/css/bootstrap.min.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/bootstrap/js/npm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/css/animate.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/css/font-awesome.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/css/font-awesome.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/css/magnific-popup.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/css/owl.carousel.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/css/owl.theme.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/css/simpletextrotator.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/cv/CV_ArnauGarcia_rev2.pdf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/fonts/FontAwesome.otf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/i18n/ca.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/i18n/en.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/i18n/es.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/488.GIF</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/Android.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/angular.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/angular4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/angular_camp.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/angularjs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/assessoriatorrelles.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/bg2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/bg3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/bg4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/bootstrap.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/c.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/git.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/grabbing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/hackintosh.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/halo.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/html5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/jHipster.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/java.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/javascript.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/jenkins.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/laravel-logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/laravel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/logo-jhipster-drink-coffee.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/logo/client120-1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/logo/client120-2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/logo/client120-3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/logo/client160-1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/logo/client160-3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/logo/client240-1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/logo/client240-2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/logo/client240-3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/malta.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/mysql.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/p1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/p2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/p3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/p5.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/p6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/p8.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/photo.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/spring.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/swift.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/swift.jpg.crdownload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/images/uplace.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/custom.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery-1.11.0.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery-1.11.0.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery.backstretch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery.backstretch.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery.countTo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery.fitvids.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery.magnific-popup.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery.magnific-popup.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery.simple-text-rotator.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery.simple-text-rotator.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/jquery.waypoints.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/owl.carousel.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/owl.carousel.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/smoothscroll.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/wow.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/js/wow.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/php/contactForm.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/video/AsessoriaTorrelles.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/browserslist</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/environments/environment.prod.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/environments/environment.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/favicon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/karma.conf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/polyfills.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/styles.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/tsconfig.app.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/tsconfig.spec.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/tslint.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tsconfig.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tslint.json</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/.angular-cli.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/.editorconfig</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/e2e/app.e2e-spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/e2e/app.po.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/e2e/tsconfig.e2e.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/karma.conf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/protractor.conf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/app/app.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/app/app.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/app/app.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/app/app.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/app/app.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/.gitkeep</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/css/bootstrap-theme.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/css/bootstrap-theme.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/css/bootstrap-theme.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/css/bootstrap-theme.min.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/css/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/css/bootstrap.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/css/bootstrap.min.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/fonts/glyphicons-halflings-regular.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/fonts/glyphicons-halflings-regular.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/fonts/glyphicons-halflings-regular.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/bootstrap/js/npm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/css/animate.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/css/font-awesome.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/css/font-awesome.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/css/magnific-popup.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/css/owl.carousel.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/css/owl.theme.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/css/simpletextrotator.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/cv/CV_ArnauGarcia_rev2.pdf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/fonts/FontAwesome.otf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/fonts/fontawesome-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/fonts/fontawesome-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/fonts/fontawesome-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/fonts/fontawesome-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/fonts/fontawesome-webfont.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/488.GIF</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/Android.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/angular.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/angular4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/angular_camp.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/angularjs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/assessoriatorrelles.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/bg2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/bg3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/bg4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/bootstrap.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/c.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/git.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/grabbing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/hackintosh.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/halo.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/html5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/jHipster.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/java.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/javascript.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/laravel-logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/laravel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/logo/client120-1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/logo/client120-2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/logo/client120-3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/logo/client160-1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/logo/client160-3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/logo/client240-1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/logo/client240-2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/logo/client240-3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/malta.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/mysql.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/p1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/p2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/p3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/p5.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/p6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/p8.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/photo.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/php.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/php.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/spring.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/swift.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/images/swift.jpg.crdownload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/custom.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery-1.11.0.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery-1.11.0.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery.backstretch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery.backstretch.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery.countTo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery.fitvids.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery.magnific-popup.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery.magnific-popup.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery.simple-text-rotator.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery.simple-text-rotator.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/jquery.waypoints.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/owl.carousel.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/owl.carousel.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/smoothscroll.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/wow.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/js/wow.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/php/contactForm.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/assets/video/AsessoriaTorrelles.mp4</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/environments/environment.prod.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/environments/environment.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/favicon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/main.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/polyfills.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/styles.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/test.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/tsconfig.app.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/tsconfig.spec.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/src/typings.d.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/tsconfig.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/arnaugarcia/tslint.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/indexold.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/robots.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sitemap.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -325,12 +725,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.Start">
+  <component name="RunManager">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/arnaugarcia.com/dist/index.html">
-      <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -342,21 +739,12 @@
       <method v="2" />
     </configuration>
     <configuration name="Start" type="js.build_tools.npm" factoryName="npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
+      <package-json value="$PROJECT_DIR$/arnaugarcia/package.json" />
       <command value="start" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="npm.Start" />
-      <item itemvalue="JavaScript Debug.index.html" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SFStoredExecutionPersistentComponent">
     <executions>
@@ -406,8 +794,6 @@
       <workItem from="1511807140845" duration="48000" />
       <workItem from="1511807584068" duration="1131000" />
       <workItem from="1515072420052" duration="1918000" />
-      <workItem from="1529305976745" duration="379000" />
-      <workItem from="1533641074264" duration="3673000" />
     </task>
     <task id="LOCAL-00001" summary="Added new technologies">
       <created>1492785727592</created>
@@ -472,72 +858,35 @@
       <option name="project" value="LOCAL" />
       <updated>1499799405041</updated>
     </task>
-    <task id="LOCAL-00010" summary="Updated to Angular 6">
-      <created>1533643339308</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1533643339308</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added new keywords">
-      <created>1533643435874</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1533643435874</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Added uplace and translated all the descriptions of the technologies">
-      <created>1533644435248</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1533644435248</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added JHipster and updated technology of Angular to 6">
-      <created>1533644702461</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1533644702461</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49830000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="46171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-4" width="1867" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4856631" visible="true" weight="0.21691974" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4856631" visible="true" weight="0.21691974" />
+      <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.51433694" side_tool="true" weight="0.21760097" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4934924" weight="0.35564855" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4939378" weight="0.35651213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294979" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Debug Logs" order="7" />
       <window_info anchor="bottom" id="Execute Anonymous" order="8" weight="0.3298969" />
       <window_info anchor="bottom" id="Salesforce" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5119306" side_tool="true" weight="0.27196652" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.328341" />
-      <window_info anchor="bottom" x="803" y="505" width="80" height="40" id="Terminal" order="12" sideWeight="0.48806942" visible="true" weight="0.27196652" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005423" side_tool="true" weight="0.27301255" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4994577" weight="0.32740587" />
+      <window_info active="true" anchor="bottom" x="803" y="505" width="80" height="40" id="Terminal" order="12" sideWeight="0.48806942" visible="true" weight="0.27301255" />
       <window_info anchor="bottom" id="TypeScript" order="13" sideWeight="0.4939378" weight="0.3289183" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -550,7 +899,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Added new technologies" />
     <MESSAGE value="Updated CV, experiences and training" />
     <MESSAGE value="Added angularcamp and assessoriatorrelles project" />
@@ -560,161 +908,139 @@
     <MESSAGE value="Dropdown layout implemented" />
     <MESSAGE value="Dynamic translation on the title and added translation for home, profile-contact and profile" />
     <MESSAGE value="Updated font-awesome and added dynamic translation in all the DOM" />
-    <MESSAGE value="Updated to Angular 6" />
-    <MESSAGE value="Added new keywords" />
-    <MESSAGE value="Added uplace and translated all the descriptions of the technologies" />
-    <MESSAGE value="Added JHipster and updated technology of Angular to 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added JHipster and updated technology of Angular to 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated font-awesome and added dynamic translation in all the DOM" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/e2e/app.po.ts" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/e2e/app.po.ts" />
     <entry file="file://$PROJECT_DIR$/node_modules/.yarn-integrity" />
     <entry file="file://$PROJECT_DIR$/arnaugarcia/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/i18n/en.json" />
     <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/i18n/es.json" />
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.spec.ts" />
     <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/i18n/ca.json" />
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.css" />
-    <entry file="file://$PROJECT_DIR$/src/styles.css" />
-    <entry file="file://$PROJECT_DIR$/src/assets/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.css" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/styles.css" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/README.md" />
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/indexold.html" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/main.ts">
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/.angular-cli.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/php/contactForm.php">
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/main.ts">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/php/contactForm.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5688">
+          <caret line="316" column="39" selection-start-line="316" selection-start-column="39" selection-end-line="316" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="68" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/ca.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/assets/i18n/es.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="80" column="101" selection-start-line="80" selection-start-column="101" selection-end-line="80" selection-end-column="101" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arnaugarcia/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="252">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnaugarcia/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index-old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="605" column="19" selection-start-line="605" selection-start-column="19" selection-end-line="605" selection-end-column="19" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#7;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#1;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indexold.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@angular/cli/lib/config/schema.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robots.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="120" column="11" lean-forward="true" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/browserslist">
+    <entry file="file://$PROJECT_DIR$/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/i18n/ca.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="147" column="28" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/i18n/es.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="146" column="23" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/i18n/en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="154" column="4" lean-forward="true" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="542" column="70" selection-start-line="542" selection-start-column="70" selection-end-line="542" selection-end-column="70" />
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>

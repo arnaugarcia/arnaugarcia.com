@@ -1,0 +1,10 @@
+.navbar-brand {
+    color: white;
+    font-family: Montserrat,Arial,serif;
+}
+
+@media (max-width: 990px) {
+    .navbar-brand {
+        color: black;
+    }
+}

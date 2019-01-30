@@ -8,12 +8,12 @@ import Typed from "typed.js";
 })
 export class HeaderComponent implements OnInit {
 
-    constructor() {
-    }
+
+    constructor() {}
 
     ngOnInit() {
         let options = {
-            strings: ["Books.", "Cinema.", "Paintings.","Music."],
+            strings: ["Books.", "Cinema.", "Paintings.", "Music."],
             typeSpeed: 100,
             backSpeed: 100,
             showCursor: false,

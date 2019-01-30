@@ -9,7 +9,13 @@ import {SharedModule} from "./shared/shared.module";
 
 
 @NgModule({
-    declarations: [MainComponent, NavbarComponent, FooterComponent, ActiveMenuDirective, ErrorComponent],
+    declarations: [
+        MainComponent,
+        NavbarComponent,
+        FooterComponent,
+        ActiveMenuDirective,
+        ErrorComponent
+    ],
     imports: [
         BrowserModule,
         SharedModule,

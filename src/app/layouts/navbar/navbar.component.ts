@@ -13,10 +13,8 @@ export class NavbarComponent {
 
     public constructor(
         public translate: TranslateService,
-        private titleService: Title
-    ) {
-
-        translate.addLangs(["en", "es", "ca"]);
+        private titleService: Title) {
+        translate.addLangs(['en', 'es', 'ca']);
         let browserLang = translate.getBrowserLang();
         translate.use(browserLang.match(/en|es|ca/) ? browserLang : 'en');
     }

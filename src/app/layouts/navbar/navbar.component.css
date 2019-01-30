@@ -3,6 +3,10 @@
     font-family: Montserrat,Arial,serif;
 }
 
+.brand-dark {
+    color: black;
+}
+
 @media (max-width: 990px) {
     .navbar-brand {
         color: black;

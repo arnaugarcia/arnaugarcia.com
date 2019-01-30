@@ -10,8 +10,7 @@ tools/gulp-tasks/cldr/cldr-data/
 # Include when developing application packages.
 pubspec.lock
 .c9
-.idea/*
-.idea/workspace.xml
+.idea/
 .settings/
 *.swo
 modules/.settings

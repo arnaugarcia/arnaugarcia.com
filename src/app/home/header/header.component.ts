@@ -23,6 +23,9 @@ export class HeaderComponent implements OnInit {
 
     }
 
+    /**
+     * Starts the TypedJS. if the Typed is already running it destroys.
+     */
     private initType(): void {
         if (this.typed) {
             this.typed.destroy();

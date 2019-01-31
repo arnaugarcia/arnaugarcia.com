@@ -12,8 +12,7 @@ export class HeaderComponent implements OnInit {
     private translatedText: string = '';
     private typed: Typed;
 
-    constructor(private translateService: TranslateService) {
-    }
+    constructor(private translateService: TranslateService) {}
 
     ngOnInit() {
 
@@ -25,12 +24,14 @@ export class HeaderComponent implements OnInit {
     }
 
     private initType(): void {
-        this.typed = null;
+        if (this.typed) {
+            this.typed.destroy();
+        }
         let options = {
             strings: this.translatedText.split('|'),
             typeSpeed: 50,
             backSpeed: 50,
-            showCursor: false,
+            showCursor: true,
             loop: true
         };
         this.typed = new Typed(".typing-element", options);

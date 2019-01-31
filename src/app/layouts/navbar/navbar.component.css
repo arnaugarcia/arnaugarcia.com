@@ -10,10 +10,14 @@
 
 @media (max-width: 990px) {
     .navbar-brand {
-        color: black;
+        color: #202020;
     }
 }
 
 .menu-item-active {
     color: #e41919 !important;
+}
+
+.header.header-small .inner-nav>ul>li>a {
+    color: #202020;
 }

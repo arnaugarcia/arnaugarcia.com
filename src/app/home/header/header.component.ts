@@ -120,11 +120,7 @@ export class HeaderComponent implements OnInit {
     private translatedText: string = '';
     private typed: Typed;
 
-    myParams: object;
-
-    constructor(private translateService: TranslateService) {
-        this.myParams = myFirstParticle;
-    }
+    constructor(private translateService: TranslateService) {}
 
     ngOnInit() {
 

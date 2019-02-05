@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
 import Typed from "typed.js";
 import {TranslateService} from "@ngx-translate/core";
 
@@ -118,9 +118,7 @@ export class HeaderComponent implements OnInit {
     private translatedText: string = '';
     private typed: Typed;
 
-    myParams: object = {};
-    width: number = 100;
-    height: number = 100;
+    myParams: object;
 
     constructor(private translateService: TranslateService) {
         this.myParams = myFirstParticle;

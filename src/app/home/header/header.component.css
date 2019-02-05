@@ -14,11 +14,12 @@
     background: black;
 }
 
+
 .text {
     position: absolute;
     top: 50%;
     right: 50%;
-    transform: translate(50%,-50%);
+    transform: translate(50%, -50%);
     color: #fff;
     max-width: 90%;
     padding: 2em 3em;

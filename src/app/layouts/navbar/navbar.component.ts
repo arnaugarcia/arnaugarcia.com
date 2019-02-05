@@ -12,7 +12,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
         trigger('openClose', [
             state('true', style({ height: '*' })),
             state('false', style({ height: '0px' })),
-            transition('false <=> true', animate(500))
+            transition('false <=> true', animate(100))
         ])
     ]
 })

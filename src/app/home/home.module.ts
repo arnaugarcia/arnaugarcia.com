@@ -4,7 +4,6 @@ import {HOME_ROUTE} from "./home.route";
 import {RouterModule} from "@angular/router";
 import {SharedModule} from "../shared/shared.module";
 import {HeaderComponent} from './header/header.component';
-import {ParticlesModule} from "angular-particle";
 
 @NgModule({
     imports: [

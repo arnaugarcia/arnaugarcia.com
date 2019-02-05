@@ -1,4 +1,4 @@
-import {Component, HostListener, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import Typed from "typed.js";
 import {TranslateService} from "@ngx-translate/core";
 
@@ -108,6 +108,8 @@ export const myFirstParticle = {
     "retina_detect": true
 };
 
+declare var particlesJS: any;
+
 @Component({
     selector: 'app-header',
     templateUrl: './header.component.html',
@@ -130,6 +132,8 @@ export class HeaderComponent implements OnInit {
             this.translatedText = translation;
             this.initType();
         });
+
+        particlesJS('particles-js', myFirstParticle);
 
     }
 

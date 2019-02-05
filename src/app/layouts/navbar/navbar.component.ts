@@ -2,17 +2,26 @@ import {Component, HostListener, Inject} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
 import {Title} from "@angular/platform-browser";
 import {DOCUMENT} from "@angular/common";
+import {animate, state, style, transition, trigger} from "@angular/animations";
 
 @Component({
     selector: 'app-navbar',
     templateUrl: './navbar.component.html',
-    styleUrls: ['./navbar.component.css']
+    styleUrls: ['./navbar.component.css'],
+    animations: [
+        trigger('openClose', [
+            state('true', style({ height: '*' })),
+            state('false', style({ height: '0px' })),
+            transition('false <=> true', animate(500))
+        ])
+    ]
 })
 export class NavbarComponent {
 
-    menuOpen: string = '';
+    subMenuOpen: string = '';
 
     public currentScroll = 0;
+    public mobileMenuOpen: boolean = false;
 
     public constructor(
         public translate: TranslateService,
@@ -34,4 +43,7 @@ export class NavbarComponent {
         this.currentScroll = this.document.documentElement.scrollTop
     }
 
+    toggleMenu(): void {
+        this.mobileMenuOpen = !this.mobileMenuOpen;
+    }
 }

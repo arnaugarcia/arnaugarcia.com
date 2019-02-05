@@ -12,13 +12,13 @@ export const myFirstParticle = {
             }
         },
         "color": {
-            "value": "#ffffff"
+            "value": "#42f477"
         },
         "shape": {
             "type": "circle",
             "stroke": {
                 "width": 0,
-                "color": "#000000"
+                "color": "#42f477"
             },
             "polygon": {
                 "nb_sides": 5
@@ -47,7 +47,7 @@ export const myFirstParticle = {
         "line_linked": {
             "enable": true,
             "distance": 150,
-            "color": "#ffffff",
+            "color": "#42f477",
             "opacity": 0.4,
             "width": 1
         },

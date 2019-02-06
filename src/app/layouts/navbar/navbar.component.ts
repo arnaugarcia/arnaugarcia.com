@@ -10,9 +10,12 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
     styleUrls: ['./navbar.component.css'],
     animations: [
         trigger('openClose', [
-            state('true', style({ height: '*' })),
-            state('false', style({ height: '0px' })),
-            transition('false <=> true', animate(100))
+            state('false', style({
+                height: '0px'
+            })),
+            transition('* => *', [
+                animate(150)
+            ]),
         ])
     ]
 })

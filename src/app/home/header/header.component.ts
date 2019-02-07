@@ -147,7 +147,7 @@ export class HeaderComponent implements OnInit {
             showCursor: true,
             loop: true
         };
-        this.typed = new Typed(".typing-element", options);
+        this.typed = new Typed("#typed", options);
     }
 
 }

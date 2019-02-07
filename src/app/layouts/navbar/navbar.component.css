@@ -17,3 +17,7 @@
 .menu-item-active {
     color: #e41919 !important;
 }
+
+.header.header-small .inner-nav>ul>li>a {
+    color: #202020;
+}

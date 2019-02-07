@@ -2,22 +2,11 @@ import {Component, HostListener, Inject} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
 import {Title} from "@angular/platform-browser";
 import {DOCUMENT} from "@angular/common";
-import {animate, state, style, transition, trigger} from "@angular/animations";
 
 @Component({
     selector: 'app-navbar',
     templateUrl: './navbar.component.html',
-    styleUrls: ['./navbar.component.css'],
-    animations: [
-        trigger('openClose', [
-            state('false', style({
-                height: '0px',
-            })),
-            transition('* => *', [
-                animate(150)
-            ]),
-        ])
-    ]
+    styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
 
@@ -25,6 +14,7 @@ export class NavbarComponent {
 
     public currentScroll = 0;
     public mobileMenuOpen: boolean = false;
+    private heightMenu: string | number;
 
     public constructor(
         public translate: TranslateService,

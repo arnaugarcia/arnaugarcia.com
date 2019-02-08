@@ -1,5 +1,5 @@
 {
-  "APP":{
+  "APP": {
     "NAME": "Arnau García",
     "TITLE": "Arnau García - Pàgina web personal i professional"
   },
@@ -20,7 +20,7 @@
     }
   },
   "INTRO": {
-    "TITLE" : "Arnau García",
+    "TITLE": "Arnau García",
     "SUBTITLE": "Desenvolupador Web | Angular | Programador multiplataforma | Android | SpringMVC"
   },
   "PROFILE-CONTACT": {
@@ -44,7 +44,6 @@
       "PARAGRAPH1": "Sóc un programador amb ganes de superar-me i aportar coses noves tant a empreses com a particulars. La meva curiositat per la informàtica i la programació va començar de ben petit i encara segueix en augment, dia rere dia, sense perdre les ganes d'aprendre i superar-me.",
       "PARAGRAPH2": "Actualment estic dissenyant diversos projectes personals i ampliant els meus coneixements d'informàtica/programació"
     }
-
   },
   "SERVICE": {
     "TITLE": "Allò que m'encanta fer",
@@ -76,14 +75,12 @@
       }
     }
   },
-
   "CALLOUT": {
     "TITLE": "ACTUALMENT",
     "COMPANY-NAME": "TREBALLO A WATCHITY",
     "COMPANY-DESCRIPTION": "Programant la nova interfaç per la plataforma, utilitzant Angular 5.",
     "CONTACT-BUTTON": "Contacta amb mi"
   },
-
   "RESUME": {
     "TITLE": "Resum",
     "SUBTITLE": "Educació i experiència",
@@ -153,7 +150,7 @@
     "TECHNOLOGY8": "JavaScript",
     "TECHNOLOGY9": "MySql"
   },
-  "PORTFOLIO":{
+  "PORTFOLIO": {
     "TITLE": "Portafolis",
     "SUBTITLE": "Els meus millors treballs",
     "ITEMS": {

@@ -4,7 +4,6 @@ import {HttpClient} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {Title} from "@angular/platform-browser";
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -20,8 +19,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
                 useFactory: HttpLoaderFactory,
                 deps: [HttpClient]
             }
-        }),
-        BrowserAnimationsModule
+        })
     ],
     providers: [
         Title
@@ -29,4 +27,5 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     declarations: [],
     exports: [TranslateModule]
 })
-export class SharedModule {}
+export class SharedModule {
+}

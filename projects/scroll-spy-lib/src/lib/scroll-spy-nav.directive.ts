@@ -1,6 +1,6 @@
-import {ContentChildren, Directive, ElementRef, HostListener, Inject, Input, OnInit, Renderer2} from '@angular/core';
+import {ContentChildren, Directive, ElementRef, Input, OnInit, Renderer2} from '@angular/core';
 import {ScrollSpySectionDirective} from "./scroll-spy-section.directive";
-import {DOCUMENT} from "@angular/common";
+import {ActiveElementService} from "./active-element.service";
 
 @Directive({
     selector: '[scrollSpyNav]'
@@ -15,30 +15,35 @@ export class ScrollSpyNavDirective implements OnInit {
     @Input()
     private offset: number = 20;
 
-    private currentScroll: number = 0;
-
     private liTag: NodeList;
     private ulTag: NodeList;
+
+    private links: Node[] = [];
 
     @ContentChildren(ScrollSpySectionDirective)
     private sections;
 
     constructor(
-        @Inject(DOCUMENT)
-        private document: Document,
         private renderer: Renderer2,
-        private element: ElementRef
-    ) {}
+        private element: ElementRef,
+        private activeElementService: ActiveElementService
+    ) {
+    }
 
     ngOnInit(): void {
         this.getLinks();
-        console.log(this.sections);
-    }
-
-    @HostListener('window:scroll', []) // for window scroll events
-    onScroll() {
-        this.currentScroll = this.document.documentElement.scrollTop;
-        console.log(this.currentScroll);
+        this.activeElementService.currentElementActive.subscribe((elementActive: string) => { // Subscribe to the current element
+            this.links.forEach((link: Node) => { // Find if the element is on the list. If Exists adds the class
+                if (link) {
+                    let name = link.hash.split('#')[1];
+                    console.log(name);
+                }
+                console.log(`${name} - ${elementActive}`);
+                if (name == elementActive) {
+                    this.activateLink(link);
+                }
+            });
+        });
     }
 
     private getLinks() {
@@ -48,9 +53,7 @@ export class ScrollSpyNavDirective implements OnInit {
         }
         this.liTag = this.ulTag[0].childNodes;
         this.liTag.forEach((link: Node) => {
-            if (link.childNodes[0]) { // This will be the a NODE (Check)
-                this.activateLink(link);
-            }
+            this.links.push(link.childNodes[0]);
         });
     }
 

@@ -14,7 +14,6 @@ export class NavbarComponent {
 
     public currentScroll = 0;
     public mobileMenuOpen: boolean = false;
-    private heightMenu: string | number;
 
     public constructor(
         public translate: TranslateService,

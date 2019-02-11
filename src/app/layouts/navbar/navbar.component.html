@@ -23,7 +23,7 @@
             </a>
             <ul class="sub-menu">
               <li class="menu-item" *ngFor="let lang of translate.getLangs()">
-                <a [class.menu-item-active]="lang == translate.currentLang" (click)="changeLanguage(lang)" translate="{{'NAVBAR.LANGUAGES.' + lang.toUpperCase()}}">Language</a>
+                <a [class.menu-item-active]="lang == translate.currentLang" (click)="changeLanguage(lang)" [translate]="'NAVBAR.LANGUAGES.' + lang.toUpperCase()">Language</a>
               </li>
             </ul>
           </li>

@@ -3,3 +3,4 @@
  */
 
 export * from './lib/scroll-spy-nav.directive';
+export * from  './lib/scroll-spy-section.directive';

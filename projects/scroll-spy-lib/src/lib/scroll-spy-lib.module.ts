@@ -5,6 +5,6 @@ import { ScrollSpySectionDirective } from './scroll-spy-section.directive';
 @NgModule({
   declarations: [ScrollSpyNavDirective, ScrollSpySectionDirective],
   imports: [],
-  exports: [ScrollSpyNavDirective]
+  exports: [ScrollSpyNavDirective, ScrollSpySectionDirective]
 })
 export class ScrollSpyLibModule { }

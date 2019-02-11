@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
-import { ScrollSpyLibComponent } from './scroll-spy-lib.component';
+import { ScrollSpyNavDirective } from './scroll-spy-nav.directive';
 
 @NgModule({
-  declarations: [ScrollSpyLibComponent],
-  imports: [
-  ],
-  exports: [ScrollSpyLibComponent]
+  declarations: [ScrollSpyNavDirective],
+  imports: [],
+  exports: [ScrollSpyNavDirective]
 })
 export class ScrollSpyLibModule { }

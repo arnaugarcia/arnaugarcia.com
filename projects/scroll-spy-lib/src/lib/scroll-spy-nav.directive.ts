@@ -20,9 +20,6 @@ export class ScrollSpyNavDirective implements OnInit {
 
     private links: Node[] = [];
 
-    @ContentChildren(ScrollSpySectionDirective)
-    private sections;
-
     constructor(
         private renderer: Renderer2,
         private element: ElementRef,
@@ -33,16 +30,26 @@ export class ScrollSpyNavDirective implements OnInit {
     ngOnInit(): void {
         this.getLinks();
         this.activeElementService.currentElementActive.subscribe((elementActive: string) => { // Subscribe to the current element
-            this.links.forEach((link: Node) => { // Find if the element is on the list. If Exists adds the class
-                if (link) {
-                    let name = link.hash.split('#')[1];
-                    console.log(name);
-                }
+            let linkActive = this.links.find((link: Node) => link.hash.split('#')[1] == elementActive);
+            console.log(linkActive.className);
+            if (linkActive) {
+                this.activateLink(linkActive);
+            }
+            /*if (link) {
+                console.log(link);
+                // let name = link.id.split('#')[1];
+                let name = 'portfolio';
+                console.log(name);
                 console.log(`${name} - ${elementActive}`);
                 if (name == elementActive) {
                     this.activateLink(link);
                 }
-            });
+            }*/
+            this.links.forEach((link: Node) => {
+                if (link && link.className == this.DEFAULT_ACTIVE_CLASS && link != linkActive) {
+                    this.deactivateLink(link);
+                }
+            })
         });
     }
 
@@ -58,7 +65,11 @@ export class ScrollSpyNavDirective implements OnInit {
     }
 
     private activateLink(link: Node) {
-        this.renderer.addClass(link.childNodes[0], this.activeClass);
+        this.renderer.addClass(link, this.activeClass);
+    }
+
+    private deactivateLink(link: Node) {
+        this.renderer.removeClass(link, this.activeClass);
     }
 
 }

@@ -1,73 +1,77 @@
 
   <!-- Page Header-->
-  <section class="module-header full-height parallax bg-dark bg-dark-30 header-light" id="home" data-background="assets/images/module-9.jpg">
-    <app-header></app-header>
-  </section>
+  <sn-scroll-spy-section id="home" for="home">
+    <section class="module-header full-height parallax bg-dark bg-dark-30 header-light">
+      <app-header></app-header>
+    </section>
+  </sn-scroll-spy-section>
   <!-- Page Header end-->
 
   <!-- Profile-->
-  <section class="module" id="profile">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="m-title c-align">
-            <h2 translate="PROFILE.TITLE">Arnau Garcia</h2>
-            <h6 translate="PROFILE.SUBTITLE">Visual Designer & Front-end Developer</h6>
+  <sn-scroll-spy-section id="profile" for="profile">
+    <section class="module">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="m-title c-align">
+              <h2 translate="PROFILE.TITLE">Arnau Garcia</h2>
+              <h6 translate="PROFILE.SUBTITLE">Visual Designer & Front-end Developer</h6>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              <img src="assets/img/arnaugarcia.jpg" alt="Arnau Garcia">
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5 translate="PROFILE.TEXT.TITLE">Profesional Profile</h5>
+            <p translate="PROFILE.TEXT.PARAGRAPH1"></p>
+            <p translate="PROFILE.TEXT.PARAGRAPH2"></p>
+          </div>
+          <div class="col-md-4">
+            <h5 translate="PROFILE.SKILLS.TITLE">My Skills</h5>
+            <div class="progress-item">
+              <div class="progress-title" translate="PROFILE.SKILLS.SKILL1">Java</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-brand" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <span class="pb-number-box">
+                    <span class="pb-number"></span>%</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-title" translate="PROFILE.SKILLS.SKILL2">UX Design</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-brand" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <span class="pb-number-box">
+                    <span class="pb-number"></span>%</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-title" translate="PROFILE.SKILLS.SKILL3">HTML / CSS3 / SASS</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-brand" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <span class="pb-number-box">
+                    <span class="pb-number"></span>%</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-title" translate="PROFILE.SKILLS.SKILL4">Gulp</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-brand" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <span class="pb-number-box"><span class="pb-number"></span>%</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <p>
-            <img src="assets/img/arnaugarcia.jpg" alt="Arnau Garcia">
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h5 translate="PROFILE.TEXT.TITLE">Profesional Profile</h5>
-          <p translate="PROFILE.TEXT.PARAGRAPH1"></p>
-          <p translate="PROFILE.TEXT.PARAGRAPH2"></p>
-        </div>
-        <div class="col-md-4">
-          <h5 translate="PROFILE.SKILLS.TITLE">My Skills</h5>
-          <div class="progress-item">
-            <div class="progress-title" translate="PROFILE.SKILLS.SKILL1">Java</div>
-            <div class="progress">
-              <div class="progress-bar progress-bar-brand" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                <span class="pb-number-box">
-                  <span class="pb-number"></span>%</span>
-              </div>
-            </div>
-          </div>
-          <div class="progress-item">
-            <div class="progress-title" translate="PROFILE.SKILLS.SKILL2">UX Design</div>
-            <div class="progress">
-              <div class="progress-bar progress-bar-brand" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                <span class="pb-number-box">
-                  <span class="pb-number"></span>%</span>
-              </div>
-            </div>
-          </div>
-          <div class="progress-item">
-            <div class="progress-title" translate="PROFILE.SKILLS.SKILL3">HTML / CSS3 / SASS</div>
-            <div class="progress">
-              <div class="progress-bar progress-bar-brand" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                <span class="pb-number-box">
-                  <span class="pb-number"></span>%</span>
-              </div>
-            </div>
-          </div>
-          <div class="progress-item">
-            <div class="progress-title" translate="PROFILE.SKILLS.SKILL4">Gulp</div>
-            <div class="progress">
-              <div class="progress-bar progress-bar-brand" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                <span class="pb-number-box"><span class="pb-number"></span>%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </sn-scroll-spy-section>
   <!-- Profile end-->
 
   <!-- Counters-->
@@ -288,7 +292,7 @@
             <li>
               <div class="timeline-badge"></div>
               <div class="timeline-panel">
-                <div class="timeline-preview"><img src="assets/images/features/1.jpg" alt=""></div>
+                <div class="timeline-preview"><img src="" alt=""></div>
                 <div class="timeline-body">
                   <h5 class="timeline-title">Computer science</h5>
                   <h6 class="timeline-description">Stanford University | 1998 - 2004</h6>
@@ -299,7 +303,7 @@
             <li>
               <div class="timeline-badge"></div>
               <div class="timeline-panel">
-                <div class="timeline-preview"><img src="assets/images/features/2.jpg" alt=""></div>
+                <div class="timeline-preview"><img src="" alt=""></div>
                 <div class="timeline-body">
                   <h5 class="timeline-title">Visual designer</h5>
                   <h6 class="timeline-description">Stanford University | 2004 - 2008</h6>
@@ -310,7 +314,7 @@
             <li>
               <div class="timeline-badge"></div>
               <div class="timeline-panel">
-                <div class="timeline-preview"><img src="assets/images/features/3.jpg" alt=""></div>
+                <div class="timeline-preview"><img src="" alt=""></div>
                 <div class="timeline-body">
                   <h5 class="timeline-title">Frontend-developer</h5>
                   <h6 class="timeline-description">Design Corporation | 2008 - 2012</h6>
@@ -321,7 +325,7 @@
             <li>
               <div class="timeline-badge"></div>
               <div class="timeline-panel">
-                <div class="timeline-preview"><img src="assets/images/features/4.jpg" alt=""></div>
+                <div class="timeline-preview"><img src="" alt=""></div>
                 <div class="timeline-body">
                   <h5 class="timeline-title">Lead Developer</h5>
                   <h6 class="timeline-description">Creative Design Studio | 2012 - 2017</h6>
@@ -346,10 +350,10 @@
       <div class="row">
         <div class="col-md-12">
           <div class="owl-carousel clients-carousel">
-            <div class="client"><a href="#"><img src="assets/images/clients/logo-1.png" alt=""></a></div>
-            <div class="client"><a href="#"><img src="assets/images/clients/logo-2.png" alt=""></a></div>
-            <div class="client"><a href="#"><img src="assets/images/clients/logo-3.png" alt=""></a></div>
-            <div class="client"><a href="#"><img src="assets/images/clients/logo-4.png" alt=""></a></div>
+            <div class="client"><a href="#"><img src="" alt=""></a></div>
+            <div class="client"><a href="#"><img src="" alt=""></a></div>
+            <div class="client"><a href="#"><img src="" alt=""></a></div>
+            <div class="client"><a href="#"><img src="" alt=""></a></div>
           </div>
         </div>
       </div>
@@ -417,7 +421,7 @@
 
           <!-- Post-->
           <article class="post">
-            <div class="post-preview"><a href="#"><img src="assets/images/blog/1.jpg" alt=""></a>
+            <div class="post-preview"><a href="#"><img src="" alt=""></a>
               <div class="post-category"><a href="#">Lifestyle</a></div>
             </div>
             <div class="post-wrapper">
@@ -436,7 +440,7 @@
 
           <!-- Post-->
           <article class="post">
-            <div class="post-preview"><a href="#"><img src="assets/images/blog/3.jpg" alt=""></a>
+            <div class="post-preview"><a href="#"><img src="" alt=""></a>
               <div class="post-category" data-background-color="#ffbb44"><a href="#">Science</a></div>
             </div>
             <div class="post-wrapper">
@@ -455,7 +459,7 @@
 
           <!-- Post-->
           <article class="post">
-            <div class="post-preview"><a href="#"><img src="assets/images/blog/5.jpg" alt=""></a>
+            <div class="post-preview"><a href="#"><img src="" alt=""></a>
               <div class="post-category" data-background-color="#4CAF50"><a href="#">Business</a></div>
             </div>
             <div class="post-wrapper">

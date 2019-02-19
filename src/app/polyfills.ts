@@ -78,3 +78,5 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+// Intersection Observer is needed for the scroll spy for some browsers
+import 'intersection-observer';

@@ -1,5 +1,4 @@
-import {ContentChildren, Directive, ElementRef, Input, OnInit, Renderer2} from '@angular/core';
-import {ScrollSpySectionDirective} from "./scroll-spy-section.directive";
+import {Directive, ElementRef, Input, OnInit, Renderer2} from '@angular/core';
 import {ActiveElementService} from "./active-element.service";
 
 @Directive({
@@ -11,9 +10,6 @@ export class ScrollSpyNavDirective implements OnInit {
 
     @Input()
     private activeClass = this.DEFAULT_ACTIVE_CLASS;
-
-    @Input()
-    private offset: number = 20;
 
     private liTag: NodeList;
     private ulTag: NodeList;
@@ -30,21 +26,11 @@ export class ScrollSpyNavDirective implements OnInit {
     ngOnInit(): void {
         this.getLinks();
         this.activeElementService.currentElementActive.subscribe((elementActive: string) => { // Subscribe to the current element
-            let linkActive = this.links.find((link: Node) => link.hash.split('#')[1] == elementActive);
-            console.log(linkActive.className);
+            //console.log(this.links[0]);
+            let linkActive = this.links.find((link: Element) => link.id == elementActive);
             if (linkActive) {
                 this.activateLink(linkActive);
             }
-            /*if (link) {
-                console.log(link);
-                // let name = link.id.split('#')[1];
-                let name = 'portfolio';
-                console.log(name);
-                console.log(`${name} - ${elementActive}`);
-                if (name == elementActive) {
-                    this.activateLink(link);
-                }
-            }*/
             this.links.forEach((link: Node) => {
                 if (link && link.className == this.DEFAULT_ACTIVE_CLASS && link != linkActive) {
                     this.deactivateLink(link);
@@ -59,8 +45,12 @@ export class ScrollSpyNavDirective implements OnInit {
             Error("The selected tag hasn't a list on ini");
         }
         this.liTag = this.ulTag[0].childNodes;
-        this.liTag.forEach((link: Node) => {
-            this.links.push(link.childNodes[0]);
+        this.liTag.forEach((list: HTMLElement) => {
+            let link = list.childNodes[0];
+            if (link) {
+                console.log(link.id);
+                this.links.push(link);
+            }
         });
     }
 

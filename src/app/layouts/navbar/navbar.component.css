@@ -15,11 +15,15 @@
 }
 
 .menu-item-active {
-    color: #e41919 !important;
+    color: #e41919;
 }
 
 .header.header-small .inner-nav>ul>li>a {
     color: #202020;
+}
+
+.header.header-small .inner-nav>ul>li>a:hover {
+    color: #e41919;
 }
 
 @media (max-width: 990px) {

@@ -6,7 +6,6 @@ import {ErrorComponent, FooterComponent, MainComponent, NavbarComponent} from '.
 import {AppRoutingModule} from "./app-routing.module";
 import {HomeModule} from "./home/home.module";
 import {SharedModule} from "./shared/shared.module";
-import {ScrollSpyLibModule} from "../../projects/scroll-spy-lib/src/lib/scroll-spy-lib.module";
 
 
 @NgModule({
@@ -21,8 +20,7 @@ import {ScrollSpyLibModule} from "../../projects/scroll-spy-lib/src/lib/scroll-s
         SharedModule,
         AppRoutingModule,
         HttpClientModule,
-        HomeModule,
-        ScrollSpyLibModule
+        HomeModule
     ],
     bootstrap: [MainComponent]
 })

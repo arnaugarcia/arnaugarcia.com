@@ -1741,7 +1741,7 @@ select.form-control-sm:not([size]):not([multiple]) {
 }
 
 .header.header-small .inner-nav > ul > li.sub-menu-open > a, .header.header-small .inner-nav > ul > li > a.active, .header.header-small .inner-nav > ul > li > a:focus, .header.header-small .inner-nav > ul > li > a:hover {
-    color: #e41919 !important;
+    color: #e41919
 }
 
 .inner-nav > ul > li.menu-item-has-children > .mega-menu, .inner-nav > ul > li.menu-item-has-children > .sub-menu, .inner-nav > ul > li.menu-item-has-children > .sub-menu .sub-menu {

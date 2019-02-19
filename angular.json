@@ -119,6 +119,41 @@
           }
         }
       }
+    },
+    "scroll-spy-lib": {
+      "root": "projects/scroll-spy-lib",
+      "sourceRoot": "projects/scroll-spy-lib/src",
+      "projectType": "library",
+      "prefix": "scs",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/scroll-spy-lib/tsconfig.lib.json",
+            "project": "projects/scroll-spy-lib/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/scroll-spy-lib/src/test.ts",
+            "tsConfig": "projects/scroll-spy-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/scroll-spy-lib/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/scroll-spy-lib/tsconfig.lib.json",
+              "projects/scroll-spy-lib/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "arnaugarcia"

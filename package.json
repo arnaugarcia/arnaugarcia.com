@@ -22,8 +22,6 @@
     "@angular/router": "^7.2.2",
     "@ngx-translate/core": "^11.0.1",
     "@ngx-translate/http-loader": "^4.0.0",
-    "@thisissoon/angular-inviewport": "^4.2.0",
-    "@thisissoon/angular-scrollspy": "^2.2.0",
     "angular-particle": "^1.0.4",
     "bootstrap": "^4.2.1",
     "core-js": "^2.6.3",

@@ -28,7 +28,7 @@ export class ScrollSpyDirective {
                 }
             }
         }
-        if (currentSection !== this.currentSection) {
+        if (currentSection && currentSection !== this.currentSection) {
             this.currentSection = currentSection;
             this.scrollSpyService.changeSection(this.currentSection);
         }

@@ -1,4 +1,5 @@
-import {Directive, ElementRef, EventEmitter, HostListener, Input, Output} from '@angular/core';
+import {Directive, ElementRef, HostListener, Input} from '@angular/core';
+import {ScrollSpyService} from "./scroll-spy.service";
 
 @Directive({
     selector: '[scrollSpy]'
@@ -6,10 +7,12 @@ import {Directive, ElementRef, EventEmitter, HostListener, Input, Output} from '
 export class ScrollSpyDirective {
 
     @Input() public spiedTags = [];
-    @Output() public sectionChange = new EventEmitter<string>();
     private currentSection: string;
 
-    constructor(private _el: ElementRef) {}
+    constructor(
+        private _el: ElementRef,
+        private scrollSpyService: ScrollSpyService) {
+    }
 
     @HostListener('window:scroll', ['$event'])
     onScroll(event: any) {
@@ -27,7 +30,7 @@ export class ScrollSpyDirective {
         }
         if (currentSection !== this.currentSection) {
             this.currentSection = currentSection;
-            this.sectionChange.emit(this.currentSection);
+            this.scrollSpyService.changeSection(this.currentSection);
         }
     }
 

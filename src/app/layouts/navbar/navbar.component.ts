@@ -1,16 +1,18 @@
-import {Component, HostListener, Inject} from '@angular/core';
+import {Component, HostListener, Inject, OnInit} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
 import {Title} from "@angular/platform-browser";
 import {DOCUMENT} from "@angular/common";
+import {ScrollSpyService} from "../../shared/directives/scroll-spy.service";
 
 @Component({
     selector: 'app-navbar',
     templateUrl: './navbar.component.html',
     styleUrls: ['./navbar.component.css']
 })
-export class NavbarComponent {
+export class NavbarComponent implements OnInit {
 
     subMenuOpen: string = '';
+    currentSection: string;
 
     public currentScroll = 0;
     public mobileMenuOpen: boolean = false;
@@ -18,11 +20,17 @@ export class NavbarComponent {
     public constructor(
         public translate: TranslateService,
         private titleService: Title,
-        @Inject(DOCUMENT) private document: Document) {
-
+        @Inject(DOCUMENT) private document: Document,
+        private scrollSpyService: ScrollSpyService) {
         translate.addLangs(['en', 'es', 'ca']);
         let browserLang = translate.getBrowserLang();
         translate.use(browserLang.match(/en|es|ca/) ? browserLang : 'en');
+    }
+
+    ngOnInit(): void {
+        this.scrollSpyService.currentSection$.subscribe((currentSection: string) => {
+            this.currentSection = currentSection;
+        });
     }
 
     /**
@@ -47,5 +55,13 @@ export class NavbarComponent {
      */
     toggleMenu(): void {
         this.mobileMenuOpen = !this.mobileMenuOpen;
+    }
+
+    scrollTo(section) {
+        document.querySelector('#' + section).scrollIntoView();
+    }
+
+    isCurrentSection(section: string) {
+        return this.currentSection == section;
     }
 }

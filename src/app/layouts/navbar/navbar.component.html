@@ -14,9 +14,9 @@
           <li><a [class.active]="isCurrentSection('home')" (click)="scrollTo('home')"><span class="menu-item-span" translate="NAVBAR.HOME">Home</span></a></li>
           <li><a [class.active]="isCurrentSection('profile')" (click)="scrollTo('profile')"><span class="menu-item-span" translate="NAVBAR.PROFILE">Profile</span></a></li>
           <li><a [class.active]="isCurrentSection('portfolio')"><span class="menu-item-span" translate="NAVBAR.PROJECTS">Projects</span></a></li>
-          <li><a (click)="scrollTo('services')"><span class="menu-item-span" translate="NAVBAR.SERVICES">Services</span></a></li>
-          <li><a (click)="scrollTo('resume')"><span class="menu-item-span" translate="NAVBAR.RESUME">Resume</span></a></li>
-          <li><a (click)="scrollTo('contact')"><span class="menu-item-span" translate="NAVBAR.CONTACT">Contact</span></a></li>
+          <li><a [class.active]="isCurrentSection('services')" (click)="scrollTo('services')"><span class="menu-item-span" translate="NAVBAR.SERVICES">Services</span></a></li>
+          <li><a [class.active]="isCurrentSection('resume')" (click)="scrollTo('resume')"><span class="menu-item-span" translate="NAVBAR.RESUME">Resume</span></a></li>
+          <li><a [class.active]="isCurrentSection('contact')" (click)="scrollTo('contact')"><span class="menu-item-span" translate="NAVBAR.CONTACT">Contact</span></a></li>
           <li class="menu-item-has-children" [ngClass]="subMenuOpen" (mouseover)="subMenuOpen='sub-menu-open'" (mouseout)="subMenuOpen=''" *ngIf="translate.getLangs().length > 1">
             <a href="#">
               <span class="menu-item-span" translate="NAVBAR.LANGUAGES.TITLE">Languages</span>

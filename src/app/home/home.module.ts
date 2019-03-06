@@ -4,6 +4,8 @@ import {HOME_ROUTE} from "./home.route";
 import {RouterModule} from "@angular/router";
 import {SharedModule} from "../shared/shared.module";
 import {HeaderComponent} from './header/header.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ProgressBarComponent } from './profile/progress-bar/progress-bar.component';
 
 @NgModule({
     imports: [
@@ -12,7 +14,9 @@ import {HeaderComponent} from './header/header.component';
     ],
     declarations: [
         HomeComponent,
-        HeaderComponent
+        HeaderComponent,
+        ProfileComponent,
+        ProgressBarComponent
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

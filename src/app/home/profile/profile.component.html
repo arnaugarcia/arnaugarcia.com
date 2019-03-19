@@ -22,25 +22,45 @@
       <h5 translate="PROFILE.SKILLS.TITLE">My Skills</h5>
       <div class="progress-item">
         <div class="progress-title" translate="PROFILE.SKILLS.SKILL1">Java</div>
-          <app-progress-bar [value]="60" [min]="0" [max]="100"></app-progress-bar>
+          <div class="progress">
+              <div class="progress-bar progress-bar-brand" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <span class="pb-number-box">
+                      <span class="pb-number"></span>%
+                  </span>
+              </div>
+          </div>
       </div>
       <div class="progress-item">
         <div class="progress-title" translate="PROFILE.SKILLS.SKILL2">UX Design</div>
-        <div class="progress">
-          <app-progress-bar [value]="80" [min]="0" [max]="100"></app-progress-bar>
-        </div>
+          <div class="progress">
+              <div class="progress-bar progress-bar-brand" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <span class="pb-number-box">
+                      <span class="pb-number"></span>%
+                  </span>
+              </div>
+          </div>
       </div>
       <div class="progress-item">
         <div class="progress-title" translate="PROFILE.SKILLS.SKILL3">HTML / CSS3 / SASS</div>
         <div class="progress">
-          <app-progress-bar [value]="90" [min]="0" [max]="100"></app-progress-bar>
+            <div class="progress">
+                <div class="progress-bar progress-bar-brand" aria-valuenow="40" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <span class="pb-number-box">
+                      <span class="pb-number"></span>%
+                  </span>
+                </div>
+            </div>
         </div>
       </div>
       <div class="progress-item">
         <div class="progress-title" translate="PROFILE.SKILLS.SKILL4">Gulp</div>
-        <div class="progress">
-          <app-progress-bar [value]="40" [min]="0" [max]="100"></app-progress-bar>
-        </div>
+          <div class="progress">
+              <div class="progress-bar progress-bar-brand" aria-valuenow="70" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                  <span class="pb-number-box">
+                      <span class="pb-number"></span>%
+                  </span>
+              </div>
+          </div>
       </div>
     </div>
   </div>

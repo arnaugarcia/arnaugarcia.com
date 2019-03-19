@@ -15,8 +15,7 @@ import { ProgressBarComponent } from './profile/progress-bar/progress-bar.compon
     declarations: [
         HomeComponent,
         HeaderComponent,
-        ProfileComponent,
-        ProgressBarComponent
+        ProfileComponent
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

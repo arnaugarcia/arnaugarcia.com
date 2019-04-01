@@ -6,6 +6,8 @@ import {ErrorComponent, FooterComponent, MainComponent, NavbarComponent} from '.
 import {AppRoutingModule} from "./app-routing.module";
 import {HomeModule} from "./home/home.module";
 import {SharedModule} from "./shared/shared.module";
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import {SharedModule} from "./shared/shared.module";
         SharedModule,
         AppRoutingModule,
         HttpClientModule,
-        HomeModule
+        HomeModule,
+        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
     ],
     bootstrap: [MainComponent]
 })

@@ -58,7 +58,7 @@ export class NavbarComponent implements OnInit {
     }
 
     scrollTo(section) {
-        document.querySelector('#' + section).scrollIntoView();
+        document.querySelector('#' + section).scrollIntoView({behavior: 'smooth'});
     }
 
     isCurrentSection(section: string) {

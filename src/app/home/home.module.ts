@@ -5,6 +5,7 @@ import {RouterModule} from "@angular/router";
 import {SharedModule} from "../shared/shared.module";
 import {HeaderComponent} from './header/header.component';
 import { ProfileComponent } from './profile/profile.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
     imports: [
@@ -15,6 +16,7 @@ import { ProfileComponent } from './profile/profile.component';
         HomeComponent,
         HeaderComponent,
         ProfileComponent,
+        PortfolioComponent,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

@@ -1,8 +1,8 @@
 import {Component, HostListener, Inject, OnInit} from '@angular/core';
-import {TranslateService} from "@ngx-translate/core";
-import {Title} from "@angular/platform-browser";
-import {DOCUMENT} from "@angular/common";
-import {ScrollSpyService} from "../../shared/directives/scroll-spy.service";
+import {TranslateService} from '@ngx-translate/core';
+import {Title} from '@angular/platform-browser';
+import {DOCUMENT} from '@angular/common';
+import {ScrollSpyService} from '../../shared/directives/scroll-spy.service';
 
 @Component({
     selector: 'app-navbar',
@@ -11,11 +11,11 @@ import {ScrollSpyService} from "../../shared/directives/scroll-spy.service";
 })
 export class NavbarComponent implements OnInit {
 
-    subMenuOpen: string = '';
+    subMenuOpen = '';
     currentSection: string;
 
     public currentScroll = 0;
-    public mobileMenuOpen: boolean = false;
+    public mobileMenuOpen = false;
 
     public constructor(
         public translate: TranslateService,
@@ -23,7 +23,7 @@ export class NavbarComponent implements OnInit {
         @Inject(DOCUMENT) private document: Document,
         private scrollSpyService: ScrollSpyService) {
         translate.addLangs(['en', 'es', 'ca']);
-        let browserLang = translate.getBrowserLang();
+        const browserLang = translate.getBrowserLang();
         translate.use(browserLang.match(/en|es|ca/) ? browserLang : 'en');
     }
 
@@ -47,7 +47,7 @@ export class NavbarComponent implements OnInit {
      */
     @HostListener('window:scroll', []) // for window scroll events
     onScroll() {
-        this.currentScroll = this.document.documentElement.scrollTop
+        this.currentScroll = this.document.documentElement.scrollTop;
     }
 
     /**
@@ -55,10 +55,6 @@ export class NavbarComponent implements OnInit {
      */
     toggleMenu(): void {
         this.mobileMenuOpen = !this.mobileMenuOpen;
-    }
-
-    scrollTo(section) {
-        document.querySelector('#' + section).scrollIntoView({behavior: 'smooth'});
     }
 
     isCurrentSection(section: string) {

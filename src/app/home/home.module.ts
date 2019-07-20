@@ -14,7 +14,7 @@ import { ProfileComponent } from './profile/profile.component';
     declarations: [
         HomeComponent,
         HeaderComponent,
-        ProfileComponent
+        ProfileComponent,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

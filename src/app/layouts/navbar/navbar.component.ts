@@ -39,7 +39,7 @@ export class NavbarComponent implements OnInit {
      */
     public changeLanguage(lang: string) {
         this.translate.use(lang);
-        this.titleService.setTitle(this.translate.instant("APP.TITLE"));
+        this.titleService.setTitle(this.translate.instant('APP.TITLE'));
     }
 
     /**
@@ -62,6 +62,6 @@ export class NavbarComponent implements OnInit {
     }
 
     isCurrentSection(section: string) {
-        return this.currentSection == section;
+        return this.currentSection === section;
     }
 }

@@ -6,6 +6,7 @@ import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {Title} from "@angular/platform-browser";
 import {ScrollSpyDirective} from './directives/scroll-spy.directive';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { ScrollToDirective } from './directives/scroll-to.directive';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -27,8 +28,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     providers: [
         Title
     ],
-    declarations: [ScrollSpyDirective],
-    exports: [TranslateModule, ScrollSpyDirective]
+    declarations: [ScrollSpyDirective, ScrollToDirective],
+    exports: [TranslateModule, ScrollSpyDirective, ScrollToDirective]
 })
 export class SharedModule {
 }

@@ -1,33 +1,31 @@
+import './vendor.ts'
 import {NgModule} from '@angular/core';
-import {BrowserModule, Title} from '@angular/platform-browser';
-import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
-import {TranslateHttpLoader} from '@ngx-translate/http-loader';
-import {AppComponent} from "./app.component";
-import {HttpClient, HttpClientModule} from '@angular/common/http';
+import {BrowserModule} from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
+import {ErrorComponent, FooterComponent, MainComponent, NavbarComponent} from './layouts';
+import {AppRoutingModule} from "./app-routing.module";
+import {HomeModule} from "./home/home.module";
+import {SharedModule} from "./shared/shared.module";
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
-// AoT requires an exported function for factories
-export function HttpLoaderFactory(httpClient: HttpClient) {
-  return new TranslateHttpLoader(httpClient);
-}
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
-  ],
-  providers: [
-    Title
-  ],
-  bootstrap: [AppComponent]
+    declarations: [
+        MainComponent,
+        NavbarComponent,
+        FooterComponent,
+        ErrorComponent
+    ],
+    imports: [
+        BrowserModule,
+        SharedModule,
+        AppRoutingModule,
+        HttpClientModule,
+        HomeModule,
+        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ],
+    bootstrap: [MainComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

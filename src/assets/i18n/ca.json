@@ -1,203 +1,207 @@
 {
-  "APP":{
-    "NAME": "Arnau García",
-    "TITLE": "Arnau García - Pàgina web personal i professional"
-  },
-  "NAVBAR": {
-    "NAME": "Navegació",
-    "HOME": "Inici",
-    "PROFILE": "Perfil",
-    "SERVICES": "Serveis",
-    "RESUME": "Resum",
-    "TECHNOLOGIES": "Tecnologies",
-    "PROJECTS": "Projectes",
-    "CONTACT": "Contacte",
-    "LANGUAGES": {
-      "TITLE": "Idiomes",
-      "CA": "Català",
-      "ES": "Castellano",
-      "EN": "English"
-    }
-  },
-  "INTRO": {
-    "TITLE" : "Hola, sóc l'Arnau García",
-    "SUBTITLE": "Desenvolupador Web | Angular | Programador multiplataforma | Android | SpringMVC"
-  },
-  "PROFILE-CONTACT": {
-    "EMAIL": "arnau.garcia.gallego@gmail.com",
-    "PHONE": "692 46 46 45",
-    "ADDRESS": "Torrelles de Llobregat - Espanya"
-  },
-  "PROFILE": {
-    "TITLE": "Arnau García Gallego",
-    "SUBTITLE": "Desenvolupador Web | Tècnic Informàtic | Programador multiplataforma",
-    "SKILLS": {
-      "TITLE": "HABILITATS",
-      "SKILL1": "Java",
-      "SKILL2": "HTML / CSS3 / JAVASCRIPT",
-      "SKILL3": "Sping MVC",
-      "SKILL4": "Angular"
-    },
-    "SOCIAL": "XARXES SOCIALS",
-    "TEXT": {
-      "TITLE": "SOBRE MI",
-      "PARAGRAPH1": "Sóc un programador amb ganes de superar-me i aportar coses noves tant a empreses com a particulars. La meva curiositat per la informàtica i la programació va començar de ben petit i encara segueix en augment, dia rere dia, sense perdre les ganes d'aprendre i superar-me.",
-      "PARAGRAPH2": "Actualment estic dissenyant diversos projectes personals i ampliant els meus coneixements d'informàtica/programació"
-    }
-
-  },
-  "SERVICE": {
-    "TITLE": "Allò que m'encanta fer",
-    "SUBTITLE": "Els coneixements que la meva experiència i dedicació m'han proporcionat",
-    "SERVICES": {
-      "SERVICE1": {
-        "TITLE": "Pàgines Web",
-        "TEXT": "Puc desenvolupar pàgines web estàtiques, així com aplicacions web complexes per cumplir requeriments específics en el temps establert"
-      },
-      "SERVICE2": {
-        "TITLE": "Disseny responsive",
-        "TEXT": "Una web responsive és indispensable. Em sento còmode treballant amb tecnologies com Bootstrap, LESS i SASS per a l'inici ràpid d'aplicacions"
-      },
-      "SERVICE3": {
-        "TITLE": "UX & UI",
-        "TEXT": "Em centro en testar constantment l'usuari per oferir-li la millor experiència possible"
-      },
-      "SERVICE4": {
-        "TITLE": "Implementació i arquitectura del Servidor Web",
-        "TEXT": "He estat en contacte amb tecnologies com AWS, que m'ha ajudat a entendre com dissenyar la infraestructura per aplicacions complexes"
-      },
-      "SERVICE5": {
-        "TITLE": "Maneig de bases de dades",
-        "TEXT": "Puc dissenyar l'esquema adequat per una base de dades en tecnologies com MySQL i SQL Server. També he treballat amb bases de dades no relacionals com MongoDB"
-      },
-      "SERVICE6": {
-        "TITLE": "Seguretat Web",
-        "TEXT": "El meu objectiu principal és mantenir emmagatzemada de manera segura i encriptada tota la informació proporcionada per l'usuari en una aplicació"
-      }
-    }
-  },
-
-  "CALLOUT": {
-    "TITLE": "ACTUALMENT",
-    "COMPANY-NAME": "TREBALLO A WATCHITY",
-    "COMPANY-DESCRIPTION": "Programant la nova interfaç per la plataforma, utilitzant Angular 5.",
-    "CONTACT-BUTTON": "Contacta amb mi"
-  },
-
-  "RESUME": {
-    "TITLE": "Resum",
-    "SUBTITLE": "Educació i experiència",
-    "STUDY": {
-      "TITLE": "Estudis",
-      "STUDIES": {
-        "STUDY1": {
-          "TITLE": "Tècnic microinformàtic",
-          "PARAGRAPH": "Vaig estudiar a STUCOM un grau mig d'informática enfocat a l'administradció de sistemes i a l'ús de les noves tecnologies",
-          "WHERE": "STUCOM",
-          "YEAR": "2013 - 2015"
-        },
-        "STUDY2": {
-          "TITLE": "Desenvolupament web",
-          "PARAGRAPH": "Grau superior de desenvolupament web en què he après diverses tecnologies web",
-          "WHERE": "STUCOM",
-          "YEAR": "2015 - 2017"
-        },
-        "STUDY3": {
-          "TITLE": "Desenvolupament multiplataforma",
-          "PARAGRAPH": "Grau superior de desenvolupament web en què aprendré a programar aplicacions d'Android/IOS i profunditzar en Spring",
-          "WHERE": "STUCOM",
-          "YEAR": "2017 - ACTUAL"
-        }
-      }
-    },
-    "EXPERIENCE": {
-      "TITLE": "Experiència",
-      "WORKS": {
-        "WORK1": {
-          "TITLE": "Administrador de Sistemes",
-          "PARAGRAPH": "Reparació, montatge i posada al punt dels equips de l'empresa. Monitorizació de la xarxa per a un ús adequat",
-          "WHERE": "CESF",
-          "YEAR": "2014 - 2015"
-        },
-        "WORK2": {
-          "TITLE": "Disseny/maquetació web",
-          "PARAGRAPH": "Disseny i desplegament de la pàgina web",
-          "WHERE": "Citsalp S.L",
-          "YEAR": "2015 - 2016"
-        },
-        "WORK3": {
-          "TITLE": "Desenvolupament web",
-          "PARAGRAPH": "Disseny de la pàgina web i creació d'una intranet per al restaurant, amb menús editables a través de la web",
-          "WHERE": "Can Balasch de Baix",
-          "YEAR": "2016 - 2017"
-        },
-        "WORK4": {
-          "TITLE": "Programador web",
-          "PARAGRAPH": "Programació d'una plataforma web per a una immobiliària de Torrelles de Llobregat",
-          "WHERE": "AssessoriaTorrelles",
-          "YEAR": "2016 - 2017"
-        }
-      }
-    },
-    "CV-BUTTON": "Descarrega CV"
-  },
-  "TECHNOLOGIES": {
-    "TITLE": "Tecnologies que he après",
-    "TECHNOLOGY1": "Java",
-    "TECHNOLOGY2": "Spring",
-    "TECHNOLOGY3": "JHipster",
-    "TECHNOLOGY4": "Angular 6",
-    "TECHNOLOGY5": "Jenkins",
-    "TECHNOLOGY6": "Git",
-    "TECHNOLOGY7": "Bootstrap",
-    "TECHNOLOGY8": "JavaScript",
-    "TECHNOLOGY9": "MySql"
-  },
-  "PORTFOLIO":{
-    "TITLE": "Portafolis",
-    "SUBTITLE": "Els meus millors treballs",
-    "ITEMS": {
-      "ITEM1": {
-        "TITLE": "Erasmus a Malta",
-        "SUBTITLE": "STUCOM"
-      },
-      "ITEM2": {
-        "TITLE": "AngularCamp",
-        "SUBTITLE": "Presentador a l'AngularCamp 2017"
-      },
-      "ITEM3": {
-        "TITLE": "Uplace",
-        "SUBTITLE": "Programació de Uplace.es"
-      },
-      "ITEM4": {
-        "TITLE": "Aprenent JHipster",
-        "SUBTITLE": "STUCOM"
-      },
-      "ITEM5": {
-        "TITLE": "Angular 6",
-        "SUBTITLE": "Curs d'Angular 6 en udemy.com"
-      },
-      "ITEM6": {
-        "TITLE": "HCSSpain.es",
-        "SUBTITLE": "Desenvolupant una web per al competitiu de HALO a nivell espanyol"
-      }
-    }
-  },
-  "CONTACT": {
-    "TITLE": "Contacta amb mi",
-    "SUBTITLE": "Pots contactar amb mi enviant-me un email per aquí o per telèfon",
-    "ADDRESS": "08629 - Torrelles de Llobregat",
-    "PHONE": "692 46 46 45",
-    "EMAIL": "arnau.garcia.gallego@gmail.com",
-    "WEB": "http://arnaugarcia.com",
-    "FORM": {
-      "NAME": "Nom",
-      "EMAIL": "Correu electrònic",
-      "MESSAGE": "El teu missatge",
-      "BUTTON": "Enviar!"
-    }
-  },
-  "FOOTER": {
-    "CONTENT": "© 2017 Arnau García Gallego"
-  }
+	"APP": {
+		"NAME": "Arnau García",
+		"TITLE": "Arnau García - Pàgina web personal i professional"
+	},
+	"CALLOUT": {
+		"COMPANY-DESCRIPTION": "Programant la nova interfaç per la plataforma, utilitzant Angular 5.",
+		"COMPANY-NAME": "TREBALLO A WATCHITY",
+		"CONTACT-BUTTON": "Contacta amb mi",
+		"TITLE": "ACTUALMENT"
+	},
+	"CONTACT": {
+		"ADDRESS": "08629 - Torrelles de Llobregat",
+		"EMAIL": "arnau.garcia.gallego@gmail.com",
+		"FORM": {
+			"BUTTON": "Enviar!",
+			"EMAIL": "Correu electrònic",
+			"MESSAGE": "El teu missatge",
+			"NAME": "Nom"
+		},
+		"PHONE": "692 46 46 45",
+		"SUBTITLE": "Pots contactar amb mi enviant-me un email per aquí o per telèfon",
+		"TITLE": "Contacta amb mi",
+		"WEB": "http://arnaugarcia.com"
+	},
+	"FOOTER": {
+		"CONTENT": "© 2017 Arnau García Gallego"
+	},
+	"INTRO": {
+		"SUBTITLE": "Desenvolupador Web | Angular | Programador multiplataforma | Android | SpringMVC",
+		"TITLE": "Arnau García"
+	},
+	"NAVBAR": {
+		"CONTACT": "Contacte",
+		"HOME": "Inici",
+		"LANGUAGES": {
+			"CA": "Català",
+			"EN": "English",
+			"ES": "Castellano",
+			"TITLE": "Idiomes"
+		},
+		"NAME": "Navegació",
+		"PROFILE": "Perfil",
+		"PROJECTS": "Projectes",
+		"RESUME": "Resum",
+		"SERVICES": "Serveis",
+		"TECHNOLOGIES": "Tecnologies"
+	},
+	"PORTFOLIO": {
+		"ITEMS": {
+			"ITEM1": {
+				"SUBTITLE": "STUCOM",
+				"TITLE": "Erasmus a Malta"
+			},
+			"ITEM2": {
+				"SUBTITLE": "Presentador a l'AngularCamp 2017",
+				"TITLE": "AngularCamp"
+			},
+			"ITEM3": {
+				"SUBTITLE": "Programació de Uplace.es",
+				"TITLE": "Uplace"
+			},
+			"ITEM4": {
+				"SUBTITLE": "STUCOM",
+				"TITLE": "Aprenent JHipster"
+			},
+			"ITEM5": {
+				"SUBTITLE": "Curs d'Angular 6 en udemy.com",
+				"TITLE": "Angular 6"
+			},
+			"ITEM6": {
+				"SUBTITLE": "Desenvolupant una web per al competitiu de HALO a nivell espanyol",
+				"TITLE": "HCSSpain.es"
+			}
+		},
+		"SUBTITLE": "Els meus millors treballs",
+		"TITLE": "Portafolis"
+	},
+	"PROFILE": {
+		"PERCENT": {
+			"SKILL1": "90",
+			"SKILL2": "80",
+			"SKILL3": "90",
+			"SKILL4": "70",
+			"TITLE": "HABILITATS"
+		},
+		"SKILLS": {
+			"SKILL1": "Java",
+			"SKILL2": "HTML / CSS3 / JAVASCRIPT",
+			"SKILL3": "Sping MVC",
+			"SKILL4": "Angular",
+			"TITLE": "HABILITATS"
+		},
+		"SOCIAL": "XARXES SOCIALS",
+		"SUBTITLE": "Desenvolupador Web | Tècnic Informàtic | Programador multiplataforma",
+		"TEXT": {
+			"PARAGRAPH1": "Sóc un programador amb ganes de superar-me i aportar coses noves tant a empreses com a particulars. La meva curiositat per la informàtica i la programació va començar de ben petit i encara segueix en augment, dia rere dia, sense perdre les ganes d'aprendre i superar-me.",
+			"PARAGRAPH2": "Actualment estic dissenyant diversos projectes personals i ampliant els meus coneixements d'informàtica/programació",
+			"TITLE": "SOBRE MI"
+		},
+		"TITLE": "Arnau García Gallego"
+	},
+	"PROFILE-CONTACT": {
+		"ADDRESS": "Torrelles de Llobregat - Espanya",
+		"EMAIL": "arnau.garcia.gallego@gmail.com",
+		"PHONE": "692 46 46 45"
+	},
+	"RESUME": {
+		"CV-BUTTON": "Descarrega CV",
+		"EXPERIENCE": {
+			"TITLE": "Experiència",
+			"WORKS": {
+				"WORK1": {
+					"PARAGRAPH": "Reparació, montatge i posada al punt dels equips de l'empresa. Monitorizació de la xarxa per a un ús adequat",
+					"TITLE": "Administrador de Sistemes",
+					"WHERE": "CESF",
+					"YEAR": "2014 - 2015"
+				},
+				"WORK2": {
+					"PARAGRAPH": "Disseny i desplegament de la pàgina web",
+					"TITLE": "Disseny/maquetació web",
+					"WHERE": "Citsalp S.L",
+					"YEAR": "2015 - 2016"
+				},
+				"WORK3": {
+					"PARAGRAPH": "Disseny de la pàgina web i creació d'una intranet per al restaurant, amb menús editables a través de la web",
+					"TITLE": "Desenvolupament web",
+					"WHERE": "Can Balasch de Baix",
+					"YEAR": "2016 - 2017"
+				},
+				"WORK4": {
+					"PARAGRAPH": "Programació d'una plataforma web per a una immobiliària de Torrelles de Llobregat",
+					"TITLE": "Programador web",
+					"WHERE": "AssessoriaTorrelles",
+					"YEAR": "2016 - 2017"
+				}
+			}
+		},
+		"STUDY": {
+			"STUDIES": {
+				"STUDY1": {
+					"PARAGRAPH": "Vaig estudiar a STUCOM un grau mig d'informática enfocat a l'administradció de sistemes i a l'ús de les noves tecnologies",
+					"TITLE": "Tècnic microinformàtic",
+					"WHERE": "STUCOM",
+					"YEAR": "2013 - 2015"
+				},
+				"STUDY2": {
+					"PARAGRAPH": "Grau superior de desenvolupament web en què he après diverses tecnologies web",
+					"TITLE": "Desenvolupament web",
+					"WHERE": "STUCOM",
+					"YEAR": "2015 - 2017"
+				},
+				"STUDY3": {
+					"PARAGRAPH": "Grau superior de desenvolupament web en què aprendré a programar aplicacions d'Android/IOS i profunditzar en Spring",
+					"TITLE": "Desenvolupament multiplataforma",
+					"WHERE": "STUCOM",
+					"YEAR": "2017 - ACTUAL"
+				}
+			},
+			"TITLE": "Estudis"
+		},
+		"SUBTITLE": "Educació i experiència",
+		"TITLE": "Resum"
+	},
+	"SERVICE": {
+		"SERVICES": {
+			"SERVICE1": {
+				"TEXT": "Puc desenvolupar pàgines web estàtiques, així com aplicacions web complexes per cumplir requeriments específics en el temps establert",
+				"TITLE": "Pàgines Web"
+			},
+			"SERVICE2": {
+				"TEXT": "Una web responsive és indispensable. Em sento còmode treballant amb tecnologies com Bootstrap, LESS i SASS per a l'inici ràpid d'aplicacions",
+				"TITLE": "Disseny responsive"
+			},
+			"SERVICE3": {
+				"TEXT": "Em centro en testar constantment l'usuari per oferir-li la millor experiència possible",
+				"TITLE": "UX & UI"
+			},
+			"SERVICE4": {
+				"TEXT": "He estat en contacte amb tecnologies com AWS, que m'ha ajudat a entendre com dissenyar la infraestructura per aplicacions complexes",
+				"TITLE": "Implementació i arquitectura del Servidor Web"
+			},
+			"SERVICE5": {
+				"TEXT": "Puc dissenyar l'esquema adequat per una base de dades en tecnologies com MySQL i SQL Server. També he treballat amb bases de dades no relacionals com MongoDB",
+				"TITLE": "Maneig de bases de dades"
+			},
+			"SERVICE6": {
+				"TEXT": "El meu objectiu principal és mantenir emmagatzemada de manera segura i encriptada tota la informació proporcionada per l'usuari en una aplicació",
+				"TITLE": "Seguretat Web"
+			}
+		},
+		"SUBTITLE": "Els coneixements que la meva experiència i dedicació m'han proporcionat",
+		"TITLE": "Allò que m'encanta fer"
+	},
+	"TECHNOLOGIES": {
+		"TECHNOLOGY1": "Java",
+		"TECHNOLOGY2": "Spring",
+		"TECHNOLOGY3": "JHipster",
+		"TECHNOLOGY4": "Angular 6",
+		"TECHNOLOGY5": "Jenkins",
+		"TECHNOLOGY6": "Git",
+		"TECHNOLOGY7": "Bootstrap",
+		"TECHNOLOGY8": "JavaScript",
+		"TECHNOLOGY9": "MySql",
+		"TITLE": "Tecnologies que he après"
+	}
 }

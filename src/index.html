@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-          content="Soy Arnau García, un programador con ganas de alcanzar nuevos retos y aportar nuevas cosas al mundo.">
+          content="Hola! Soy Arnau García, un programador con ganas de alcanzar nuevos retos y aportar nuevas cosas al mundo.">
     <link href="assets/images/favicon.png" rel="shortcut icon"/>
     <meta name="keywords" content="HTML,CSS,XML,JAVA,Spring,Angular,Angular 6,Angular6,Angular 7,JavaScript,Arnau,arnau,arnaugarcia,Arnau Garcia,arnau garcia,Arnau Garcia Gallego,pagina web,web,desarrollador web,spring,programador,La Salle,personal,programador web,programador,García,garcía,arnaugarcia97,hackintosh,arnaugarcia,tecnico,informatico,torrelles de llobregat,torrelles,stucom,angular,cloud,web developer">
     <meta name="author" content="Arnau García">
@@ -12,6 +12,56 @@
     <base href="/">
     <link rel="manifest" href="manifest.webmanifest">
     <meta name="theme-color" content="#1976d2">
+    <style>
+        .codepad-logo,
+        .codepad-logo::before,
+        .codepad-logo::after {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .codepad-logo {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            color: black;
+            border-radius: 6px;
+            box-shadow: inset 0 0 0 1px black;
+            transform: rotate(45deg);
+        }
+
+        .logo {
+            background: url("https://dl.dropboxusercontent.com/s/r0n3iyiuhub6j1t/test-fill-01.svg?dl=0") no-repeat 50%/70%;
+            color: black;
+            width: 100%;
+            height: 100%;
+            transform: rotate(-45deg);
+        }
+
+        .codepad-logo::before,
+        .codepad-logo::after {
+            content: '';
+            z-index: -1;
+            margin: -5%;
+            box-shadow: inset 0 0 0 2px;
+            border-radius: 6px;
+            animation: clipIt 8s linear infinite;
+        }
+        .codepad-logo::before {
+            animation-delay: -4s;
+        }
+
+        @keyframes clipIt {
+            0%, 100% { clip: rect(0px, 220px, 2px, 0px); }
+            25%      { clip: rect(0px, 2px, 220px, 0px); }
+            50%      { clip: rect(218px, 220px, 220px, 0px); }
+            75%      { clip: rect(0px, 220px, 220px, 218px); }
+        }
+
+    </style>
 </head>
 <script>
     (function (i, s, o, g, r, a, m) {
@@ -29,55 +79,6 @@
     ga('create', 'UA-77073152-1', 'auto');
     ga('send', 'pageview');
 </script>
-<style>
-    .codepad-logo,
-    .codepad-logo::before,
-    .codepad-logo::after {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-
-    .codepad-logo {
-        width: 200px;
-        height: 200px;
-        margin: auto;
-        color: black;
-        border-radius: 6px;
-        box-shadow: inset 0 0 0 1px black;
-        transform: rotate(45deg);
-    }
-
-    .logo {
-        background: url("https://dl.dropboxusercontent.com/s/r0n3iyiuhub6j1t/test-fill-01.svg?dl=0") no-repeat 50%/70%;
-        width: 100%;
-        height: 100%;
-        transform: rotate(-45deg);
-    }
-
-    .codepad-logo::before,
-    .codepad-logo::after {
-        content: '';
-        z-index: -1;
-        margin: -5%;
-        box-shadow: inset 0 0 0 2px;
-        border-radius: 6px;
-        animation: clipIt 8s linear infinite;
-    }
-    .codepad-logo::before {
-        animation-delay: -4s;
-    }
-
-    @keyframes clipIt {
-        0%, 100% { clip: rect(0px, 220px, 2px, 0px); }
-        25%      { clip: rect(0px, 2px, 220px, 0px); }
-        50%      { clip: rect(218px, 220px, 220px, 0px); }
-        75%      { clip: rect(0px, 220px, 220px, 218px); }
-    }
-
-</style>
 <body>
     <app-main>
         <!-- Preloader-->

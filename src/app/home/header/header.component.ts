@@ -1,18 +1,19 @@
-import {Component, OnInit} from '@angular/core';
-import Typed from "typed.js";
-import {TranslateService} from "@ngx-translate/core";
-import {ParticlesConstants} from "./particles-constants";
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import Typed from 'typed.js';
+import {TranslateService} from '@ngx-translate/core';
+import {ParticlesConstants} from './particles-constants';
 
 declare var particlesJS: any;
 
 @Component({
     selector: 'app-header',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './header.component.html',
     styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
 
-    private translatedText: string = '';
+    private translatedText = '';
     private typed: Typed;
 
     constructor(private translateService: TranslateService) {}
@@ -35,14 +36,14 @@ export class HeaderComponent implements OnInit {
         if (this.typed) {
             this.typed.destroy();
         }
-        let options = {
+        const options = {
             strings: this.translatedText.split('|'),
             typeSpeed: 50,
             backSpeed: 50,
             showCursor: true,
             loop: true
         };
-        this.typed = new Typed("#typed", options);
+        this.typed = new Typed('#typed', options);
     }
 
 }

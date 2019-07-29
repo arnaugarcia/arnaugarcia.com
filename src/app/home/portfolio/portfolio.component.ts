@@ -1,11 +1,12 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 
 declare var $: any;
 
 @Component({
     selector: 'app-portfolio',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './portfolio.component.html',
-    styleUrls: ['./portfolio.component.css']
+    styleUrls: ['./portfolio.component.css'],
 })
 export class PortfolioComponent implements OnInit {
 

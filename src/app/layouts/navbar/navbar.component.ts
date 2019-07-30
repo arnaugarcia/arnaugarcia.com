@@ -3,6 +3,7 @@ import {TranslateService} from '@ngx-translate/core';
 import {Title} from '@angular/platform-browser';
 import {DOCUMENT} from '@angular/common';
 import {ScrollSpyService} from '../../shared/directives/scroll-spy.service';
+import {environment} from '../../../environments/environment';
 
 @Component({
     selector: 'app-navbar',
@@ -16,21 +17,27 @@ export class NavbarComponent implements OnInit {
 
     public currentScroll = 0;
     public mobileMenuOpen = false;
+    private languages: string[] = environment.languages;
 
     public constructor(
-        public translate: TranslateService,
+        public translateService: TranslateService,
         private titleService: Title,
         @Inject(DOCUMENT) private document: Document,
         private scrollSpyService: ScrollSpyService) {
-        translate.addLangs(['en', 'es', 'ca']);
-        const browserLang = translate.getBrowserLang();
-        translate.use(browserLang.match(/en|es|ca/) ? browserLang : 'en');
+
     }
 
-    ngOnInit(): void {
+    ngOnInit() {
+        this.initLanguage();
         this.scrollSpyService.currentSection$.subscribe((currentSection: string) => {
             this.currentSection = currentSection;
         });
+    }
+
+    private initLanguage() {
+        this.translateService.addLangs(this.languages);
+        const browserLang = this.translateService.getBrowserLang();
+        this.translateService.use(this.languages.includes(browserLang) ? browserLang : environment.defaultLang);
     }
 
     /**
@@ -38,8 +45,8 @@ export class NavbarComponent implements OnInit {
      * @param lang a valid language [CA, ES, EN]
      */
     public changeLanguage(lang: string) {
-        this.translate.use(lang);
-        this.titleService.setTitle(this.translate.instant('APP.TITLE'));
+        this.translateService.use(lang);
+        this.titleService.setTitle(this.translateService.instant('APP.TITLE'));
     }
 
     /**

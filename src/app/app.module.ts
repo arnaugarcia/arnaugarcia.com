@@ -8,7 +8,6 @@ import {SharedModule} from './shared/shared.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
-
 @NgModule({
     declarations: [
         MainComponent,

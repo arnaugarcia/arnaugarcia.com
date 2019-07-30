@@ -4,6 +4,7 @@ import {Title} from '@angular/platform-browser';
 import {DOCUMENT} from '@angular/common';
 import {ScrollSpyService} from '../../shared/directives/scroll-spy.service';
 import {environment} from '../../../environments/environment';
+import {MetaColorService} from '../../shared/services/meta-color.service';
 
 @Component({
     selector: 'app-navbar',
@@ -23,7 +24,8 @@ export class NavbarComponent implements OnInit {
         public translateService: TranslateService,
         private titleService: Title,
         @Inject(DOCUMENT) private document: Document,
-        private scrollSpyService: ScrollSpyService) {
+        private scrollSpyService: ScrollSpyService,
+        private metaColorService: MetaColorService) {
 
     }
 
@@ -55,6 +57,15 @@ export class NavbarComponent implements OnInit {
     @HostListener('window:scroll', []) // for window scroll events
     onScroll() {
         this.currentScroll = this.document.documentElement.scrollTop;
+        this.changeColorTheme();
+    }
+
+    private changeColorTheme() {
+        if (this.currentScroll > 5) {
+            this.metaColorService.changeThemeToWhite();
+        } else {
+            this.metaColorService.changeThemeToBlack();
+        }
     }
 
     /**

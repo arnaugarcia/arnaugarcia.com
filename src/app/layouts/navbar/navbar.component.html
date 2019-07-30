@@ -41,13 +41,13 @@
                   <span class="menu-item-span" translate="NAVBAR.CONTACT">Contact</span>
               </a>
           </li>
-          <li class="menu-item-has-children" [ngClass]="subMenuOpen" (mouseover)="subMenuOpen='sub-menu-open'" (mouseout)="subMenuOpen=''" *ngIf="translateService.getLangs().length > 1">
+          <li class="menu-item-has-children" [ngClass]="subMenuOpen" (mouseover)="subMenuOpen='sub-menu-open'" (mouseout)="subMenuOpen=''" *ngIf="translate.getLangs().length > 1">
             <a href="#">
               <span class="menu-item-span" translate="NAVBAR.LANGUAGES.TITLE">Languages</span>
             </a>
             <ul class="sub-menu">
-              <li class="menu-item" *ngFor="let lang of translateService.getLangs()">
-                <a [class.menu-item-active]="lang == translateService.currentLang" (click)="changeLanguage(lang)" [translate]="'NAVBAR.LANGUAGES.' + lang.toUpperCase()">Language</a>
+              <li class="menu-item" *ngFor="let lang of translate.getLangs()">
+                <a [class.menu-item-active]="lang == translate.currentLang" (click)="changeLanguage(lang)" [translate]="'NAVBAR.LANGUAGES.' + lang.toUpperCase()">Language</a>
               </li>
             </ul>
           </li>

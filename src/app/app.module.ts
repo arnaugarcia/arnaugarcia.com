@@ -21,7 +21,7 @@ import { environment } from '../environments/environment';
         AppRoutingModule,
         HttpClientModule,
         HomeModule,
-        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+        ServiceWorkerModule.register('arnaugarcia-sw.js', { enabled: environment.production })
     ],
     bootstrap: [MainComponent]
 })

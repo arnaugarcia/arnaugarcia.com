@@ -1,9 +1,11 @@
 {
-  "name": "Arnau Garcia",
-  "short_name": "Arnau Garcia",
+  "name": "Arnau Garcia web page",
+  "short_name": "ArnauGarcia",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
+  "description": "Arnau Gacia web page as PWA application",
+  "orientation": "portrit-primary",
   "scope": "/",
   "start_url": "/",
   "icons": [

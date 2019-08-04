@@ -13,37 +13,37 @@
         <ul>
           <li>
             <a [class.active]="isCurrentSection('home')" href="#home" scrollTo>
-              <span class="menu-item-span" translate="NAVBAR.HOME">Home</span>
+              <span class="menu-item-span">{{'NAVBAR.HOME' | translate}}</span>
             </a>
           </li>
           <li>
               <a [class.active]="isCurrentSection('profile')" href="#profile" scrollTo>
-                  <span class="menu-item-span" translate="NAVBAR.PROFILE">Profile</span>
+                  <span class="menu-item-span">{{'NAVBAR.PROFILE' | translate}}</span>
               </a>
           </li>
           <li>
               <a [class.active]="isCurrentSection('portfolio')" href="#portfolio" scrollTo>
-                  <span class="menu-item-span" translate="NAVBAR.PROJECTS">Projects</span>
+                  <span class="menu-item-span">{{'NAVBAR.PROJECTS' | translate}}</span>
               </a>
           </li>
           <li>
               <a [class.active]="isCurrentSection('services')" href="#services" scrollTo>
-                  <span class="menu-item-span" translate="NAVBAR.SERVICES">Services</span>
+                  <span class="menu-item-span">{{'NAVBAR.SERVICES' | translate}}</span>
               </a>
           </li>
           <li>
               <a [class.active]="isCurrentSection('resume')" href="#resume" scrollTo>
-                  <span class="menu-item-span" translate="NAVBAR.RESUME">Resume</span>
+                  <span class="menu-item-span">{{'NAVBAR.RESUME' | translate}}</span>
               </a>
           </li>
           <li>
               <a [class.active]="isCurrentSection('contact')" href="#contact" scrollTo>
-                  <span class="menu-item-span" translate="NAVBAR.CONTACT">Contact</span>
+                  <span class="menu-item-span">{{'NAVBAR.CONTACT' | translate}}</span>
               </a>
           </li>
           <li class="menu-item-has-children" [ngClass]="subMenuOpen" (mouseover)="subMenuOpen='sub-menu-open'" (mouseout)="subMenuOpen=''" *ngIf="translate.getLangs().length > 1">
             <a href="#">
-              <span class="menu-item-span" translate="NAVBAR.LANGUAGES.TITLE">Languages</span>
+              <span class="menu-item-span">{{'NAVBAR.LANGUAGES.TITLE' | translate}}</span>
             </a>
             <ul class="sub-menu">
               <li class="menu-item" *ngFor="let lang of translate.getLangs()">

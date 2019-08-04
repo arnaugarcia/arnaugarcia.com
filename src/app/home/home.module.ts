@@ -6,7 +6,6 @@ import {SharedModule} from '../shared/shared.module';
 import {HeaderComponent} from './header/header.component';
 import { ProfileComponent } from './profile/profile.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { FiltersComponent } from './portfolio/filters/filters.component';
 
 @NgModule({
     imports: [
@@ -18,7 +17,6 @@ import { FiltersComponent } from './portfolio/filters/filters.component';
         HeaderComponent,
         ProfileComponent,
         PortfolioComponent,
-        FiltersComponent,
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

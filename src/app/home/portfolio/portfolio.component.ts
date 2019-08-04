@@ -10,22 +10,17 @@ declare var $: any;
 })
 export class PortfolioComponent implements OnInit {
 
-    constructor() {
-    }
-
     ngOnInit() {
         const filters = $('#filters'),
             worksgrid = $('.row-portfolio');
 
-        $('a', filters).on('click', function () {
+        $('a', filters).on('click', () => {
             const selector = $(this).attr('data-filter');
             $('.current', filters).removeClass('current');
             $(this).addClass('current');
-            setTimeout(function () {
-                worksgrid.isotope({
-                    filter: selector
-                });
-            }, 300);
+            worksgrid.isotope({
+                filter: selector
+            });
             $('.portfolio-item', worksgrid).css({
                 'will-change': '',
                 'transform': '',
@@ -44,25 +39,23 @@ export class PortfolioComponent implements OnInit {
             maxTilt: 1.4
         });
 
-        $(window).on('resize', function () {
-            setTimeout(function () {
-                worksgrid.imagesLoaded(function () {
-                    worksgrid.isotope({
-                        layoutMode: 'masonry',
-                        itemSelector: '.portfolio-item',
-                        transitionDuration: '0.2s',
-                        masonry: {
-                            columnWidth: '.grid-sizer',
-                        },
-                    });
+        $(window).on('resize', () => {
+            worksgrid.imagesLoaded(() => {
+                worksgrid.isotope({
+                    layoutMode: 'masonry',
+                    itemSelector: '.portfolio-item',
+                    transitionDuration: '0.2s',
+                    masonry: {
+                        columnWidth: '.grid-sizer',
+                    },
                 });
-            }, 300);
+            });
             $('.portfolio-item', worksgrid).css({
                 'will-change': '',
                 'transform': '',
                 'opacity': '',
             });
-        }).resize();
+        }).trigger('resize');
     }
 
 }

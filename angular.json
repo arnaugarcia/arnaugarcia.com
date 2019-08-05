@@ -18,6 +18,7 @@
             "main": "src/app/app.main.ts",
             "polyfills": "src/app/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets",

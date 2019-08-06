@@ -12,32 +12,32 @@
       <div class="inner-nav onepage-nav">
         <ul>
           <li>
-            <a [class.active]="isCurrentSection('home')" href="#home" scrollTo>
+            <a [class.active]="isCurrentSection('home')" href="#home" scrollTo (click)="toggleMenu()">
               <span class="menu-item-span">{{'NAVBAR.HOME' | translate}}</span>
             </a>
           </li>
           <li>
-              <a [class.active]="isCurrentSection('profile')" href="#profile" scrollTo>
+              <a [class.active]="isCurrentSection('profile')" href="#profile" scrollTo (click)="toggleMenu()">
                   <span class="menu-item-span">{{'NAVBAR.PROFILE' | translate}}</span>
               </a>
           </li>
           <li>
-              <a [class.active]="isCurrentSection('portfolio')" href="#portfolio" scrollTo>
+              <a [class.active]="isCurrentSection('portfolio')" href="#portfolio" scrollTo (click)="toggleMenu()">
                   <span class="menu-item-span">{{'NAVBAR.PROJECTS' | translate}}</span>
               </a>
           </li>
           <li>
-              <a [class.active]="isCurrentSection('services')" href="#services" scrollTo>
+              <a [class.active]="isCurrentSection('services')" href="#services" scrollTo (click)="toggleMenu()">
                   <span class="menu-item-span">{{'NAVBAR.SERVICES' | translate}}</span>
               </a>
           </li>
           <li>
-              <a [class.active]="isCurrentSection('resume')" href="#resume" scrollTo>
+              <a [class.active]="isCurrentSection('resume')" href="#resume" scrollTo (click)="toggleMenu()">
                   <span class="menu-item-span">{{'NAVBAR.RESUME' | translate}}</span>
               </a>
           </li>
           <li>
-              <a [class.active]="isCurrentSection('contact')" href="#contact" scrollTo>
+              <a [class.active]="isCurrentSection('contact')" href="#contact" scrollTo (click)="toggleMenu()">
                   <span class="menu-item-span">{{'NAVBAR.CONTACT' | translate}}</span>
               </a>
           </li>
@@ -47,7 +47,9 @@
             </a>
             <ul class="sub-menu">
               <li class="menu-item" *ngFor="let lang of translate.getLangs()">
-                <a [class.menu-item-active]="lang == translate.currentLang" (click)="changeLanguage(lang)" [translate]="'NAVBAR.LANGUAGES.' + lang.toUpperCase()">Language</a>
+                <a [class.menu-item-active]="lang == translate.currentLang"
+                   (click)="changeLanguage(lang)"
+                   [translate]="'NAVBAR.LANGUAGES.' + lang.toUpperCase()">Language</a>
               </li>
             </ul>
           </li>

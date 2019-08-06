@@ -15,7 +15,7 @@
 }
 
 .menu-item-active {
-    color: #e41919;
+    color: #4a90e2;
 }
 
 .header.header-small .inner-nav>ul>li>a {
@@ -23,7 +23,7 @@
 }
 
 .header.header-small .inner-nav>ul>li>a:hover {
-    color: #e41919;
+    color: #4a90e2;
 }
 
 @media (max-width: 990px) {

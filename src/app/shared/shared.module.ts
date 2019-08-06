@@ -7,6 +7,7 @@ import {Title} from '@angular/platform-browser';
 import {ScrollSpyDirective} from './directives/scroll-spy.directive';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ScrollToDirective } from './directives/scroll-to.directive';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -23,13 +24,14 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
                 deps: [HttpClient]
             }
         }),
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        FontAwesomeModule
     ],
     providers: [
         Title
     ],
     declarations: [ScrollSpyDirective, ScrollToDirective],
-    exports: [TranslateModule, ScrollSpyDirective, ScrollToDirective]
+    exports: [TranslateModule, ScrollSpyDirective, ScrollToDirective, FontAwesomeModule]
 })
 export class SharedModule {
 }

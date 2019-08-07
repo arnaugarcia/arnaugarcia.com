@@ -1,12 +1,8 @@
 import {Component} from '@angular/core';
-import {faTwitter, IconDefinition} from '@fortawesome/free-brands-svg-icons';
-import {faInstagram} from '@fortawesome/free-brands-svg-icons/faInstagram';
-import {faGithub} from '@fortawesome/free-brands-svg-icons/faGithub';
-import {faLinkedin} from '@fortawesome/free-brands-svg-icons/faLinkedin';
 
 interface ISocialNetwork {
     link: string;
-    icon: IconDefinition;
+    icon: string;
 }
 
 @Component({
@@ -16,18 +12,13 @@ interface ISocialNetwork {
 })
 export class SocialComponent {
 
-    public faTwitter = faTwitter;
-    public faInstagram = faInstagram;
-    public faGithub = faGithub;
-    public faLinkedIn = faLinkedin;
-
     socialNetworks: ISocialNetwork[] = [];
 
     constructor() {
         this.socialNetworks.push(
-            {icon: faInstagram, link: 'https://instagram.com/arnaugarcia97'},
-            {icon: faTwitter, link: 'https://twitter.com/arnaugarcia97'},
-            {icon: faGithub, link: 'https://github.com/arnaugarcia'},
-            {icon: faLinkedin, link: 'https://instagram.com/arnaugarcia97'});
+            {icon: 'fa-instagram', link: 'https://instagram.com/arnaugarcia97'},
+            {icon: 'fa-twitter', link: 'https://twitter.com/arnaugarcia97'},
+            {icon: 'fa-github', link: 'https://github.com/arnaugarcia'},
+            {icon: 'fa-linkedin', link: 'https://instagram.com/arnaugarcia97'});
     }
 }

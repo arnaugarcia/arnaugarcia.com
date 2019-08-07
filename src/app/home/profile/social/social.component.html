@@ -1,31 +1,10 @@
 <h3 class="h4">{{'PROFILE.SOCIAL' | translate}}</h3>
 <ul class="widget-social">
-    <li>
-        <a href="https://twitter.com/arnaugarcia97"
+    <li *ngFor="let social of socialNetworks">
+        <a [href]="social.link"
            class="btn btn-sm social-button"
            target="_blank">
-            <fa-icon [icon]="faTwitter"></fa-icon>
-        </a>
-    </li>
-    <li>
-        <a href="https://instagram.com/arnaugarcia97"
-           class="btn btn-sm social-button"
-           target="_blank">
-            <fa-icon [icon]="faInstagram"></fa-icon>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/arnaugarcia/"
-           class="btn btn-sm social-button"
-           target="_blank">
-            <fa-icon [icon]="faGithub"></fa-icon>
-        </a>
-    </li>
-    <li>
-        <a href="https://linkedin.com/in/arnaugarciagallego/"
-           class="btn btn-sm social-button"
-           target="_blank">
-            <fa-icon [icon]="faLinkedIn"></fa-icon>
+            <fa-icon [icon]="social.icon"></fa-icon>
         </a>
     </li>
 </ul>

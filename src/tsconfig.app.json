@@ -11,7 +11,7 @@
     "src/test.ts",
     "**/*.spec.ts"
   ],
-  "angularCompilerOptions": { //Enabling Ivy only in application not in spec
-    "enableIvy": true
+  "angularCompilerOptions": { // Enabling Ivy only in application not in spec
+    "enableIvy": false
   }
 }

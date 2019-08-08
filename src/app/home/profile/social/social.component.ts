@@ -1,9 +1,6 @@
 import {Component} from '@angular/core';
-
-interface ISocialNetwork {
-    link: string;
-    icon: string;
-}
+import {ISocialNetwork} from './social.model';
+import {SocialService} from './social.service';
 
 @Component({
     selector: 'app-social',
@@ -14,7 +11,10 @@ export class SocialComponent {
 
     socialNetworks: ISocialNetwork[] = [];
 
-    constructor() {
+    constructor(private socialService: SocialService) {
+        this.socialService.querySocialNetworks().subscribe((socialNetworks: ISocialNetwork[]) => {
+            console.log(socialNetworks);
+        });
         this.socialNetworks.push(
             {icon: 'fa-instagram', link: 'https://instagram.com/arnaugarcia97'},
             {icon: 'fa-twitter', link: 'https://twitter.com/arnaugarcia97'},

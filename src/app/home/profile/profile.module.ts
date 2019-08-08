@@ -5,6 +5,9 @@ import {SocialComponent} from './social/social.component';
 
 @NgModule({
     declarations: [ProfileComponent, SocialComponent],
+    exports: [
+        ProfileComponent
+    ],
     imports: [SharedModule]
 })
 export class ProfileModule {

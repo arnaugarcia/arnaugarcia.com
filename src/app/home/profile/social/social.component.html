@@ -1,0 +1,10 @@
+<h3 class="h4">{{'PROFILE.SOCIAL' | translate}}</h3>
+<ul class="widget-social" *ngIf="socialNetworks">
+    <li *ngFor="let social of socialNetworks">
+        <a [href]="social.link"
+           class="btn btn-sm social-button"
+           target="_blank">
+           <i [class]="'fa ' + social.icon"></i>
+        </a>
+    </li>
+</ul>

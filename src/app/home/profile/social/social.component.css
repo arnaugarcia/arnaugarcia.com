@@ -1,0 +1,30 @@
+.widget-social {
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.widget-social li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.widget-social li a {
+    background: #2e2e2e;
+    text-align: center;
+    display: block;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.25em;
+    transition-duration: 0.4s;
+    color: #FFF;
+}
+ul {
+    margin: 0 0 20px;
+}
+
+.social-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

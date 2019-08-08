@@ -9,13 +9,13 @@ export class ParticlesConstants {
                 }
             },
             'color': {
-                'value': '#42f477'
+                'value': '#4a90e2'
             },
             'shape': {
                 'type': 'circle',
                 'stroke': {
                     'width': 0,
-                    'color': '#42f477'
+                    'color': '#4a90e2'
                 },
                 'polygon': {
                     'nb_sides': 5
@@ -44,7 +44,7 @@ export class ParticlesConstants {
             'line_linked': {
                 'enable': true,
                 'distance': 150,
-                'color': '#42f477',
+                'color': '#4a90e2',
                 'opacity': 0.4,
                 'width': 1
             },

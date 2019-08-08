@@ -18,6 +18,7 @@
             "main": "src/app/app.main.ts",
             "polyfills": "src/app/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets",
@@ -25,7 +26,9 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/css/template.css"
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "src/assets/css/template.css",
+              "src/assets/css/template.blue.css"
             ],
             "scripts": []
           },

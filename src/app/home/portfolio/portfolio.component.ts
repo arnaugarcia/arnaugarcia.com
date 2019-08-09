@@ -1,19 +1,44 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {PortfolioService} from './portfolio.service';
+import {IPortfolioItem} from './portfolio.model';
 
 declare var $: any;
 
 @Component({
     selector: 'app-portfolio',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './portfolio.component.html',
     styleUrls: ['./portfolio.component.css'],
 })
 export class PortfolioComponent implements OnInit {
 
-    constructor() {
+    public portfolioItems: IPortfolioItem[] = [];
+
+    constructor(private portfolioService: PortfolioService) {
     }
 
     ngOnInit() {
+        this.portfolioService.query().subscribe((response: IPortfolioItem[]) => {
+            Object.keys(response).forEach((key) => {
+                let item: IPortfolioItem = {
+                    title: response[key].title,
+                    subtitle: response[key].subtitle,
+                    filters: [],
+                    imageUrl: response[key].imageUrl,
+                    link: response[key].link
+                };
+                if (response[key].filters) {
+                    response[key].filters.forEach((filter) => {
+                        console.log(filter);
+                        // item.filters.push(filter);
+                    });
+                }
+                this.portfolioItems.push(item);
+            });
+            this.initPortfolio();
+        });
+    }
+
+    private initPortfolio() {
         const filters = $('#filters'),
             worksgrid = $('.row-portfolio');
 
@@ -64,5 +89,4 @@ export class PortfolioComponent implements OnInit {
             });
         }).resize();
     }
-
 }

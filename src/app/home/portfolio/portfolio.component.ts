@@ -13,6 +13,7 @@ declare var $: any;
 export class PortfolioComponent implements OnInit {
 
     public portfolioItems: IPortfolioItem[] = [];
+    public filters: string[] = [];
 
     constructor(private portfolioService: PortfolioService) {
     }
@@ -22,6 +23,13 @@ export class PortfolioComponent implements OnInit {
             .pipe(map((response) => this.mapResponse(response)))
             .subscribe((items: IPortfolioItem[]) => {
                 this.portfolioItems = items;
+                this.portfolioItems.forEach((item) => {
+                    item.filters.forEach((filter) => {
+                        if (!this.filters.includes(filter)) {
+                            this.filters.push(filter);
+                        }
+                    });
+                });
                 this.initPortfolio();
             });
     }

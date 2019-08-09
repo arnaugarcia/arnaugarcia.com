@@ -1,4 +1,4 @@
-import {Component, ElementRef, OnInit, Renderer2, ViewChild} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {PortfolioService} from './portfolio.service';
 import {IPortfolioItem} from './portfolio.model';
 import {map} from 'rxjs/operators';
@@ -13,13 +13,8 @@ declare var $: any;
 export class PortfolioComponent implements OnInit {
 
     public portfolioItems: IPortfolioItem[] = [];
-    public filters: string[] = [];
 
-    @ViewChild('filtersRef', {static: true})
-    public filtersRef: ElementRef;
-
-    constructor(private portfolioService: PortfolioService,
-                private renderer: Renderer2) {
+    constructor(private portfolioService: PortfolioService) {
     }
 
     ngOnInit() {
@@ -81,21 +76,5 @@ export class PortfolioComponent implements OnInit {
         }).resize();
     }
 
-    onFilter($event, filter) {
-        Object.keys(this.filtersRef.nativeElement.children).forEach((key) => {
-            this.renderer.removeClass(this.filtersRef.nativeElement.children[key].childNodes[0], 'current');
-        });
-        this.renderer.addClass($event.target, 'current');
-        const worksgrid = $('.row-portfolio');
-        setTimeout(function () {
-            worksgrid.isotope({
-                filter: filter
-            });
-        }, 300);
-        $('.portfolio-item', worksgrid).css({
-            'will-change': '',
-            'transform': '',
-            'opacity': '',
-        });
-    }
+
 }

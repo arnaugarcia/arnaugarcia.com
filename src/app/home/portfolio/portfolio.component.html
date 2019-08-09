@@ -7,16 +7,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <ul class="filters h6" id="filters" #filtersRef>
-                <li><a class="current" (click)="onFilter($event, '*')">All</a></li>
-                <li *ngFor="let filter of filters">
-                    <a (click)="onFilter($event, '.' + filter)">{{filter}}</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <app-portfolio-filters></app-portfolio-filters>
 </div>
 <div class="container-fluid">
     <div class="row row-portfolio" data-columns="4">

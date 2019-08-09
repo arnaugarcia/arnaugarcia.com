@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {Component, ElementRef, OnInit, Renderer2, ViewChild} from '@angular/core';
 import {PortfolioService} from './portfolio.service';
 import {IPortfolioItem} from './portfolio.model';
 
@@ -12,8 +12,13 @@ declare var $: any;
 export class PortfolioComponent implements OnInit {
 
     public portfolioItems: IPortfolioItem[] = [];
+    public filters: string[] = [];
 
-    constructor(private portfolioService: PortfolioService) {
+    @ViewChild('filtersRef', {static: true})
+    public filtersRef: ElementRef;
+
+    constructor(private portfolioService: PortfolioService,
+                private renderer: Renderer2) {
     }
 
     ngOnInit() {
@@ -29,6 +34,9 @@ export class PortfolioComponent implements OnInit {
                 if (response[key].filters) {
                     response[key].filters.forEach((filter) => {
                         item.filters.push(filter);
+                        if (!this.filters.includes(filter)) {
+                            this.filters.push(filter);
+                        }
                     });
                 }
                 this.portfolioItems.push(item);
@@ -38,25 +46,7 @@ export class PortfolioComponent implements OnInit {
     }
 
     private initPortfolio() {
-        const filters = $('#filters'),
-            worksgrid = $('.row-portfolio');
-
-        $('a', filters).on('click', function () {
-            const selector = $(this).attr('data-filter');
-            $('.current', filters).removeClass('current');
-            $(this).addClass('current');
-            setTimeout(function () {
-                worksgrid.isotope({
-                    filter: selector
-                });
-            }, 300);
-            $('.portfolio-item', worksgrid).css({
-                'will-change': '',
-                'transform': '',
-                'opacity': '',
-            });
-            return false;
-        });
+        const worksgrid = $('.row-portfolio');
 
         const tilt = $('.js-tilt').tilt();
 
@@ -87,5 +77,23 @@ export class PortfolioComponent implements OnInit {
                 'opacity': '',
             });
         }).resize();
+    }
+
+    onFilter($event, filter) {
+        Object.keys(this.filtersRef.nativeElement.children).forEach((key) => {
+            this.renderer.removeClass(this.filtersRef.nativeElement.children[key].childNodes[0], 'current');
+        });
+        this.renderer.addClass($event.target, 'current');
+        const worksgrid = $('.row-portfolio');
+        setTimeout(function () {
+            worksgrid.isotope({
+                filter: filter
+            });
+        }, 300);
+        $('.portfolio-item', worksgrid).css({
+            'will-change': '',
+            'transform': '',
+            'opacity': '',
+        });
     }
 }

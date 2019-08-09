@@ -1,6 +1,7 @@
 import {Component, ElementRef, OnInit, Renderer2, ViewChild} from '@angular/core';
 import {PortfolioService} from './portfolio.service';
 import {IPortfolioItem} from './portfolio.model';
+import {map} from 'rxjs/operators';
 
 declare var $: any;
 
@@ -22,27 +23,27 @@ export class PortfolioComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.portfolioService.query().subscribe((response: IPortfolioItem[]) => {
-            Object.keys(response).forEach((key) => {
-                let item: IPortfolioItem = {
-                    title: response[key].title,
-                    subtitle: response[key].subtitle,
-                    filters: [],
-                    imageUrl: response[key].imageUrl,
-                    link: response[key].link
-                };
-                if (response[key].filters) {
-                    response[key].filters.forEach((filter) => {
-                        item.filters.push(filter);
-                        if (!this.filters.includes(filter)) {
-                            this.filters.push(filter);
-                        }
-                    });
-                }
-                this.portfolioItems.push(item);
+        this.portfolioService.query()
+            .pipe(map((response) => this.mapResponse(response)))
+            .subscribe((items: IPortfolioItem[]) => {
+                this.portfolioItems = items;
+                this.initPortfolio();
             });
-            this.initPortfolio();
+    }
+
+    private mapResponse(response) {
+        const items: IPortfolioItem[] = [];
+        Object.keys(response).forEach((key) => {
+            const item: IPortfolioItem = {
+                title: response[key].title,
+                subtitle: response[key].subtitle,
+                filters: response[key].filters,
+                imageUrl: response[key].imageUrl,
+                link: response[key].link
+            };
+            items.push(item);
         });
+        return items;
     }
 
     private initPortfolio() {

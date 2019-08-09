@@ -4,19 +4,19 @@ import {HOME_ROUTE} from './home.route';
 import {RouterModule} from '@angular/router';
 import {SharedModule} from '../shared/shared.module';
 import {HeaderComponent} from './header/header.component';
-import {PortfolioComponent} from './portfolio/portfolio.component';
 import {ProfileModule} from './profile/profile.module';
+import {PortfolioModule} from './portfolio/portfolio.module';
 
 @NgModule({
     imports: [
         SharedModule,
         RouterModule.forChild([HOME_ROUTE]),
-        ProfileModule
+        ProfileModule,
+        PortfolioModule
     ],
     declarations: [
         HomeComponent,
-        HeaderComponent,
-        PortfolioComponent,
+        HeaderComponent
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

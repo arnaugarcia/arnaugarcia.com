@@ -1,38 +1,57 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {PortfolioService} from './portfolio.service';
+import {IPortfolioItem} from './portfolio.model';
+import {map} from 'rxjs/operators';
 
 declare var $: any;
 
 @Component({
     selector: 'app-portfolio',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './portfolio.component.html',
     styleUrls: ['./portfolio.component.css'],
 })
 export class PortfolioComponent implements OnInit {
 
-    constructor() {
+    public portfolioItems: IPortfolioItem[] = [];
+    public filters: string[] = [];
+
+    constructor(private portfolioService: PortfolioService) {
     }
 
     ngOnInit() {
-        const filters = $('#filters'),
-            worksgrid = $('.row-portfolio');
-
-        $('a', filters).on('click', function () {
-            const selector = $(this).attr('data-filter');
-            $('.current', filters).removeClass('current');
-            $(this).addClass('current');
-            setTimeout(function () {
-                worksgrid.isotope({
-                    filter: selector
+        this.portfolioService.query()
+            .pipe(map((response) => this.mapResponse(response)))
+            .subscribe((items: IPortfolioItem[]) => {
+                this.portfolioItems = items;
+                this.portfolioItems.forEach((item) => {
+                    item.filters.forEach((filter) => {
+                        if (!this.filters.includes(filter)) {
+                            this.filters.push(filter);
+                        }
+                    });
                 });
-            }, 300);
-            $('.portfolio-item', worksgrid).css({
-                'will-change': '',
-                'transform': '',
-                'opacity': '',
+                this.initPortfolio();
             });
-            return false;
+    }
+
+    private mapResponse(response) {
+        const items: IPortfolioItem[] = [];
+        Object.keys(response).forEach((key) => {
+            const item: IPortfolioItem = {
+                title: response[key].title,
+                subtitle: response[key].subtitle,
+                filters: response[key].filters,
+                imageUrl: response[key].imageUrl,
+                link: response[key].link,
+                large: response[key].large
+            };
+            items.push(item);
         });
+        return items;
+    }
+
+    private initPortfolio() {
+        const worksgrid = $('.row-portfolio');
 
         const tilt = $('.js-tilt').tilt();
 
@@ -64,5 +83,6 @@ export class PortfolioComponent implements OnInit {
             });
         }).resize();
     }
+
 
 }

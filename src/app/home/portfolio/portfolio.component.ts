@@ -28,8 +28,7 @@ export class PortfolioComponent implements OnInit {
                 };
                 if (response[key].filters) {
                     response[key].filters.forEach((filter) => {
-                        console.log(filter);
-                        // item.filters.push(filter);
+                        item.filters.push(filter);
                     });
                 }
                 this.portfolioItems.push(item);

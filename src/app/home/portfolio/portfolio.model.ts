@@ -4,4 +4,5 @@ export interface IPortfolioItem {
     title: string;
     subtitle: string;
     link: string;
+    large: boolean;
 }

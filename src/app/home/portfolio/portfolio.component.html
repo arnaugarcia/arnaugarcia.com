@@ -21,7 +21,10 @@
 <div class="container-fluid">
     <div class="row row-portfolio" data-columns="4">
         <div class="grid-sizer"></div>
-        <div class="portfolio-item js-tilt large" *ngFor="let item of portfolioItems" [ngClass]="item.filters">
+        <div class="portfolio-item js-tilt"
+             *ngFor="let item of portfolioItems"
+             [ngClass]="item.filters"
+             [class.large]="item.large">
             <div class="portfolio-wrapper">
                 <div class="portfolio-img-wrap" [style.background-image]="'url(' + item.imageUrl + ')'"></div>
                 <div class="portfolio-overlay"></div>

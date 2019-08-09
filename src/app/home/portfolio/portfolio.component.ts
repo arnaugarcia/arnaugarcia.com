@@ -39,7 +39,8 @@ export class PortfolioComponent implements OnInit {
                 subtitle: response[key].subtitle,
                 filters: response[key].filters,
                 imageUrl: response[key].imageUrl,
-                link: response[key].link
+                link: response[key].link,
+                large: response[key].large
             };
             items.push(item);
         });

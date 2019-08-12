@@ -2,8 +2,8 @@
     <div class="row">
         <div class="col-md-12">
             <div class="m-title c-align">
-                <h2>My Projects and milestones</h2>
-                <h6>An eye for detail makes our works excellent</h6>
+                <h2>{{'PORTFOLIO.TITLE' | translate}}</h2>
+                <!--<h6>{{'PORTFOLIO.SUBTITLE' | translate}}</h6>-->
             </div>
         </div>
     </div>
@@ -20,8 +20,8 @@
                 <div class="portfolio-img-wrap" [style.background-image]="'url(' + item.imageUrl + ')'"></div>
                 <div class="portfolio-overlay"></div>
                 <div class="portfolio-caption">
-                    <h5 class="portfolio-title">{{item.title}}</h5>
-                    <h6 class="portfolio-subtitle">{{item.subtitle}}</h6>
+                    <h5 class="portfolio-title">{{item.title | translate}}</h5>
+                    <h6 class="portfolio-subtitle">{{item.subtitle | translate}}</h6>
                 </div>
             </div>
             <a class="portfolio-link" [href]="item.link" scrollTo></a>

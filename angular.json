@@ -28,7 +28,8 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/font-awesome/css/font-awesome.min.css",
               "src/assets/css/template.css",
-              "src/assets/css/template.blue.css"
+              "src/assets/css/template.blue.css",
+              "src/assets/css/et-line.css"
             ],
             "scripts": []
           },

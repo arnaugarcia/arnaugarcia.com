@@ -29,9 +29,13 @@
               "node_modules/font-awesome/css/font-awesome.min.css",
               "src/assets/css/template.css",
               "src/assets/css/template.blue.css",
-              "src/assets/css/et-line.css"
+              "src/assets/css/et-line.css",
+              "./node_modules/owl.carousel/dist/assets/owl.carousel.css",
+              "./node_modules/owl.carousel/dist/assets/owl.theme.default.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/owl.carousel/dist/owl.carousel.js"
+            ]
           },
           "configurations": {
             "production": {

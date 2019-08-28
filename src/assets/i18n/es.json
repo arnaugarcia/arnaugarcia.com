@@ -155,15 +155,6 @@
 		"TITLE": "Lo que me encanta hacer"
 	},
 	"TECHNOLOGIES": {
-		"TECHNOLOGY1": "Java",
-		"TECHNOLOGY2": "Spring",
-		"TECHNOLOGY3": "JHipster",
-		"TECHNOLOGY4": "Angular 6",
-		"TECHNOLOGY5": "Jenkins",
-		"TECHNOLOGY6": "Git",
-		"TECHNOLOGY7": "Bootstrap",
-		"TECHNOLOGY8": "JavaScript",
-		"TECHNOLOGY9": "MySql",
-		"TITLE": "Tecnologías que he aprendido"
+		"TITLE": "Tecnologías, frameworks y proyectos."
 	}
 }

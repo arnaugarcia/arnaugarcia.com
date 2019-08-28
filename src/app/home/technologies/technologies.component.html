@@ -1,7 +1,7 @@
 <!-- Technologies -->
 <div class="row">
   <div class="col-md-12">
-    <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme']">
+    <owl-carousel [options]="carouselOptions" [items]="technologies">
       <div class="client" *ngFor="let image of images; let i = index">
         <img src="{{image.image}}">
       </div>

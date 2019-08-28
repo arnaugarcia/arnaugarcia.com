@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CarouselConstants} from './carousel.constants';
+import {TechnologiesService} from './technologies.service';
+import {ITechnology} from './technology.model';
 
 @Component({
   selector: 'app-technologies',
@@ -10,24 +12,12 @@ export class TechnologiesComponent implements OnInit {
 
   carouselOptions = CarouselConstants.carouselConfig;
 
-  images = [
-    {
-      image: '/assets/images/technologies/java.svg'
-    },
-    {
-      image: '/assets/images/technologies/spring.svg'
-    },
-    {
-      image: '/assets/images/technologies/angular.svg'
-    },
-    {
-      image: '/assets/images/technologies/jhipster.svg'
-    }
-  ];
+    technologies: ITechnology[] = [];
 
-  constructor() { }
+  constructor(private technologiesService: TechnologiesService) { }
 
   ngOnInit() {
+      this.technologies = this.technologiesService.query();
   }
 
 }

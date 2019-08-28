@@ -1,11 +1,16 @@
 <!-- Technologies -->
 <div class="row">
-  <div class="col-md-12">
-    <owl-carousel [options]="carouselOptions" [items]="technologies">
-      <div class="client" *ngFor="let image of images; let i = index">
-        <img src="{{image.image}}">
-      </div>
-    </owl-carousel>
-  </div>
+    <div class="col-md-12">
+        <div class="m-title c-align">
+            <h2>{{'TECHNOLOGIES.TITLE' | translate}}</h2>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <owl-carousel [options]="carouselOptions" [items]="technologies">
+            <div class="client" *ngFor="let technology of technologies">
+                <img src="{{technology.image}}" [alt]="technology.title">
+            </div>
+        </owl-carousel>
+    </div>
 </div>
 <!-- Technologies end-->

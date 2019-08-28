@@ -155,15 +155,6 @@
 		"TITLE": "Allò que m'encanta fer"
 	},
 	"TECHNOLOGIES": {
-		"TECHNOLOGY1": "Java",
-		"TECHNOLOGY2": "Spring",
-		"TECHNOLOGY3": "JHipster",
-		"TECHNOLOGY4": "Angular 6",
-		"TECHNOLOGY5": "Jenkins",
-		"TECHNOLOGY6": "Git",
-		"TECHNOLOGY7": "Bootstrap",
-		"TECHNOLOGY8": "JavaScript",
-		"TECHNOLOGY9": "MySql",
-		"TITLE": "Tecnologies que he après"
+		"TITLE": "Tecnologies, frameworks i projectes"
 	}
 }

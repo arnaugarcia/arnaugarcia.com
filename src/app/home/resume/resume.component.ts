@@ -1,17 +1,12 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-resume',
   templateUrl: './resume.component.html',
   styleUrls: ['./resume.component.css']
 })
-export class ResumeComponent implements OnInit {
+export class ResumeComponent {
 
-  items: number[] = [0, 1, 2, 3];
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+  items: number[] = Array.from(Array(4).keys());
 
 }

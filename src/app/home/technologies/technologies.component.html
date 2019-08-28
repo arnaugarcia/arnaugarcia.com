@@ -8,7 +8,10 @@
     <div class="col-md-12">
         <owl-carousel [options]="carouselOptions" [items]="technologies">
             <div class="client" *ngFor="let technology of technologies">
-                <img src="{{technology.image}}" [alt]="technology.title">
+                <picture>
+                    <source [srcset]="'assets/images/technologies/' + technology.imageName + '.webp'" type="image/webp">
+                    <img [srcset]="'assets/images/technologies/' + technology.imageName + '.png'" [alt]="technology.title">
+                </picture>
             </div>
         </owl-carousel>
     </div>

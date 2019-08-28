@@ -10,59 +10,59 @@ export class TechnologiesService {
         return [
             {
                 title: 'Java logo',
-                image: '/assets/images/technologies/java.png'
+                imageName: 'java'
             },
             {
                 title: 'Spring logo',
-                image: '/assets/images/technologies/spring.svg'
+                imageName: 'spring'
             },
             {
                 title: 'Angular logo',
-                image: '/assets/images/technologies/angular.svg'
+                imageName: 'angular'
             },
             {
                 title: 'Jhipster logo',
-                image: '/assets/images/technologies/jhipster.png'
+                imageName: 'jhipster'
             },
             {
                 title: 'AWS logo',
-                image: '/assets/images/technologies/aws.png'
+                imageName: 'aws'
             },
             {
                 title: 'Hibernate logo',
-                image: '/assets/images/technologies/hibernate.png'
+                imageName: 'hibernate'
             },
             {
                 title: 'Jenkins logo',
-                image: '/assets/images/technologies/jenkins.png'
+                imageName: 'jenkins'
             },
             {
                 title: 'MySQL logo',
-                image: '/assets/images/technologies/mysql.png'
+                imageName: 'mysql'
             },
             {
                 title: 'MongoDB logo',
-                image: '/assets/images/technologies/mongodb.svg'
+                imageName: 'mongodb'
             },
             {
                 title: 'NodeJS logo',
-                image: '/assets/images/technologies/nodejs.png'
+                imageName: 'nodejs'
             },
             {
                 title: 'Docker logo',
-                image: '/assets/images/technologies/docker.png'
+                imageName: 'docker'
             },
             {
                 title: 'Kubernetes logo',
-                image: '/assets/images/technologies/kubernetes.png'
+                imageName: 'kubernetes'
             },
             {
                 title: 'Netflix OSS logo',
-                image: '/assets/images/technologies/netflixoss.png'
+                imageName: 'netflixoss'
             },
             {
                 title: 'Google Cloud logo',
-                image: '/assets/images/technologies/googlecloud.png'
+                imageName: 'googlecloud'
             }
         ];
   }

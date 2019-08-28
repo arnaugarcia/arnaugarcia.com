@@ -12,27 +12,21 @@ export class TechnologiesComponent implements OnInit {
     nav: false,
     dots: false,
     autoplay: true,
-    rewind: true,
+    loop: true,
     autoplayTimeout: 3000,
     responsiveClass: true,
     responsive: {
       0: {
-        items: 1,
-        nav: true
+        items: 1
       },
       600: {
-        items: 1,
-        nav: true
+        items: 1
       },
       1000: {
-        items: 2,
-        nav: true,
-        loop: false
+        items: 2
       },
       1500: {
-        items: 3,
-        nav: true,
-        loop: false
+        items: 3
       }
     }
   };
@@ -42,19 +36,13 @@ export class TechnologiesComponent implements OnInit {
       image: '/assets/images/technologies/java.svg'
     },
     {
-      image: '/assets/images/technologies/java.svg'
+      image: '/assets/images/technologies/spring.svg'
     },
     {
-      image: '/assets/images/technologies/java.svg'
+      image: '/assets/images/technologies/angular.svg'
     },
     {
-      image: '/assets/images/technologies/java.svg'
-    },
-    {
-      image: '/assets/images/technologies/java.svg'
-    },
-    {
-      image: '/assets/images/technologies/java.svg'
+      image: '/assets/images/technologies/jhipster.svg'
     }
   ];
 

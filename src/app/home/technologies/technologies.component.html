@@ -1,9 +1,9 @@
 <!-- Technologies -->
 <div class="row">
   <div class="col-md-12">
-    <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
-      <div class="item" *ngFor="let image of images; let i = index">
-        <img class="slide-image" src="{{image.image}}">
+    <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme']">
+      <div class="client" *ngFor="let image of images; let i = index">
+        <img src="{{image.image}}">
       </div>
     </owl-carousel>
   </div>

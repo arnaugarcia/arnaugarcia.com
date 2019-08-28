@@ -1,18 +1,29 @@
 import {Injectable} from '@angular/core';
-import {Observable} from 'rxjs';
 import {ISocialNetwork} from './social.model';
-import {HttpClient} from '@angular/common/http';
-import {environment} from '../../../../environments/environment';
 
 @Injectable({
     providedIn: 'root'
 })
 export class SocialService {
 
-    constructor(private http: HttpClient) {
-    }
-
-    public querySocialNetworks(): Observable<ISocialNetwork[]> {
-        return this.http.get<ISocialNetwork[]>(`${environment.apiUrl}/social-networks.json`);
+    public querySocialNetworks(): ISocialNetwork[] {
+        return [
+            {
+                'icon': 'fa-github',
+                'link': 'https://github.com/arnaugarcia'
+            },
+            {
+                'icon': 'fa-instagram',
+                'link': 'https://twitter.com/arnaugarcia97'
+            },
+            {
+                'icon': 'fa-linkedin',
+                'link': 'https://www.linkedin.com/in/arnaugarciagallego/'
+            },
+            {
+                'icon': 'fa-twitter',
+                'link': 'https://twitter.com/arnaugarcia97'
+            }
+        ];
     }
 }

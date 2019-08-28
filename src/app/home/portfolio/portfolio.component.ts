@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {PortfolioService} from './portfolio.service';
 import {IPortfolioItem} from './portfolio.model';
-import {map} from 'rxjs/operators';
 
 declare var $: any;
 
@@ -19,35 +18,15 @@ export class PortfolioComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.portfolioService.query()
-            .pipe(map((response) => this.mapResponse(response)))
-            .subscribe((items: IPortfolioItem[]) => {
-                this.portfolioItems = items;
-                this.portfolioItems.forEach((item) => {
-                    item.filters.forEach((filter) => {
-                        if (!this.filters.includes(filter)) {
-                            this.filters.push(filter);
-                        }
-                    });
-                });
-                this.initPortfolio();
+        this.portfolioItems = this.portfolioService.query();
+        this.portfolioItems.forEach((item) => {
+            item.filters.forEach((filter) => {
+                if (!this.filters.includes(filter)) {
+                    this.filters.push(filter);
+                }
             });
-    }
-
-    private mapResponse(response) {
-        const items: IPortfolioItem[] = [];
-        Object.keys(response).forEach((key) => {
-            const item: IPortfolioItem = {
-                title: response[key].title,
-                subtitle: response[key].subtitle,
-                filters: response[key].filters,
-                imageUrl: response[key].imageUrl,
-                link: response[key].link,
-                large: response[key].large
-            };
-            items.push(item);
         });
-        return items;
+        this.initPortfolio();
     }
 
     private initPortfolio() {

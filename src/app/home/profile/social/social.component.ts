@@ -15,11 +15,7 @@ export class SocialComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        this.socialService
-            .querySocialNetworks()
-            .subscribe(response => {
-                this.socialNetworks.push(...Object.values(response));
-            });
+        this.socialNetworks = this.socialService.querySocialNetworks();
     }
 
 }

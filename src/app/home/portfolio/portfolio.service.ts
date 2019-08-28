@@ -1,7 +1,4 @@
 import {Injectable} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import {Observable} from 'rxjs';
-import {environment} from '../../../environments/environment';
 import {IPortfolioItem} from './portfolio.model';
 
 @Injectable({
@@ -9,10 +6,43 @@ import {IPortfolioItem} from './portfolio.model';
 })
 export class PortfolioService {
 
-    constructor(private http: HttpClient) {
-    }
+    public query(): IPortfolioItem[] {
+        return [
+            {
+                'filters': ['web'],
+                'imageUrl': 'assets/img/arnaugarcia.webp',
+                'link': '#profile',
+                'subtitle': 'PORTFOLIO.ITEMS.ITEM1.SUBTITLE',
+                'title': 'PORTFOLIO.ITEMS.ITEM1.TITLE',
+                large: false
+            },
+            {
+                'filters': ['arnau'],
+                'imageUrl': 'assets/img/arnaugarcia.webp',
+                'link': '#portfolio',
+                'subtitle': 'PORTFOLIO.ITEMS.ITEM2.SUBTITLE',
+                'title': 'PORTFOLIO.ITEMS.ITEM2.TITLE',
+                large: false
 
-    public query(): Observable<IPortfolioItem[]> {
-        return this.http.get<IPortfolioItem[]>(`${environment.apiUrl}/portfolio.json`);
+            },
+            {
+                'filters': ['angular'],
+                'imageUrl': 'https://angular.io/assets/images/logos/angular/angular.svg',
+                'link': '#home',
+                'subtitle': 'PORTFOLIO.ITEMS.ITEM3.SUBTITLE',
+                'title': 'PORTFOLIO.ITEMS.ITEM3.TITLE',
+                large: false
+
+            },
+            {
+                'filters': ['jhipster', 'angular'],
+                'imageUrl': 'https://www.jhipster.tech/images/logo/jhipster_family_member_0.svg',
+                'link': '#contact',
+                'subtitle': 'PORTFOLIO.ITEMS.ITEM4.SUBTITLE',
+                'title': 'PORTFOLIO.ITEMS.ITEM4.TITLE',
+                large: false
+
+            }
+        ];
     }
 }

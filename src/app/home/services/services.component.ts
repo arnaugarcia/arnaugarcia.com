@@ -15,9 +15,7 @@ export class ServicesComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.servicesService.queryServices().subscribe(response => {
-            this.services.push(...Object.values(response));
-        });
+        this.services = this.servicesService.queryServices();
     }
 
 }

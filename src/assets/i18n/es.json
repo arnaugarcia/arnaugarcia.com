@@ -107,57 +107,19 @@
 	},
 	"RESUME": {
 		"CV-BUTTON": "Descarga CV",
-		"EXPERIENCE": {
-			"TITLE": "Experiencia",
-			"WORKS": {
-				"WORK1": {
-					"PARAGRAPH": "Reparación, montaje y puesta a punto de los equipos de la empresa. Monitorización de la red para un uso adecuado",
-					"TITLE": "Administrador de Sistemas",
-					"WHERE": "CESF",
-					"YEAR": "2014 - 2015"
-				},
-				"WORK2": {
-					"PARAGRAPH": "Diseño de la página web y despliegue de la misma",
-					"TITLE": "Diseño/maquetación web",
-					"WHERE": "Citsalp S.L",
-					"YEAR": "2015 - 2016"
-				},
-				"WORK3": {
-					"PARAGRAPH": "Diseño de la página web y creación de una intranet para el restaurante, con menús editables a través de la web",
-					"TITLE": "Desarollador web",
-					"WHERE": "Can Balasch de Baix",
-					"YEAR": "2016 - 2017"
-				},
-				"WORK4": {
-					"PARAGRAPH": "Programación de una plataforma web para una inmobiliaria de Torrelles de Llobregat",
-					"TITLE": "Programador web",
-					"WHERE": "AssessoriaTorrelles",
-					"YEAR": "2016 - 2017"
-				}
-			}
-		},
-		"STUDY": {
-			"STUDIES": {
-				"STUDY1": {
-					"PARAGRAPH": "Estudié en STUCOM un grado medio de informática enfocado a la administradción de sistemas y al uso de las nuevas tecnologías",
-					"TITLE": "Técnico microinformático",
-					"WHERE": "STUCOM",
-					"YEAR": "2013 - 2015"
-				},
-				"STUDY2": {
-					"PARAGRAPH": "Grado superior de desarollo web donde he aprendido varias tecnologías web",
-					"TITLE": "Desarollo web",
-					"WHERE": "STUCOM",
-					"YEAR": "2015 - 2017"
-				},
-				"STUDY3": {
-					"PARAGRAPH": "Grado superior de desarrollo web donde aprenderé a programar aplicaciones en Android/IOS y profundizar con Spring",
-					"TITLE": "Desarollo multiplataforma",
-					"WHERE": "STUCOM",
-					"YEAR": "2017 - ACTUAL"
-				}
+		"ITEMS": {
+			"0": {
+				"DESCRIPTION": "Mapa de donde se tomaron sus fotos y descubrir puntos de interés locales. Mapa donde tus fotos. Mapa de donde se tomaron sus fotos y descubrir puntos de interés locales.",
+				"SUBTITLE": "Universidad Stanford",
+				"TITLE": "Ciencias de la Computación",
+				"YEAR": "1998-2004"
 			},
-			"TITLE": "Estudios"
+			"1": {
+				"DESCRIPTION": "Lorem ipsum dolor sentarse amet et morin fiu sempre",
+				"SUBTITLE": "",
+				"TITLE": "",
+				"YEAR": ""
+			}
 		},
 		"SUBTITLE": "Mi educación y mi experiencia",
 		"TITLE": "Resumen"

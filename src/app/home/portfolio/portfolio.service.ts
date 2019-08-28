@@ -10,7 +10,7 @@ export class PortfolioService {
         return [
             {
                 'filters': ['web'],
-                'imageUrl': 'assets/img/arnaugarcia.webp',
+                'imageUrl': 'assets/images/arnaugarcia.webp',
                 'link': '#profile',
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM1.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM1.TITLE',
@@ -18,7 +18,7 @@ export class PortfolioService {
             },
             {
                 'filters': ['arnau'],
-                'imageUrl': 'assets/img/arnaugarcia.webp',
+                'imageUrl': 'assets/images/arnaugarcia.webp',
                 'link': '#portfolio',
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM2.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM2.TITLE',

@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="m-title c-align">
+        <h2>{{'RESUME.TITLE' | translate}}</h2>
+        <h6>{{'RESUME.SUBTITLE' | translate}}</h6>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="timeline">
+        <li *ngFor="let number of items">
+          <div class="timeline-badge"></div>
+          <div class="timeline-panel">
+            <div class="timeline-preview">
+              <img [src]="'https://www.jhipster.tech/images/logo/jhipster_family_member_' + number + '.svg'" [alt]="'RESUME.ITEMS.0.TITLE' | translate">
+            </div>
+            <div class="timeline-body">
+              <h5 class="timeline-title">{{'RESUME.ITEMS.' + number + '.TITLE' | translate}}</h5>
+              <h6 class="timeline-description">{{'RESUME.ITEMS.' + number + '.SUBTITLE' | translate}} | {{'RESUME.ITEMS.' + number + '.YEAR' | translate}}</h6>
+              <p>{{'RESUME.ITEMS.' + number + '.DESCRIPTION' | translate}}</p>
+            </div>
+          </div>
+        </li>
+        <div class="timeline-top"></div>
+      </ul>
+      <div class="text-center">
+        <a class="btn btn-lg btn-gray" href="#">
+          <span>{{'RESUME.CV-BUTTON' | translate}}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

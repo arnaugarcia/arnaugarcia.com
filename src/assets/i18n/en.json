@@ -107,57 +107,19 @@
 	},
 	"RESUME": {
 		"CV-BUTTON": "Download CV",
-		"EXPERIENCE": {
-			"TITLE": "Professional experience",
-			"WORKS": {
-				"WORK1": {
-					"PARAGRAPH": "Company's computer equipment repair, assembly and tune. Network monitoring to achieve an appropiate use",
-					"TITLE": "System administration",
-					"WHERE": "CESF",
-					"YEAR": "2014 - 2015"
-				},
-				"WORK2": {
-					"PARAGRAPH": "Website design and display",
-					"TITLE": "Web design/layout",
-					"WHERE": "Citsalp S.L",
-					"YEAR": "2015 - 2016"
-				},
-				"WORK3": {
-					"PARAGRAPH": "Website design and creation of an intranet for the restaurant, with editable menus via website",
-					"TITLE": "Web Developer",
-					"WHERE": "Can Balasch de Baix",
-					"YEAR": "2016 - 2017"
-				},
-				"WORK4": {
-					"PARAGRAPH": "Programming of a web platform for a real state agency from Torrelles de Llobregat",
-					"TITLE": "Web Programmer",
-					"WHERE": "AssessoriaTorrelles",
-					"YEAR": "2016 - 2017"
-				}
-			}
-		},
-		"STUDY": {
-			"STUDIES": {
-				"STUDY1": {
-					"PARAGRAPH": "I studied a VET course of computer focusing on system administration and use of new technologies in STUCOM",
-					"TITLE": "Microcomputer technician",
-					"WHERE": "STUCOM",
-					"YEAR": "2013 - 2015"
-				},
-				"STUDY2": {
-					"PARAGRAPH": "I studied a HNC of web development and I learned different web technologies",
-					"TITLE": "Web Development",
-					"WHERE": "STUCOM",
-					"YEAR": "2015 - 2017"
-				},
-				"STUDY3": {
-					"PARAGRAPH": "I am studing a HNC of web development and I am going to learn to programme applictions on Android/IOS and go into detail about Spring",
-					"TITLE": "Multiplatform Development",
-					"WHERE": "STUCOM",
-					"YEAR": "2017 - CURRENT"
-				}
+		"ITEMS": {
+			"0": {
+				"DESCRIPTION": "Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest.",
+				"SUBTITLE": "Stanford University",
+				"TITLE": "Computer Science",
+				"YEAR": "1998-2004"
 			},
-			"TITLE": "Education"
+			"1": {
+				"DESCRIPTION": "Lorem ipsum dolor sit amet et morin fiu sempre",
+				"SUBTITLE": "Stanford University2",
+				"TITLE": "Computer Science2",
+				"YEAR": "1998-2019"
+			}
 		},
 		"SUBTITLE": "Education and experience",
 		"TITLE": "Summary"

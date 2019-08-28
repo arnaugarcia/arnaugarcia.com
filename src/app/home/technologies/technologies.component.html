@@ -1,12 +1,11 @@
 <!-- Technologies -->
 <div class="row">
   <div class="col-md-12">
-    <div class="owl-carousel clients-carousel">
-      <div class="client"><a href="#"><img src="#" alt=""></a></div>
-      <div class="client"><a href="#"><img src="#" alt=""></a></div>
-      <div class="client"><a href="#"><img src="#" alt=""></a></div>
-      <div class="client"><a href="#"><img src="#" alt=""></a></div>
-    </div>
+    <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+      <div class="item" *ngFor="let image of images; let i = index">
+        <img class="slide-image" src="{{image.image}}">
+      </div>
+    </owl-carousel>
   </div>
 </div>
 <!-- Technologies end-->

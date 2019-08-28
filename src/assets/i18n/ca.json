@@ -107,57 +107,19 @@
 	},
 	"RESUME": {
 		"CV-BUTTON": "Descarrega CV",
-		"EXPERIENCE": {
-			"TITLE": "Experiència",
-			"WORKS": {
-				"WORK1": {
-					"PARAGRAPH": "Reparació, montatge i posada al punt dels equips de l'empresa. Monitorizació de la xarxa per a un ús adequat",
-					"TITLE": "Administrador de Sistemes",
-					"WHERE": "CESF",
-					"YEAR": "2014 - 2015"
-				},
-				"WORK2": {
-					"PARAGRAPH": "Disseny i desplegament de la pàgina web",
-					"TITLE": "Disseny/maquetació web",
-					"WHERE": "Citsalp S.L",
-					"YEAR": "2015 - 2016"
-				},
-				"WORK3": {
-					"PARAGRAPH": "Disseny de la pàgina web i creació d'una intranet per al restaurant, amb menús editables a través de la web",
-					"TITLE": "Desenvolupament web",
-					"WHERE": "Can Balasch de Baix",
-					"YEAR": "2016 - 2017"
-				},
-				"WORK4": {
-					"PARAGRAPH": "Programació d'una plataforma web per a una immobiliària de Torrelles de Llobregat",
-					"TITLE": "Programador web",
-					"WHERE": "AssessoriaTorrelles",
-					"YEAR": "2016 - 2017"
-				}
-			}
-		},
-		"STUDY": {
-			"STUDIES": {
-				"STUDY1": {
-					"PARAGRAPH": "Vaig estudiar a STUCOM un grau mig d'informática enfocat a l'administradció de sistemes i a l'ús de les noves tecnologies",
-					"TITLE": "Tècnic microinformàtic",
-					"WHERE": "STUCOM",
-					"YEAR": "2013 - 2015"
-				},
-				"STUDY2": {
-					"PARAGRAPH": "Grau superior de desenvolupament web en què he après diverses tecnologies web",
-					"TITLE": "Desenvolupament web",
-					"WHERE": "STUCOM",
-					"YEAR": "2015 - 2017"
-				},
-				"STUDY3": {
-					"PARAGRAPH": "Grau superior de desenvolupament web en què aprendré a programar aplicacions d'Android/IOS i profunditzar en Spring",
-					"TITLE": "Desenvolupament multiplataforma",
-					"WHERE": "STUCOM",
-					"YEAR": "2017 - ACTUAL"
-				}
+		"ITEMS": {
+			"0": {
+				"DESCRIPTION": "",
+				"SUBTITLE": "",
+				"TITLE": "",
+				"YEAR": ""
 			},
-			"TITLE": "Estudis"
+			"1": {
+				"DESCRIPTION": "",
+				"SUBTITLE": "",
+				"TITLE": "",
+				"YEAR": ""
+			}
 		},
 		"SUBTITLE": "Educació i experiència",
 		"TITLE": "Resum"

@@ -1,3 +1,9 @@
-<agm-map class="map" [latitude]="41.3559809" [longitude]="1.97556" [zoom]="13" [scrollwheel]="false" [styles]="styles">
-  <agm-marker [latitude]="41.3559809" [longitude]="1.97556" [iconUrl]="'assets/images/map-icon.png'"></agm-marker>
+<agm-map class="map"
+         [latitude]="latitude"
+         [longitude]="longitude"
+         [zoom]="zoom"
+         [scrollwheel]="false"
+         [styles]="styles"
+         [zoomControl]="false">
+  <agm-marker [latitude]="latitude" [longitude]="longitude" [iconUrl]="iconUrl"></agm-marker>
 </agm-map>

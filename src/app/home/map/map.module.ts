@@ -2,13 +2,14 @@ import {NgModule} from '@angular/core';
 import {MapComponent} from './map.component';
 import {SharedModule} from '../../shared/shared.module';
 import {AgmCoreModule} from '@agm/core';
+import {environment} from '../../../environments/environment';
 
 @NgModule({
     declarations: [MapComponent],
     imports: [
         SharedModule,
         AgmCoreModule.forRoot({
-            apiKey: 'AIzaSyCMQddpPC_tiNchIMM9Gp3YPYnZM_e_i2Y'
+            apiKey: environment.googleMapsApiKey
         })
     ],
     exports: [

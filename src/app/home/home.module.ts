@@ -9,6 +9,7 @@ import {PortfolioModule} from './portfolio/portfolio.module';
 import {ServicesModule} from './services/services.module';
 import {ResumeModule} from './resume/resume.module';
 import {TechnologiesModule} from './technologies/technologies.module';
+import {MapModule} from './map/map.module';
 
 @NgModule({
     imports: [
@@ -18,7 +19,8 @@ import {TechnologiesModule} from './technologies/technologies.module';
         PortfolioModule,
         ServicesModule,
         ResumeModule,
-        TechnologiesModule
+        TechnologiesModule,
+        MapModule
     ],
     declarations: [
         HomeComponent,

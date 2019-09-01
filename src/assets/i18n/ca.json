@@ -13,10 +13,11 @@
 		"ADDRESS": "08629 - Torrelles de Llobregat",
 		"EMAIL": "arnau.garcia.gallego@gmail.com",
 		"FORM": {
-			"BUTTON": "Enviar!",
+			"BUTTON": "Enviar missatge!",
 			"EMAIL": "Correu electrònic",
 			"MESSAGE": "El teu missatge",
-			"NAME": "Nom"
+			"NAME": "Nom",
+			"PHONE": "Telèfon"
 		},
 		"PHONE": "692 46 46 45",
 		"SUBTITLE": "Pots contactar amb mi enviant-me un email per aquí o per telèfon",

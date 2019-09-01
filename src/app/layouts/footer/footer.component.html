@@ -8,7 +8,7 @@
                 <ul class="social-icons">
                     <li *ngFor="let socialNetwork of socialNetworks | iconSquare: excludedNetworks">
                         <a [href]="socialNetwork.link" target="_blank">
-                            <i [class]="'fa fa-' + socialNetwork.icon"></i>
+                            <i [class]="'fa ' + socialNetwork.icon"></i>
                         </a>
                     </li>
                 </ul>

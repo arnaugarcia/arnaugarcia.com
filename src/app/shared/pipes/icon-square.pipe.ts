@@ -14,8 +14,7 @@ export class IconSquarePipe implements PipeTransform {
     }
 
     transform(value: ISocialNetwork[], excludedIconsClass?: string[]): ISocialNetwork[] {
-        value
-            .filter(socialNetwork => !excludedIconsClass.includes(socialNetwork.icon))
+      value.filter(socialNetwork => !excludedIconsClass.includes(socialNetwork.icon))
             .map(IconSquarePipe.addSquare());
         return value;
     }

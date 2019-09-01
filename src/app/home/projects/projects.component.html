@@ -4,21 +4,25 @@
 
       <!-- Post-->
       <article class="post" *ngFor="let project of projects">
+
         <div class="post-preview">
-          <a href="#"><img src="assets/images/projects/iot_car.png" alt="IOT Car"></a>
-          <div class="post-category"><a href="#">IOT</a></div>
+          <a [href]="project.link">
+            <img [src]="project.image" [alt]="project.imageDescription | translate">
+          </a>
+          <div class="post-category">
+            <a [href]="project.link" *ngFor="let category of project.categories">{{category | translate}} </a>
+          </div>
         </div>
         <div class="post-wrapper">
           <div class="post-header">
             <h2 class="post-title">
-              <a href="http://blog.arnaugarcia.com/connected-car">Connected Car | IOT</a>
+              <a [href]="project.link">{{project.title | translate}}</a>
             </h2>
           </div>
           <div class="post-content">
-            <p>Using Spring Flow, Web Flux and Angular I've started a new project that have the aim to make almost any car a connected car using the OBD2 port. The project consist in a IOT platform developed using spring that generates an RESTAFUL API that can be used in any application like (Android, iOS, Web applications...).</p>
+            <p>{{project.description | translate}}</p>
           </div>
         </div>
-        <div class="post-info"><a href="http://blog.arnaugarcia.com/connected-car">La Salle</a> September 1, 2019</div>
       </article>
       <!-- Post end-->
     </div>

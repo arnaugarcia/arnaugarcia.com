@@ -9,6 +9,7 @@ import {ProjectsService} from './projects.service';
 })
 export class ProjectsComponent implements OnInit {
     projects: IProject[] = [];
+    show = 3;
 
     constructor(private projectsService: ProjectsService) {
     }
@@ -17,4 +18,7 @@ export class ProjectsComponent implements OnInit {
         this.projects = this.projectsService.query();
     }
 
+    showAllProjects() {
+        this.show = this.projects.length;
+    }
 }

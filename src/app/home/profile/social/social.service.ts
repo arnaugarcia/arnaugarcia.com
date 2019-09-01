@@ -9,19 +9,19 @@ export class SocialService {
     public querySocialNetworks(): ISocialNetwork[] {
         return [
             {
-                'icon': 'fa-github',
+                'icon': 'github',
                 'link': 'https://github.com/arnaugarcia'
             },
             {
-                'icon': 'fa-instagram',
+                'icon': 'instagram',
                 'link': 'https://twitter.com/arnaugarcia97'
             },
             {
-                'icon': 'fa-linkedin',
+                'icon': 'linkedin',
                 'link': 'https://www.linkedin.com/in/arnaugarciagallego/'
             },
             {
-                'icon': 'fa-twitter',
+                'icon': 'twitter',
                 'link': 'https://twitter.com/arnaugarcia97'
             }
         ];

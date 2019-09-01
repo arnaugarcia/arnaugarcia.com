@@ -18,7 +18,7 @@ import { IconSquarePipe } from './pipes/icon-square.pipe';
         TranslateModule
     ],
     declarations: [ScrollSpyDirective, ScrollToDirective, IconSquarePipe],
-    exports: [CommonModule, FormsModule, ScrollSpyDirective, ScrollToDirective, TranslateModule]
+    exports: [CommonModule, FormsModule, ScrollSpyDirective, ScrollToDirective, TranslateModule, IconSquarePipe]
 })
 export class SharedModule {
 }

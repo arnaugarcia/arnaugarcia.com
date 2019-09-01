@@ -10,6 +10,7 @@ import {ServicesModule} from './services/services.module';
 import {ResumeModule} from './resume/resume.module';
 import {TechnologiesModule} from './technologies/technologies.module';
 import {MapModule} from './map/map.module';
+import {ProjectsModule} from './projects/projects.module';
 
 @NgModule({
     imports: [
@@ -20,6 +21,7 @@ import {MapModule} from './map/map.module';
         ServicesModule,
         ResumeModule,
         TechnologiesModule,
+        ProjectsModule,
         MapModule
     ],
     declarations: [

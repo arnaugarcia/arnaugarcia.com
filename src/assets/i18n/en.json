@@ -105,6 +105,29 @@
 		"EMAIL": "arnau.garcia.gallego@gmail.com",
 		"PHONE": "(+34) 692 46 46 45"
 	},
+	"PROJECTS": {
+		"CATEGORIES": {
+			"CONNECTED-CAR": "Connected car",
+			"IOT": "iot"
+		},
+		"ITEMS": {
+			"0": {
+				"DATE": "September 1, 2019",
+				"DESCRIPTION": "Using Spring Flow, Web Flux and Angular I've started a new project that have the aim to make almost any car a connected car using the OBD2 port. The project consist in a IOT platform developed using spring that generates an RESTAFUL API that can be used in any application like (Android, iOS, Web applications...).\n",
+				"IMAGE-DESCRIPTION": "IOT Car",
+				"SUBTITLE": "",
+				"TITLE": "Connected Car | IOT",
+				"YEAR": ""
+			},
+			"1": {
+				"DESCRIPTION": "",
+				"SUBTITLE": "",
+				"TITLE": "",
+				"YEAR": ""
+			}
+		},
+		"MORE-BUTTON": "More Projects"
+	},
 	"RESUME": {
 		"CV-BUTTON": "Download CV",
 		"ITEMS": {

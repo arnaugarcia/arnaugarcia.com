@@ -2,15 +2,16 @@ import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders, HttpResponse} from '@angular/common/http';
 import {IMail} from './email.model';
 import {Observable} from 'rxjs';
+import {environment} from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class EmailService {
 
-  private url = 'http://services.arnaugarcia.com';
-  private email = 'arnau.garcia.gallego@gmail.com';
-  private company = 'arnaugarcia.com';
+  private url = environment.emailConfig.apiUrl;
+  private email = environment.emailConfig.email;
+  private company = environment.emailConfig.companyName;
 
   constructor(private http: HttpClient) {}
 

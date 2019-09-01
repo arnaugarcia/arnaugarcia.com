@@ -9,7 +9,7 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-      <form id="contact-form" novalidate>
+      <form id="contact-form" (ngSubmit)="onSubmit()">
         <div class="row">
           <div class="form-group col-sm-4">
             <input class="form-control" type="text" name="name" [placeholder]="'CONTACT.FORM.NAME' | translate" required>

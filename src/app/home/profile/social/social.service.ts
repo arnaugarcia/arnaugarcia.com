@@ -14,7 +14,7 @@ export class SocialService {
             },
             {
                 'icon': 'fa-instagram',
-                'link': 'https://twitter.com/arnaugarcia97'
+                'link': 'https://instagram.com/arnaugarcia97'
             },
             {
                 'icon': 'fa-linkedin',

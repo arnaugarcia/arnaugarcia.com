@@ -105,6 +105,29 @@
 		"EMAIL": "arnau.garcia.gallego@gmail.com",
 		"PHONE": "692 46 46 45"
 	},
+	"PROJECTS": {
+		"CATEGORIES": {
+			"CONNECTED-CAR": "Coche conectado",
+			"IOT": "iot"
+		},
+		"ITEMS": {
+			"0": {
+				"DATE": "1 de septiembre de 2019",
+				"DESCRIPTION": "Usando Spring Flow, Web Flux y Angular, comencé un nuevo proyecto que tiene el objetivo de convertir casi cualquier automóvil en un automóvil conectado utilizando el puerto OBD2. El proyecto consiste en una plataforma IOT desarrollada utilizando Spring que genera una API RESTAFUL que se puede utilizar en cualquier aplicación como (Android, iOS, aplicaciones web ...).\n",
+				"IMAGE-DESCRIPTION": "IOT Car",
+				"SUBTITLE": "",
+				"TITLE": "Coche conectado | IOT",
+				"YEAR": ""
+			},
+			"1": {
+				"DESCRIPTION": "",
+				"SUBTITLE": "",
+				"TITLE": "",
+				"YEAR": ""
+			}
+		},
+		"MORE-BUTTON": "Más proyectos"
+	},
 	"RESUME": {
 		"CV-BUTTON": "Descarga CV",
 		"ITEMS": {

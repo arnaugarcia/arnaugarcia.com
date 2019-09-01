@@ -105,6 +105,29 @@
 		"EMAIL": "arnau.garcia.gallego@gmail.com",
 		"PHONE": "692 46 46 45"
 	},
+	"PROJECTS": {
+		"CATEGORIES": {
+			"CONNECTED-CAR": "Cotxe connectat",
+			"IOT": "iot"
+		},
+		"ITEMS": {
+			"0": {
+				"DATE": "1 de setembre de 2019",
+				"DESCRIPTION": "Amb Spring Flow, Web Flux i Angular he iniciat un nou projecte que té l’objectiu de fer de gairebé qualsevol cotxe un cotxe connectat mitjançant el port OBD2. El projecte consisteix en una plataforma IOT desenvolupada mitjançant spring que genera una API RESTAFULAR que es pot utilitzar en qualsevol aplicació com (Android, iOS, aplicacions web ...).\n",
+				"IMAGE-DESCRIPTION": "Cotxe IOT",
+				"SUBTITLE": "Universitat de Stanford",
+				"TITLE": "Cotxe connectat | IOT",
+				"YEAR": "1998-2004"
+			},
+			"1": {
+				"DESCRIPTION": "Lorem ipsum dolor sit amet et morin fiu sempre",
+				"SUBTITLE": "",
+				"TITLE": "",
+				"YEAR": ""
+			}
+		},
+		"MORE-BUTTON": "Més Projectes"
+	},
 	"RESUME": {
 		"CV-BUTTON": "Descarrega CV",
 		"ITEMS": {

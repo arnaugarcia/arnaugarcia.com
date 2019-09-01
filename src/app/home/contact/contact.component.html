@@ -9,7 +9,7 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-      <form id="contact-form" (ngSubmit)="onSubmit()" #form="ngForm">
+      <form id="contact-form" (ngSubmit)="onSubmit()" #form="ngForm" *ngIf="!mailSent">
         <div class="row">
           <div class="form-group col-sm-4">
             <input class="form-control" [(ngModel)]="mail.name" type="text" name="name" [placeholder]="'CONTACT.FORM.NAME' | translate" required>
@@ -35,7 +35,7 @@
         </div>
       </form>
       <!-- Ajax response-->
-      <div class="ajax-response text-center" id="contact-response"></div>
+      <div class="ajax-response text-center">{{response}}</div>
     </div>
   </div>
 </div>

@@ -17,9 +17,6 @@ export class FooterComponent implements OnInit {
 
     ngOnInit() {
         this.socialNetworks = this.socialService.querySocialNetworks();
-        this.socialNetworks
-            .filter((socialNetwork) => !socialNetwork.link.includes('instagram'))
-            .forEach((socialNetwork) => socialNetwork.icon.concat('-square'));
     }
 
 }

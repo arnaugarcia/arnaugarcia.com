@@ -6,6 +6,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ScrollToDirective} from './directives/scroll-to.directive';
 import {FormsModule} from '@angular/forms';
 import {TranslateModule} from '@ngx-translate/core';
+import { IconSquarePipe } from './pipes/icon-square.pipe';
 
 @NgModule({
     imports: [
@@ -16,7 +17,7 @@ import {TranslateModule} from '@ngx-translate/core';
         Title,
         TranslateModule
     ],
-    declarations: [ScrollSpyDirective, ScrollToDirective],
+    declarations: [ScrollSpyDirective, ScrollToDirective, IconSquarePipe],
     exports: [CommonModule, FormsModule, ScrollSpyDirective, ScrollToDirective, TranslateModule]
 })
 export class SharedModule {

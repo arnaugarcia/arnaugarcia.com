@@ -9,26 +9,26 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-      <form id="contact-form" (ngSubmit)="onSubmit()">
+      <form id="contact-form" (ngSubmit)="onSubmit()" #form="ngForm">
         <div class="row">
           <div class="form-group col-sm-4">
-            <input class="form-control" type="text" name="name" [placeholder]="'CONTACT.FORM.NAME' | translate" required>
+            <input class="form-control" [(ngModel)]="mail.name" type="text" name="name" [placeholder]="'CONTACT.FORM.NAME' | translate" required>
             <p class="help-block text-danger"></p>
           </div>
           <div class="form-group col-sm-4">
-            <input class="form-control" type="email" name="email" [placeholder]="'CONTACT.FORM.EMAIL' | translate" required>
+            <input class="form-control" [(ngModel)]="mail.email" type="email" name="email" [placeholder]="'CONTACT.FORM.EMAIL' | translate" required>
             <p class="help-block text-danger"></p>
           </div>
           <div class="form-group col-sm-4">
-            <input class="form-control" type="text" name="phone" [placeholder]="'CONTACT.FORM.PHONE' | translate" required>
+            <input class="form-control" [(ngModel)]="mail.phone" type="text" name="phone" [placeholder]="'CONTACT.FORM.PHONE' | translate" required>
             <p class="help-block text-danger"></p>
           </div>
           <div class="form-group col-sm-12">
-            <textarea class="form-control" name="message" [placeholder]="'CONTACT.FORM.MESSAGE' | translate" rows="8" required style="height: 184px;"></textarea>
+            <textarea class="form-control" [(ngModel)]="mail.message" name="message" [placeholder]="'CONTACT.FORM.MESSAGE' | translate" rows="8" required style="height: 184px;"></textarea>
           </div>
           <div class="form-group col-sm-12">
             <div class="text-center m-t-20">
-              <button class="btn btn-round btn-brand" type="submit"><span>{{'CONTACT.FORM.BUTTON' | translate}}</span>
+              <button class="btn btn-round btn-brand" type="submit" [disabled]="!form.valid"><span>{{'CONTACT.FORM.BUTTON' | translate}}</span>
               </button>
             </div>
           </div>

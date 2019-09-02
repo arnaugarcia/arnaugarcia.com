@@ -44,6 +44,7 @@
 			"TITLE": "Idiomas"
 		},
 		"NAME": "Navegación",
+		"PORTFOLIO": "Portafolio",
 		"PROFILE": "Perfil",
 		"PROJECTS": "Proyectos",
 		"RESUME": "Resumen",
@@ -77,7 +78,7 @@
 				"TITLE": "HCSSpain.es"
 			}
 		},
-		"SUBTITLE": "Proyectos e hitos que he desarrollado o estoy desarrollando",
+		"SUBTITLE": "Proyectos que he desarrollado e hitos que he alcanzado",
 		"TITLE": "Mis proyectos e hitos"
 	},
 	"PROFILE": {

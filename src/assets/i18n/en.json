@@ -36,7 +36,7 @@
 	},
 	"NAVBAR": {
 		"CONTACT": "Contact",
-		"HOME": "Start",
+		"HOME": "Home",
 		"LANGUAGES": {
 			"CA": "Catalan",
 			"EN": "English",
@@ -44,6 +44,7 @@
 			"TITLE": "Languages"
 		},
 		"NAME": "Navigation",
+		"PORTFOLIO": "Portfolio",
 		"PROFILE": "Profile",
 		"PROJECTS": "Projects",
 		"RESUME": "Summary",
@@ -77,8 +78,8 @@
 				"TITLE": "HCSSpain.es"
 			}
 		},
-		"SUBTITLE": "Projects and milestones that I have developed or I am developing",
-		"TITLE": "My Projects and milestones"
+		"SUBTITLE": "Projects that I've developed and milestones that I reached",
+		"TITLE": "My projects and milestones"
 	},
 	"PROFILE": {
 		"SKILLS": {

@@ -4,6 +4,6 @@ export const environment = {
   emailConfig: {
     apiUrl: 'https://services.arnaugarcia.com',
     companyName: 'arnaugarcia.com',
-    email: 'arnau.garcia.gallego@gmai.com'
+    email: 'arnau.garcia.gallego@gmail.com'
   }
 };

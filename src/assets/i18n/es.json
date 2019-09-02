@@ -148,6 +148,24 @@
 				"SUBTITLE": "Stucom",
 				"TITLE": "Formación profesional en desarrollo web y multiplataforma.",
 				"YEAR": "2015 - 2018"
+			},
+			"3": {
+				"DESCRIPTION": "Durante mi curso en Wiatchity, estaba desarrollando la interfaz de la plataforma ágil de producción de video en vivo basada en la web",
+				"SUBTITLE": "Watchity",
+				"TITLE": "Desarrollador front-end",
+				"YEAR": "2017 - 2018"
+			},
+			"4": {
+				"DESCRIPTION": "Junto con 4 compañeros y nuestro profesor expusimos nuestros proyectos finales de grado superior, hablamos sobre JHipster y sus ventajas.",
+				"SUBTITLE": "Barcelona",
+				"TITLE": "Ponente en Angular Camp 2017",
+				"YEAR": "2017 - 2017"
+			},
+			"5": {
+				"DESCRIPTION": "Junto con Alfredo Rueda desarrollamos y presentamos el backend utilizado para desarrollar el proyecto final del tema de desarrollo de Android.",
+				"SUBTITLE": "La Salle Barcelona",
+				"TITLE": "Profesor asistente en La Salle",
+				"YEAR": "2019 - Actualidad"
 			}
 		},
 		"SUBTITLE": "Mi educación y mi experiencia",

@@ -148,6 +148,24 @@
 				"SUBTITLE": "Stucom",
 				"TITLE": "Vocational training in web development and cross-platform.",
 				"YEAR": "2015 - 2018"
+			},
+			"3": {
+				"DESCRIPTION": "During my course in Wiatchity I was developing the frontend of the web based agile live video production platform",
+				"SUBTITLE": "Watchity",
+				"TITLE": "Front-end developer",
+				"YEAR": "2017 - 2018"
+			},
+			"4": {
+				"DESCRIPTION": "Together with 4 classmates and our teacher, we presented our final projects of higher degree, we talked about JHipster and its advantages.",
+				"SUBTITLE": "Barcelona",
+				"TITLE": "Speaker at Angular Camp 2017",
+				"YEAR": "2017 - 2017"
+			},
+			"5": {
+				"DESCRIPTION": "Together with Alfredo Rueda we develop and present the backend used for developing the final project of the Android development subject.",
+				"SUBTITLE": "La Salle Barcelona",
+				"TITLE": "Assistant teacher at La Salle",
+				"YEAR": "2019 - Now"
 			}
 		},
 		"SUBTITLE": "Education and experience",

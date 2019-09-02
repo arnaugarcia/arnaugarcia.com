@@ -21,6 +21,13 @@ export class ResumeService {
                 year: 'RESUME.ITEMS.1.YEAR',
                 image: 'assets/images/resume/lasalle.jpg',
                 description: 'RESUME.ITEMS.1.DESCRIPTION'
+            },
+            {
+                title: 'RESUME.ITEMS.2.TITLE',
+                subtitle: 'RESUME.ITEMS.2.SUBTITLE',
+                year: 'RESUME.ITEMS.2.YEAR',
+                image: 'assets/images/resume/stucom.jpg',
+                description: 'RESUME.ITEMS.2.DESCRIPTION'
             }
         ];
     }

@@ -12,14 +12,18 @@
 	"CONTACT": {
 		"ADDRESS": "08629 - Torrelles de Llobregat",
 		"EMAIL": "arnau.garcia.gallego@gmail.com",
+		"ERROR": "There is been an error sending the email. Please try again later or send it manually here: arnau.garcia.gallego@gmail.com",
 		"FORM": {
-			"BUTTON": "Send!",
+			"BUTTON": "Send message!",
 			"EMAIL": "Email",
 			"MESSAGE": "Your message",
-			"NAME": "Name"
+			"NAME": "Name",
+			"PHONE": "Phone"
 		},
+		"LOADING": "I'm sending the email. Please wait a second...",
 		"PHONE": "(+34) 692 46 46 45",
 		"SUBTITLE": "You can contact me by sending an email here or by phone",
+		"SUCCESS": "Thanks for contacting me :D",
 		"TITLE": "Contact me",
 		"WEB": "http://arnaugarcia.com"
 	},

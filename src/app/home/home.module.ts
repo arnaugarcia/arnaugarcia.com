@@ -11,6 +11,7 @@ import {ResumeModule} from './resume/resume.module';
 import {TechnologiesModule} from './technologies/technologies.module';
 import {MapModule} from './map/map.module';
 import {ProjectsModule} from './projects/projects.module';
+import {ContactModule} from './contact/contact.module';
 
 @NgModule({
     imports: [
@@ -22,6 +23,7 @@ import {ProjectsModule} from './projects/projects.module';
         ResumeModule,
         TechnologiesModule,
         ProjectsModule,
+        ContactModule,
         MapModule
     ],
     declarations: [

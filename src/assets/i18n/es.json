@@ -132,10 +132,10 @@
 		"CV-BUTTON": "Descarga CV",
 		"ITEMS": {
 			"0": {
-				"DESCRIPTION": "Mapa de donde se tomaron sus fotos y descubrir puntos de interés locales. Mapa donde tus fotos. Mapa de donde se tomaron sus fotos y descubrir puntos de interés locales.",
-				"SUBTITLE": "Universidad Stanford",
-				"TITLE": "Ciencias de la Computación",
-				"YEAR": "1998-2004"
+				"DESCRIPTION": "Durante mi estancia en Opentrends, he dessarollado proyectos para varias entidades y sectores. Todos estos proyectos siempre están orientados a microservicios utilizando Spring y Angular.",
+				"SUBTITLE": "Opentrends",
+				"TITLE": "Desarrollador Full-Stack",
+				"YEAR": "2018-Ahora"
 			},
 			"1": {
 				"DESCRIPTION": "Lorem ipsum dolor sentarse amet et morin fiu sempre",

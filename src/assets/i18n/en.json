@@ -132,10 +132,10 @@
 		"CV-BUTTON": "Download CV",
 		"ITEMS": {
 			"0": {
-				"DESCRIPTION": "Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest.",
-				"SUBTITLE": "Stanford University",
-				"TITLE": "Computer Science",
-				"YEAR": "1998-2004"
+				"DESCRIPTION": "During my stay at Opentrends, I have developed projects for various entities and sectors. All these projects are always oriented to microservices using Spring + Angular.",
+				"SUBTITLE": "Opentrends",
+				"TITLE": "Full-Stack developer",
+				"YEAR": "2018-Now"
 			},
 			"1": {
 				"DESCRIPTION": "Lorem ipsum dolor sit amet et morin fiu sempre",

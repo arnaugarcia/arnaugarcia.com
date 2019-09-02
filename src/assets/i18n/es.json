@@ -48,8 +48,7 @@
 		"PROFILE": "Perfil",
 		"PROJECTS": "Proyectos",
 		"RESUME": "Resumen",
-		"SERVICES": "Servicios",
-		"TECHNOLOGIES": "Tecnologías"
+		"SERVICES": "Servicios"
 	},
 	"PORTFOLIO": {
 		"ITEMS": {
@@ -83,10 +82,11 @@
 	},
 	"PROFILE": {
 		"SKILLS": {
-			"SKILL1": "Java",
-			"SKILL2": "Spring",
-			"SKILL3": "Javascript",
-			"SKILL4": "Angular",
+			"SKILL1": "Java / Lambdas / Programación reactiva",
+			"SKILL2": "Spring / Spring Cloud / Spring Security",
+			"SKILL3": "TDD / Junit / Jest",
+			"SKILL4": "Angular / Javascript / ES6 / Typescript",
+			"SKILL5": "Java Microservicios / Netflix OSS / SSO",
 			"TITLE": "HABILIDADES"
 		},
 		"SOCIAL": "¿Dónde me puedes encontrar?",

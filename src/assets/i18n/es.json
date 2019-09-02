@@ -31,7 +31,7 @@
 		"CONTENT": "© 2017 Arnau García Gallego"
 	},
 	"INTRO": {
-		"SUBTITLE": "Desarollador Web | Angular | Programador multiplataforma | Android | SpringMVC",
+		"SUBTITLE": "Un desarrollador web creativo ... | Desarrollador de microservicios | Desarrollador de Spring | Desarrollador de Angular | Entusiasta de JHipster | Amante del café",
 		"TITLE": "Arnau García"
 	},
 	"NAVBAR": {
@@ -81,25 +81,18 @@
 		"TITLE": "Mis proyectos e hitos"
 	},
 	"PROFILE": {
-		"PERCENT": {
-			"SKILL1": "90",
-			"SKILL2": "80",
-			"SKILL3": "90",
-			"SKILL4": "70",
-			"TITLE": "HABILIDADES"
-		},
 		"SKILLS": {
 			"SKILL1": "Java",
-			"SKILL2": "HTML / CSS3 / JAVASCRIPT",
-			"SKILL3": "Sping MVC",
+			"SKILL2": "Spring",
+			"SKILL3": "Javascript",
 			"SKILL4": "Angular",
 			"TITLE": "HABILIDADES"
 		},
-		"SOCIAL": "REDES SOCIALES",
-		"SUBTITLE": "Desarollador Web | Técnico Informático | Programador multiplataforma",
+		"SOCIAL": "¿Dónde me puedes encontrar?",
+		"SUBTITLE": "Desarrollador web | Desarrollador full-stack | Desarrollador Multiplataforma",
 		"TEXT": {
-			"PARAGRAPH1": "Soy un informático con ganas de superar me y aportar cosas nuevas tanto a empresas como a particulares. Mi curiosidad por la informática y la programación empezó desde muy pequeño y aún sigue en aumento, día tras día, sin perder las ganas de aprender y superarme.",
-			"PARAGRAPH2": "Actualmente estoy diseñando varios proyectos personales y ampliando mis conocimientos en informática/programación",
+			"PARAGRAPH1": "Soy un informático con ganas de superar me y aportar cosas al mundo. Mi curiosidad y pasión por la informática y la programación empezó desde muy pequeño y aún sigue en aumento, día tras día, sin perder las ganas de aprender y superarme.",
+			"PARAGRAPH2": "Actualmente estoy desarrollando algunos proyectos personales, trabajando como desarrollador full-stack y cursando una carrera universitaria.",
 			"TITLE": "ACERCA DE MI"
 		},
 		"TITLE": "Arnau García Gallego"

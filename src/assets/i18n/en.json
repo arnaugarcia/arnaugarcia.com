@@ -31,7 +31,7 @@
 		"CONTENT": "© 2017 Arnau García Gallego"
 	},
 	"INTRO": {
-		"SUBTITLE": "Web Developer | Angular | Multiplatform Programmer | Android | SpringMVC",
+		"SUBTITLE": "A creative web Developer... | Micro-services developer | Spring developer | Angular developer | JHipster enthusiast | Coffee lover",
 		"TITLE": "Arnau García"
 	},
 	"NAVBAR": {
@@ -81,25 +81,18 @@
 		"TITLE": "My Projects and milestones"
 	},
 	"PROFILE": {
-		"PERCENT": {
-			"SKILL1": "90",
-			"SKILL2": "80",
-			"SKILL3": "90",
-			"SKILL4": "70",
-			"TITLE": "SKILLS"
-		},
 		"SKILLS": {
 			"SKILL1": "Java",
-			"SKILL2": "HTML / CSS3 / JAVASCRIPT",
-			"SKILL3": "Sping MVC",
+			"SKILL2": "Spring",
+			"SKILL3": "Javascript",
 			"SKILL4": "Angular",
 			"TITLE": "SKILLS"
 		},
-		"SOCIAL": "SOCIAL MEDIA",
-		"SUBTITLE": "Web Developer | Computer Technician | Multiplatform Programmer",
+		"SOCIAL": "Where can you find me?",
+		"SUBTITLE": "Web Developer | Full-stack developer | Cross-platform developer",
 		"TEXT": {
-			"PARAGRAPH1": "I am a programmer with the goal to improve myslef and provide new things to both companies and individuals. My curiosity about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.",
-			"PARAGRAPH2": "Currently I'm designing some personal projects and increasing my knowledge in computing/programming.",
+			"PARAGRAPH1": "I am a programmer with the goal to improve myself and provide new things to the world. My curiosity and passion about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.",
+			"PARAGRAPH2": "Currently I'm developing some personal projects, working as a full-stack developer and coursing a university degree.",
 			"TITLE": "ABOUT ME"
 		},
 		"TITLE": "Arnau García Gallego"

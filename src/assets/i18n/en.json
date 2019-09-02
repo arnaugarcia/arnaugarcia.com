@@ -138,10 +138,34 @@
 				"YEAR": "2018-Now"
 			},
 			"1": {
-				"DESCRIPTION": "Lorem ipsum dolor sit amet et morin fiu sempre",
-				"SUBTITLE": "Stanford University2",
-				"TITLE": "Computer Science2",
-				"YEAR": "1998-2019"
+				"DESCRIPTION": "In this university degree I have deepened in software development giving me a broader and more robust vision. During my course at the university I have been able to expand my knowledge in all fields of development, from architecture, databases, algorithms ... etc.",
+				"SUBTITLE": "La Salle Barcelona",
+				"TITLE": "DEGREE IN SOFTWARE APPLICATION TECHNIQUES",
+				"YEAR": "2018 - Now"
+			},
+			"2": {
+				"DESCRIPTION": "During my studies at Stucom I learned the basics to be able to program, there I studied an average degree of computer systems where I learned the basics of computer science. Then I made a higher degree of web applications where I learned to program in Java, layout a web, databases among others. I finally made another higher degree of cross-platform applications where I learned Android, iOS (Swift) and to create hybrid applications using javascript frameworks.",
+				"SUBTITLE": "Stucom",
+				"TITLE": "Vocational training in web development and cross-platform.",
+				"YEAR": "2015 - 2018"
+			},
+			"3": {
+				"DESCRIPTION": "During my course in Wiatchity I was developing the frontend of the web based agile live video production platform",
+				"SUBTITLE": "Watchity",
+				"TITLE": "Front-end developer",
+				"YEAR": "2017 - 2018"
+			},
+			"4": {
+				"DESCRIPTION": "Together with 4 classmates and our teacher, we presented our final projects of higher degree, we talked about JHipster and its advantages.",
+				"SUBTITLE": "Barcelona",
+				"TITLE": "Speaker at Angular Camp 2017",
+				"YEAR": "2017 - 2017"
+			},
+			"5": {
+				"DESCRIPTION": "Together with Alfredo Rueda we develop and present the backend used for developing the final project of the Android development subject.",
+				"SUBTITLE": "La Salle Barcelona",
+				"TITLE": "Assistant teacher at La Salle",
+				"YEAR": "2019 - Now"
 			}
 		},
 		"SUBTITLE": "Education and experience",

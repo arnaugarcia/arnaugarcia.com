@@ -10,23 +10,23 @@
   <div class="row">
     <div class="col-md-12">
       <ul class="timeline">
-        <li *ngFor="let number of items">
+        <li *ngFor="let item of resumeItems">
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-preview">
-              <img [src]="'https://www.jhipster.tech/images/logo/jhipster_family_member_' + number + '.svg'" [alt]="'RESUME.ITEMS.0.TITLE' | translate">
+              <img [src]="item.image" [alt]="item.title | translate">
             </div>
             <div class="timeline-body">
-              <h5 class="timeline-title">{{'RESUME.ITEMS.' + number + '.TITLE' | translate}}</h5>
-              <h6 class="timeline-description">{{'RESUME.ITEMS.' + number + '.SUBTITLE' | translate}} | {{'RESUME.ITEMS.' + number + '.YEAR' | translate}}</h6>
-              <p>{{'RESUME.ITEMS.' + number + '.DESCRIPTION' | translate}}</p>
+              <h5 class="timeline-title">{{item.title | translate}}</h5>
+              <h6 class="timeline-description">{{item.subtitle | translate}} | {{item.year | translate}}</h6>
+              <p>{{item.description | translate}}</p>
             </div>
           </div>
         </li>
         <div class="timeline-top"></div>
       </ul>
       <div class="text-center">
-        <a class="btn btn-lg btn-gray" href="#">
+        <a class="btn btn-lg btn-gray" href="assets/resume/CV_ArnauGarcia_rev2.pdf">
           <span>{{'RESUME.CV-BUTTON' | translate}}</span>
         </a>
       </div>

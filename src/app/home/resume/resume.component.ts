@@ -1,12 +1,21 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {IResumeItem} from './resume.model';
+import {ResumeService} from './resume.service';
 
 @Component({
-  selector: 'app-resume',
-  templateUrl: './resume.component.html',
-  styleUrls: ['./resume.component.css']
+    selector: 'app-resume',
+    templateUrl: './resume.component.html',
+    styleUrls: ['./resume.component.css']
 })
-export class ResumeComponent {
+export class ResumeComponent implements OnInit {
 
-  items: number[] = Array.from(Array(4).keys());
+    resumeItems: IResumeItem[] = [];
+
+    constructor(private resumeService: ResumeService) {
+    }
+
+    ngOnInit(): void {
+      this.resumeItems = this.resumeService.query();
+    }
 
 }

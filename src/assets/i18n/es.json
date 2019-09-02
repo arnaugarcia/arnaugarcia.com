@@ -136,16 +136,40 @@
 		"CV-BUTTON": "Descarga CV",
 		"ITEMS": {
 			"0": {
-				"DESCRIPTION": "Mapa de donde se tomaron sus fotos y descubrir puntos de interés locales. Mapa donde tus fotos. Mapa de donde se tomaron sus fotos y descubrir puntos de interés locales.",
-				"SUBTITLE": "Universidad Stanford",
-				"TITLE": "Ciencias de la Computación",
-				"YEAR": "1998-2004"
+				"DESCRIPTION": "Durante mi estancia en Opentrends, he dessarollado proyectos para varias entidades y sectores. Todos estos proyectos siempre están orientados a microservicios utilizando Spring y Angular.",
+				"SUBTITLE": "Opentrends",
+				"TITLE": "Desarrollador Full-Stack",
+				"YEAR": "2018-Ahora"
 			},
 			"1": {
-				"DESCRIPTION": "Lorem ipsum dolor sentarse amet et morin fiu sempre",
-				"SUBTITLE": "",
-				"TITLE": "",
-				"YEAR": ""
+				"DESCRIPTION": "En este grado universitario he profundizado en el desarrollo de software dándome una visión más amplia y robusta. Durante mi transcurso en la universidad he podido ampliar mis conocimientos en todos los campos del desarrollo, desde la arquitectura, bases de datos, algoritmia... etc.",
+				"SUBTITLE": "La Salle Barcelona",
+				"TITLE": "GRADO EN TÉCNICAS DE APLICACIONES DE SOFTWARE",
+				"YEAR": "2018 - Ahora"
+			},
+			"2": {
+				"DESCRIPTION": "Durante mis estudios en Stucom aprendí las bases para poder programar, ahí cursé un grado medio de sistemas informáticos dónde aprendí las bases de la informática. Seguidamente realicé un grado superior de aplicaciones web dónde aprendí a programar en Java, maquetar una web, bases de datos entre otros. I finalmente realicé otro grado superior de aplicaciones multiplataforma dónde aprendí Android, iOS(Swift) y a crear aplicaciones híbridas utilizando frameworks javascript.",
+				"SUBTITLE": "Stucom",
+				"TITLE": "Formación profesional en desarrollo web y multiplataforma.",
+				"YEAR": "2015 - 2018"
+			},
+			"3": {
+				"DESCRIPTION": "Durante mi curso en Wiatchity, estaba desarrollando la interfaz de la plataforma ágil de producción de video en vivo basada en la web",
+				"SUBTITLE": "Watchity",
+				"TITLE": "Desarrollador front-end",
+				"YEAR": "2017 - 2018"
+			},
+			"4": {
+				"DESCRIPTION": "Junto con 4 compañeros y nuestro profesor expusimos nuestros proyectos finales de grado superior, hablamos sobre JHipster y sus ventajas.",
+				"SUBTITLE": "Barcelona",
+				"TITLE": "Ponente en Angular Camp 2017",
+				"YEAR": "2017 - 2017"
+			},
+			"5": {
+				"DESCRIPTION": "Junto con Alfredo Rueda desarrollamos y presentamos el backend utilizado para desarrollar el proyecto final del tema de desarrollo de Android.",
+				"SUBTITLE": "La Salle Barcelona",
+				"TITLE": "Profesor asistente en La Salle",
+				"YEAR": "2019 - Actualidad"
 			}
 		},
 		"SUBTITLE": "Mi educación y mi experiencia",

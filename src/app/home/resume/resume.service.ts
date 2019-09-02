@@ -14,6 +14,13 @@ export class ResumeService {
                 year: 'RESUME.ITEMS.0.YEAR',
                 image: 'assets/images/resume/opentrends.png',
                 description: 'RESUME.ITEMS.0.DESCRIPTION'
+            },
+            {
+                title: 'RESUME.ITEMS.1.TITLE',
+                subtitle: 'RESUME.ITEMS.1.SUBTITLE',
+                year: 'RESUME.ITEMS.1.YEAR',
+                image: 'assets/images/resume/lasalle.jpg',
+                description: 'RESUME.ITEMS.1.DESCRIPTION'
             }
         ];
     }

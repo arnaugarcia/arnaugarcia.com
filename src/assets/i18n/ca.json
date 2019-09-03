@@ -31,7 +31,7 @@
 		"CONTENT": "© 2017 Arnau García Gallego"
 	},
 	"INTRO": {
-		"SUBTITLE": "Desenvolupador Web | Angular | Programador multiplataforma | Android | SpringMVC",
+		"SUBTITLE": "Un desenvolupador web creatiu ... | Desenvolupador de micro-serveis | Desenvolupador de Spring | Desenvolupador d'Angular | Entusiasta de JHipster | Amant del cafè",
 		"TITLE": "Arnau García"
 	},
 	"NAVBAR": {
@@ -44,11 +44,11 @@
 			"TITLE": "Idiomes"
 		},
 		"NAME": "Navegació",
+		"PORTFOLIO": "Portfoli",
 		"PROFILE": "Perfil",
 		"PROJECTS": "Projectes",
 		"RESUME": "Resum",
-		"SERVICES": "Serveis",
-		"TECHNOLOGIES": "Tecnologies"
+		"SERVICES": "Serveis"
 	},
 	"PORTFOLIO": {
 		"ITEMS": {
@@ -77,29 +77,23 @@
 				"TITLE": "HCSSpain.es"
 			}
 		},
-		"SUBTITLE": "Projectes i fites que he desenvolupat o estic desenvolupant",
-		"TITLE": "Els meus projecte i fites"
+		"SUBTITLE": "Projectes que he desenvolupat i fites assolit",
+		"TITLE": "Els meus projectes i fites"
 	},
 	"PROFILE": {
-		"PERCENT": {
-			"SKILL1": "90",
-			"SKILL2": "80",
-			"SKILL3": "90",
-			"SKILL4": "70",
-			"TITLE": "HABILITATS"
-		},
 		"SKILLS": {
-			"SKILL1": "Java",
-			"SKILL2": "HTML / CSS3 / JAVASCRIPT",
-			"SKILL3": "Sping MVC",
-			"SKILL4": "Angular",
+			"SKILL1": "Java / Lambdas / Programació reactiva",
+			"SKILL2": "Spring / Spring Cloud / Spring Security",
+			"SKILL3": "TDD / Junit / Jest",
+			"SKILL4": "Angular / Javascript / ES6 / Typescript",
+			"SKILL5": "Java Micro-serveis / Netflix OSS / SSO",
 			"TITLE": "HABILITATS"
 		},
-		"SOCIAL": "XARXES SOCIALS",
-		"SUBTITLE": "Desenvolupador Web | Tècnic Informàtic | Programador multiplataforma",
+		"SOCIAL": "On em pots trobar?",
+		"SUBTITLE": "Desenvolupador web | Desenvolupador full-stack | Desenvolupador multiplataforma",
 		"TEXT": {
-			"PARAGRAPH1": "Sóc un programador amb ganes de superar-me i aportar coses noves tant a empreses com a particulars. La meva curiositat per la informàtica i la programació va començar de ben petit i encara segueix en augment, dia rere dia, sense perdre les ganes d'aprendre i superar-me.",
-			"PARAGRAPH2": "Actualment estic dissenyant diversos projectes personals i ampliant els meus coneixements d'informàtica/programació",
+			"PARAGRAPH1": "Sóc un programador amb ganes de superar-me i aportar coses al món. La meva curiositat i passió per la informàtica i la programació va començar de ben petit i encara segueix en augment, dia rere dia, sense perdre les ganes d'aprendre i superar-me.",
+			"PARAGRAPH2": "Actualment estic desenvolupant alguns projectes personals, treballant com a desenvolupador full-stack i cursant una carrera universitària.",
 			"TITLE": "SOBRE MI"
 		},
 		"TITLE": "Arnau García Gallego"

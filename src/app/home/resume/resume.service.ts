@@ -40,7 +40,7 @@ export class ResumeService {
                 title: 'RESUME.ITEMS.4.TITLE',
                 subtitle: 'RESUME.ITEMS.4.SUBTITLE',
                 year: 'RESUME.ITEMS.4.YEAR',
-                image: 'assets/images/resume/angularcamp.jpeg',
+                image: 'assets/images/resume/angularcamp.png',
                 description: 'RESUME.ITEMS.4.DESCRIPTION'
             },
             {

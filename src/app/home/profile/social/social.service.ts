@@ -10,22 +10,22 @@ export class SocialService {
         return [
             {
                 'icon': 'fa-github',
-                'label': '',
+                'label': 'SOCIAL.GITHUB.LABEL',
                 'link': 'https://github.com/arnaugarcia'
             },
             {
                 'icon': 'fa-instagram',
-                'label': '',
+                'label': 'SOCIAL.INSTAGRAM.LABEL',
                 'link': 'https://instagram.com/arnaugarcia97'
             },
             {
                 'icon': 'fa-linkedin',
-                'label': '',
+                'label': 'SOCIAL.LINKEDIN.LABEL',
                 'link': 'https://www.linkedin.com/in/arnaugarciagallego/'
             },
             {
                 'icon': 'fa-twitter',
-                'label': '',
+                'label': 'SOCIAL.TWITTER.LABEL',
                 'link': 'https://twitter.com/arnaugarcia97'
             }
         ];

@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {IProject} from './project.model';
 import {ProjectsService} from './projects.service';
 
 @Component({
     selector: 'app-projects',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './projects.component.html',
     styleUrls: ['./projects.component.css']
 })

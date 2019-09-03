@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {PortfolioService} from './portfolio.service';
 import {IPortfolioItem} from './portfolio.model';
 
@@ -6,6 +6,7 @@ declare var $: any;
 
 @Component({
     selector: 'app-portfolio',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './portfolio.component.html',
     styleUrls: ['./portfolio.component.css'],
 })

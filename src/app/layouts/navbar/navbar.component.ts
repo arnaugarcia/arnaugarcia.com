@@ -1,4 +1,4 @@
-import {Component, HostListener, Inject, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, HostListener, Inject, OnInit} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 import {Title} from '@angular/platform-browser';
 import {DOCUMENT} from '@angular/common';
@@ -6,6 +6,7 @@ import {ScrollSpyService} from '../../shared/directives/scroll-spy.service';
 
 @Component({
     selector: 'app-navbar',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './navbar.component.html',
     styleUrls: ['./navbar.component.css']
 })

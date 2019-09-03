@@ -7,7 +7,7 @@
             <div class="col-md-6">
                 <ul class="social-icons">
                     <li *ngFor="let socialNetwork of socialNetworks | iconSquare: excludedNetworks">
-                        <a [href]="socialNetwork.link" target="_blank">
+                        <a [href]="socialNetwork.link" target="_blank" rel="noreferrer">
                             <i [class]="'fa ' + socialNetwork.icon"></i>
                         </a>
                     </li>

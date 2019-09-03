@@ -14,7 +14,11 @@
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-preview">
-              <img [src]="item.image" [alt]="item.title | translate">
+              <picture>
+                <source [srcset]="'assets/images/resume/' + item.image + '.webp'" type="image/webp">
+                <source [srcset]="'assets/images/resume/' + item.image + '.png'" type="image/png">
+                <img [srcset]="'assets/images/resume/' + item.image + '.png'" [alt]="item.title | translate">
+              </picture>
             </div>
             <div class="timeline-body">
               <h5 class="timeline-title">{{item.title | translate}}</h5>

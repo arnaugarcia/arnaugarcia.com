@@ -2,9 +2,10 @@ import {NgModule} from '@angular/core';
 import {SharedModule} from '../../shared/shared.module';
 import {ProfileComponent} from './profile.component';
 import {SocialComponent} from './social/social.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
-    declarations: [ProfileComponent, SocialComponent],
+    declarations: [ProfileComponent, SocialComponent, SkillsComponent],
     exports: [
         ProfileComponent
     ],

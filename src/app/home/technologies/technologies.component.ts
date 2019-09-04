@@ -1,7 +1,9 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
-import {CarouselConstants} from './carousel.constants';
+import {AfterViewInit, ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {TechnologiesService} from './technologies.service';
 import {ITechnology} from './technology.model';
+import {SliderConstants} from './slider.constants';
+
+declare var tns;
 
 @Component({
     selector: 'app-technologies',
@@ -9,9 +11,7 @@ import {ITechnology} from './technology.model';
     templateUrl: './technologies.component.html',
     styleUrls: ['./technologies.component.css']
 })
-export class TechnologiesComponent implements OnInit {
-
-    carouselOptions = CarouselConstants.carouselConfig;
+export class TechnologiesComponent implements OnInit, AfterViewInit {
 
     technologies: ITechnology[] = [];
 
@@ -20,6 +20,10 @@ export class TechnologiesComponent implements OnInit {
 
     ngOnInit() {
         this.technologies = this.technologiesService.query();
+    }
+
+    ngAfterViewInit(): void {
+        tns(SliderConstants.sliderConfig);
     }
 
 }

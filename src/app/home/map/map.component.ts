@@ -9,6 +9,7 @@ declare var google: any;
     templateUrl: './map.component.html'
 })
 export class MapComponent implements OnInit {
+
     latitude = 41.3559809;
     longitude = 1.97556;
     zoom = 13;

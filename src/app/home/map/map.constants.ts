@@ -1,5 +1,4 @@
-import {MapTypeStyle} from '@agm/core';
-export const mapStyle: MapTypeStyle[] = [
+export const mapStyle = [
     {
         'elementType': 'geometry',
         'stylers': [

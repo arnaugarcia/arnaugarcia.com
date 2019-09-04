@@ -1,6 +1,7 @@
 import {AfterViewInit, ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {TechnologiesService} from './technologies.service';
 import {ITechnology} from './technology.model';
+import {SliderConstants} from './slider.constants';
 
 declare var tns;
 
@@ -22,18 +23,7 @@ export class TechnologiesComponent implements OnInit, AfterViewInit {
     }
 
     ngAfterViewInit(): void {
-        const slider = tns({
-            container: '.my-slider',
-            items: 3,
-            slideBy: 'page',
-            arrowKeys: true,
-            mouseDrag: true,
-            controls: false,
-            nav: false,
-            autoplayButtonOutput: false,
-            loop: true,
-            autoplay: true
-        });
+        tns(SliderConstants.sliderConfig);
     }
 
 }

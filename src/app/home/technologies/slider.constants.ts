@@ -1,12 +1,15 @@
-export class CarouselConstants {
-    public static carouselConfig = {
-        margin: 25,
+export class SliderConstants {
+    public static sliderConfig = {
+        container: '.my-slider',
+        items: 3,
+        slideBy: 'page',
+        arrowKeys: true,
+        mouseDrag: true,
+        controls: false,
         nav: false,
-        dots: false,
-        autoplay: true,
+        autoplayButtonOutput: false,
         loop: true,
-        autoplayTimeout: 3000,
-        responsiveClass: true,
+        autoplay: true,
         responsive: {
             0: {
                 items: 1

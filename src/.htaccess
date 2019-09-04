@@ -7,3 +7,7 @@ AddOutputFilterByType DEFLATE application/json
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 </IfModule>
+# One year
+Header set Cache-Control "max-age=31536000, public"
+
+

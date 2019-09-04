@@ -30,7 +30,6 @@
     "core-js": "^2.6.3",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
-    "ngx-tiny-slider": "0.0.6",
     "popper.js": "^1.14.7",
     "rxjs": "^6.4.0",
     "tiny-slider": "^2.9.2",

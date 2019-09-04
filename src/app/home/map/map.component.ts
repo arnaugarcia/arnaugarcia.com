@@ -13,7 +13,6 @@ export class MapComponent implements OnInit {
     longitude = 1.97556;
     zoom = 13;
     iconUrl = 'assets/images/map-icon.png';
-    styles = mapStyle;
 
     ngOnInit(): void {
         const map = new google.maps.Map(document.getElementById('map'), {

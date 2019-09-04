@@ -30,11 +30,10 @@
               "src/assets/css/template.css",
               "src/assets/css/template.blue.css",
               "src/assets/css/et-line.css",
-              "./node_modules/owl.carousel/dist/assets/owl.carousel.css",
-              "./node_modules/owl.carousel/dist/assets/owl.theme.default.css"
+              "src/assets/css/tiny-slider.min.css"
             ],
             "scripts": [
-              "./node_modules/owl.carousel/dist/owl.carousel.js"
+              "src/assets/js/tiny-slider.min.js"
             ]
           },
           "configurations": {

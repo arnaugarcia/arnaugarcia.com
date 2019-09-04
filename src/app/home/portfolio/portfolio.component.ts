@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {PortfolioService} from './portfolio.service';
 import {IPortfolioItem} from './portfolio.model';
 
@@ -6,6 +6,7 @@ declare var $: any;
 
 @Component({
     selector: 'app-portfolio',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './portfolio.component.html',
     styleUrls: ['./portfolio.component.css'],
 })
@@ -31,16 +32,6 @@ export class PortfolioComponent implements OnInit {
 
     private initPortfolio() {
         const worksgrid = $('.row-portfolio');
-
-        const tilt = $('.js-tilt').tilt();
-
-        tilt.tilt({
-            maxTilt: 2
-        });
-
-        $('.js-tilt.large').tilt({
-            maxTilt: 1.4
-        });
 
         $(window).on('resize', function () {
             setTimeout(function () {

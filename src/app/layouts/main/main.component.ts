@@ -1,12 +1,12 @@
-import {Component, Inject, OnDestroy, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, Inject, OnDestroy, OnInit} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 import {DOCUMENT} from '@angular/common';
 import {Subscription} from 'rxjs';
 
 @Component({
     selector: 'app-main',
-    templateUrl: './main.component.html',
-    styleUrls: ['./main.component.css']
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    templateUrl: './main.component.html'
 })
 export class MainComponent implements OnInit, OnDestroy {
 

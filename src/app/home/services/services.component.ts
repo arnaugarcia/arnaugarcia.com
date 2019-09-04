@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {IService} from './service.model';
 import {ServicesService} from './services.service';
 
 @Component({
     selector: 'app-services',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './services.component.html',
     styleUrls: ['./services.component.css']
 })

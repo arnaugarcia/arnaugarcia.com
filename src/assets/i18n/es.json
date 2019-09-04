@@ -199,6 +199,20 @@
 		"SUBTITLE": "Lo que mi experiencia y dedicación me han proporcionado",
 		"TITLE": "Lo que me encanta hacer"
 	},
+	"SOCIAL": {
+		"GITHUB": {
+			"LABEL": "Ir a mi página de GitHub"
+		},
+		"INSTAGRAM": {
+			"LABEL": "Ir a mi página de linkedin"
+		},
+		"LINKEDIN": {
+			"LABEL": "Ir a mi página de LinkedIn"
+		},
+		"TWITTER": {
+			"LABEL": "Ir a mi página de Twitter"
+		}
+	},
 	"TECHNOLOGIES": {
 		"TITLE": "Tecnologías, frameworks y proyectos."
 	}

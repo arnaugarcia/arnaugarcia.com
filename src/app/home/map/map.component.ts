@@ -1,9 +1,10 @@
-import {Component} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {MapTypeStyle} from '@agm/core';
 import {mapStyle} from './map.constants';
 
 @Component({
     selector: 'app-map',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './map.component.html'
 })
 export class MapComponent {

@@ -199,6 +199,20 @@
 		"SUBTITLE": "Els coneixements que la meva experiència i dedicació m'han proporcionat",
 		"TITLE": "Allò que m'encanta fer"
 	},
+	"SOCIAL": {
+		"GITHUB": {
+			"LABEL": "Vés a la meva pàgina d’GitHub"
+		},
+		"INSTAGRAM": {
+			"LABEL": "Vés a la meva pàgina d’Instagram"
+		},
+		"LINKEDIN": {
+			"LABEL": "Vés a la pàgina del meu LinkedIn"
+		},
+		"TWITTER": {
+			"LABEL": "Vés a la meva pàgina d’Twitter"
+		}
+	},
 	"TECHNOLOGIES": {
 		"TITLE": "Tecnologies, frameworks i projectes"
 	}

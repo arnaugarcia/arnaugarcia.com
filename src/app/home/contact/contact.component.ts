@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {IMail, Mail} from './email.model';
 import {EmailService} from './email.service';
 import {HttpResponse} from '@angular/common/http';
@@ -6,6 +6,7 @@ import {TranslateService} from '@ngx-translate/core';
 
 @Component({
     selector: 'app-contact',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './contact.component.html',
     styleUrls: ['./contact.component.css']
 })

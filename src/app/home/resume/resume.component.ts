@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {IResumeItem} from './resume.model';
 import {ResumeService} from './resume.service';
 
 @Component({
     selector: 'app-resume',
+    changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './resume.component.html',
     styleUrls: ['./resume.component.css']
 })

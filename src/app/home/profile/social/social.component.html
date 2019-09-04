@@ -3,7 +3,9 @@
     <li *ngFor="let social of socialNetworks">
         <a [href]="social.link"
            class="btn btn-sm social-button"
-           target="_blank">
+           target="_blank"
+           rel="noreferrer"
+           [attr.aria-label]="social.label | translate">
            <i [class]="'fa ' + social.icon"></i>
         </a>
     </li>

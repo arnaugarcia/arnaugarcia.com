@@ -1,9 +1,10 @@
-import {Component, ElementRef, Input, OnInit, Renderer2, ViewChild} from '@angular/core';
+import {ChangeDetectionStrategy, Component, ElementRef, Input, OnInit, Renderer2, ViewChild} from '@angular/core';
 
 declare var $: any;
 
 @Component({
   selector: 'app-portfolio-filters',
+  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './portfolio-filters.component.html',
   styleUrls: ['./portfolio-filters.component.css']
 })

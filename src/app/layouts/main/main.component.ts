@@ -20,7 +20,7 @@ export class MainComponent implements OnInit, OnDestroy {
 
     constructor(@Inject(DOCUMENT) private document: Document,
                 private translateService: TranslateService,
-                library: FaIconLibrary) {
+                private library: FaIconLibrary) {
 
         library.addIconPacks(fab);
         library.addIcons(faTwitter);

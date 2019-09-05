@@ -22,6 +22,7 @@ export class HeaderComponent implements OnInit {
 
         this.translateService.stream('INTRO.SUBTITLE').subscribe((translation: string | any) => {
             this.translatedText = translation;
+            console.log('Typed!');
             this.initType();
         });
 

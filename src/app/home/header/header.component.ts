@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {AfterViewInit, ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {ParticlesConstants} from './particles-constants';
 
 declare var particlesJS: any;
@@ -9,9 +9,9 @@ declare var particlesJS: any;
     templateUrl: './header.component.html',
     styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent implements AfterViewInit {
 
-    ngOnInit() {
+    ngAfterViewInit(): void {
         particlesJS('particles-js', ParticlesConstants.particlesConfig);
     }
 

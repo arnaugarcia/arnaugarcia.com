@@ -12,6 +12,7 @@ import {TechnologiesModule} from './technologies/technologies.module';
 import {MapModule} from './map/map.module';
 import {ProjectsModule} from './projects/projects.module';
 import {ContactModule} from './contact/contact.module';
+import { TypedComponent } from './header/typed/typed.component';
 
 @NgModule({
     imports: [
@@ -28,7 +29,8 @@ import {ContactModule} from './contact/contact.module';
     ],
     declarations: [
         HomeComponent,
-        HeaderComponent
+        HeaderComponent,
+        TypedComponent
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

@@ -22,7 +22,6 @@ export class HeaderComponent implements OnInit {
 
         this.translateService.stream('INTRO.SUBTITLE').subscribe((translation: string | any) => {
             this.translatedText = translation;
-            console.log('Typed!');
             this.initType();
         });
 
@@ -34,6 +33,7 @@ export class HeaderComponent implements OnInit {
      * Starts the TypedJS. if the Typed is already running it destroys.
      */
     private initType(): void {
+        console.log('Typed!');
         if (this.typed) {
             this.typed.destroy();
         }

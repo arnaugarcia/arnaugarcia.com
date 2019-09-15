@@ -6,12 +6,12 @@
             </div>
             <div class="col-md-6">
                 <ul class="social-icons">
-                    <li *ngFor="let socialNetwork of socialNetworks | iconSquare: excludedNetworks">
+                    <li *ngFor="let socialNetwork of socialNetworks">
                         <a [href]="socialNetwork.link"
                            target="_blank"
                            rel="noreferrer"
                            [attr.aria-label]="socialNetwork.label | translate">
-                            <i [class]="'fa ' + socialNetwork.icon"></i>
+                            <fa-icon [icon]="['fab', socialNetwork.icon]"></fa-icon>
                         </a>
                     </li>
                 </ul>

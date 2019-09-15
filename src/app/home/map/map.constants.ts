@@ -1,4 +1,5 @@
 import {MapTypeStyle} from '@agm/core';
+
 export const mapStyle: MapTypeStyle[] = [
     {
         'elementType': 'geometry',

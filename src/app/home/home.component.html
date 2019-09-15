@@ -1,4 +1,4 @@
-<div scrollSpy [spiedTags]="['SECTION']">
+<div scrollSpy [spiedTags]="['SECTION']" id="main">
 
     <!-- Page Header-->
     <section class="module-header full-height parallax bg-dark bg-dark-30 header-light" id="home">
@@ -48,8 +48,8 @@
     </section>
 
     <!-- Map-->
-    <section class="maps-container">
-        <app-map></app-map>
+    <section class="maps-container" id="map">
+        <app-map *ngIf="loadMap"></app-map>
     </section>
     <!-- Map end-->
 </div>

@@ -10,7 +10,6 @@ import {ISocialNetwork} from '../../home/profile/social/social.model';
 export class FooterComponent implements OnInit {
     year: any;
     socialNetworks: ISocialNetwork[] = [];
-    excludedNetworks = ['fa-instagram'];
 
     constructor(private socialService: SocialService) {
         this.year = new Date().getFullYear();

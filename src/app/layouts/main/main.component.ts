@@ -7,7 +7,6 @@ import {faTwitter} from '@fortawesome/free-brands-svg-icons/faTwitter';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import {faGithub} from '@fortawesome/free-brands-svg-icons/faGithub';
 import {faInstagram} from '@fortawesome/free-brands-svg-icons/faInstagram';
-import {fab} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
     selector: 'app-main',
@@ -22,7 +21,6 @@ export class MainComponent implements OnInit, OnDestroy {
                 private translateService: TranslateService,
                 private library: FaIconLibrary) {
 
-        library.addIconPacks(fab);
         library.addIcons(faTwitter);
         library.addIcons(faLinkedin);
         library.addIcons(faGithub);

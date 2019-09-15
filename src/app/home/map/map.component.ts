@@ -1,33 +1,25 @@
-import {ChangeDetectionStrategy, Component, OnInit, ViewChild} from '@angular/core';
-import {mapStyle} from './map.constants';
-
-declare var google: any;
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
     selector: 'app-map',
     changeDetection: ChangeDetectionStrategy.OnPush,
     templateUrl: './map.component.html'
 })
-export class MapComponent implements OnInit {
+export class MapComponent {
 
     latitude = 41.3559809;
     longitude = 1.97556;
     zoom = 13;
     iconUrl = 'assets/images/map-icon.png';
 
-    ngOnInit(): void {
-        /*const map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: this.latitude, lng: this.longitude},
-            zoom: this.zoom,
-            styles: mapStyle,
-            disableDefaultUI: true,
-            gestureHandling: 'none'
-        });*/
+    public staticUrl = `https://maps.googleapis.com/maps/api/staticmap?center="${this.latitude},${this.longitude}"&zoom=${this.zoom}
+        &size=1850x500
+        &markers=color:red%7C%7C41.3559809,1.97556
+        &key=AIzaSyAGMmA6Q2kr8mFYqhsbmK2Ww5K4eBR3hGg`;
 
-        /*const marker = new google.maps.Marker({
-            position: {lat: this.latitude, lng: this.longitude},
-            icon: this.iconUrl,
-            map: map
-        });*/
+    constructor() {
+        //document.getElementById('myDiv').clientHeight;
     }
+
+
 }

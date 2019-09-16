@@ -3,12 +3,6 @@
 		"NAME": "Arnau García",
 		"TITLE": "Arnau García - Página web personal y profesional"
 	},
-	"CALLOUT": {
-		"COMPANY-DESCRIPTION": "Programando la nueva interfaz para la plataforma, utilizando Angular 5.",
-		"COMPANY-NAME": "TRABAJANDO EN WATCHITY",
-		"CONTACT-BUTTON": "Contacta conmigo",
-		"TITLE": "ACTUALMENTE"
-	},
 	"CONTACT": {
 		"ADDRESS": "08629 - Torrelles de Llobregat",
 		"EMAIL": "arnau.garcia.gallego@gmail.com",
@@ -28,7 +22,7 @@
 		"WEB": "http://arnaugarcia.com"
 	},
 	"FOOTER": {
-		"CONTENT": "© 2017 Arnau García Gallego"
+		"CONTENT": "© {{year}} Arnau Garcia, Todos los derechos reservados."
 	},
 	"INTRO": {
 		"SUBTITLE": "Un desarrollador web creativo ... | Desarrollador de microservicios | Desarrollador de Spring | Desarrollador de Angular | Entusiasta de JHipster | Amante del café",

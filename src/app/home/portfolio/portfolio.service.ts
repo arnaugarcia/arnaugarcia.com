@@ -9,9 +9,9 @@ export class PortfolioService {
     public query(): IPortfolioItem[] {
         return [
             {
-                'filters': ['web'],
-                'imageUrl': 'assets/images/arnaugarcia.webp',
-                'link': '#profile',
+                'filters': ['networks'],
+                'imageUrl': 'assets/images/portfolio/cisco.webp',
+                'link': null,
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM1.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM1.TITLE',
                 large: false

@@ -11,7 +11,9 @@ export class ScrollToDirective {
   @HostListener('click', ['$event']) onClick($event) {
     $event.preventDefault();
     const section = this.element.nativeElement.href.split('#')[1];
-
+    if (!section) {
+      return;
+    }
     if (this.smooth) {
       document.querySelector(`#${section}`).scrollIntoView({behavior: 'smooth'});
     } else {

@@ -51,16 +51,16 @@
 				"TITLE": "Certificació CCNA"
 			},
 			"ITEM2": {
-				"SUBTITLE": "Presentador a l'AngularCamp 2017",
-				"TITLE": "AngularCamp"
-			},
-			"ITEM3": {
-				"SUBTITLE": "Programació de Uplace.es",
+				"SUBTITLE": "Projecte Uplace desenvolupat",
 				"TITLE": "Uplace"
 			},
+			"ITEM3": {
+				"SUBTITLE": "Curs Angular completat",
+				"TITLE": "Angular Course"
+			},
 			"ITEM4": {
-				"SUBTITLE": "STUCOM",
-				"TITLE": "Aprenent JHipster"
+				"SUBTITLE": "Projecte Real State Camp desenvolupat i presentat en Angular Camp 2017",
+				"TITLE": "Real State Camp"
 			},
 			"ITEM5": {
 				"SUBTITLE": "Curs d'Angular 6 en udemy.com",

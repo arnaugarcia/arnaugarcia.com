@@ -17,9 +17,9 @@ export class PortfolioService {
                 large: false
             },
             {
-                'filters': ['arnau'],
-                'imageUrl': 'assets/images/arnaugarcia.webp',
-                'link': '#portfolio',
+                'filters': ['angular', 'projects'],
+                'imageUrl': 'assets/images/portfolio/uplace.webp',
+                'link': null,
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM2.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM2.TITLE',
                 large: false
@@ -35,8 +35,8 @@ export class PortfolioService {
 
             },
             {
-                'filters': ['jhipster', 'angular'],
-                'imageUrl': 'https://www.jhipster.tech/images/logo/jhipster_family_member_0.svg',
+                'filters': ['angular', 'projects'],
+                'imageUrl': 'assets/images/portfolio/realstatecamp.webp',
                 'link': '#contact',
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM4.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM4.TITLE',

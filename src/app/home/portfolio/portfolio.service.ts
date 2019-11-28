@@ -36,7 +36,7 @@ export class PortfolioService {
             },
             {
                 'filters': ['angular', 'projects'],
-                'imageUrl': 'assets/images/portfolio/logoat.png',
+                'imageUrl': 'assets/images/portfolio/logo_realstatecamp.svg',
                 'link': null,
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM4.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM4.TITLE',

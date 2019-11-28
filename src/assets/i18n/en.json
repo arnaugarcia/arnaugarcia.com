@@ -166,20 +166,20 @@
 	"SERVICE": {
 		"SERVICES": {
 			"SERVICE1": {
-				"TEXT": "I am able to develop static websites as well as complex web applications to fulfil specific requirements before the given deadline",
+				"TEXT": "Develop web pages is my best area. I can develop static and simple websites as well as complex applications for big companies.",
 				"TITLE": "Web Development"
 			},
 			"SERVICE2": {
-				"TEXT": "Responsiveness is a must. I am comfortable working with technologies such as Bootstrap, LESS and SASS in order to quick-start an application",
-				"TITLE": "Responsive Design"
+				"TEXT": "Responsiveness is a must. As well as prepared for last generation browsers and offline work.",
+				"TITLE": "PWA ready and responsive"
 			},
 			"SERVICE3": {
 				"TEXT": "I focus on constant user testing in order to deliver the best User Experience as possible",
 				"TITLE": "UX & UI"
 			},
 			"SERVICE4": {
-				"TEXT": "I have been around technologies such as AWS, which has helped me understand how to design the infrastructure of complex applications",
-				"TITLE": "Web Server Implementation & Architecture"
+				"TEXT": "I love designing the architecture of the applications in a creative and simple way. From the creation of the file structure to the production deployment.",
+				"TITLE": "Implementation & Architecture"
 			},
 			"SERVICE5": {
 				"TEXT": "I am able to design the correct schema for a Database in technologies such as MySQL and SQL Server. I have also worked with non relational Databases such as MongoDB",

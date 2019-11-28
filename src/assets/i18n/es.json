@@ -166,20 +166,20 @@
 	"SERVICE": {
 		"SERVICES": {
 			"SERVICE1": {
-				"TEXT": "Puedo desarrollar páginas web estáticas, así como aplicaciones web complejas para cumplir requisitos específicos en el tiempo establecido",
+				"TEXT": "Desarrollar páginas web es mi especialidad. Puedo desarrollar desde páginas web estáticas y sencillas cómo aplicaciones complejas para grandes empresas.",
 				"TITLE": "Desarrollo Web"
 			},
 			"SERVICE2": {
-				"TEXT": "Una web responsive es indispensable. Me siento cómodo trabajando con tecnologías como Bootstrap, LESS y SASS para el inicio rápido de aplicaciones",
-				"TITLE": "Diseño responsive"
+				"TEXT": "Una web responsive es indispensable. Así cómo que esté preparada para navegadores de última generación y pueda ser funcional incluso sin conexión.",
+				"TITLE": "PWA y Responsive"
 			},
 			"SERVICE3": {
 				"TEXT": "Me centro en testar constantemente al usuario para ofrecerle la mejor experiencia posible",
 				"TITLE": "UX & UI"
 			},
 			"SERVICE4": {
-				"TEXT": "He tenido contacto con tecnologías como AWS, que me ha ayudado a entender cómo diseñar la infraestructura para aplicaciones complejas",
-				"TITLE": "Implementación y arquitectura del Servidor Web"
+				"TEXT": "Me encanta diseñar la arquitectura de las aplicaciones de una forma creativa y sencilla. Desde la creación de la estructura de los ficheros hasta el desligue a producción.",
+				"TITLE": "Implementación y arquitectura"
 			},
 			"SERVICE5": {
 				"TEXT": "Puedo diseñar el esquema adecuado para una base de datos en tecnologías como MySQL y SQL Server. También he trabajado con bases de datos no relacionales como MongoDB",

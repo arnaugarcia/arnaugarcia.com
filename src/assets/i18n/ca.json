@@ -166,27 +166,27 @@
 	"SERVICE": {
 		"SERVICES": {
 			"SERVICE1": {
-				"TEXT": "Puc desenvolupar pàgines web estàtiques, així com aplicacions web complexes per cumplir requeriments específics en el temps establert",
+				"TEXT": "Desenvolupar pàgines web és el meu millor àmbit. Puc desenvolupar llocs web estàtics i senzills així com aplicacions complexes per a grans empreses.",
 				"TITLE": "Pàgines Web"
 			},
 			"SERVICE2": {
-				"TEXT": "Una web responsive és indispensable. Em sento còmode treballant amb tecnologies com Bootstrap, LESS i SASS per a l'inici ràpid d'aplicacions",
-				"TITLE": "Disseny responsive"
+				"TEXT": "Un web responsive és indispensable. Així com que estigui preparada per a navegadors d'última generació i pugui ser funcional fins i tot sense connexió.",
+				"TITLE": "PWA i Responsive"
 			},
 			"SERVICE3": {
 				"TEXT": "Em centro en testar constantment l'usuari per oferir-li la millor experiència possible",
 				"TITLE": "UX & UI"
 			},
 			"SERVICE4": {
-				"TEXT": "He estat en contacte amb tecnologies com AWS, que m'ha ajudat a entendre com dissenyar la infraestructura per aplicacions complexes",
-				"TITLE": "Implementació i arquitectura del Servidor Web"
+				"TEXT": "M'encanta dissenyar l'arquitectura de les aplicacions d'una forma creativa i senzilla. Des de la creació de l'estructura dels fitxers fins al desplegament a producció.",
+				"TITLE": "Implementació i arquitectura"
 			},
 			"SERVICE5": {
 				"TEXT": "Puc dissenyar l'esquema adequat per una base de dades en tecnologies com MySQL i SQL Server. També he treballat amb bases de dades no relacionals com MongoDB",
-				"TITLE": "Maneig de bases de dades"
+				"TITLE": "Gestió de bases de dades"
 			},
 			"SERVICE6": {
-				"TEXT": "El meu objectiu principal és mantenir emmagatzemada de manera segura i encriptada tota la informació proporcionada per l'usuari en una aplicació",
+				"TEXT": "El meu objectiu és mantenir emmagatzemada de manera segura i encriptada tota la informació proporcionada per l'usuari en una aplicació",
 				"TITLE": "Seguretat Web"
 			}
 		},

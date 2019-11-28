@@ -18,7 +18,7 @@ export class PortfolioService {
             },
             {
                 'filters': ['angular', 'projects'],
-                'imageUrl': 'assets/images/portfolio/uplace.webp',
+                'imageUrl': 'assets/images/portfolio/uplace.png',
                 'link': null,
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM2.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM2.TITLE',

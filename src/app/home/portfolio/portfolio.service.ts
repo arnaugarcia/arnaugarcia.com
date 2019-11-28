@@ -36,10 +36,19 @@ export class PortfolioService {
             },
             {
                 'filters': ['angular', 'projects'],
-                'imageUrl': 'assets/images/portfolio/realstatecamp.webp',
-                'link': '#contact',
+                'imageUrl': 'assets/images/portfolio/logoat.png',
+                'link': null,
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM4.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM4.TITLE',
+                large: false
+
+            },
+            {
+                'filters': ['spring', 'microservices'],
+                'imageUrl': 'assets/images/portfolio/springmicroservices.png',
+                'link': null,
+                'subtitle': 'PORTFOLIO.ITEMS.ITEM5.SUBTITLE',
+                'title': 'PORTFOLIO.ITEMS.ITEM5.TITLE',
                 large: false
 
             }

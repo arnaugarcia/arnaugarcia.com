@@ -17,6 +17,7 @@ export class ProjectsService {
         link: 'http://blog.arnaugarcia.com/connected-car',
         date: 'PROJECTS.ITEMS.0.DATE'
       },
+        // Add Sallefy project
       {
         categories: ['PROJECTS.CATEGORIES.IOT', 'PROJECTS.CATEGORIES.CONNECTED-CAR'],
         title: 'PROJECTS.ITEMS.0.TITLE',

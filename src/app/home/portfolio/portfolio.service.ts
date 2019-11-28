@@ -9,17 +9,17 @@ export class PortfolioService {
     public query(): IPortfolioItem[] {
         return [
             {
-                'filters': ['web'],
-                'imageUrl': 'assets/images/arnaugarcia.webp',
-                'link': '#profile',
+                'filters': ['networks'],
+                'imageUrl': 'assets/images/portfolio/cisco.webp',
+                'link': null,
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM1.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM1.TITLE',
                 large: false
             },
             {
-                'filters': ['arnau'],
-                'imageUrl': 'assets/images/arnaugarcia.webp',
-                'link': '#portfolio',
+                'filters': ['angular', 'projects'],
+                'imageUrl': 'assets/images/portfolio/uplace.png',
+                'link': null,
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM2.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM2.TITLE',
                 large: false
@@ -35,11 +35,20 @@ export class PortfolioService {
 
             },
             {
-                'filters': ['jhipster', 'angular'],
-                'imageUrl': 'https://www.jhipster.tech/images/logo/jhipster_family_member_0.svg',
-                'link': '#contact',
+                'filters': ['angular', 'projects'],
+                'imageUrl': 'assets/images/portfolio/logo_realstatecamp.svg',
+                'link': null,
                 'subtitle': 'PORTFOLIO.ITEMS.ITEM4.SUBTITLE',
                 'title': 'PORTFOLIO.ITEMS.ITEM4.TITLE',
+                large: false
+
+            },
+            {
+                'filters': ['spring', 'microservices'],
+                'imageUrl': 'assets/images/portfolio/springmicroservices.png',
+                'link': null,
+                'subtitle': 'PORTFOLIO.ITEMS.ITEM5.SUBTITLE',
+                'title': 'PORTFOLIO.ITEMS.ITEM5.TITLE',
                 large: false
 
             }

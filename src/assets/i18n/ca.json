@@ -99,8 +99,10 @@
 	},
 	"PROJECTS": {
 		"CATEGORIES": {
+			"BACKEND": "Backend",
 			"CONNECTED-CAR": "Cotxe connectat",
-			"IOT": "iot"
+			"IOT": "iot",
+			"JAVA": "Java"
 		},
 		"ITEMS": {
 			"0": {
@@ -112,10 +114,10 @@
 				"YEAR": "1998-2004"
 			},
 			"1": {
-				"DESCRIPTION": "Lorem ipsum dolor sit amet et morin fiu sempre",
-				"SUBTITLE": "",
-				"TITLE": "",
-				"YEAR": ""
+				"DESCRIPTION": "Juntament amb Alfredo Rueda i Joan Carrion, estem desenvolupant una plataforma de música per al curs d’Android de La Salle. Aquest projecte és una aplicació monolítica desenvolupada amb JHipster (Spring and Angular)",
+				"SUBTITLE": "Plataforma musical per a La Salle",
+				"TITLE": "Sallefy | Una plataforma de musical",
+				"YEAR": "2019 - 2020"
 			}
 		},
 		"MORE-BUTTON": "Més Projectes"

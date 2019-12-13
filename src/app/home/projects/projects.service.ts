@@ -26,6 +26,15 @@ export class ProjectsService {
         imageDescription: 'PROJECTS.ITEMS.1.IMAGE-DESCRIPTION',
         link: '#projects',
         date: 'PROJECTS.ITEMS.1.DATE'
+      },
+      {
+        categories: ['PROJECTS.CATEGORIES.IOT', 'PROJECTS.CATEGORIES.JAVA'],
+        title: 'PROJECTS.ITEMS.2.TITLE',
+        description: 'PROJECTS.ITEMS.2.DESCRIPTION',
+        image: 'assets/images/projects/sallefy.png',
+        imageDescription: 'PROJECTS.ITEMS.2.IMAGE-DESCRIPTION',
+        link: '#projects',
+        date: 'PROJECTS.ITEMS.2.DATE'
       }
     ];
   }

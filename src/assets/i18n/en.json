@@ -118,6 +118,12 @@
 				"SUBTITLE": "Music platform for La Salle",
 				"TITLE": "Sallefy | A music platform",
 				"YEAR": "2019 - 2020"
+			},
+			"2": {
+				"DESCRIPTION": "I have started to connect my house to the internet. I have set up an intranet with cloud services such as a VPN, storage and a monitoring system that gives information about the lights, consumptions and average time spent on each device.",
+				"SUBTITLE": "IOT platform for home automation",
+				"TITLE": "IoT | Home automation",
+				"YEAR": "2019 - 2020"
 			}
 		},
 		"MORE-BUTTON": "More Projects"

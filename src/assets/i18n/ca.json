@@ -118,6 +118,12 @@
 				"SUBTITLE": "Plataforma musical per a La Salle",
 				"TITLE": "Sallefy | Una plataforma de musical",
 				"YEAR": "2019 - 2020"
+			},
+			"2": {
+				"DESCRIPTION": "He començat a connectar casa meva a Internet. He configurat una intranet amb serveis al núvol com ara una VPN, emmagatzematge i un sistema de monitorització que proporciona informació sobre les llums, els consums i el temps mitjà dedicat a cada dispositiu.",
+				"SUBTITLE": "Plataforma IOT per domòtica",
+				"TITLE": "IoT | Domòtica",
+				"YEAR": "2019 - 2020"
 			}
 		},
 		"MORE-BUTTON": "Més Projectes"

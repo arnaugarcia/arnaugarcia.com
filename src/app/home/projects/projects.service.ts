@@ -31,7 +31,7 @@ export class ProjectsService {
         categories: ['PROJECTS.CATEGORIES.IOT', 'PROJECTS.CATEGORIES.JAVA'],
         title: 'PROJECTS.ITEMS.2.TITLE',
         description: 'PROJECTS.ITEMS.2.DESCRIPTION',
-        image: 'assets/images/projects/sallefy.png',
+        image: 'assets/images/projects/iot_home.png',
         imageDescription: 'PROJECTS.ITEMS.2.IMAGE-DESCRIPTION',
         link: '#projects',
         date: 'PROJECTS.ITEMS.2.DATE'

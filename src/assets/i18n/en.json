@@ -101,8 +101,10 @@
 		"CATEGORIES": {
 			"BACKEND": "Backend",
 			"CONNECTED-CAR": "Connected car",
+			"DEVOPS": "Devops",
 			"IOT": "iot",
-			"JAVA": "Java"
+			"JAVA": "Java",
+			"SYSTEM-ADMINISTRATION": "Systems Administration"
 		},
 		"ITEMS": {
 			"0": {

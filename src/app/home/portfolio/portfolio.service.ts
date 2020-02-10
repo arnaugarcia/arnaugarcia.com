@@ -51,6 +51,15 @@ export class PortfolioService {
                 'title': 'PORTFOLIO.ITEMS.ITEM5.TITLE',
                 large: false
 
+            },
+            {
+                'filters': ['startup'],
+                'imageUrl': 'assets/images/portfolio/startup-weekend.png',
+                'link': null,
+                'subtitle': 'PORTFOLIO.ITEMS.ITEM7.SUBTITLE',
+                'title': 'PORTFOLIO.ITEMS.ITEM7.TITLE',
+                large: false
+
             }
         ];
     }

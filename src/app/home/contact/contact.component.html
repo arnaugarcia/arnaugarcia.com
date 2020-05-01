@@ -51,9 +51,10 @@
                                   style="height: 184px;"
                                   required></textarea>
                     </div>
+                    <re-captcha (resolved)="resolved()" [siteKey]="reCaptchaSiteKey"></re-captcha>
                     <div class="form-group col-sm-12">
                         <div class="text-center m-t-20">
-                            <button class="btn btn-round btn-brand" type="submit" [disabled]="!form.valid">
+                            <button class="btn btn-round btn-brand" type="submit" [disabled]="!form.valid || !checkedCaptcha">
                                 <span>{{'CONTACT.FORM.BUTTON' | translate}}</span>
                             </button>
                         </div>

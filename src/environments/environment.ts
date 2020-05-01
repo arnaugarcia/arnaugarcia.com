@@ -11,7 +11,7 @@ export const environment = {
     email: 'arnau.garcia.gallego@gmail.com'
   },
   reCaptcha: {
-    siteKey: '6LfT9PAUAAAAAFMnVRQeqraleGk7kdjnY1S-SIxC'
+    siteKey: '6Lfi9vAUAAAAAMo29FEGmbCHr1OyTNg8tgCoG66T'
   }
 };
 

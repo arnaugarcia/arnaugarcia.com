@@ -11,7 +11,6 @@ import {environment} from '../../../environments/environment';
     styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-
     mail: IMail;
     mailSent = false;
     response: string;

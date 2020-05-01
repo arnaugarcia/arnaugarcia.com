@@ -2,7 +2,6 @@ import {NgModule} from '@angular/core';
 import {SharedModule} from '../../shared/shared.module';
 import {ContactComponent} from './contact.component';
 import {RECAPTCHA_V3_SITE_KEY, RecaptchaV3Module} from 'ng-recaptcha';
-import {environment} from '../../../environments/environment';
 
 @NgModule({
   declarations: [ContactComponent],
@@ -11,7 +10,7 @@ import {environment} from '../../../environments/environment';
     RecaptchaV3Module
   ],
   providers: [
-    { provide: RECAPTCHA_V3_SITE_KEY, useValue: environment.reCaptcha.siteKey }
+    { provide: RECAPTCHA_V3_SITE_KEY, useValue: '6LfT9PAUAAAAAFMnVRQeqraleGk7kdjnY1S-SIxC' },
   ],
   exports: [ContactComponent]
 })

@@ -1,4 +1,4 @@
-# Arnaugarcia
+# arnaugarcia.com
 
 ![CI](https://github.com/arnaugarcia/arnaugarcia.com/workflows/CI/badge.svg?branch=master)
 

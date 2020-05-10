@@ -1,0 +1,41 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+    - name: Run a yarn or npm command
+      uses: Adzz/yarn_command_action@v1.0.0
+      with:
+          # Specify whether to use npm or yarn to run the tests. May be npm or yarn only defaults to yarn
+          package-manager: npm
+           # The command you wish to run e.g. test
+          command: npm run build
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@3.1.0
+      with:
+        # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
+        ftp-server: home556586389.1and1-data.host
+        # FTP account username
+        ftp-username: u75998576-test
+        # FTP account password
+        ftp-password: |%qz"m4S@6
+        # The local folder to copy, defaults to root project folder
+        local-dir: ./dist/*

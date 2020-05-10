@@ -32,11 +32,11 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.1.0
       with:
         # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
-        ftp-server: sftp://home556586389.1and1-data.host:22
+        ftp-server: sftp://home556586389.1and1-data.host:22/
         # FTP account username
         ftp-username: u75998576-test
         # FTP account password
-        ftp-password: vBx~sO9bxN
+        ftp-password: ${{ secrets.FTPS_PASSWORD }}
         # The local folder to copy, defaults to root project folder
         local-dir: ./dist
         git-ftp-args: -k, --insecure

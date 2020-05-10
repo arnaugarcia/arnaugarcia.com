@@ -9,6 +9,9 @@ export const environment = {
     apiUrl: 'https://services.arnaugarcia.com',
     companyName: 'arnaugarcia.com',
     email: 'arnau.garcia.gallego@gmail.com'
+  },
+  reCaptcha: {
+    siteKey: '6Lfi9vAUAAAAAMo29FEGmbCHr1OyTNg8tgCoG66T'
   }
 };
 

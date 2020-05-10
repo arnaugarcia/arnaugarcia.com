@@ -32,16 +32,19 @@ jobs:
           package-manager: npm
           # The command you wish to run e.g. test
           command: run build
-  deploy:
-    name: Deploy to FTP
-    uses: SamKirkland/FTP-Deploy-Action@3.1.0
-    with:
-      # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
-      ftp-server: sftp://home556586389.1and1-data.host/
-      # FTP account username
-      ftp-username: u75998576-test
-      # FTP account password
-      ftp-password: ${{ secrets.FTPS_PASSWORD }}
-      # The local folder to copy, defaults to root project folder
-      local-dir: /dist/
-      git-ftp-args: -k, --insecure
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.1.0
+        with:
+          fetch-depth: 2
+
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@3.1.0
+        with:
+          ftp-server: sftp://home556586389.1and1-data.host/
+          ftp-username: u75998576-test
+          ftp-password: ${{ secrets.SFTP_PASSWORD }}
+          local-dir: /dist/
+          git-ftp-args: --insecure

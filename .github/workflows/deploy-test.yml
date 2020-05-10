@@ -19,27 +19,27 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-    - name: Run a yarn or npm command
-      uses: Adzz/yarn_command_action@v1.0.0
-      with:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Run a yarn or npm command
+        uses: Adzz/yarn_command_action@v1.0.0
+        with:
           # Specify whether to use npm or yarn to run the tests. May be npm or yarn only defaults to yarn
           package-manager: npm
-           # The command you wish to run e.g. test
+          # The command you wish to run e.g. test
           command: run build
           fetch-depth: 2
 
-    - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@3.1.0
-      with:
-        # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
-        ftp-server: sftp://home556586389.1and1-data.host:22/
-        # FTP account username
-        ftp-username: u75998576-test
-        # FTP account password
-        ftp-password: ${{ secrets.FTPS_PASSWORD }}
-        # The local folder to copy, defaults to root project folder
-        local-dir: ./dist
-        git-ftp-args: -k, --insecure
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@3.1.0
+        with:
+          # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
+          ftp-server: sftp://home556586389.1and1-data.host:22/
+          # FTP account username
+          ftp-username: u75998576-test
+          # FTP account password
+          ftp-password: ${{ secrets.FTPS_PASSWORD }}
+          # The local folder to copy, defaults to root project folder
+          local-dir: ./dist
+          git-ftp-args: -k, --insecure
  

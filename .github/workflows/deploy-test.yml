@@ -38,4 +38,4 @@ jobs:
         # FTP account password
         ftp-password: |%qz"m4S@6
         # The local folder to copy, defaults to root project folder
-        local-dir: ./dist/*
+        local-dir: ./dist/

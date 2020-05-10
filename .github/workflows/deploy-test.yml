@@ -39,5 +39,5 @@ jobs:
           ftp-server: sftp://home556586389.1and1-data.host/
           ftp-username: u75998576-test
           ftp-password: ${{ secrets.SFTP_PASSWORD }}
-          local-dir: /dist/
+          local-dir: ./dist/
           git-ftp-args: --insecure

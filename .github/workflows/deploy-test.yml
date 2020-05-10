@@ -20,17 +20,20 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - name: Run a yarn or npm command
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: Build artifact
         uses: Adzz/yarn_command_action@v1.0.0
         with:
           # Specify whether to use npm or yarn to run the tests. May be npm or yarn only defaults to yarn
           package-manager: npm
           # The command you wish to run e.g. test
           command: run build
-          fetch-depth: 2
 
-      - name: FTP Deploy
+      - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@3.1.0
         with:
           # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/

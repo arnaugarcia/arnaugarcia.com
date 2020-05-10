@@ -33,7 +33,7 @@ jobs:
           # The command you wish to run e.g. test
           command: run build
 
-      - name: FTP-Deploy-Action
+      - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@3.1.0
         with:
           ftp-server: sftp://home556586389.1and1-data.host/

@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {Component} from '@angular/core';
 import {IMail, Mail} from './email.model';
 import {EmailService} from './email.service';
 import {HttpResponse} from '@angular/common/http';
@@ -29,9 +29,12 @@ export class ContactComponent {
             this.mailSent = true;
             this.response = this.translateService.instant('CONTACT.LOADING');
             this.emailService.sendMessage(this.mail).subscribe((response: HttpResponse<void>) => {
-                this.response = this.translateService.instant('CONTACT.SUCCESS');
+                if (response.ok) {
+                    this.response = this.translateService.instant('CONTACT.SUCCESS');
+                }
             }, error => {
                 this.response = this.translateService.instant('CONTACT.ERROR');
+                this.mail = new Mail();
                 console.error(error);
             });
         }

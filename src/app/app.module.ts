@@ -30,7 +30,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
         ErrorComponent
     ],
     imports: [
-        BrowserModule,
+        BrowserModule.withServerTransition({ appId: 'serverApp' }),
         SharedModule,
         TranslateModule.forRoot({
             loader: {

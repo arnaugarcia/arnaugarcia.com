@@ -17,7 +17,11 @@ export class MapComponent implements OnInit {
     public mapOptions: google.maps.MapOptions = {
         center: this.torrellesCoordinate,
         zoom: 13,
-        styles: mapStyle
+        styles: mapStyle,
+        streetViewControl: false,
+        mapTypeControl: false,
+        fullscreenControl: false,
+        zoomControl: false
     };
 
     ngOnInit(): void {

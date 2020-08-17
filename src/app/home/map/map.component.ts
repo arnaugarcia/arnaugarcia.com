@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {MapTypeStyle} from '@agm/core';
 import {mapStyle} from './map.constants';
 
 @Component({
@@ -11,10 +10,12 @@ export class MapComponent implements OnInit {
     longitude = 1.97556;
     zoom = 13;
     iconUrl = 'assets/images/map-icon.png';
-    styles: MapTypeStyle[] = mapStyle;
+    styles: any[] = mapStyle;
 
     ngOnInit(): void {
         console.log('Map Init');
     }
+
+
 
 }

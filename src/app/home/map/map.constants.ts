@@ -1,4 +1,4 @@
-export const mapStyle: any[] = [
+export const mapStyle: google.maps.MapTypeStyle[] = [
     {
         'elementType': 'geometry',
         'stylers': [
@@ -158,3 +158,4 @@ export const mapStyle: any[] = [
         ]
     }
 ];
+

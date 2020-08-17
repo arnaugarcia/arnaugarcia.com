@@ -7,15 +7,22 @@ import {mapStyle} from './map.constants';
 })
 export class MapComponent implements OnInit {
 
-    public center = {lat: 41.3559809, lng: 1.97556};
-    zoom = 13;
-    iconUrl = 'assets/images/map-icon.png';
-    styles: any[] = mapStyle;
+    private torrellesCoordinate: google.maps.LatLngLiteral = {lat: 41.3559809, lng: 1.97556};
+
+    public markerOptions: google.maps.MarkerOptions = {
+        position: this.torrellesCoordinate,
+        icon: 'assets/images/map-icon.png'
+    };
+
+    public mapOptions: google.maps.MapOptions = {
+        center: this.torrellesCoordinate,
+        zoom: 13,
+        styles: mapStyle
+    };
 
     ngOnInit(): void {
         console.log('Map Init');
     }
-
 
 
 }

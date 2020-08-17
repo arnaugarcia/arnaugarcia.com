@@ -6,8 +6,8 @@ import {mapStyle} from './map.constants';
     templateUrl: './map.component.html'
 })
 export class MapComponent implements OnInit {
-    latitude = 41.3559809;
-    longitude = 1.97556;
+
+    public center = {lat: 41.3559809, lng: 1.97556};
     zoom = 13;
     iconUrl = 'assets/images/map-icon.png';
     styles: any[] = mapStyle;

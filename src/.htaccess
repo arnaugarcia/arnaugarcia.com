@@ -9,5 +9,7 @@ AddOutputFilterByType DEFLATE application/x-javascript
 </IfModule>
 # One year
 Header set Cache-Control "max-age=31536000, public"
-
-
+# Redirects to HTTPs site
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://arnaugarcia.com/$1 [R=301,L]

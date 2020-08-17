@@ -1,9 +1,3 @@
-<agm-map class="map"
-         [latitude]="latitude"
-         [longitude]="longitude"
-         [zoom]="zoom"
-         [scrollwheel]="false"
-         [styles]="styles"
-         [zoomControl]="false">
-    <agm-marker [latitude]="latitude" [longitude]="longitude" [iconUrl]="iconUrl"></agm-marker>
-</agm-map>
+<google-map [options]="mapOptions" height="100%" width="100%">
+    <map-marker [options]="markerOptions"></map-marker>
+</google-map>

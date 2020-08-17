@@ -130,5 +130,8 @@
       }
     }
   },
-  "defaultProject": "arnaugarcia"
+  "defaultProject": "arnaugarcia",
+  "cli": {
+    "analytics": "f8d2296a-bfdd-4ada-8888-3ac421349c3a"
+  }
 }

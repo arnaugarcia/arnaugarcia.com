@@ -10,6 +10,13 @@ import {environment} from '../environments/environment';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
+// Extends the Window function to support Google Maps Dynamic import
+declare global {
+    interface Window {
+        initMap();
+    }
+}
+
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
     return new TranslateHttpLoader(httpClient);

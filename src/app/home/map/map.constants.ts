@@ -1,6 +1,4 @@
-import {MapTypeStyle} from '@agm/core';
-
-export const mapStyle: MapTypeStyle[] = [
+export const mapStyle: google.maps.MapTypeStyle[] = [
     {
         'elementType': 'geometry',
         'stylers': [
@@ -160,3 +158,4 @@ export const mapStyle: MapTypeStyle[] = [
         ]
     }
 ];
+

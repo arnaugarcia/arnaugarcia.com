@@ -5,7 +5,7 @@ import {mapStyle} from './map.constants';
     selector: 'app-map',
     templateUrl: './map.component.html'
 })
-export class MapComponent implements OnInit {
+export class MapComponent {
 
     private torrellesCoordinate: google.maps.LatLngLiteral = {lat: 41.3559809, lng: 1.97556};
 
@@ -23,10 +23,4 @@ export class MapComponent implements OnInit {
         fullscreenControl: false,
         zoomControl: false
     };
-
-    ngOnInit(): void {
-        console.log('Map Init');
-    }
-
-
 }

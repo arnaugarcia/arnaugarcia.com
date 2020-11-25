@@ -3,7 +3,7 @@
     <ul class="filters h6" id="filters" #filtersRef>
       <li><a class="current" (click)="onFilter($event, '*')">All</a></li>
       <li *ngFor="let filter of filters">
-        <a (click)="onFilter($event, '.' + filter)">{{filter}}</a>
+        <a (click)="onFilter($event, '.' + filter)" class="pointer">{{filter}}</a>
       </li>
     </ul>
   </div>

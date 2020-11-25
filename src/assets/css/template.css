@@ -3074,3 +3074,7 @@ a[rel~=gallery]:hover {
 .bg-dark, .bg-gradient {
     color: #fff
 }
+
+.pointer {
+    cursor: pointer;
+}

@@ -33,7 +33,7 @@
     "bootstrap": "^4.2.1",
     "core-js": "^3.6.5",
     "jquery": "^3.5.0",
-    "ng-recaptcha": "^5.0.0",
+    "ng-recaptcha": "^6.0.2",
     "rxjs": "^6.6.2",
     "tiny-slider": "^2.9.2",
     "typed.js": "^2.0.9",

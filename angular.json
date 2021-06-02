@@ -33,12 +33,10 @@
             "scripts": [
               "src/assets/js/tiny-slider.min.js"
             ],
-            "vendorChunk": true,
             "extractLicenses": false,
-            "buildOptimizer": false,
+            "buildOptimizer": true,
             "sourceMap": true,
-            "optimization": false,
-            "namedChunks": true
+            "optimization": true
           },
           "configurations": {
             "production": {

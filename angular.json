@@ -18,6 +18,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/.htaccess",
@@ -32,11 +33,7 @@
             ],
             "scripts": [
               "src/assets/js/tiny-slider.min.js"
-            ],
-            "extractLicenses": false,
-            "buildOptimizer": true,
-            "sourceMap": true,
-            "optimization": true
+            ]
           },
           "configurations": {
             "production": {
@@ -51,6 +48,7 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
+              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -133,9 +131,7 @@
           "options": {
             "outputPath": "dist/arnaugarcia/server",
             "main": "src/main.server.ts",
-            "tsConfig": "tsconfig.server.json",
-            "sourceMap": true,
-            "optimization": false
+            "tsConfig": "tsconfig.server.json"
           },
           "configurations": {
             "production": {

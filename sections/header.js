@@ -1,5 +1,6 @@
 import styles from './header.module.css'
 import Particles from "react-tsparticles";
+import Typed from "../components/typed";
 
 export default function Header() {
     return (
@@ -113,9 +114,9 @@ export default function Header() {
                 <div className="row">
                     <div className="col-md-12">
                         <h1 className="h1 m-b-15">Arnau Garcia</h1>
-                        <h1 className={styles.h5}>
-
-                        </h1>
+                        <h5>
+                            <Typed/>
+                        </h5>
                     </div>
                 </div>
             </div>

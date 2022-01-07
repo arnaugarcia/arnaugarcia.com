@@ -11,6 +11,7 @@ function MyApp({Component, pageProps}) {
                 <meta name="description"
                       content="Hola! Soy Arnau García, un programador con ganas de alcanzar nuevos retos y aportar nuevas cosas al mundo."/>
                 <Script src={""}/>
+                <meta name="author" content="Arnau Garcia"/>
             </Head>
             <Navbar/>
             <div className={"wrapper"}>

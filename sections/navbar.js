@@ -55,9 +55,9 @@ export default function Navbar() {
                 </div>
                 <div class="nav-toggle">
                     <a data-toggle="collapse" data-target=".inner-navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        <span class="icon-bar"/>
+                        <span class="icon-bar"/>
+                        <span class="icon-bar"/>
                     </a>
                 </div>
             </div>

@@ -1,8 +1,10 @@
+import styles from './header.module.css'
+
 export default function Header() {
     return (
         <>
             <div id="particles-js"/>
-            <div className="text">
+            <div className={styles.text}>
                 <div className="row">
                     <div className="col-md-12">
                         <h1 className="h1 m-b-15">Arnau Garcia</h1>

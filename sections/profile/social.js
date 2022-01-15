@@ -30,8 +30,7 @@ export default function Social() {
         }
     ];
 
-    return (<>
-        <h3 className="h4">WHERE CAN YOU FIND ME?</h3>
+    return (
         <ul className={styles.widgetSocial}>
             {social.map(({id, icon, label, link}) => (
                 <li key={id}>
@@ -44,6 +43,5 @@ export default function Social() {
                     </a>
                 </li>
             ))}
-        </ul>
-    </>);
+        </ul>);
 }

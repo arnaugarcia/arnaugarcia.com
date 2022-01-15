@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Social from "./social";
+import Skills from "./skills";
 
 export default function Profile() {
     return (
@@ -26,7 +27,8 @@ export default function Profile() {
                 <Social/>
             </div>
             <div className="col-md-4 skills">
-                {/* <app-skills></app-skills>*/}
+                <h5>SKILLS</h5>
+                <Skills/>
             </div>
         </div>
     </div>);

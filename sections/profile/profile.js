@@ -29,10 +29,10 @@ export default function Profile() {
             <div className="col-md-4 skills">
                 <h5>SKILLS</h5>
                 <Skill label={'Java / Lambdas / Reactive Programming'} value={95}/>
-                {/*<Skill label={'Spring / Spring Cloud / Spring Security'} value={90}/>
+                <Skill label={'Spring / Spring Cloud / Spring Security'} value={95}/>
                 <Skill label={'TDD / Junit / Jest'} value={85}/>
                 <Skill label={'Angular / Javascript / ES6 / Typescript'} value={90}/>
-                <Skill label={'Java Microservices / Netflix OSS / SSO'} value={80}/>*/}
+                <Skill label={'Java Microservices / Netflix OSS / SSO'} value={90}/>
             </div>
         </div>
     </div>);

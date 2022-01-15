@@ -1,63 +1,63 @@
 export default function Navbar() {
     return (
-        <header class="header header-center header-light">
-            <div class="container-fluid">
-                <div class="inner-header">
-                    <a class="inner-brand">
-                        <span class="navbar-brand">Arnau Garcia</span>
+        <header className="header header-center header-light">
+            <div className="container-fluid">
+                <div className="inner-header">
+                    <a className="inner-brand">
+                        <span className="navbar-brand">Arnau Garcia</span>
                     </a>
                 </div>
-                <div class="inner-navigation collapse">
-                    <div class="inner-nav onepage-nav">
+                <div className="inner-navigation collapse">
+                    <div className="inner-nav onepage-nav">
                         <ul>
                             <li>
                                 <a>
-                                    <span class="menu-item-span">Home</span>
+                                    <span className="menu-item-span">Home</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#profile">
-                                    <span class="menu-item-span">Profile</span>
+                                    <span className="menu-item-span">Profile</span>
                                 </a>
                             </li>
                             <li>
                                 <a>
-                                    <span class="menu-item-span">Porfolio</span>
+                                    <span className="menu-item-span">Porfolio</span>
                                 </a>
                             </li>
                             <li>
                                 <a>
-                                    <span class="menu-item-span">Services</span>
+                                    <span className="menu-item-span">Services</span>
                                 </a>
                             </li>
                             <li>
                                 <a>
-                                    <span class="menu-item-span">Resume</span>
+                                    <span className="menu-item-span">Resume</span>
                                 </a>
                             </li>
                             <li>
                                 <a>
-                                    <span class="menu-item-span">Projects</span>
+                                    <span className="menu-item-span">Projects</span>
                                 </a>
                             </li>
                             <li>
                                 <a>
-                                    <span class="menu-item-span">Contact</span>
+                                    <span className="menu-item-span">Contact</span>
                                 </a>
                             </li>
-                            <li class="menu-item-has-children">
+                            <li className="menu-item-has-children">
                                 <a href="#">
-                                    <span class="menu-item-span">Languages</span>
+                                    <span className="menu-item-span">Languages</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="nav-toggle">
+                <div className="nav-toggle">
                     <a data-toggle="collapse" data-target=".inner-navigation">
-                        <span class="icon-bar"/>
-                        <span class="icon-bar"/>
-                        <span class="icon-bar"/>
+                        <span className="icon-bar"/>
+                        <span className="icon-bar"/>
+                        <span className="icon-bar"/>
                     </a>
                 </div>
             </div>

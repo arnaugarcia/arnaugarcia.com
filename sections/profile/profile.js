@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Social from "./social";
-import Skills from "./skills";
+import Skill from "./skill";
 
 export default function Profile() {
     return (
@@ -28,7 +28,11 @@ export default function Profile() {
             </div>
             <div className="col-md-4 skills">
                 <h5>SKILLS</h5>
-                <Skills/>
+                <Skill label={'Java / Lambdas / Reactive Programming'} value={95}/>
+                {/*<Skill label={'Spring / Spring Cloud / Spring Security'} value={90}/>
+                <Skill label={'TDD / Junit / Jest'} value={85}/>
+                <Skill label={'Angular / Javascript / ES6 / Typescript'} value={90}/>
+                <Skill label={'Java Microservices / Netflix OSS / SSO'} value={80}/>*/}
             </div>
         </div>
     </div>);

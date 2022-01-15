@@ -1,5 +1,5 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import './Social.module.css'
+import styles from './social.module.css'
 
 export default function Social() {
 
@@ -32,10 +32,10 @@ export default function Social() {
 
     return (<>
         <h3 className="h4">WHERE CAN YOU FIND ME?</h3>
-        <ul className={"widget-social"}>
+        <ul className={styles.widgetSocial}>
             {social.map(({id, icon, label, link}) => (
                 <li key={id}>
-                    <a className={"btn btn-sm social-button"}
+                    <a className={'btn btn-sm'}
                        target="_blank"
                        href={link}
                        rel="noreferrer"

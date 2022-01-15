@@ -1,15 +1,15 @@
-.widget-social {
+.widgetSocial {
     padding: 0;
     display: inline-block;
     margin-bottom: 20px;
 }
 
-.widget-social li {
+.widgetSocial li {
     display: inline-block;
     margin-right: 5px;
 }
 
-.widget-social li a {
+.widgetSocial li a {
     background: #2e2e2e;
     text-align: center;
     display: block;
@@ -22,10 +22,11 @@
     color: #FFF;
 }
 
-ul.widget-social {
+.widgetSocial ul {
     margin: 0 0 20px;
 }
 
-.social-button:hover {
+.widgetSocial li a:hover {
+    color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

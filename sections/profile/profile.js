@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Social from "./Social";
+import Social from "./social";
 
 export default function Profile() {
     return (

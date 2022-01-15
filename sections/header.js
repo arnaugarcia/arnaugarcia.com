@@ -7,6 +7,7 @@ export default function Header() {
         <>
             <Particles className={styles.particles} options={{
                 detectRetina: true,
+                fullScreen: true,
                 particles: {
                     'number': {
                         'value': 50,
@@ -27,16 +28,6 @@ export default function Header() {
                         'polygon': {
                             'nb_sides': 5
                         },
-                    },
-                    'opacity': {
-                        'value': 0.5,
-                        'random': false,
-                        'anim': {
-                            'enable': false,
-                            'speed': 1,
-                            'opacity_min': 0.1,
-                            'sync': false
-                        }
                     },
                     'size': {
                         'value': 3,
@@ -100,12 +91,6 @@ export default function Header() {
                         'repulse': {
                             'distance': 200,
                             'duration': 0.4
-                        },
-                        'push': {
-                            'particles_nb': 4
-                        },
-                        'remove': {
-                            'particles_nb': 2
                         }
                     }
                 }

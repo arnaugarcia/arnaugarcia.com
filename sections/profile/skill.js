@@ -9,7 +9,7 @@ export default function Skill({label, value = 0, initialValue = 0, steps = 5}) {
         const [entry] = entries;
         if (entry.isIntersecting) {
             if (progress < value) {
-                setProgress(progress + steps );
+                setProgress(progress + steps);
             }
         } else {
             setProgress(0);

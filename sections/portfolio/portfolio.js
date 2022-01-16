@@ -20,7 +20,7 @@ export default function Portfolio() {
         });
     }, [isotope])
 
-    function onFilter(param) {
+    function filterBy(param) {
         isotope.arrange({filter: '.' + param.value})
     }
 
@@ -40,9 +40,9 @@ export default function Portfolio() {
                         <div className="row">
                             <div className="col-md-12">
                                 <ul className={"filters h6"}>
-                                    <PortfolioFilter title={"All"} value={"*"}  onSelectFilter={clearFilter}/>
-                                    <PortfolioFilter title={"Networks"} value={"networks"}  onSelectFilter={onFilter}/>
-                                    <PortfolioFilter title={"Angular"} value={"angular"}  onSelectFilter={onFilter}/>
+                                    <PortfolioFilter title={"All"}  onFilter={clearFilter}/>
+                                    <PortfolioFilter title={"Networks"} value={"networks"}  onFilter={filterBy}/>
+                                    <PortfolioFilter title={"Angular"} value={"angular"}  onFilter={filterBy}/>
                                 </ul>
                             </div>
                         </div>

@@ -2,7 +2,7 @@ import {useEffect, useRef, useState} from "react";
 
 export default function Skill({label, value = 0, initialValue = 0, steps = 5}) {
 
-    const [progress, setProgress] = useState(initialValue)
+    const [progress, setProgress] = useState(initialValue);
     const containerRef = useRef(null);
 
     const callbackFunction = (entries) => {

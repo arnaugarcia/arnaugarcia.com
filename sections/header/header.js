@@ -1,6 +1,6 @@
 import styles from './header.module.css'
 import Particles from "react-tsparticles";
-import Typed from "../components/typed";
+import Typed from "./typed";
 
 export default function Header() {
     return (

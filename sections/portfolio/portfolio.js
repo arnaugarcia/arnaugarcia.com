@@ -1,13 +1,15 @@
 import PortfolioItem from "./portfolio-item";
 import Isotope from 'isotope-layout'
 
-import {useEffect, useRef} from "react";
+import {useEffect, useRef, useState} from "react";
 import PortfolioFilter from "./portfolio-filter";
 
 export default function Portfolio() {
 
     const grid = useRef(null)
     let isotope;
+    const [currentFilter, setCurrentFilter] = useState('*');
+
     useEffect(() => {
         isotope = new Isotope(grid.current, {
             // options
@@ -18,14 +20,19 @@ export default function Portfolio() {
                 columnWidth: '.grid-sizer'
             }
         });
-    }, [isotope])
+    }, [isotope]);
+
+    function onSelectedFilter(filter) {
+        filterBy('.' + filter);
+        setCurrentFilter(filter);
+    }
 
     function filterBy(param) {
-        isotope.arrange({filter: '.' + param.value})
+        isotope.arrange({filter: param})
     }
 
     function clearFilter() {
-        isotope.arrange({filter: '*'})
+       filterBy('*')
     }
 
     return (
@@ -41,8 +48,8 @@ export default function Portfolio() {
                             <div className="col-md-12">
                                 <ul className={"filters h6"}>
                                     <PortfolioFilter title={"All"}  onFilter={clearFilter}/>
-                                    <PortfolioFilter title={"Networks"} value={"networks"}  onFilter={filterBy}/>
-                                    <PortfolioFilter title={"Angular"} value={"angular"}  onFilter={filterBy}/>
+                                    <PortfolioFilter title={"Networks"} value={"networks"}  onFilter={(filter) => onSelectedFilter(filter)}/>
+                                    <PortfolioFilter title={"Angular"} value={"angular"}  onFilter={(filter) => onSelectedFilter(filter)}/>
                                 </ul>
                             </div>
                         </div>

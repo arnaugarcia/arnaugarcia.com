@@ -1,17 +1,30 @@
-export default function Navbar() {
+import {useEffect, useState} from "react";
+
+export default function Navbar({scrollNavbarLimit = 5}) {
+
+    const [scrollLimit, setScrollLimit] = useState(false);
+
+    function onScroll(event) {
+        setScrollLimit(event.target.documentElement.scrollTop >= scrollNavbarLimit);
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', onScroll)
+    })
+
     return (
-        <header className="header header-center header-light">
+        <header className={`header header-center header-light ${scrollLimit ? 'header-small header-shadow' : ''}`}>
             <div className="container-fluid">
                 <div className="inner-header">
                     <a className="inner-brand">
-                        <span className="navbar-brand">Arnau Garcia</span>
+                        <span className={`navbar-brand ${scrollLimit ? 'brand-dark' : ''}`}>Arnau Garcia</span>
                     </a>
                 </div>
                 <div className="inner-navigation collapse">
                     <div className="inner-nav onepage-nav">
                         <ul>
                             <li>
-                                <a>
+                                <a href="#home">
                                     <span className="menu-item-span">Home</span>
                                 </a>
                             </li>

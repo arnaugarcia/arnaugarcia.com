@@ -3,6 +3,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import Header from "../sections/header/header";
 import dynamic from "next/dynamic";
+import Services from "../sections/services/services";
 
 const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr: false})
 
@@ -19,6 +20,9 @@ export default function Home() {
             </section>
             <section className="module module-gray" id="portfolio">
                 <Portfolio/>
+            </section>
+            <section className="module module-dark" id="services">
+                <Services/>
             </section>
         </div>
     )

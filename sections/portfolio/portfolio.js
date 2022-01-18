@@ -6,12 +6,12 @@ import PortfolioFilter from "./portfolio-filter";
 
 export default function Portfolio() {
 
-    const grid = useRef(null)
-    let isotope;
-    const [currentFilter, setCurrentFilter] = useState('*');
+    const grid = useRef()
+    let [currentFilter, setCurrentFilter] = useState('*');
 
     useEffect(() => {
-        isotope = new Isotope(grid.current, {
+        console.log('Init!');
+        grid.current = new Isotope(grid.current, {
             // options
             itemSelector: '.portfolio-item',
             layoutMode: 'fitRows',
@@ -20,19 +20,20 @@ export default function Portfolio() {
                 columnWidth: '.grid-sizer'
             }
         });
-    }, [isotope]);
+    }, []);
 
-    function onSelectedFilter(filter) {
-        filterBy('.' + filter);
+    const onSelectedFilter = (filter) => {
         setCurrentFilter(filter);
+        filterBy('.' + filter);
     }
 
-    function filterBy(param) {
-        isotope.arrange({filter: param})
+    const filterBy = (param) => {
+        grid.current.arrange({filter: param})
     }
 
-    function clearFilter() {
-       filterBy('*')
+    const clearFilter = () => {
+        setCurrentFilter('*');
+        filterBy('*')
     }
 
     return (
@@ -47,9 +48,19 @@ export default function Portfolio() {
                         <div className="row">
                             <div className="col-md-12">
                                 <ul className={"filters h6"}>
-                                    <PortfolioFilter title={"All"}  onFilter={clearFilter}/>
-                                    <PortfolioFilter title={"Networks"} value={"networks"}  onFilter={(filter) => onSelectedFilter(filter)}/>
-                                    <PortfolioFilter title={"Angular"} value={"angular"}  onFilter={(filter) => onSelectedFilter(filter)}/>
+                                    <PortfolioFilter title={"All"}
+                                                     current={currentFilter === '*'}
+                                                     onFilter={() => clearFilter()}/>
+                                    <PortfolioFilter title={"Networks"}
+                                                     value={"networks"}
+                                                     current={currentFilter === 'networks'}
+                                                     onFilter={(filter) => {
+                                                         onSelectedFilter(filter)
+                                                     }}/>
+                                    <PortfolioFilter title={"Angular"}
+                                                     value={"angular"}
+                                                     current={currentFilter === 'angular'}
+                                                     onFilter={(filter) => onSelectedFilter(filter)}/>
                                 </ul>
                             </div>
                         </div>

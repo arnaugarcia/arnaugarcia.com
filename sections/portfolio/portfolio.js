@@ -6,12 +6,11 @@ import PortfolioFilter from "./portfolio-filter";
 
 export default function Portfolio() {
 
-    const grid = useRef()
+    const isotope = useRef()
     let [currentFilter, setCurrentFilter] = useState('*');
 
     useEffect(() => {
-        console.log('Init!');
-        grid.current = new Isotope(grid.current, {
+        isotope.current = new Isotope(isotope.current, {
             // options
             itemSelector: '.portfolio-item',
             layoutMode: 'fitRows',
@@ -20,6 +19,7 @@ export default function Portfolio() {
                 columnWidth: '.grid-sizer'
             }
         });
+        return () => isotope.current.destroy();
     }, []);
 
     const onSelectedFilter = (filter) => {
@@ -28,7 +28,7 @@ export default function Portfolio() {
     }
 
     const filterBy = (param) => {
-        grid.current.arrange({filter: param})
+        isotope.current.arrange({filter: param})
     }
 
     const clearFilter = () => {
@@ -50,17 +50,15 @@ export default function Portfolio() {
                                 <ul className={"filters h6"}>
                                     <PortfolioFilter title={"All"}
                                                      current={currentFilter === '*'}
-                                                     onFilter={() => clearFilter()}/>
+                                                     onFilter={clearFilter}/>
                                     <PortfolioFilter title={"Networks"}
                                                      value={"networks"}
                                                      current={currentFilter === 'networks'}
-                                                     onFilter={(filter) => {
-                                                         onSelectedFilter(filter)
-                                                     }}/>
+                                                     onFilter={onSelectedFilter}/>
                                     <PortfolioFilter title={"Angular"}
                                                      value={"angular"}
                                                      current={currentFilter === 'angular'}
-                                                     onFilter={(filter) => onSelectedFilter(filter)}/>
+                                                     onFilter={onSelectedFilter}/>
                                 </ul>
                             </div>
                         </div>
@@ -68,7 +66,7 @@ export default function Portfolio() {
                 </div>
             </div>
             <div className="container-fluid">
-                <div className="row row-portfolio" data-columns="4" ref={grid}>
+                <div className="row row-portfolio" data-columns="4" ref={isotope}>
                     <div className="grid-sizer"/>
                     <PortfolioItem
                         title={"Startup Weekend"}

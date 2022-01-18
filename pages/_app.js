@@ -1,4 +1,5 @@
 import '../styles/globals.scss'
+import '../styles/et-line.css'
 import Head from "next/head";
 import Navbar from "../sections/navbar/navbar";
 

@@ -1,39 +1,41 @@
 import Technology from "./technology";
-import {tns} from "/node_modules/tiny-slider/src/tiny-slider"
 import {useEffect} from "react";
 
 export default function Technologies() {
 
     useEffect(() => {
-        tns({
-            container: '.my-slider',
-            items: 3,
-            slideBy: 'page',
-            arrowKeys: true,
-            mouseDrag: true,
-            controls: false,
-            nav: false,
-            autoplayButtonOutput: false,
-            loop: true,
-            autoplay: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                1000: {
-                    items: 2
-                },
-                1500: {
-                    items: 3
+        import('tiny-slider').then(({tns}) => {
+            tns({
+                container: '.my-slider',
+                items: 3,
+                slideBy: 'page',
+                arrowKeys: true,
+                mouseDrag: true,
+                controls: false,
+                nav: false,
+                autoplayButtonOutput: false,
+                loop: true,
+                autoplay: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 2
+                    },
+                    1500: {
+                        items: 3
+                    }
                 }
-            }
+            })
         })
-    });
+    }, []);
 
     return (<div className="container">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"/>
         <div className="row">
             <div className="col-md-12">
                 <div className="m-title c-align">
@@ -42,14 +44,12 @@ export default function Technologies() {
             </div>
             <div className="col-md-12">
                 <div className="my-slider">
-                    <div className="client">
-                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/java.png'}/>
-                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/mongodb.png'}/>
-                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/mysql.png'}/>
-                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/docker.png'}/>
-                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/hibernate.png'}/>
-                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/jenkins.png'}/>
-                    </div>
+                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/java.png'} description={'Java'}/>
+                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/mongodb.png'} description={'Java'}/>
+                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/mysql.png'} description={'Java'}/>
+                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/docker.png'} description={'Java'}/>
+                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/hibernate.png'} description={'Java'}/>
+                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/jenkins.png'} description={'Java'}/>
                 </div>
             </div>
         </div>

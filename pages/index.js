@@ -4,6 +4,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import Header from "../sections/header/header";
 import dynamic from "next/dynamic";
 import Services from "../sections/services/services";
+import Summary from "../sections/timeline/summary";
 
 const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr: false})
 
@@ -23,6 +24,9 @@ export default function Home() {
             </section>
             <section className="module module-dark" id="services">
                 <Services/>
+            </section>
+            <section className="module module-gray" id="resume">
+                <Summary/>
             </section>
         </div>
     )

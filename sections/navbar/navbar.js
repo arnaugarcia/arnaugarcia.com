@@ -34,27 +34,27 @@ export default function Navbar({scrollNavbarLimit = 5}) {
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a href="#portfolio">
                                     <span className="menu-item-span">Porfolio</span>
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a href="#services">
                                     <span className="menu-item-span">Services</span>
                                 </a>
                             </li>
-                            <li>
+                            <li href="#resume">
                                 <a>
                                     <span className="menu-item-span">Resume</span>
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a href="#projects">
                                     <span className="menu-item-span">Projects</span>
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a href="#contact">
                                     <span className="menu-item-span">Contact</span>
                                 </a>
                             </li>

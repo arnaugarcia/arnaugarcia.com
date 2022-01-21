@@ -7,7 +7,6 @@ export default function Projects() {
     return (<div className="container">
         <div className={`row blog-grid`} style={{marginTop: '-200px'}}>
             <Project
-                key={1}
                 title={'CONNECTED CAR | IOT'}
                 description={'Using Spring Flow, Web Flux and Angular I\'ve started a new project that have the aim to make almost any car a connected car using the OBD2 port. The project consist in a IOT platform developed using spring that generates an RESTAFUL API that can be used in any application like (Android, iOS, Web applications...).'}
                 tags={['IOT', 'CONNECTED CAR', 'JAVA']}
@@ -15,7 +14,6 @@ export default function Projects() {
                 image={'https://arnaugarcia.com/assets/images/projects/iot_car.png'}
             />
             <Project
-                key={2}
                 title={'CONNECTED CAR | IOT'}
                 description={'Using Spring Flow, Web Flux and Angular I\'ve started a new project that have the aim to make almost any car a connected car using the OBD2 port. The project consist in a IOT platform developed using spring that generates an RESTAFUL API that can be used in any application like (Android, iOS, Web applications...).'}
                 tags={['IOT', 'CONNECTED CAR', 'JAVA']}

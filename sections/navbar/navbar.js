@@ -43,8 +43,8 @@ export default function Navbar({scrollNavbarLimit = 5}) {
                                     <span className="menu-item-span">Services</span>
                                 </a>
                             </li>
-                            <li href="#resume">
-                                <a>
+                            <li>
+                                <a href="#resume">
                                     <span className="menu-item-span">Resume</span>
                                 </a>
                             </li>

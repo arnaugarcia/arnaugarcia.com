@@ -1,3 +1,4 @@
+import 'tiny-slider/dist/tiny-slider.css'
 import Technology from "./technology";
 import {useEffect} from "react";
 
@@ -35,7 +36,6 @@ export default function Technologies() {
     }, []);
 
     return (<div className="container">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"/>
         <div className="row">
             <div className="col-md-12">
                 <div className="m-title c-align">

@@ -1,0 +1,57 @@
+import Technology from "./technology";
+import {tns} from "/node_modules/tiny-slider/src/tiny-slider"
+import {useEffect} from "react";
+
+export default function Technologies() {
+
+    useEffect(() => {
+        tns({
+            container: '.my-slider',
+            items: 3,
+            slideBy: 'page',
+            arrowKeys: true,
+            mouseDrag: true,
+            controls: false,
+            nav: false,
+            autoplayButtonOutput: false,
+            loop: true,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                },
+                1500: {
+                    items: 3
+                }
+            }
+        })
+    });
+
+    return (<div className="container">
+        <div className="row">
+            <div className="col-md-12">
+                <div className="m-title c-align">
+                    <h2>TECHNOLOGIES, FRAMEWORKS AND PROJECTS</h2>
+                </div>
+            </div>
+            <div className="col-md-12">
+                <div className="my-slider">
+                    <div className="client">
+                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/java.png'}/>
+                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/mongodb.png'}/>
+                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/mysql.png'}/>
+                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/docker.png'}/>
+                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/hibernate.png'}/>
+                        <Technology image={'https://arnaugarcia.com/assets/images/technologies/jenkins.png'}/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>);
+}

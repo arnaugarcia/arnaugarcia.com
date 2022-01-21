@@ -7,6 +7,7 @@ import Services from "../sections/services/services";
 import Summary from "../sections/timeline/summary";
 import Technologies from "../sections/technologies/technologies";
 import Projects from "../sections/projects/projects";
+import Contact from "../sections/contact/contact";
 
 const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr: false})
 
@@ -35,6 +36,9 @@ export default function Home() {
             </section>
             <section className="module module-gray">
                 <Projects/>
+            </section>
+            <section className="module" id="contact">
+                <Contact/>
             </section>
         </div>
     )

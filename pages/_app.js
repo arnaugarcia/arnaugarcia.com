@@ -4,7 +4,6 @@ import Head from "next/head";
 import Navbar from "../sections/navbar/navbar";
 import Footer from "../layout/footer";
 
-
 function MyApp({Component, pageProps}) {
     return (
         <>

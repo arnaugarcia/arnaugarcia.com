@@ -13,17 +13,25 @@ export default function Contact() {
         const phone = event.target.phone.value;
         const message = event.target.message.value;
 
-        const res = await MailService.sendEmail({name, email, phone, message});
+        grecaptcha.ready(() => {
+            console.log(grecaptcha);
+            grecaptcha.execute('6Lcg7yoeAAAAACWp-OvBb2361m93f3fil53rzArx', {action: 'submit'}).then((token) => {
+                fetch(`/api/captcha?token=${token}`).then((response) => {
+                    console.log(response);
+                })
+            });
+        });
+
+        /*const res = await MailService.sendEmail({name, email, phone, message});
 
         if (res.ok) {
             setResponse('Success');
         } else {
             setResponse('Error')
-        }
+        }*/
     }
 
     return (
-
         <div className="container">
             <div className="row">
                 <div className="col-md-12">

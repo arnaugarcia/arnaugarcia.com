@@ -1,6 +1,6 @@
 import Profile from "../sections/profile/profile";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {fab} from '@fortawesome/free-brands-svg-icons';
 import Header from "../sections/header/header";
 import dynamic from "next/dynamic";
 import Services from "../sections/services/services";

@@ -12,6 +12,7 @@ function MyApp({Component, pageProps}) {
                 <meta name="description"
                       content="Hola! Soy Arnau García, un programador con ganas de alcanzar nuevos retos y aportar nuevas cosas al mundo."/>
                 <meta name="author" content="Arnau Garcia"/>
+                <script src={`https://www.google.com/recaptcha/api.js?render=6Lcg7yoeAAAAACWp-OvBb2361m93f3fil53rzArx`}/>
             </Head>
             <Navbar/>
             <div className={"wrapper"}>

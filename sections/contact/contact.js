@@ -1,4 +1,5 @@
 import {useState} from "react";
+import MailService from "./mail.service";
 
 export default function Contact() {
 
@@ -12,25 +13,8 @@ export default function Contact() {
         const phone = event.target.phone.value;
         const message = event.target.message.value;
 
-        const formData = new URLSearchParams();
-        formData.append('name', name);
-        formData.append('email', email);
-        formData.append('phone', phone);
-        formData.append('message', message);
+        const res = await MailService.sendEmail({name, email, phone, message});
 
-        const res = await fetch(
-            'https://services.arnaugarcia.com?email=arnau.garcia.gallego@gmail.com&company=arnaugarcia.com',
-            {
-                mode: 'cors',
-                body: formData.toString(),
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                },
-                method: 'POST'
-            }
-        )
-
-        const result = await res.json()
         if (res.ok) {
             setResponse('Success');
         } else {

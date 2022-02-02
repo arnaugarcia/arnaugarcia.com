@@ -13,21 +13,20 @@ export default function Contact() {
         const phone = event.target.phone.value;
         const message = event.target.message.value;
 
-        grecaptcha.ready(() => {
-            grecaptcha.execute('6Lcg7yoeAAAAACWp-OvBb2361m93f3fil53rzArx', {action: 'submit'}).then((token) => {
-                fetch(`/api/captcha?token=${token}`, {method: 'POST'}).then((response) => {
-                    console.log(response);
-                })
-            });
+        grecaptcha.execute(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY, {action: 'submit'}).then((token) => {
+            fetch(`/api/captcha?token=${token}`, {method: 'POST'}).then(async (response) => {
+                if (!response.ok) {
+                    setResponse('Error');
+                }
+                return await MailService.sendEmail({name, email, phone, message});
+            }).then((response) => {
+                if (response.ok) {
+                    setResponse('Success');
+                } else {
+                    setResponse('Error')
+                }
+            })
         });
-
-        /*const res = await MailService.sendEmail({name, email, phone, message});
-
-        if (res.ok) {
-            setResponse('Success');
-        } else {
-            setResponse('Error')
-        }*/
     }
 
     return (

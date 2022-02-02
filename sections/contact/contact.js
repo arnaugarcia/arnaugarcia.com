@@ -13,22 +13,20 @@ export default function Contact() {
         const phone = event.target.phone.value;
         const message = event.target.message.value;
 
-        grecaptcha.ready(() => {
-            console.log(grecaptcha);
-            grecaptcha.execute('6Lcg7yoeAAAAACWp-OvBb2361m93f3fil53rzArx', {action: 'submit'}).then((token) => {
-                fetch(`/api/captcha?token=${token}`).then((response) => {
-                    console.log(response);
-                })
-            });
+        grecaptcha.execute(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY, {action: 'submit'}).then((token) => {
+            fetch(`/api/captcha?token=${token}`, {method: 'POST'}).then(async (response) => {
+                if (!response.ok) {
+                    setResponse('Captcha Error');
+                }
+                return await MailService.sendEmail({name, email, phone, message});
+            }).then((response) => {
+                if (response.ok) {
+                    setResponse('Success');
+                } else {
+                    setResponse('Send mail error');
+                }
+            })
         });
-
-        /*const res = await MailService.sendEmail({name, email, phone, message});
-
-        if (res.ok) {
-            setResponse('Success');
-        } else {
-            setResponse('Error')
-        }*/
     }
 
     return (
@@ -74,7 +72,6 @@ export default function Contact() {
                                   rows="8"
                                   required/>
                                 </div>
-                                {/*<re-captcha *ngIf="!checkedCaptcha" (resolved)="resolved()" [siteKey]="reCaptchaSiteKey"></re-captcha>*/}
                                 <div className="form-group col-sm-12">
                                     <div className="text-center m-t-20">
                                         <button className="btn btn-round btn-brand" type="submit">

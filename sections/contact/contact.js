@@ -16,14 +16,14 @@ export default function Contact() {
         grecaptcha.execute(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY, {action: 'submit'}).then((token) => {
             fetch(`/api/captcha?token=${token}`, {method: 'POST'}).then(async (response) => {
                 if (!response.ok) {
-                    setResponse('Error');
+                    setResponse('Captcha Error');
                 }
                 return await MailService.sendEmail({name, email, phone, message});
             }).then((response) => {
                 if (response.ok) {
                     setResponse('Success');
                 } else {
-                    setResponse('Error')
+                    setResponse('Send mail error');
                 }
             })
         });

@@ -1,7 +1,7 @@
 export default function handler(req, res) {
 
     if (req.method !== 'POST') {
-        res.status(405).json({ error: 'Method not allowed. Must be a POST' })
+        res.status(405).json({error: `Method ${req.method} not allowed`})
     }
 
     fetch('https://www.google.com/recaptcha/api/siteverify', {

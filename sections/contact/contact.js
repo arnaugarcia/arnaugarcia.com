@@ -72,7 +72,6 @@ export default function Contact() {
                                   rows="8"
                                   required/>
                                 </div>
-                                {/*<re-captcha *ngIf="!checkedCaptcha" (resolved)="resolved()" [siteKey]="reCaptchaSiteKey"></re-captcha>*/}
                                 <div className="form-group col-sm-12">
                                     <div className="text-center m-t-20">
                                         <button className="btn btn-round btn-brand" type="submit">

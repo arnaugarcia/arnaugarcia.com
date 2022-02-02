@@ -14,9 +14,8 @@ export default function Contact() {
         const message = event.target.message.value;
 
         grecaptcha.ready(() => {
-            console.log(grecaptcha);
             grecaptcha.execute('6Lcg7yoeAAAAACWp-OvBb2361m93f3fil53rzArx', {action: 'submit'}).then((token) => {
-                fetch(`/api/captcha?token=${token}`).then((response) => {
+                fetch(`/api/captcha?token=${token}`, {method: 'POST'}).then((response) => {
                     console.log(response);
                 })
             });

@@ -1,29 +1,30 @@
 import url from "url";
 
-export default function handler(request, response) {
+const captchaServiceUrl = `https://www.google.com/recaptcha/api/siteverify`;
 
-    if (request.method !== 'POST') {
-        response.status(405).json({error: `Method ${request.method} not allowed`})
+export default async function handler(req, res) {
+
+    if (req.method !== 'POST') {
+        res.status(405).json({error: `Method ${req.method} not allowed`})
         return;
     }
 
-    const urlParametersFromRequest = getUrlParametersFromRequest(request);
+    const urlParametersFromRequest = getUrlParametersFromRequest(req);
 
-    if (!urlParametersFromRequest['token']) {
-        response.status(400).json({error: 'Missing token parameter'});
+    let token = urlParametersFromRequest['token'];
+
+    if (!token) {
+        res.status(400).json({status: 'error', message: 'Missing token parameter'});
         return;
     }
 
-
-    /*fetch('https://www.google.com/recaptcha/api/siteverify', {
-        method: 'post',
-        mode: 'cors',
-        body: {
-            'secret': process.env.RECAPTCHA_SITE_KEY
-        }
-    }).then((response) => {
-        //console.log(response);
-    })*/
+    await fetch(`${captchaServiceUrl}?secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${token}`, {
+        method: 'post'
+    }).then(async () => {
+        res.status(200).json({status: 'success', message: 'Is correct'});
+    }).catch(() => {
+        res.status(500).json({status: 'error', message: 'Some error has been found during the req'})
+    });
 }
 
 function getUrlParametersFromRequest(request) {

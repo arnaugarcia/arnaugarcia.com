@@ -31,3 +31,14 @@
         color: white;
     }
 }
+
+.alert-success {
+    color: white;
+    background-color: #2ecc71;
+}
+
+.alert-danger {
+    color: white;
+    background-color: #e41919;
+    border-color: #f5c6cb;
+}

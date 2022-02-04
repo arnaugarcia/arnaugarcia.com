@@ -8,6 +8,7 @@ import Summary from "../sections/timeline/summary";
 import Technologies from "../sections/technologies/technologies";
 import Projects from "../sections/projects/projects";
 import Contact from "../sections/contact/contact";
+import Map from "../sections/map/map";
 
 const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr: false})
 
@@ -39,6 +40,9 @@ export default function Home() {
             </section>
             <section className="module" id="contact">
                 <Contact/>
+            </section>
+            <section className="maps-container" id="map">
+                <Map/>
             </section>
         </div>
     )

@@ -21,9 +21,9 @@ export default function Contact() {
                 return await MailService.sendEmail({name, email, phone, message});
             }).then((response) => {
                 if (response.ok) {
-                    setResponse('Success');
+                    setResponse('<div className="alert alert-success" role="alert">A simple success alert—check it out!</div>');
                 } else {
-                    setResponse('Send mail error');
+                    setResponse('<div className="alert alert-error" role="alert">A simple success alert—check it out!</div>');
                 }
             })
         });

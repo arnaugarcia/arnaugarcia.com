@@ -49,6 +49,8 @@ export default function Contact() {
                                     <input className="form-control"
                                            type="text"
                                            name="name"
+                                           aria-label="Name"
+                                           placeholder="Name"
                                            required/>
                                     <p className="help-block text-danger"/>
                                 </div>

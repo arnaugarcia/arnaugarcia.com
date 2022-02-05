@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 
-export default function Navbar({scrollNavbarLimit = 5}) {
+export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
 
     const [scrollLimit, setScrollLimit] = useState(false);
 
@@ -10,6 +10,7 @@ export default function Navbar({scrollNavbarLimit = 5}) {
 
     useEffect(() => {
         window.addEventListener('scroll', onScroll)
+        console.log(currentSection);
     })
 
     return (
@@ -24,37 +25,37 @@ export default function Navbar({scrollNavbarLimit = 5}) {
                     <div className="inner-nav onepage-nav">
                         <ul>
                             <li>
-                                <a href="#home">
+                                <a href="#home" className={currentSection === 'home' ? 'active' : ''}>
                                     <span className="menu-item-span">Home</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#profile">
+                                <a href="#profile" className={currentSection === 'profile' ? 'active' : ''}>
                                     <span className="menu-item-span">Profile</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#portfolio">
+                                <a href="#portfolio" className={currentSection === 'portfolio' ? 'active' : ''}>
                                     <span className="menu-item-span">Porfolio</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#services">
+                                <a href="#services" className={currentSection === 'services' ? 'active' : ''}>
                                     <span className="menu-item-span">Services</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#resume">
+                                <a href="#resume" className={currentSection === 'resume' ? 'active' : ''}>
                                     <span className="menu-item-span">Resume</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#projects">
+                                <a href="#projects" className={currentSection === 'projects' ? 'active' : ''}>
                                     <span className="menu-item-span">Projects</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#contact">
+                                <a href="#contact" className={currentSection === 'contact' ? 'active' : ''}>
                                     <span className="menu-item-span">Contact</span>
                                 </a>
                             </li>

@@ -1,7 +1,10 @@
 import {useEffect, useState} from "react";
 import MenuItem from "./menu-item";
+import {useTranslation} from "next-i18next";
 
 export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
+
+    const { t } = useTranslation('common')
 
     const [scrollLimit, setScrollLimit] = useState(false);
     const [isNavOpen, openNavigation] = useState(false);
@@ -29,7 +32,7 @@ export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
             <div className="container-fluid">
                 <div className="inner-header">
                     <a className="inner-brand pointer" onClick={onLogoClick}>
-                        <span className={`navbar-brand ${scrollLimit ? 'brand-dark' : ''}`}>Arnau Garcia</span>
+                        <span className={`navbar-brand ${scrollLimit ? 'brand-dark' : ''}`}>{t('title')}</span>
                     </a>
                 </div>
                 <div className={`inner-navigation collapse ${isNavOpen ? 'show' : ''}`}>

@@ -5,6 +5,7 @@ import Navbar from "../sections/navbar/navbar";
 import Footer from "../layout/footer";
 import {NextScript} from "next/document";
 import {useState} from "react";
+import { appWithTranslation } from 'next-i18next';
 
 function MyApp({Component, pageProps}) {
 
@@ -36,4 +37,4 @@ function MyApp({Component, pageProps}) {
     )
 }
 
-export default MyApp
+export default appWithTranslation(MyApp)

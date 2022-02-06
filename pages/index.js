@@ -25,7 +25,7 @@ export default function Home(props) {
             if (entry && entry.isIntersecting) {
                 props.onSectionChanges(entry.target.id);
             }
-        }, {threshold: [0.25]});
+        }, {threshold: [0.50]});
         Array.from(sections.current.children).filter((section) => section.id).forEach((section) => observer.observe(section));
     }, [])
 

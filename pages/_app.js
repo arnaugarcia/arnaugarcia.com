@@ -11,7 +11,6 @@ function MyApp({Component, pageProps}) {
     const [currentSection, setCurrentSection] = useState('home');
 
     pageProps.onSectionChanges = (section) => {
-        console.log(`Changed to Seciton ${section}`);
         setCurrentSection(section);
     };
 

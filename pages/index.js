@@ -10,10 +10,11 @@ import Projects from "../sections/projects/projects";
 import Contact from "../sections/contact/contact";
 import Map from "../sections/map/map";
 import {useEffect, useRef} from "react";
+import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 
 const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr: false})
 
-export default function Home(props) {
+const Home = (props) => {
     library.add(fab);
 
     const sections = useRef();
@@ -61,3 +62,11 @@ export default function Home(props) {
         </div>
     )
 }
+
+export const getStaticProps = async ({locale}) => ({
+    props: {
+        ...await serverSideTranslations(locale, ['common']),
+    }
+})
+
+export default Home;

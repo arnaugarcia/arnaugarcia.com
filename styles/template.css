@@ -1744,7 +1744,6 @@ select.form-control-sm:not([size]):not([multiple]) {
     .inner-navigation {
         position: absolute;
         background-color: #151515;
-        max-height: 340px;
         width: 100%;
         left: 0;
         top: 100%;

@@ -3,15 +3,20 @@ import {useEffect, useState} from "react";
 export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
 
     const [scrollLimit, setScrollLimit] = useState(false);
+    const [isNavOpen, openNavigation] = useState(false);
 
     function onScroll(event) {
         setScrollLimit(event.target.documentElement.scrollTop >= scrollNavbarLimit);
+        openNavigation(false);
     }
 
     useEffect(() => {
         window.addEventListener('scroll', onScroll)
-        console.log(currentSection);
     })
+
+    const toggleNavigation = () => {
+        openNavigation(!isNavOpen);
+    }
 
     return (
         <header className={`header header-center header-light ${scrollLimit ? 'header-small header-shadow' : ''}`}>
@@ -21,7 +26,7 @@ export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
                         <span className={`navbar-brand ${scrollLimit ? 'brand-dark' : ''}`}>Arnau Garcia</span>
                     </a>
                 </div>
-                <div className="inner-navigation collapse">
+                <div className={`inner-navigation collapse ${isNavOpen ? 'show' : ''}`}>
                     <div className="inner-nav onepage-nav">
                         <ul>
                             <li>
@@ -68,7 +73,7 @@ export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
                     </div>
                 </div>
                 <div className="nav-toggle">
-                    <a data-toggle="collapse" data-target=".inner-navigation">
+                    <a onClick={toggleNavigation}>
                         <span className="icon-bar"/>
                         <span className="icon-bar"/>
                         <span className="icon-bar"/>

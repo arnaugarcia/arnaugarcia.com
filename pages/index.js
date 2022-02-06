@@ -9,14 +9,28 @@ import Technologies from "../sections/technologies/technologies";
 import Projects from "../sections/projects/projects";
 import Contact from "../sections/contact/contact";
 import Map from "../sections/map/map";
+import {useEffect, useRef} from "react";
 
 const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr: false})
 
-export default function Home() {
+export default function Home(props) {
     library.add(fab);
 
+    const sections = useRef();
+
+    useEffect(() => {
+
+        const observer = new IntersectionObserver((entries) => {
+            let entry = entries[0];
+            if (entry && entry.isIntersecting) {
+                props.onSectionChanges(entry.target.id);
+            }
+        }, {threshold: [0.50]});
+        Array.from(sections.current.children).filter((section) => section.id).forEach((section) => observer.observe(section));
+    }, [])
+
     return (
-        <div id={"main"}>
+        <div id={"main"} ref={sections}>
             <section className={"module-header full-height parallax bg-dark bg-dark-30 header-light"} id="home">
                 <Header/>
             </section>

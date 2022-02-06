@@ -4,8 +4,16 @@ import Head from "next/head";
 import Navbar from "../sections/navbar/navbar";
 import Footer from "../layout/footer";
 import {NextScript} from "next/document";
+import {useState} from "react";
 
 function MyApp({Component, pageProps}) {
+
+    const [currentSection, setCurrentSection] = useState('home');
+
+    pageProps.onSectionChanges = (section) => {
+        setCurrentSection(section);
+    };
+
     return (
         <>
             <Head>
@@ -19,7 +27,7 @@ function MyApp({Component, pageProps}) {
                     defer
                 />
             </Head>
-            <Navbar/>
+            <Navbar currentSection={currentSection}/>
             <div className={"wrapper"}>
                 <Component {...pageProps} />
                 <Footer/>

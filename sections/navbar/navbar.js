@@ -19,11 +19,16 @@ export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
         openNavigation(!isNavOpen);
     }
 
+    const onLogoClick = (event) => {
+        event.preventDefault();
+        document.getElementById('home').scrollIntoView({behavior: "smooth"});
+    }
+
     return (
         <header className={`header header-center header-light ${scrollLimit ? 'header-small header-shadow' : ''}`}>
             <div className="container-fluid">
                 <div className="inner-header">
-                    <a className="inner-brand">
+                    <a className="inner-brand pointer" onClick={onLogoClick}>
                         <span className={`navbar-brand ${scrollLimit ? 'brand-dark' : ''}`}>Arnau Garcia</span>
                     </a>
                 </div>

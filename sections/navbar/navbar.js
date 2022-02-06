@@ -4,19 +4,20 @@ import {useTranslation} from "next-i18next";
 
 export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
 
-    const { t } = useTranslation('common')
+    const {t, i18n} = useTranslation('common')
 
     const [scrollLimit, setScrollLimit] = useState(false);
     const [isNavOpen, openNavigation] = useState(false);
+    const [languageSubmenuOpen, setLanguageSubmenuOpen] = useState(false);
 
-    function onScroll(event) {
+    useEffect(() => {
+        window.addEventListener('scroll', onScroll);
+    })
+
+    const onScroll = (event) => {
         setScrollLimit(event.target.documentElement.scrollTop >= scrollNavbarLimit);
         openNavigation(false);
     }
-
-    useEffect(() => {
-        window.addEventListener('scroll', onScroll)
-    })
 
     const toggleNavigation = () => {
         openNavigation(!isNavOpen);
@@ -45,10 +46,21 @@ export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
                             <MenuItem title={'Resume'} anchor={'resume'} currentSection={currentSection}/>
                             <MenuItem title={'Projects'} anchor={'projects'} currentSection={currentSection}/>
                             <MenuItem title={'Contact'} anchor={'contact'} currentSection={currentSection}/>
-                            <li className="menu-item-has-children">
-                                <a href="#">
+                            <li className={`menu-item-has-children${languageSubmenuOpen ? ' sub-menu-open' : ''}`}
+                                onMouseOver={() => setLanguageSubmenuOpen(true)}
+                                onMouseLeave={() => setLanguageSubmenuOpen(false)}>
+                                <a className={"pointer"}>
                                     <span className="menu-item-span">Languages</span>
                                 </a>
+                                <ul className="sub-menu">
+                                    {['ca', 'es', 'en'].map((language, index) => {
+                                        return (
+                                            <li className="menu-item pointer" key={index}>
+                                                <a onClick={() => i18n.changeLanguage(language)}>{language}</a>
+                                            </li>
+                                        )
+                                    })}
+                                </ul>
                             </li>
                         </ul>
                     </div>

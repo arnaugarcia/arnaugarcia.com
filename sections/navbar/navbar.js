@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import MenuItem from "./menu-item";
 
 export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
 
@@ -29,41 +30,13 @@ export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
                 <div className={`inner-navigation collapse ${isNavOpen ? 'show' : ''}`}>
                     <div className="inner-nav onepage-nav">
                         <ul>
-                            <li>
-                                <a href="#home" className={currentSection === 'home' ? 'active' : ''}>
-                                    <span className="menu-item-span">Home</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#profile" className={currentSection === 'profile' ? 'active' : ''}>
-                                    <span className="menu-item-span">Profile</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#portfolio" className={currentSection === 'portfolio' ? 'active' : ''}>
-                                    <span className="menu-item-span">Porfolio</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#services" className={currentSection === 'services' ? 'active' : ''}>
-                                    <span className="menu-item-span">Services</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#resume" className={currentSection === 'resume' ? 'active' : ''}>
-                                    <span className="menu-item-span">Resume</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#projects" className={currentSection === 'projects' ? 'active' : ''}>
-                                    <span className="menu-item-span">Projects</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#contact" className={currentSection === 'contact' ? 'active' : ''}>
-                                    <span className="menu-item-span">Contact</span>
-                                </a>
-                            </li>
+                            <MenuItem title={'Home'} anchor={'home'} currentSection={currentSection}/>
+                            <MenuItem title={'Profile'} anchor={'profile'} currentSection={currentSection}/>
+                            <MenuItem title={'Portfolio'} anchor={'portfolio'} currentSection={currentSection}/>
+                            <MenuItem title={'Services'} anchor={'services'} currentSection={currentSection}/>
+                            <MenuItem title={'Resume'} anchor={'resume'} currentSection={currentSection}/>
+                            <MenuItem title={'Projects'} anchor={'projects'} currentSection={currentSection}/>
+                            <MenuItem title={'Contact'} anchor={'contact'} currentSection={currentSection}/>
                             <li className="menu-item-has-children">
                                 <a href="#">
                                     <span className="menu-item-span">Languages</span>

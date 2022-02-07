@@ -4,7 +4,7 @@ import {useTranslation} from "next-i18next";
 
 export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
 
-    const {t, i18n} = useTranslation('common')
+    const {t, i18n} = useTranslation('common');
 
     const [scrollLimit, setScrollLimit] = useState(false);
     const [isNavOpen, openNavigation] = useState(false);
@@ -33,30 +33,30 @@ export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
             <div className="container-fluid">
                 <div className="inner-header">
                     <a className="inner-brand pointer" onClick={onLogoClick}>
-                        <span className={`navbar-brand ${scrollLimit ? 'brand-dark' : ''}`}>{t('title')}</span>
+                        <span className={`navbar-brand ${scrollLimit ? 'brand-dark' : ''}`}>{t('APP.NAME')}</span>
                     </a>
                 </div>
                 <div className={`inner-navigation collapse ${isNavOpen ? 'show' : ''}`}>
                     <div className="inner-nav onepage-nav">
                         <ul>
-                            <MenuItem title={'Home'} anchor={'home'} currentSection={currentSection}/>
-                            <MenuItem title={'Profile'} anchor={'profile'} currentSection={currentSection}/>
-                            <MenuItem title={'Portfolio'} anchor={'portfolio'} currentSection={currentSection}/>
-                            <MenuItem title={'Services'} anchor={'services'} currentSection={currentSection}/>
-                            <MenuItem title={'Resume'} anchor={'resume'} currentSection={currentSection}/>
-                            <MenuItem title={'Projects'} anchor={'projects'} currentSection={currentSection}/>
-                            <MenuItem title={'Contact'} anchor={'contact'} currentSection={currentSection}/>
+                            <MenuItem title={t('NAVBAR.HOME')} anchor={'home'} currentSection={currentSection}/>
+                            <MenuItem title={t('NAVBAR.PROFILE')} anchor={'profile'} currentSection={currentSection}/>
+                            <MenuItem title={t('NAVBAR.PORTFOLIO')} anchor={'portfolio'} currentSection={currentSection}/>
+                            <MenuItem title={t('NAVBAR.SERVICES')} anchor={'services'} currentSection={currentSection}/>
+                            <MenuItem title={t('NAVBAR.RESUME')} anchor={'resume'} currentSection={currentSection}/>
+                            <MenuItem title={t('NAVBAR.PROJECTS')} anchor={'projects'} currentSection={currentSection}/>
+                            <MenuItem title={t('NAVBAR.CONTACT')} anchor={'contact'} currentSection={currentSection}/>
                             <li className={`menu-item-has-children${languageSubmenuOpen ? ' sub-menu-open' : ''}`}
                                 onMouseOver={() => setLanguageSubmenuOpen(true)}
                                 onMouseLeave={() => setLanguageSubmenuOpen(false)}>
                                 <a className={"pointer"}>
-                                    <span className="menu-item-span">Languages</span>
+                                    <span className="menu-item-span">{t('NAVBAR.LANGUAGES.TITLE')}</span>
                                 </a>
                                 <ul className="sub-menu">
                                     {['ca', 'es', 'en'].map((language, index) => {
                                         return (
                                             <li className="menu-item pointer" key={index}>
-                                                <a onClick={() => i18n.changeLanguage(language)}>{language}</a>
+                                                <a onClick={() => i18n.changeLanguage(language)}>{t(`NAVBAR.LANGUAGES.${language.toUpperCase()}`)}</a>
                                             </li>
                                         )
                                     })}

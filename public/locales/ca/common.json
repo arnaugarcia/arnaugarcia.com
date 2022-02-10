@@ -12,9 +12,14 @@
 			"EMAIL": "Correu electrònic",
 			"MESSAGE": "El teu missatge",
 			"NAME": "Nom",
-			"PHONE": "Telèfon"
+			"PHONE": "Telèfon",
+			"RESPONSE": {
+				"CAPTCHA-ERROR": "Hi ha hagut un error en processar el captcha,  ets humà?",
+				"ERROR": "S'ha produït un error en enviar el correu.  Torneu a intentar el més tard.",
+				"LOADING": "Estic enviant el correu electrònic.  Si us plau, espera uns segons...",
+				"SUCCESS": "S'ha enviat el correu correctament,  moltes gràcies pel teu missatge :)"
+			}
 		},
-		"LOADING": "Estic enviant el correu electrònic. Si us plau, espera uns segons...",
 		"PHONE": "692 46 46 45",
 		"SUBTITLE": "Pots contactar amb mi enviant-me un email per aquí o per telèfon",
 		"SUCCESS": "Gràcies per contactar amb mi  :D",

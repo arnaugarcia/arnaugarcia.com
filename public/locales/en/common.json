@@ -12,9 +12,14 @@
 			"EMAIL": "Email",
 			"MESSAGE": "Your message",
 			"NAME": "Name",
-			"PHONE": "Phone"
+			"PHONE": "Phone",
+			"RESPONSE": {
+				"CAPTCHA-ERROR": "There was an error processing the captcha,  are you human?",
+				"ERROR": "There was an error sending the mail.  Please try again later.",
+				"LOADING": "I'm sending the email.  Please wait a second...",
+				"SUCCESS": "The email has been sent correctly,  thank you very much for your message :)"
+			}
 		},
-		"LOADING": "I'm sending the email. Please wait a second...",
 		"PHONE": "(+34) 692 46 46 45",
 		"SUBTITLE": "You can contact me by sending an email here or by phone",
 		"SUCCESS": "Thanks for contacting me :D",

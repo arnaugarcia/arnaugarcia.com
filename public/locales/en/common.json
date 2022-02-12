@@ -52,30 +52,37 @@
 	"PORTFOLIO": {
 		"ITEMS": {
 			"ITEM1": {
+				"PHOTO": "/assets/images/cisco.png",
 				"SUBTITLE": "Cisco",
 				"TITLE": "CCNA Certification"
 			},
 			"ITEM2": {
+				"PHOTO": "",
 				"SUBTITLE": "Developed Uplace project",
 				"TITLE": "Uplace"
 			},
 			"ITEM3": {
+				"PHOTO": "",
 				"SUBTITLE": "Completed Angular Course",
 				"TITLE": "Angular Course"
 			},
 			"ITEM4": {
+				"PHOTO": "",
 				"SUBTITLE": "Developed Real State Camp project and presented in Angular Camp 2017",
 				"TITLE": "Real State Camp"
 			},
 			"ITEM5": {
+				"PHOTO": "",
 				"SUBTITLE": "Spring Boot/Cloud course on udemy.com",
 				"TITLE": "Microservices course"
 			},
 			"ITEM6": {
+				"PHOTO": "",
 				"SUBTITLE": "Developing a web for the Spanish national level HALO competition",
 				"TITLE": "HCSSpain.es"
 			},
 			"ITEM7": {
+				"PHOTO": "",
 				"SUBTITLE": "Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales.",
 				"TITLE": "Startup Weekend"
 			}

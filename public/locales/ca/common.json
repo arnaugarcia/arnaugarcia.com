@@ -52,30 +52,37 @@
 	"PORTFOLIO": {
 		"ITEMS": {
 			"ITEM1": {
+				"PHOTO": "/assets/images/cisco.png",
 				"SUBTITLE": "Cisco",
 				"TITLE": "Certificació CCNA"
 			},
 			"ITEM2": {
+				"PHOTO": "",
 				"SUBTITLE": "Projecte Uplace desenvolupat",
 				"TITLE": "Uplace"
 			},
 			"ITEM3": {
+				"PHOTO": "",
 				"SUBTITLE": "Curs Angular completat",
 				"TITLE": "Angular Course"
 			},
 			"ITEM4": {
+				"PHOTO": "",
 				"SUBTITLE": "Projecte Real State Camp desenvolupat i presentat en Angular Camp 2017",
 				"TITLE": "Real State Camp"
 			},
 			"ITEM5": {
+				"PHOTO": "",
 				"SUBTITLE": "Curs Spring Boot/Cloud a udemy.com",
 				"TITLE": "Curs de microserveis"
 			},
 			"ITEM6": {
+				"PHOTO": "",
 				"SUBTITLE": "Desenvolupant una web per al competitiu de HALO a nivell espanyol",
 				"TITLE": "HCSSpain.es"
 			},
 			"ITEM7": {
+				"PHOTO": "",
 				"SUBTITLE": "Junt amb companys Opentrends, vam guanyar una experiència de Startup Weekend. Vam desenvolupat una plataforma per convertir els productes alimentaris que no s'han vengut en vendes.",
 				"TITLE": "Startup Weekend"
 			}

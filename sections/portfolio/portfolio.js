@@ -1,26 +1,33 @@
 import PortfolioItem from "./portfolio-item";
 import Isotope from 'isotope-layout'
 
-import {useEffect, useRef, useState} from "react";
+import {useCallback, useEffect, useState} from "react";
 import PortfolioFilter from "./portfolio-filter";
+import {useTranslation} from "next-i18next";
 
 export default function Portfolio() {
 
-    const isotope = useRef()
-    let [currentFilter, setCurrentFilter] = useState('*');
+    const {i18n} = useTranslation('common')
+    const [currentFilter, setCurrentFilter] = useState('*');
+
+    const portfolio = useCallback((node) => {
+        if (node !=  null) {
+            const isotope = new Isotope(node, {
+                // options
+                itemSelector: '.portfolio-item',
+                layoutMode: 'fitRows',
+                masonry: {
+                    // use outer width of grid-sizer for columnWidth
+                    columnWidth: '.grid-sizer'
+                }
+            });
+            return () => isotope.destroy()
+        }
+    }, [i18n.language])
 
     useEffect(() => {
-        isotope.current = new Isotope(isotope.current, {
-            // options
-            itemSelector: '.portfolio-item',
-            layoutMode: 'fitRows',
-            masonry: {
-                // use outer width of grid-sizer for columnWidth
-                columnWidth: '.grid-sizer'
-            }
-        });
-        return () => isotope.current.destroy();
-    }, []);
+        const portfolioItems = (Object.values(i18n.getResource(i18n.language, 'common', 'PORTFOLIO.ITEMS')));
+    }, [i18n.language]);
 
     const onSelectedFilter = (filter) => {
         setCurrentFilter(filter);
@@ -66,7 +73,7 @@ export default function Portfolio() {
                 </div>
             </div>
             <div className="container-fluid">
-                <div className="row row-portfolio" data-columns="4" ref={isotope}>
+                <div className="row row-portfolio" data-columns="4" ref={portfolio}>
                     <div className="grid-sizer"/>
                     <PortfolioItem
                         title={"Startup Weekend"}

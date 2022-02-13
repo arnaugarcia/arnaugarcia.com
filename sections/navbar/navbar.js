@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import MenuItem from "./menu-item";
 import {useTranslation} from "next-i18next";
+import Link from 'next/link'
 
 export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
 
@@ -53,10 +54,10 @@ export default function Navbar({currentSection, scrollNavbarLimit = 5}) {
                                     <span className="menu-item-span">{t('NAVBAR.LANGUAGES.TITLE')}</span>
                                 </a>
                                 <ul className="sub-menu">
-                                    {['ca', 'es', 'en'].map((language, index) => {
+                                    {['ca', 'es', 'en'].map((locale, index) => {
                                         return (
                                             <li className="menu-item pointer" key={index}>
-                                                <a onClick={() => i18n.changeLanguage(language)}>{t(`NAVBAR.LANGUAGES.${language.toUpperCase()}`)}</a>
+                                                <Link href={'/'} locale={locale}>{t(`NAVBAR.LANGUAGES.${locale.toUpperCase()}`)}</Link>
                                             </li>
                                         )
                                     })}

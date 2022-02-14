@@ -1,26 +1,36 @@
 import PortfolioItem from "./portfolio-item";
 import Isotope from 'isotope-layout'
 
-import {useEffect, useRef, useState} from "react";
+import {useCallback, useEffect, useState} from "react";
 import PortfolioFilter from "./portfolio-filter";
+import {useTranslation} from "next-i18next";
+import PortfolioService from "./portfolio.service";
 
 export default function Portfolio() {
+    const {t, i18n} = useTranslation('common');
+    const [currentFilter, setCurrentFilter] = useState('*');
+    const [isotope, setIsotope] = useState(null);
+    const [portfolioItems, setPortfolioItems] = useState([]);
 
-    const isotope = useRef()
-    let [currentFilter, setCurrentFilter] = useState('*');
+    const portfolio = useCallback((node) => {
+        if (node !=  null) {
+            const isotope = new Isotope(node, {
+                // options
+                itemSelector: '.portfolio-item',
+                layoutMode: 'fitRows',
+                masonry: {
+                    // use outer width of grid-sizer for columnWidth
+                    columnWidth: '.grid-sizer'
+                }
+            });
+            setIsotope(isotope);
+            return () => isotope.destroy();
+        }
+    }, [i18n.language, portfolioItems])
 
     useEffect(() => {
-        isotope.current = new Isotope(isotope.current, {
-            // options
-            itemSelector: '.portfolio-item',
-            layoutMode: 'fitRows',
-            masonry: {
-                // use outer width of grid-sizer for columnWidth
-                columnWidth: '.grid-sizer'
-            }
-        });
-        return () => isotope.current.destroy();
-    }, []);
+        setPortfolioItems(PortfolioService.portfolioItems);
+    }, [i18n.language]);
 
     const onSelectedFilter = (filter) => {
         setCurrentFilter(filter);
@@ -28,7 +38,7 @@ export default function Portfolio() {
     }
 
     const filterBy = (param) => {
-        isotope.current.arrange({filter: param})
+        isotope.arrange({filter: param})
     }
 
     const clearFilter = () => {
@@ -66,47 +76,18 @@ export default function Portfolio() {
                 </div>
             </div>
             <div className="container-fluid">
-                <div className="row row-portfolio" data-columns="4" ref={isotope}>
+                <div className="row row-portfolio" data-columns="4" ref={portfolio}>
                     <div className="grid-sizer"/>
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        keywords={['microservices', 'java']}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/springmicroservices.png"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        keywords={['networks']}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/cisco.webp"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        keywords={['angular']}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://angular.io/assets/images/logos/angular/angular.svg"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/logo_realstatecamp.svg"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/startup-weekend.png"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/uplace.png"}
-                        link={null}
-                    />
+                    {portfolioItems.map((item, index) => {
+                        return (<PortfolioItem
+                            key={index}
+                            title={t(item.title)}
+                            keywords={item.filters}
+                            subtitle={t(item.subtitle)}
+                            image={item.imageUrl}
+                            link={item.link}
+                        />)
+                    })}
 
                 </div>
             </div>

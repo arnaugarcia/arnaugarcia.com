@@ -42,3 +42,7 @@
     background-color: #e41919;
     border-color: #f5c6cb;
 }
+
+.inner-nav .sub-menu li a {
+    color: #202020;
+}

@@ -1,0 +1,239 @@
+{
+	"APP": {
+		"NAME": "Arnau García",
+		"TITLE": "Arnau García - Personal and professional website"
+	},
+	"CONTACT": {
+		"ADDRESS": "08629 - Torrelles de Llobregat",
+		"EMAIL": "arnau.garcia.gallego@gmail.com",
+		"ERROR": "There is been an error sending the email. Please try again later or send it manually here: arnau.garcia.gallego@gmail.com",
+		"FORM": {
+			"BUTTON": "Send message!",
+			"EMAIL": "Email",
+			"MESSAGE": "Your message",
+			"NAME": "Name",
+			"PHONE": "Phone",
+			"RESPONSE": {
+				"CAPTCHA-ERROR": "There was an error processing the captcha,  are you human?",
+				"ERROR": "There was an error sending the mail.  Please try again later.",
+				"LOADING": "I'm sending the email.  Please wait a second...",
+				"SUCCESS": "The email has been sent correctly,  thank you very much for your message :)"
+			}
+		},
+		"PHONE": "(+34) 692 46 46 45",
+		"SUBTITLE": "You can contact me by sending an email here or by phone",
+		"SUCCESS": "Thanks for contacting me :D",
+		"TITLE": "Contact me",
+		"WEB": "http://arnaugarcia.com"
+	},
+	"FOOTER": {
+		"CONTENT": "© {{year}} Arnau Garcia, All Rights Reserved."
+	},
+	"INTRO": {
+		"SUBTITLE": "A creative web Developer... | Micro-services developer | Spring developer | Angular developer | JHipster enthusiast | Coffee lover",
+		"TITLE": "Arnau García"
+	},
+	"NAVBAR": {
+		"CONTACT": "Contact",
+		"HOME": "Home",
+		"LANGUAGES": {
+			"CA": "Catalan",
+			"EN": "English",
+			"ES": "Spanish",
+			"TITLE": "Languages"
+		},
+		"NAME": "Navigation",
+		"PORTFOLIO": "Portfolio",
+		"PROFILE": "Profile",
+		"PROJECTS": "Projects",
+		"RESUME": "Summary",
+		"SERVICES": "Services"
+	},
+	"PORTFOLIO": {
+		"ITEMS": {
+			"ITEM1": {
+				"PHOTO": "/assets/images/cisco.png",
+				"SUBTITLE": "Cisco",
+				"TITLE": "CCNA Certification"
+			},
+			"ITEM2": {
+				"PHOTO": "",
+				"SUBTITLE": "Developed Uplace project",
+				"TITLE": "Uplace"
+			},
+			"ITEM3": {
+				"PHOTO": "",
+				"SUBTITLE": "Completed Angular Course",
+				"TITLE": "Angular Course"
+			},
+			"ITEM4": {
+				"PHOTO": "",
+				"SUBTITLE": "Developed Real State Camp project and presented in Angular Camp 2017",
+				"TITLE": "Real State Camp"
+			},
+			"ITEM5": {
+				"PHOTO": "",
+				"SUBTITLE": "Spring Boot/Cloud course on udemy.com",
+				"TITLE": "Microservices course"
+			},
+			"ITEM6": {
+				"PHOTO": "",
+				"SUBTITLE": "Developing a web for the Spanish national level HALO competition",
+				"TITLE": "HCSSpain.es"
+			},
+			"ITEM7": {
+				"PHOTO": "",
+				"SUBTITLE": "Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales.",
+				"TITLE": "Startup Weekend"
+			}
+		},
+		"SUBTITLE": "Projects that I've developed and milestones that I reached",
+		"TITLE": "My projects and milestones"
+	},
+	"PROFILE": {
+		"SKILLS": {
+			"SKILL1": "Java / Lambdas / Reactive Programming",
+			"SKILL2": "Spring / Spring Cloud / Spring Security",
+			"SKILL3": "TDD / Junit / Jest",
+			"SKILL4": "Angular / Javascript / ES6 / Typescript",
+			"SKILL5": "Java Microservices / Netflix OSS / SSO",
+			"TITLE": "SKILLS"
+		},
+		"SOCIAL": "Where can you find me?",
+		"SUBTITLE": "Web Developer | Full-stack developer | Cross-platform developer",
+		"TEXT": {
+			"PARAGRAPH1": "I am a programmer with the goal to improve myself and provide new things to the world. My curiosity and passion about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.",
+			"PARAGRAPH2": "Currently I'm developing some personal projects, working as a full-stack developer, coursing a university degree and helping  as a teacher in the university.",
+			"TITLE": "ABOUT ME"
+		},
+		"TITLE": "Arnau García Gallego"
+	},
+	"PROFILE-CONTACT": {
+		"ADDRESS": "Torrelles de Llobregat - Spain",
+		"EMAIL": "arnau.garcia.gallego@gmail.com",
+		"PHONE": "(+34) 692 46 46 45"
+	},
+	"PROJECTS": {
+		"CATEGORIES": {
+			"BACKEND": "Backend",
+			"CONNECTED-CAR": "Connected car",
+			"DEVOPS": "Devops",
+			"IOT": "iot",
+			"JAVA": "Java",
+			"SYSTEM-ADMINISTRATION": "Systems Administration"
+		},
+		"ITEMS": {
+			"0": {
+				"DATE": "September 1, 2019",
+				"DESCRIPTION": "Using Spring Flow, Web Flux and Angular I've started a new project that have the aim to make almost any car a connected car using the OBD2 port. The project consist in a IOT platform developed using spring that generates an RESTAFUL API that can be used in any application like (Android, iOS, Web applications...).\n",
+				"IMAGE-DESCRIPTION": "IOT Car",
+				"SUBTITLE": "",
+				"TITLE": "Connected Car | IOT",
+				"YEAR": ""
+			},
+			"1": {
+				"DESCRIPTION": "Together with Alfredo Rueda and Joan Carrion, we're developing a music platform for the Android course of La Salle. This projects is a monolithic application developed using JHipster (Spring and Angular)",
+				"SUBTITLE": "Music platform for La Salle",
+				"TITLE": "Sallefy | A music platform",
+				"YEAR": "2019 - 2020"
+			},
+			"2": {
+				"DESCRIPTION": "I have started to connect my house to the internet. I have set up an intranet with cloud services such as a VPN, storage and a monitoring system that gives information about the lights, consumptions and average time spent on each device.",
+				"SUBTITLE": "IOT platform for home automation",
+				"TITLE": "IoT | Home automation",
+				"YEAR": "2019 - 2020"
+			}
+		},
+		"MORE-BUTTON": "More Projects"
+	},
+	"RESUME": {
+		"CV-BUTTON": "Download CV",
+		"ITEMS": {
+			"0": {
+				"DESCRIPTION": "During my stay at Opentrends, I have developed projects for various entities and sectors. All these projects are always oriented to microservices using Spring + Angular.",
+				"SUBTITLE": "Opentrends",
+				"TITLE": "Full-Stack developer",
+				"YEAR": "2018-Now"
+			},
+			"1": {
+				"DESCRIPTION": "In this university degree I have deepened in software development giving me a broader and more robust vision. During my course at the university I have been able to expand my knowledge in all fields of development, from architecture, databases, algorithms ... etc.",
+				"SUBTITLE": "La Salle Barcelona",
+				"TITLE": "DEGREE IN SOFTWARE APPLICATION TECHNIQUES",
+				"YEAR": "2018 - Now"
+			},
+			"2": {
+				"DESCRIPTION": "During my studies at Stucom I learned the basics to be able to program, there I studied an average degree of computer systems where I learned the basics of computer science. Then I made a higher degree of web applications where I learned to program in Java, layout a web, databases among others. I finally made another higher degree of cross-platform applications where I learned Android, iOS (Swift) and to create hybrid applications using javascript frameworks.",
+				"SUBTITLE": "Stucom",
+				"TITLE": "Vocational training in web development and cross-platform.",
+				"YEAR": "2015 - 2018"
+			},
+			"3": {
+				"DESCRIPTION": "During my course in Wiatchity I was developing the frontend of the web based agile live video production platform",
+				"SUBTITLE": "Watchity",
+				"TITLE": "Front-end developer",
+				"YEAR": "2017 - 2018"
+			},
+			"4": {
+				"DESCRIPTION": "Together with 4 classmates and our teacher, we presented our final projects of higher degree, we talked about JHipster and its advantages.",
+				"SUBTITLE": "Barcelona",
+				"TITLE": "Speaker at Angular Camp 2017",
+				"YEAR": "2017 - 2017"
+			},
+			"5": {
+				"DESCRIPTION": "Together with Alfredo Rueda we develop and present the backend used for developing the final project of the Android development subject.",
+				"SUBTITLE": "La Salle Barcelona",
+				"TITLE": "Assistant teacher at La Salle",
+				"YEAR": "2019 - Now"
+			}
+		},
+		"SUBTITLE": "Education and experience",
+		"TITLE": "Summary"
+	},
+	"SERVICE": {
+		"SERVICES": {
+			"SERVICE1": {
+				"TEXT": "Develop web pages is my best area. I can develop static and simple websites as well as complex applications for big companies.",
+				"TITLE": "Web Development"
+			},
+			"SERVICE2": {
+				"TEXT": "Responsiveness is a must. As well as prepared for last generation browsers and offline work.",
+				"TITLE": "PWA ready and responsive"
+			},
+			"SERVICE3": {
+				"TEXT": "I focus on constant user testing in order to deliver the best User Experience as possible",
+				"TITLE": "UX & UI"
+			},
+			"SERVICE4": {
+				"TEXT": "I love designing the architecture of the applications in a creative and simple way. From the creation of the file structure to the production deployment.",
+				"TITLE": "Implementation & Architecture"
+			},
+			"SERVICE5": {
+				"TEXT": "I am able to design the correct schema for a Database in technologies such as MySQL and SQL Server. I have also worked with non relational Databases such as MongoDB",
+				"TITLE": "Database Management"
+			},
+			"SERVICE6": {
+				"TEXT": "My aim is to keep all the information provided by the user securely stored and encrypted in an application ",
+				"TITLE": "Web Security"
+			}
+		},
+		"SUBTITLE": "What my experience and dedication have provided to me",
+		"TITLE": "What I love to do"
+	},
+	"SOCIAL": {
+		"GITHUB": {
+			"LABEL": "Go to my GitHub page"
+		},
+		"INSTAGRAM": {
+			"LABEL": "Go to my Instagram page"
+		},
+		"LINKEDIN": {
+			"LABEL": "Go to my LinkedIn page"
+		},
+		"TWITTER": {
+			"LABEL": "Go to my Twitter page"
+		}
+	},
+	"TECHNOLOGIES": {
+		"TITLE": "Technologies, frameworks and projects"
+	}
+}

@@ -78,45 +78,16 @@ export default function Portfolio() {
             <div className="container-fluid">
                 <div className="row row-portfolio" data-columns="4" ref={portfolio}>
                     <div className="grid-sizer"/>
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        keywords={['microservices', 'java']}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/springmicroservices.png"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        keywords={['networks']}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/cisco.webp"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        keywords={['angular']}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://angular.io/assets/images/logos/angular/angular.svg"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/logo_realstatecamp.svg"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/startup-weekend.png"}
-                        link={null}
-                    />
-                    <PortfolioItem
-                        title={"Startup Weekend"}
-                        subtitle={"Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales."}
-                        image={"https://arnaugarcia.com/assets/images/portfolio/uplace.png"}
-                        link={null}
-                    />
+                    {portfolioItems.map((item, index) => {
+                        return (<PortfolioItem
+                            key={index}
+                            title={t(item.title)}
+                            keywords={item.filters}
+                            subtitle={t(item.subtitle)}
+                            image={item.imageUrl}
+                            link={item.link}
+                        />)
+                    })}
 
                 </div>
             </div>

@@ -4,11 +4,13 @@ import Isotope from 'isotope-layout'
 import {useCallback, useEffect, useState} from "react";
 import PortfolioFilter from "./portfolio-filter";
 import {useTranslation} from "next-i18next";
+import PortfolioService from "./portfolio.service";
 
 export default function Portfolio() {
-
-    const {i18n} = useTranslation('common')
+    const {t, i18n} = useTranslation('common');
     const [currentFilter, setCurrentFilter] = useState('*');
+    const [isotope, setIsotope] = useState(null);
+    const [portfolioItems, setPortfolioItems] = useState([]);
 
     const portfolio = useCallback((node) => {
         if (node !=  null) {
@@ -21,12 +23,13 @@ export default function Portfolio() {
                     columnWidth: '.grid-sizer'
                 }
             });
-            return () => isotope.destroy()
+            setIsotope(isotope);
+            return () => isotope.destroy();
         }
     }, [i18n.language])
 
     useEffect(() => {
-        const portfolioItems = (Object.values(i18n.getResource(i18n.language, 'common', 'PORTFOLIO.ITEMS')));
+        setPortfolioItems(PortfolioService.portfolioItems);
     }, [i18n.language]);
 
     const onSelectedFilter = (filter) => {
@@ -35,7 +38,7 @@ export default function Portfolio() {
     }
 
     const filterBy = (param) => {
-        isotope.current.arrange({filter: param})
+        isotope.arrange({filter: param})
     }
 
     const clearFilter = () => {

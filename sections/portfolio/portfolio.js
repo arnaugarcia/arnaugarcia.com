@@ -26,7 +26,7 @@ export default function Portfolio() {
             setIsotope(isotope);
             return () => isotope.destroy();
         }
-    }, [i18n.language])
+    }, [i18n.language, portfolioItems])
 
     useEffect(() => {
         setPortfolioItems(PortfolioService.portfolioItems);

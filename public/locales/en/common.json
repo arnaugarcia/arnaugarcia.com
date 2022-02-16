@@ -91,6 +91,11 @@
 		"TITLE": "My projects and milestones"
 	},
 	"PROFILE": {
+		"BIOGRAPHY": {
+			"PARAGRAPH1": "I am a programmer with the goal to improve myself and provide new things to the world. My curiosity and passion about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.",
+			"PARAGRAPH2": "Currently I'm developing some personal projects, working as a full-stack developer, coursing a university degree and helping  as a teacher in the university.",
+			"TITLE": "ABOUT ME"
+		},
 		"SKILLS": {
 			"SKILL1": "Java / Lambdas / Reactive Programming",
 			"SKILL2": "Spring / Spring Cloud / Spring Security",
@@ -101,11 +106,6 @@
 		},
 		"SOCIAL": "Where can you find me?",
 		"SUBTITLE": "Web Developer | Full-stack developer | Cross-platform developer",
-		"TEXT": {
-			"PARAGRAPH1": "I am a programmer with the goal to improve myself and provide new things to the world. My curiosity and passion about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.",
-			"PARAGRAPH2": "Currently I'm developing some personal projects, working as a full-stack developer, coursing a university degree and helping  as a teacher in the university.",
-			"TITLE": "ABOUT ME"
-		},
 		"TITLE": "Arnau García Gallego"
 	},
 	"PROFILE-CONTACT": {

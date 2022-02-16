@@ -1,15 +1,17 @@
 import Image from 'next/image'
 import Social from "./social";
 import Skill from "./skill";
+import {useTranslation} from "next-i18next";
 
 export default function Profile() {
+    const {t} = useTranslation('common');
     return (
         <div className="container">
         <div className="row">
             <div className="col-md-12">
                 <div className="m-title c-align">
-                    <h2>ARNAU GARCÍA GALLEGO</h2>
-                    <h6>WEB DEVELOPER | FULL-STACK DEVELOPER | CROSS-PLATFORM DEVELOPER</h6>
+                    <h2>{t('PROFILE.TITLE')}</h2>
+                    <h6>{t('PROFILE.SUBTITLE')}</h6>
                 </div>
             </div>
         </div>
@@ -20,19 +22,19 @@ export default function Profile() {
                 </p>
             </div>
             <div className="col-md-4">
-                <h5>ABOUT ME</h5>
-                <p>I am a programmer with the goal to improve myself and provide new things to the world. My curiosity and passion about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.</p>
-                <p>Currently I'm developing some personal projects, working as a full-stack developer, coursing a university degree and helping as a teacher in the university.</p>
-                <h3 className="h4">WHERE CAN YOU FIND ME?</h3>
+                <h5>{t('PROFILE.BIOGRAPHY.TITLE')}</h5>
+                <p>{t('PROFILE.BIOGRAPHY.PARAGRAPH1')}</p>
+                <p>{t('PROFILE.BIOGRAPHY.PARAGRAPH2')}</p>
+                <h3 className="h4">{t('PROFILE.SOCIAL')}</h3>
                 <Social/>
             </div>
             <div className="col-md-4 skills">
-                <h5>SKILLS</h5>
-                <Skill label={'Java / Lambdas / Reactive Programming'} value={95}/>
-                <Skill label={'Spring / Spring Cloud / Spring Security'} value={95}/>
-                <Skill label={'TDD / Junit / Jest'} value={85}/>
-                <Skill label={'Angular / Javascript / ES6 / Typescript'} value={90}/>
-                <Skill label={'Java Microservices / Netflix OSS / SSO'} value={90}/>
+                <h5>{t('PROFILE.SKILLS.TITLE')}</h5>
+                <Skill label={t('PROFILE.SKILLS.SKILL1')} value={95}/>
+                <Skill label={t('PROFILE.SKILLS.SKILL2')} value={95}/>
+                <Skill label={t('PROFILE.SKILLS.SKILL3')} value={85}/>
+                <Skill label={t('PROFILE.SKILLS.SKILL4')} value={90}/>
+                <Skill label={t('PROFILE.SKILLS.SKILL5')} value={90}/>
             </div>
         </div>
     </div>);

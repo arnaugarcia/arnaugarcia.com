@@ -91,6 +91,11 @@
 		"TITLE": "Mis proyectos e hitos"
 	},
 	"PROFILE": {
+		"BIOGRAPHY": {
+			"PARAGRAPH1": "Soy un informático con ganas de superar me y aportar cosas al mundo. Mi curiosidad y pasión por la informática y la programación empezó desde muy pequeño y aún sigue en aumento, día tras día, sin perder las ganas de aprender y superarme.",
+			"PARAGRAPH2": "Actualmente estoy desarrollando algunos proyectos personales, trabajando como desarrollador full-stack, cursando un título universitario y ayudando como profesor en la universidad.",
+			"TITLE": "ACERCA DE MI"
+		},
 		"SKILLS": {
 			"SKILL1": "Java / Lambdas / Programación reactiva",
 			"SKILL2": "Spring / Spring Cloud / Spring Security",
@@ -101,11 +106,6 @@
 		},
 		"SOCIAL": "¿Dónde me puedes encontrar?",
 		"SUBTITLE": "Desarrollador web | Desarrollador full-stack | Desarrollador Multiplataforma",
-		"TEXT": {
-			"PARAGRAPH1": "Soy un informático con ganas de superar me y aportar cosas al mundo. Mi curiosidad y pasión por la informática y la programación empezó desde muy pequeño y aún sigue en aumento, día tras día, sin perder las ganas de aprender y superarme.",
-			"PARAGRAPH2": "Actualmente estoy desarrollando algunos proyectos personales, trabajando como desarrollador full-stack, cursando un título universitario y ayudando como profesor en la universidad.",
-			"TITLE": "ACERCA DE MI"
-		},
 		"TITLE": "Arnau García Gallego"
 	},
 	"PROFILE-CONTACT": {

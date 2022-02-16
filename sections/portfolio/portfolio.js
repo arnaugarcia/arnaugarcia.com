@@ -8,7 +8,7 @@ import PortfolioService from "./portfolio.service";
 import {PortfolioModel} from "./portfolio.model";
 
 export default function Portfolio() {
-    const {i18n} = useTranslation('common');
+    const {t, i18n} = useTranslation('common');
     const [currentFilter, setCurrentFilter] = useState('*');
     const [isotope, setIsotope] = useState(null);
     const [portfolioItems, setPortfolioItems] = useState([]);
@@ -56,8 +56,8 @@ export default function Portfolio() {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="m-title c-align">
-                            <h2>MY PROJECTS AND MILESTONES</h2>
-                            <h6>PROJECTS THAT I'VE DEVELOPED AND MILESTONES THAT I REACHED</h6>
+                            <h2>{t('PORTFOLIO.TITLE')}</h2>
+                            <h6>{t('PORTFOLIO.SUBTITLE')}</h6>
                         </div>
                         <div className="row">
                             <div className="col-md-12">

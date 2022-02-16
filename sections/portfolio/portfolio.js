@@ -5,15 +5,17 @@ import {useCallback, useEffect, useState} from "react";
 import PortfolioFilter from "./portfolio-filter";
 import {useTranslation} from "next-i18next";
 import PortfolioService from "./portfolio.service";
+import {PortfolioModel} from "./portfolio.model";
 
 export default function Portfolio() {
     const {t, i18n} = useTranslation('common');
     const [currentFilter, setCurrentFilter] = useState('*');
     const [isotope, setIsotope] = useState(null);
     const [portfolioItems, setPortfolioItems] = useState([]);
+    const [portfolioFilters, setPortfolioFilters] = useState([]);
 
     const portfolio = useCallback((node) => {
-        if (node !=  null) {
+        if (node != null) {
             const isotope = new Isotope(node, {
                 // options
                 itemSelector: '.portfolio-item',
@@ -29,7 +31,9 @@ export default function Portfolio() {
     }, [i18n.language, portfolioItems])
 
     useEffect(() => {
-        setPortfolioItems(PortfolioService.portfolioItems);
+        const portfolioItems = PortfolioService.portfolioItems().map((item) => new PortfolioModel(item));
+        setPortfolioItems(portfolioItems);
+        setPortfolioFilters([...new Set(portfolioItems.map((item) => item.filters).flat())]);
     }, [i18n.language]);
 
     const onSelectedFilter = (filter) => {
@@ -52,8 +56,8 @@ export default function Portfolio() {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="m-title c-align">
-                            <h2>MY PROJECTS AND MILESTONES</h2>
-                            <h6>PROJECTS THAT I'VE DEVELOPED AND MILESTONES THAT I REACHED</h6>
+                            <h2>{t('PORTFOLIO.TITLE')}</h2>
+                            <h6>{t('PORTFOLIO.SUBTITLE')}</h6>
                         </div>
                         <div className="row">
                             <div className="col-md-12">
@@ -61,14 +65,14 @@ export default function Portfolio() {
                                     <PortfolioFilter title={"All"}
                                                      current={currentFilter === '*'}
                                                      onFilter={clearFilter}/>
-                                    <PortfolioFilter title={"Networks"}
-                                                     value={"networks"}
-                                                     current={currentFilter === 'networks'}
-                                                     onFilter={onSelectedFilter}/>
-                                    <PortfolioFilter title={"Angular"}
-                                                     value={"angular"}
-                                                     current={currentFilter === 'angular'}
-                                                     onFilter={onSelectedFilter}/>
+                                    {portfolioFilters.map((filter, index) =>
+                                        <PortfolioFilter
+                                            key={index}
+                                            title={filter.toLocaleString()}
+                                            value={filter}
+                                            current={currentFilter === filter}
+                                            onFilter={onSelectedFilter}
+                                        />)}
                                 </ul>
                             </div>
                         </div>
@@ -78,17 +82,7 @@ export default function Portfolio() {
             <div className="container-fluid">
                 <div className="row row-portfolio" data-columns="4" ref={portfolio}>
                     <div className="grid-sizer"/>
-                    {portfolioItems.map((item, index) => {
-                        return (<PortfolioItem
-                            key={index}
-                            title={t(item.title)}
-                            keywords={item.filters}
-                            subtitle={t(item.subtitle)}
-                            image={item.imageUrl}
-                            link={item.link}
-                        />)
-                    })}
-
+                    {portfolioItems.map((item, index) => <PortfolioItem key={index} portfolio={item}/>)}
                 </div>
             </div>
         </>);

@@ -8,10 +8,11 @@ import PortfolioService from "./portfolio.service";
 import {PortfolioModel} from "./portfolio.model";
 
 export default function Portfolio() {
-    const {t, i18n} = useTranslation('common');
+    const {i18n} = useTranslation('common');
     const [currentFilter, setCurrentFilter] = useState('*');
     const [isotope, setIsotope] = useState(null);
     const [portfolioItems, setPortfolioItems] = useState([]);
+    const [portfolioFilters, setPortfolioFilters] = useState([]);
 
     const portfolio = useCallback((node) => {
         if (node != null) {
@@ -30,8 +31,9 @@ export default function Portfolio() {
     }, [i18n.language, portfolioItems])
 
     useEffect(() => {
-       const portfolioItems = PortfolioService.portfolioItems().map((item) => new PortfolioModel(item));
-       setPortfolioItems(portfolioItems);
+        const portfolioItems = PortfolioService.portfolioItems().map((item) => new PortfolioModel(item));
+        setPortfolioItems(portfolioItems);
+        setPortfolioFilters([...new Set(portfolioItems.map((item) => item.filters).flat())]);
     }, [i18n.language]);
 
     const onSelectedFilter = (filter) => {
@@ -63,14 +65,14 @@ export default function Portfolio() {
                                     <PortfolioFilter title={"All"}
                                                      current={currentFilter === '*'}
                                                      onFilter={clearFilter}/>
-                                    <PortfolioFilter title={"Networks"}
-                                                     value={"networks"}
-                                                     current={currentFilter === 'networks'}
-                                                     onFilter={onSelectedFilter}/>
-                                    <PortfolioFilter title={"Angular"}
-                                                     value={"angular"}
-                                                     current={currentFilter === 'angular'}
-                                                     onFilter={onSelectedFilter}/>
+                                    {portfolioFilters.map((filter, index) =>
+                                        <PortfolioFilter
+                                            key={index}
+                                            title={filter.toLocaleString()}
+                                            value={filter}
+                                            current={currentFilter === filter}
+                                            onFilter={onSelectedFilter}
+                                        />)}
                                 </ul>
                             </div>
                         </div>

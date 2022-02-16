@@ -78,9 +78,8 @@ export default function Portfolio() {
             <div className="container-fluid">
                 <div className="row row-portfolio" data-columns="4" ref={portfolio}>
                     <div className="grid-sizer"/>
-                    {portfolioItems.map((item, index) => {
+                    {portfolioItems.map((item) => {
                         return (<PortfolioItem
-                            key={index}
                             title={t(item.title)}
                             keywords={item.filters}
                             subtitle={t(item.subtitle)}
@@ -88,7 +87,6 @@ export default function Portfolio() {
                             link={item.link}
                         />)
                     })}
-
                 </div>
             </div>
         </>);

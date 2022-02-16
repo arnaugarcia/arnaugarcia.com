@@ -1,15 +1,18 @@
-export default function PortfolioItem({title, subtitle, keywords = [], image, link}) {
+import {useTranslation} from "next-i18next";
+
+export default function PortfolioItem({portfolio}) {
+    const {t} = useTranslation('common');
     return (
-        <div className={`portfolio-item ${keywords.join(' ')}`}>
+        <div className={`portfolio-item ${portfolio.filters.join(' ')} ${portfolio.large ? 'large' : ''}`}>
             <div className="portfolio-wrapper">
-                <div className="portfolio-img-wrap" style={{backgroundImage: `url(${image})`}}/>
+                <div className="portfolio-img-wrap" style={{backgroundImage: `url(${portfolio.image})`}}/>
                 <div className="portfolio-overlay"/>
                 <div className="portfolio-caption">
-                    <h5 className="portfolio-title">{title}</h5>
-                    <h6 className="portfolio-subtitle">{subtitle}</h6>
+                    <h5 className="portfolio-title">{t(portfolio.title)}</h5>
+                    <h6 className="portfolio-subtitle">{t(portfolio.subtitle)}</h6>
                 </div>
             </div>
-            <a className="portfolio-link" href={link}/>
+            <a className="portfolio-link" href={portfolio.link}/>
         </div>
     )
 }

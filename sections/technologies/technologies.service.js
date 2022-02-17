@@ -14,6 +14,14 @@ export const TechnologiesService = {
                 image: '/assets/images/technologies/angular.webp'
             },
             {
+                title: 'NextJS logo',
+                image: '/assets/images/technologies/nextjs.webp'
+            },
+            {
+                title: 'ReactJS logo',
+                image: '/assets/images/technologies/reactjs.webp'
+            },
+            {
                 title: 'Jhipster logo',
                 image: '/assets/images/technologies/jhipster.webp'
             },

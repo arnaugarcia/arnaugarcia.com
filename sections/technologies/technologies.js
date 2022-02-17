@@ -24,7 +24,7 @@ export default function Technologies() {
             </div>
             <div className="col-md-12">
                 <div className="my-slider">
-                    {technologies.map(({title, image}, index) => <Technology image={image} description={title}/>)}
+                    {technologies.map(({title, image}, index) => <Technology key={index} image={image} description={title}/>)}
                 </div>
             </div>
         </div>

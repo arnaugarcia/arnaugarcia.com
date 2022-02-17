@@ -9,12 +9,12 @@ export default function Social() {
 
     useEffect(() => {
         setSocialNetworks(SocialService.socialNetworks());
-    }, [])
+    }, []);
 
     return (
         <ul className={styles.widgetSocial}>
-            {socialNetworks.map(({id, icon, label, link}) => (
-                <li key={id}>
+            {socialNetworks.map(({icon, label, link}, index) => (
+                <li key={index}>
                     <a className={'btn btn-sm'}
                        target="_blank"
                        href={link}

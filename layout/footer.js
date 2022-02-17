@@ -1,8 +1,16 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {useTranslation} from "next-i18next";
+import {useEffect, useState} from "react";
+import {SocialService} from "../sections/social/social.service";
 
 export default function Footer() {
     const {i18n} = useTranslation('common');
+
+    const [socialNetworks, setSocialNetworks] = useState([]);
+
+    useEffect(() => {
+        setSocialNetworks(SocialService.socialNetworks());
+    }, []);
 
     return (
         <footer className="footer">
@@ -13,11 +21,13 @@ export default function Footer() {
                     </div>
                     <div className="col-md-6">
                         <ul className="social-icons">
-                            <li>
-                                <a target="_blank" rel="noreferrer">
-                                    <FontAwesomeIcon icon={['fab', 'github']}/>
-                                </a>
-                            </li>
+                            {socialNetworks.map(({icon, label, link}, index) => (
+                                <li key={index}>
+                                    <a href={link} target="_blank" rel="noreferrer" aria-label={label}>
+                                        <FontAwesomeIcon icon={['fab', icon]}/>
+                                    </a>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 </div>

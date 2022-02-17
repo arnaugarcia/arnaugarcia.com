@@ -1,15 +1,18 @@
 import 'tiny-slider/dist/tiny-slider.css'
 import Technology from "./technology";
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import {sliderConfig} from "./slider.constants";
 import {useTranslation} from "next-i18next";
+import {TechnologiesService} from "./technologies.service";
 
 export default function Technologies() {
 
     const {t} = useTranslation('common');
+    const [technologies, setTechnologies] = useState([]);
 
     useEffect(() => {
         import('tiny-slider').then(({tns}) => tns(sliderConfig));
+        setTechnologies(TechnologiesService.technologies());
     }, []);
 
     return (<div className="container">
@@ -21,12 +24,7 @@ export default function Technologies() {
             </div>
             <div className="col-md-12">
                 <div className="my-slider">
-                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/java.png'} description={'Java'}/>
-                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/mongodb.png'} description={'Java'}/>
-                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/mysql.png'} description={'Java'}/>
-                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/docker.png'} description={'Java'}/>
-                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/hibernate.png'} description={'Java'}/>
-                    <Technology image={'https://arnaugarcia.com/assets/images/technologies/jenkins.png'} description={'Java'}/>
+                    {technologies.map(({title, image}, index) => <Technology image={image} description={title}/>)}
                 </div>
             </div>
         </div>

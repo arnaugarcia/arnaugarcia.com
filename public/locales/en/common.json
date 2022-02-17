@@ -1,5 +1,6 @@
 {
 	"APP": {
+		"DESCRIPTION": "Hello! I'm a programmer with the goal to improve myself and provide new things to the world.",
 		"NAME": "Arnau García",
 		"TITLE": "Arnau García - Personal and professional website"
 	},
@@ -52,37 +53,32 @@
 	"PORTFOLIO": {
 		"ITEMS": {
 			"ITEM1": {
-				"PHOTO": "/assets/images/cisco.png",
+				"DESCRIPTION": "Logo CCNA certification completed",
 				"SUBTITLE": "Cisco",
 				"TITLE": "CCNA Certification"
 			},
 			"ITEM2": {
-				"PHOTO": "",
+				"DESCRIPTION": "UPlace project logo",
 				"SUBTITLE": "Developed Uplace project",
 				"TITLE": "Uplace"
 			},
 			"ITEM3": {
-				"PHOTO": "",
+				"DESCRIPTION": "Angular framework logo",
 				"SUBTITLE": "Completed Angular Course",
 				"TITLE": "Angular Course"
 			},
 			"ITEM4": {
-				"PHOTO": "",
+				"DESCRIPTION": "RealStateCamp project logo",
 				"SUBTITLE": "Developed Real State Camp project and presented in Angular Camp 2017",
 				"TITLE": "Real State Camp"
 			},
 			"ITEM5": {
-				"PHOTO": "",
+				"DESCRIPTION": "Spring Boot framework logo",
 				"SUBTITLE": "Spring Boot/Cloud course on udemy.com",
 				"TITLE": "Microservices course"
 			},
 			"ITEM6": {
-				"PHOTO": "",
-				"SUBTITLE": "Developing a web for the Spanish national level HALO competition",
-				"TITLE": "HCSSpain.es"
-			},
-			"ITEM7": {
-				"PHOTO": "",
+				"DESCRIPTION": "Startup Weekend Logo",
 				"SUBTITLE": "Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales.",
 				"TITLE": "Startup Weekend"
 			}
@@ -92,7 +88,7 @@
 	},
 	"PROFILE": {
 		"BIOGRAPHY": {
-			"PARAGRAPH1": "I am a programmer with the goal to improve myself and provide new things to the world. My curiosity and passion about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.",
+			"PARAGRAPH1": "I am a programmer with the goal to improve myself and provide new things to the world.  My curiosity and passion about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.",
 			"PARAGRAPH2": "Currently I'm developing some personal projects, working as a full-stack developer, coursing a university degree and helping  as a teacher in the university.",
 			"TITLE": "ABOUT ME"
 		},

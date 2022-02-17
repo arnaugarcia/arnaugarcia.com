@@ -1,5 +1,6 @@
 {
 	"APP": {
+		"DESCRIPTION": "Hola! Soy Arnau García,  un programador con ganas de alcanzar nuevos retos y aportar nuevas cosas al mundo.",
 		"NAME": "Arnau García",
 		"TITLE": "Arnau García - Página web personal y profesional"
 	},
@@ -52,37 +53,32 @@
 	"PORTFOLIO": {
 		"ITEMS": {
 			"ITEM1": {
-				"PHOTO": "/assets/images/cisco.png",
+				"DESCRIPTION": "Logo certificación CCNA completada",
 				"SUBTITLE": "Cisco",
 				"TITLE": "Certificación CCNA"
 			},
 			"ITEM2": {
-				"PHOTO": "",
+				"DESCRIPTION": "Logo del proyecto UPlace",
 				"SUBTITLE": "Proyecto Uplace desarrollado",
 				"TITLE": "Uplace"
 			},
 			"ITEM3": {
-				"PHOTO": "",
+				"DESCRIPTION": "Logo del framwork Angular",
 				"SUBTITLE": "Curso angular completado",
 				"TITLE": "Angular Course"
 			},
 			"ITEM4": {
-				"PHOTO": "",
+				"DESCRIPTION": "Logo del proyecto RealStateCamp",
 				"SUBTITLE": "Proyecto Real State Camp desarrollado y presentado en Angular Camp 2017",
 				"TITLE": "Real State Camp"
 			},
 			"ITEM5": {
-				"PHOTO": "",
+				"DESCRIPTION": "Logo del framework Spring Boot",
 				"SUBTITLE": "Curso Spring Boot/Cloud en udemy.com",
 				"TITLE": "Curso de microservicios"
 			},
 			"ITEM6": {
-				"PHOTO": "",
-				"SUBTITLE": "Desarollando una web para el competitivo de HALO a nivel español",
-				"TITLE": "HCSSpain.es"
-			},
-			"ITEM7": {
-				"PHOTO": "",
+				"DESCRIPTION": "Logo de Startup Weekend",
 				"SUBTITLE": "Junto con algunos compañeros de Opentrends, ganamos una Startup Weekend. Desarrollamos una plataforma para convertir productos alimentarios que no se han vendido en ventas.",
 				"TITLE": "Startup Weekend"
 			}

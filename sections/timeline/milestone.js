@@ -6,7 +6,7 @@ export default function Milestone({title, place, date, image, description}) {
             <div className="timeline-badge"/>
             <div className="timeline-panel">
                 <div className="timeline-preview">
-                    <Image src={image} alt={description} height={400} width={600} style={{width: '100%'}}/>
+                    <Image src={image} alt={description} height={400} width={600}/>
                 </div>
                 <div className="timeline-body">
                     <h5 className="timeline-title">{title}</h5>

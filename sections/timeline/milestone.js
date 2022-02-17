@@ -1,12 +1,12 @@
+import Image from 'next/image'
+
 export default function Milestone({title, place, date, image, description}) {
     return (
         <li>
             <div className="timeline-badge"/>
             <div className="timeline-panel">
                 <div className="timeline-preview">
-                    <picture>
-                        <img src={image} alt={`{${title} - ${description}`}/>
-                    </picture>
+                    <Image src={image} alt={description} height={400} width={600} style={{width: '100%'}}/>
                 </div>
                 <div className="timeline-body">
                     <h5 className="timeline-title">{title}</h5>

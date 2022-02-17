@@ -16,8 +16,9 @@ export default function Projects() {
 
     return (<div className="container">
         <div className={`row blog-grid`} style={{marginTop: '-200px'}}>
-            {projects.map((project) =>
+            {projects.map((project, index) =>
                 <Project
+                    key={index}
                     title={t(project.title)}
                     description={t(project.description)}
                     tags={project.categories.map((category) => t(category))}

@@ -4,9 +4,11 @@ import Head from "next/head";
 import Navbar from "../sections/navbar/navbar";
 import Footer from "../layout/footer";
 import {useState} from "react";
-import { appWithTranslation } from 'next-i18next';
+import {appWithTranslation, useTranslation} from 'next-i18next';
 
 const MyApp = ({Component, pageProps}) => {
+
+    const {t} = useTranslation('common');
 
     const [currentSection, setCurrentSection] = useState('home');
 
@@ -17,10 +19,10 @@ const MyApp = ({Component, pageProps}) => {
     return (
         <>
             <Head>
-                <title>Arnau García - Porfolio</title>
+                <title>{t('APP.TITLE')}</title>
                 <meta name="description"
-                      content="Hola! Soy Arnau García, un programador con ganas de alcanzar nuevos retos y aportar nuevas cosas al mundo."/>
-                <meta name="author" content="Arnau Garcia"/>
+                      content={t('APP.DESCRIPTION')}/>
+                <meta name="author" content={t('APP.NAME')}/>
                 <script
                     src={`https://www.google.com/recaptcha/api.js?render=6Lcg7yoeAAAAACWp-OvBb2361m93f3fil53rzArx`}
                     async

@@ -3,54 +3,60 @@ const PortfolioService = {
         return [
             {
                 filters: ['networks'],
-                imageUrl: 'assets/images/portfolio/cisco.webp',
+                imageUrl: '/assets/images/portfolio/cisco.webp',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM1.SUBTITLE',
                 title: 'PORTFOLIO.ITEMS.ITEM1.TITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM1.DESCRIPTION',
                 large: false
             },
             {
                 filters: ['angular', 'projects'],
-                imageUrl: 'assets/images/portfolio/uplace.png',
+                imageUrl: '/assets/images/portfolio/uplace.png',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM2.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM2.DESCRIPTION',
                 title: 'PORTFOLIO.ITEMS.ITEM2.TITLE',
                 large: false
 
             },
             {
                 filters: ['angular'],
-                imageUrl: 'https://angular.io/assets/images/logos/angular/angular.svg',
+                imageUrl: '/assets/images/portfolio/angular.svg',
                 link: '#home',
                 subtitle: 'PORTFOLIO.ITEMS.ITEM3.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM3.DESCRIPTION',
                 title: 'PORTFOLIO.ITEMS.ITEM3.TITLE',
                 large: false
 
             },
             {
                 filters: ['angular', 'projects'],
-                imageUrl: 'assets/images/portfolio/logo_realstatecamp.svg',
+                imageUrl: '/assets/images/portfolio/logo_realstatecamp.svg',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM4.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM4.DESCRIPTION',
                 title: 'PORTFOLIO.ITEMS.ITEM4.TITLE',
                 large: false
 
             },
             {
                 filters: ['spring', 'microservices'],
-                imageUrl: 'assets/images/portfolio/springmicroservices.png',
+                imageUrl: '/assets/images/portfolio/springmicroservices.png',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM5.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM5.DESCRIPTION',
                 title: 'PORTFOLIO.ITEMS.ITEM5.TITLE',
                 large: false
 
             },
             {
                 filters: ['startup'],
-                imageUrl: 'assets/images/portfolio/startup-weekend.png',
+                imageUrl: '/assets/images/portfolio/startup-weekend.png',
                 link: null,
-                subtitle: 'PORTFOLIO.ITEMS.ITEM7.SUBTITLE',
-                title: 'PORTFOLIO.ITEMS.ITEM7.TITLE',
+                subtitle: 'PORTFOLIO.ITEMS.ITEM6.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM6.DESCRIPTION',
+                title: 'PORTFOLIO.ITEMS.ITEM6.TITLE',
                 large: false
             }
         ];

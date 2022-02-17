@@ -5,7 +5,7 @@ export default function PortfolioItem({portfolio}) {
     return (
         <div className={`portfolio-item ${portfolio.filters.join(' ')} ${portfolio.large ? 'large' : ''}`}>
             <div className="portfolio-wrapper">
-                <div className="portfolio-img-wrap" style={{backgroundImage: `url(${portfolio.image})`}}/>
+                <div className="portfolio-img-wrap" style={{backgroundImage: `url(${portfolio.image})`}} title={portfolio.description}/>
                 <div className="portfolio-overlay"/>
                 <div className="portfolio-caption">
                     <h5 className="portfolio-title">{t(portfolio.title)}</h5>

@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .navbar-brand {
     color: white;
     font-weight: 800;

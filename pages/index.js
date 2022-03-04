@@ -11,6 +11,7 @@ import Contact from "../sections/contact/contact";
 import Map from "../sections/map/map";
 import {useEffect, useRef} from "react";
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
+import {WithNavMenu} from "../components/scroll-spy/NavMenu";
 
 const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr: false})
 
@@ -32,33 +33,36 @@ const Home = (props) => {
 
     return (
         <div id={"main"} ref={sections}>
-            <section className={"module-header full-height parallax bg-dark bg-dark-30 header-light"} id="home">
-                <Header/>
-            </section>
-            <section className="module" id="profile">
-                <Profile/>
-            </section>
-            <section className="module module-gray" id="portfolio">
-                <Portfolio/>
-            </section>
-            <section className="module module-dark" id="services">
-                <Services/>
-            </section>
-            <section className="module module-gray" id="resume">
-                <Summary/>
-            </section>
-            <section className="module module-dark" id="projects">
-                <Technologies/>
-            </section>
-            <section className="module module-gray">
-                <Projects/>
-            </section>
-            <section className="module" id="contact">
-                <Contact/>
-            </section>
-            <section className="maps-container" id="map">
-                <Map/>
-            </section>
+            <WithNavMenu selector="section">
+                <section className={"module-header full-height parallax bg-dark bg-dark-30 header-light"} id="home"
+                         data-nav-title="Section 1" data-scrollspy>
+                    <Header/>
+                </section>
+                <section className="module" id="profile" data-nav-title="Section 2" data-scrollspy>
+                    <Profile/>
+                </section>
+                <section className="module module-gray" id="portfolio" data-nav-title="Section 3" data-scrollspy>
+                    <Portfolio/>
+                </section>
+                <section className="module module-dark" id="services" data-nav-title="Section 4" data-scrollspy>
+                    <Services/>
+                </section>
+                <section className="module module-gray" id="resume" data-nav-title="Section 5" data-scrollspy>
+                    <Summary/>
+                </section>
+                <section className="module module-dark" id="projects" data-nav-title="Section 6" data-scrollspy>
+                    <Technologies/>
+                </section>
+                <section className="module module-gray" data-nav-title="Section 7" data-scrollspy>
+                    <Projects/>
+                </section>
+                <section className="module" id="contact" data-nav-title="Section 8" data-scrollspy>
+                    <Contact/>
+                </section>
+                <section className="maps-container" id="map">
+                    <Map/>
+                </section>
+            </WithNavMenu>
         </div>
     )
 }

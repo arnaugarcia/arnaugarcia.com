@@ -37,7 +37,7 @@ export default function Summary() {
                         )}
                     </ul>
                     <div className="text-center">
-                        <a className="btn btn-lg btn-gray" href={"assets/resume/CV_ArnauGarcia_rev3.pdf"} target={'_blank'}>
+                        <a className="btn btn-lg btn-gray" href={"/assets/resume/CV_ArnauGarcia_rev3.pdf"} target={'_blank'}>
                             <span>{t('RESUME.CV-BUTTON')}</span>
                         </a>
                     </div>

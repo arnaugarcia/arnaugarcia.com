@@ -23,11 +23,6 @@ const MyApp = ({Component, pageProps}) => {
                 <meta name="description"
                       content={t('APP.DESCRIPTION')}/>
                 <meta name="author" content={t('APP.NAME')}/>
-                <script
-                    src={`https://www.google.com/recaptcha/api.js?render=6Lcg7yoeAAAAACWp-OvBb2361m93f3fil53rzArx`}
-                    async
-                    defer
-                />
             </Head>
             <Navbar currentSection={currentSection}/>
             <div className={"wrapper"}>

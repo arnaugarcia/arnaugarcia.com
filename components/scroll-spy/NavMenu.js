@@ -105,7 +105,7 @@ const NavMenu = ({options, scrollNavbarLimit = 5}) => {
 
 export const WithNavMenu = ({children, selector}) => {
     const [options, setOptions] = useState([]);
-    useLayoutEffect(() => {
+    useEffect(() => {
         const navMenuSections = document.querySelectorAll(selector);
         const optionsFromSections = Array.from(navMenuSections).map((section) => {
             return {

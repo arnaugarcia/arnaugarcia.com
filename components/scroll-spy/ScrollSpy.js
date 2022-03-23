@@ -1,4 +1,4 @@
-import { useLayoutEffect } from "react";
+import {useEffect} from "react";
 
 export const ScrollSpy = ({ handleScroll }) => {
     const isInViewPort = (entry, offset = 0) => {
@@ -6,7 +6,7 @@ export const ScrollSpy = ({ handleScroll }) => {
         return rect.top - 1 <= offset && rect.bottom >= offset;
     };
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         const scrollables = document.querySelectorAll("[data-scrollspy]");
         for (let scrollable of scrollables) {
             const observer = new IntersectionObserver(

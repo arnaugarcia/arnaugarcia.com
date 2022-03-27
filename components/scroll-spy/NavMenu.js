@@ -25,7 +25,7 @@ const NavMenu = ({options, scrollNavbarLimit = 5}) => {
     const [languageSubmenuOpen, setLanguageSubmenuOpen] = useState(false);
 
     useEffect(() => {
-        window.addEventListener('scroll', onScroll);
+        window.addEventListener('scroll', onScroll, {passive: true});
     })
 
     const onScroll = (event) => {

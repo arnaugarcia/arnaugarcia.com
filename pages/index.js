@@ -9,61 +9,49 @@ import Technologies from "../sections/technologies/technologies";
 import Projects from "../sections/projects/projects";
 import Contact from "../sections/contact/contact";
 import Map from "../sections/map/map";
-import {useEffect, useRef} from "react";
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 import {WithNavMenu} from "../components/scroll-spy/NavMenu";
+import {useTranslation} from "next-i18next";
 
 const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr: false})
 
-const Home = (props) => {
+const Home = () => {
+    const {t} = useTranslation('common');
     library.add(fab);
 
-    const sections = useRef();
-
-    useEffect(() => {
-
-        const observer = new IntersectionObserver((entries) => {
-            let entry = entries[0];
-            if (entry && entry.isIntersecting) {
-                props.onSectionChanges(entry.target.id);
-            }
-        }, {threshold: [0.50]});
-        Array.from(sections.current.children).filter((section) => section.id).forEach((section) => observer.observe(section));
-    }, [])
-
     return (
-        <div id={"main"} ref={sections}>
-            <WithNavMenu selector="section">
-                <section className={"module-header full-height parallax bg-dark bg-dark-30 header-light"} id="home"
-                         data-nav-title="Section 1" data-scrollspy>
-                    <Header/>
-                </section>
-                <section className="module" id="profile" data-nav-title="Section 2" data-scrollspy>
-                    <Profile/>
-                </section>
-                <section className="module module-gray" id="portfolio" data-nav-title="Section 3" data-scrollspy>
-                    <Portfolio/>
-                </section>
-                <section className="module module-dark" id="services" data-nav-title="Section 4" data-scrollspy>
-                    <Services/>
-                </section>
-                <section className="module module-gray" id="resume" data-nav-title="Section 5" data-scrollspy>
-                    <Summary/>
-                </section>
-                <section className="module module-dark" id="projects" data-nav-title="Section 6" data-scrollspy>
-                    <Technologies/>
-                </section>
-                <section className="module module-gray" data-nav-title="Section 7" data-scrollspy>
-                    <Projects/>
-                </section>
-                <section className="module" id="contact" data-nav-title="Section 8" data-scrollspy>
-                    <Contact/>
-                </section>
-                <section className="maps-container" id="map">
-                    <Map/>
-                </section>
-            </WithNavMenu>
-        </div>
+        <WithNavMenu selector="section">
+            <section className={"module-header full-height parallax bg-dark bg-dark-30 header-light"}
+                     id="home"
+                     data-nav-title={t('NAVBAR.HOME')}
+                     data-scrollspy>
+                <Header/>
+            </section>
+            <section className="module" id="profile" data-nav-title={t('NAVBAR.PROFILE')} data-scrollspy>
+                <Profile/>
+            </section>
+            <section className="module module-gray" id="portfolio" data-nav-title={t('NAVBAR.PORTFOLIO')} data-scrollspy>
+                <Portfolio/>
+            </section>
+            <section className="module module-dark" id="services" data-nav-title={t('NAVBAR.SERVICES')} data-scrollspy>
+                <Services/>
+            </section>
+            <section className="module module-gray" id="resume" data-nav-title={t('NAVBAR.RESUME')} data-scrollspy>
+                <Summary/>
+            </section>
+            <section className="module module-dark" id="projects" data-nav-title={t('NAVBAR.PROJECTS')} data-scrollspy>
+                <Technologies/>
+            </section>
+            <section className="module module-gray">
+                <Projects/>
+            </section>
+            <section className="module" id="contact" data-nav-title={t('NAVBAR.CONTACT')} data-scrollspy>
+                <Contact/>
+            </section>
+            <section className="maps-container" id="map">
+                <Map/>
+            </section>
+        </WithNavMenu>
     )
 }
 

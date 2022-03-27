@@ -48,7 +48,14 @@ const NavMenu = ({options, scrollNavbarLimit = 5}) => {
         window.location.hash = e.target.hash;
 
         const targetSection = document.querySelector(`${e.target.hash}`);
-        window.scrollTo(0, targetSection.offsetTop + 1);
+        if (targetSection) {
+            window.scrollTo(0, targetSection.offsetTop + 1);
+        } else {
+            if (e.target.parentNode.hash) {
+                const offset = document.querySelector(`${e.target.parentNode.hash}`).offsetTop;
+                window.scrollTo(0, offset + 1);
+            }
+        }
     };
 
     return (
@@ -65,7 +72,9 @@ const NavMenu = ({options, scrollNavbarLimit = 5}) => {
                             {options.map((option) => (
                                 <li key={option.hash}>
                                     <a href={`#${option.hash}`} onClick={onClick} data-scrollspy-id={option.hash}>
-                                        <span className="menu-item-span">{option.title}</span>
+                                        <span className="menu-item-span"
+                                              onClick={onClick}
+                                              data-scrollspy-id={option.hash}>{option.title}</span>
                                     </a>
                                 </li>
                             ))}
@@ -107,7 +116,9 @@ export const WithNavMenu = ({children, selector}) => {
     const [options, setOptions] = useState([]);
     useEffect(() => {
         const navMenuSections = document.querySelectorAll(selector);
+
         const optionsFromSections = Array.from(navMenuSections).map((section) => {
+            console.log(section);
             return {
                 hash: section.id,
                 title: section.dataset.navTitle

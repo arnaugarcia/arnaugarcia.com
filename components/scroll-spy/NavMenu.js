@@ -1,4 +1,4 @@
-import {useEffect, useLayoutEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import {ScrollSpy} from "./ScrollSpy";
 import {useTranslation} from "next-i18next";
 import Link from 'next/link'
@@ -117,14 +117,19 @@ export const WithNavMenu = ({children, selector}) => {
     useEffect(() => {
         const navMenuSections = document.querySelectorAll(selector);
 
-        const optionsFromSections = Array.from(navMenuSections).map((section) => {
-            console.log(section);
+        const optionsFromSections = Array.from(navMenuSections)
+            .filter((section) => section.id)
+            .filter((section) => section.hasAttribute('data-scrollspy'))
+            .map((section) => buildMenuItemFrom(section));
+
+        setOptions(optionsFromSections);
+
+        function buildMenuItemFrom(section) {
             return {
                 hash: section.id,
                 title: section.dataset.navTitle
             };
-        });
-        setOptions(optionsFromSections);
+        }
     }, [selector]);
 
     return (<>

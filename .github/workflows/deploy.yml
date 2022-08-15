@@ -1,4 +1,4 @@
-name: Deploy to Server
+name: Publish to docker hub
 
 on:
   push:
@@ -10,12 +10,5 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
     steps:
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USERNAME }}
-        password: ${{ secrets.SSH_PASSWORD }}
-        script: whoami
+    - uses: actions/checkout@v2

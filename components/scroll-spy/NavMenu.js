@@ -45,7 +45,7 @@ const NavMenu = ({options, scrollNavbarLimit = 5}) => {
     const onClick = (e) => {
         e.preventDefault();
         // Set the hash
-        window.location.hash = e.target.hash;
+        window.location.hash = e.target.attributes['data-scrollspy-id'].value;
 
         const targetSection = document.querySelector(`${e.target.hash}`);
         if (targetSection) {
@@ -116,7 +116,6 @@ export const WithNavMenu = ({children, selector}) => {
     const [options, setOptions] = useState([]);
     useEffect(() => {
         const navMenuSections = document.querySelectorAll(selector);
-
         const optionsFromSections = Array.from(navMenuSections)
             .filter((section) => section.id)
             .filter((section) => section.hasAttribute('data-scrollspy'))

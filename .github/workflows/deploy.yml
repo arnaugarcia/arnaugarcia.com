@@ -8,6 +8,28 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
-    ## docker pull arnaugarcia97/arnaugarcia.com
-    ## docker rm $(docker stop $(docker ps -a -q --filter ancestor=arnaugarcia97/arnaugarcia.com --format="{{.ID}}"))
-    ## docker run -d -p 3000:3000 arnaugarcia97/arnaugarcia.com
+    steps:
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+      - name: Login to DockerHub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Build and push
+        uses: docker/build-push-action@v3
+        with:
+          push: true
+          tags: arnaugarcia97/arnaugarcia.com:latest
+      - name: Pulling latest image from DockerHub
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            docker pull ${{ DOCKER_REPOSITORY }}
+            docker rm $(docker stop $(docker ps -a -q --filter ancestor=${{ DOCKER_REPOSITORY }} --format="{{.ID}}"))
+            docker run -d -p 3000:3000 ${{ DOCKER_REPOSITORY }}

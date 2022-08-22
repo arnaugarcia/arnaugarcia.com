@@ -14,7 +14,7 @@ export const SocialService = {
             {
                 icon: 'linkedin',
                 label: 'SOCIAL.LINKEDIN.LABEL',
-                link: 'https://www.linkedin.com/in/arnaugarciagallego/'
+                link: 'https://www.linkedin.com/in/arnaugarcia97'
             },
             {
                 icon: 'twitter',

@@ -29,4 +29,10 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
-          script: docker run --debug --name watchtower --run-once -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower ${{ secrets.DOCKER_REPOSITORY }}
+          script: docker run \
+            --debug \ 
+            --cleanup \
+            --name watchtower \
+            --run-once \
+            -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower \
+            ${{ secrets.DOCKER_REPOSITORY }}

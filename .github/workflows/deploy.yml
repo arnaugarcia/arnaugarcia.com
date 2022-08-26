@@ -16,13 +16,13 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ${{ secrets.REPOSITORY_USERNAME }}
+          password: ${{ secrets.REPOSITORY_PASSWORD }}
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: arnaugarcia97/arnaugarcia.com:latest
+          tags: ${{ secrets.REPOSITORY_NAME }}:latest
       - name: Pulling latest image from DockerHub
         uses: appleboy/ssh-action@master
         with:
@@ -33,10 +33,10 @@ jobs:
             --rm \
             --name watchtower \
             -v /var/run/docker.sock:/var/run/docker.sock \
-            -e REPO_USER=${{ secrets.DOCKERHUB_USERNAME }} \
+            -e REPO_USER=${{ secrets.REPOSITORY_USERNAME }} \
             -e REPO_PASS=${{ secrets.REPOSITORY_PASSWORD }} \
             containrrr/watchtower \
             --run-once \
             --debug \
             --cleanup \
-            ${{ secrets.DOCKER_REPOSITORY }}
+            ${{ secrets.REPOSITORY_NAME }}

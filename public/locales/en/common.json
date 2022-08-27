@@ -81,6 +81,16 @@
 				"DESCRIPTION": "Startup Weekend Logo",
 				"SUBTITLE": "Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales.",
 				"TITLE": "Startup Weekend"
+			},
+			"ITEM7": {
+				"DESCRIPTION": "Shop The Look Logo",
+				"SUBTITLE": "Web tool for e-commerce",
+				"TITLE": "Shop The Look"
+			},
+			"ITEM8": {
+				"DESCRIPTION": "Sallefy logo",
+				"SUBTITLE": "Music streaming platform",
+				"TITLE": "Sallefy"
 			}
 		},
 		"SUBTITLE": "Projects that I've developed and milestones that I reached",

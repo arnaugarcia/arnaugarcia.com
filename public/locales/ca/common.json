@@ -81,6 +81,16 @@
 				"DESCRIPTION": "Logo de Startup Weekend",
 				"SUBTITLE": "Junt amb companys Opentrends, vam guanyar una experiència de Startup Weekend. Vam desenvolupat una plataforma per convertir els productes alimentaris que no s'han vengut en vendes.",
 				"TITLE": "Startup Weekend"
+			},
+			"ITEM7": {
+				"DESCRIPTION": "Shop The Look Logo",
+				"SUBTITLE": "Eina web per a comerços electrònics.",
+				"TITLE": "Shop The Look"
+			},
+			"ITEM8": {
+				"DESCRIPTION": "Logo de Sallefy",
+				"SUBTITLE": "Plataforma de streaming de música",
+				"TITLE": "Sallefy"
 			}
 		},
 		"SUBTITLE": "Projectes que he desenvolupat i fites assolit",

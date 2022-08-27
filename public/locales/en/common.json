@@ -88,9 +88,9 @@
 	},
 	"PROFILE": {
 		"BIOGRAPHY": {
-			"PARAGRAPH1": "I am a programmer with the goal to improve myself and provide new things to the world.  My curiosity and passion about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.",
-			"PARAGRAPH2": "Currently I'm developing some personal projects, working as a full-stack developer, coursing a university degree and helping  as a teacher in the university.",
-			"TITLE": "ABOUT ME"
+			"PARAGRAPH1": "I am a programmer based in Barcelona who loves programming,  the automotive industry and technology.  My curiosity and passion for these fields began when I was very young and is still increasing,  day after day,  without losing the desire to learn and improve myself.",
+			"PARAGRAPH2": "I'm currently developing some personal projects,  working as a full-stack developer at Opentrends and studying a master's degree of Automotive Software and Electronics at the UPC (Technical University of Catalonia).",
+			"TITLE": "WHOAMI?"
 		},
 		"SKILLS": {
 			"SKILL1": "Java / Lambdas / Reactive Programming",

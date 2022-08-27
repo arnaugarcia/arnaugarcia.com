@@ -88,9 +88,9 @@
 	},
 	"PROFILE": {
 		"BIOGRAPHY": {
-			"PARAGRAPH1": "Sóc un programador amb ganes de superar-me i aportar coses al món. La meva curiositat i passió per la informàtica i la programació va començar de ben petit i encara segueix en augment, dia rere dia, sense perdre les ganes d'aprendre i superar-me.",
-			"PARAGRAPH2": "Actualment estic desenvolupant alguns projectes personals, treballant com a desenvolupador complet, cursant un títol universitari i ajudant com a professor a la universitat.",
-			"TITLE": "SOBRE MI"
+			"PARAGRAPH1": "Sóc un programador de Barcelona a qui encanta la programació,  l'automoció i la tecnologia.  La meva curiositat i passió per aquests camps va començar des de ben petit i encara segueix augmentant,  dia rere dia,  sense perdre les ganes d'aprendre i superar-me.",
+			"PARAGRAPH2": "Actualment estic desenvolupant alguns projectes personals,  treballant com a desenvolupador full-stack a Opentrends i cursant un màster d'Electricitat i Electrònica de l'Automòbil a la UPC (Universitat Politècnica de Catalunya).",
+			"TITLE": "QUI SÓC?"
 		},
 		"SKILLS": {
 			"SKILL1": "Java / Lambdas / Programació reactiva",

@@ -2,6 +2,20 @@ export const MilestoneService = {
     milestones: () => {
         return [
             {
+                title: 'RESUME.ITEMS.7.TITLE',
+                subtitle: 'RESUME.ITEMS.7.SUBTITLE',
+                year: 'RESUME.ITEMS.7.YEAR',
+                image: '/assets/images/resume/upc-eltica.webp',
+                description: 'RESUME.ITEMS.7.DESCRIPTION'
+            },
+            {
+                title: 'RESUME.ITEMS.6.TITLE',
+                subtitle: 'RESUME.ITEMS.6.SUBTITLE',
+                year: 'RESUME.ITEMS.6.YEAR',
+                image: '/assets/images/resume/klai-logo.webp',
+                description: 'RESUME.ITEMS.6.DESCRIPTION'
+            },
+            {
                 title: 'RESUME.ITEMS.5.TITLE',
                 subtitle: 'RESUME.ITEMS.5.SUBTITLE',
                 year: 'RESUME.ITEMS.5.YEAR',
@@ -21,13 +35,6 @@ export const MilestoneService = {
                 year: 'RESUME.ITEMS.1.YEAR',
                 image: '/assets/images/resume/lasalle.webp',
                 description: 'RESUME.ITEMS.1.DESCRIPTION'
-            },
-            {
-                title: 'RESUME.ITEMS.3.TITLE',
-                subtitle: 'RESUME.ITEMS.3.SUBTITLE',
-                year: 'RESUME.ITEMS.3.YEAR',
-                image: '/assets/images/resume/watchity.webp',
-                description: 'RESUME.ITEMS.3.DESCRIPTION'
             },
             {
                 title: 'RESUME.ITEMS.4.TITLE',

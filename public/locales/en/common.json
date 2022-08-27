@@ -1,8 +1,8 @@
 {
 	"APP": {
-		"DESCRIPTION": "Hello! I'm a programmer with the goal to improve myself and provide new things to the world.",
+		"DESCRIPTION": "Hello! I'm Arnau García,  a programmer from Barcelona who loves technology,  the automotive industry and learn new things every day.",
 		"NAME": "Arnau García",
-		"TITLE": "Arnau García - Personal and professional website"
+		"TITLE": "Arnau Garcia | Programming,  Cars and Technology"
 	},
 	"CONTACT": {
 		"ADDRESS": "08629 - Torrelles de Llobregat",
@@ -81,6 +81,21 @@
 				"DESCRIPTION": "Startup Weekend Logo",
 				"SUBTITLE": "Together with some coworkers of Opentrends we won a Startup weekend experience. We've developed a platform for  converting unsold perishable products for businesses into sales.",
 				"TITLE": "Startup Weekend"
+			},
+			"ITEM7": {
+				"DESCRIPTION": "Shop The Look Logo",
+				"SUBTITLE": "Web tool for e-commerce",
+				"TITLE": "Shop The Look"
+			},
+			"ITEM8": {
+				"DESCRIPTION": "Sallefy logo",
+				"SUBTITLE": "Music streaming platform",
+				"TITLE": "Sallefy"
+			},
+			"ITEM9": {
+				"DESCRIPTION": "ARS Logo",
+				"SUBTITLE": "Software which allows that through an Arduino with a gyroscope,  it is capable of orienting the operating system screen.",
+				"TITLE": "Arduino Rotate Screen"
 			}
 		},
 		"SUBTITLE": "Projects that I've developed and milestones that I reached",
@@ -88,9 +103,9 @@
 	},
 	"PROFILE": {
 		"BIOGRAPHY": {
-			"PARAGRAPH1": "I am a programmer with the goal to improve myself and provide new things to the world.  My curiosity and passion about computing and programming began when I was very little and it's still increasing, day by day, without losing desire to learn more and improve myself.",
-			"PARAGRAPH2": "Currently I'm developing some personal projects, working as a full-stack developer, coursing a university degree and helping  as a teacher in the university.",
-			"TITLE": "ABOUT ME"
+			"PARAGRAPH1": "I am a programmer based in Barcelona who loves programming,  the automotive industry and technology.  My curiosity and passion for these fields began when I was very young and is still increasing,  day after day,  without losing the desire to learn and improve myself.",
+			"PARAGRAPH2": "I'm currently developing some personal projects,  working as a full-stack developer at Opentrends and studying a master's degree of Automotive Software and Electronics at the UPC (Technical University of Catalonia).",
+			"TITLE": "WHOAMI?"
 		},
 		"SKILLS": {
 			"SKILL1": "Java / Lambdas / Reactive Programming",
@@ -179,7 +194,19 @@
 				"DESCRIPTION": "Together with Alfredo Rueda we develop and present the backend used for developing the final project of the Android development subject.",
 				"SUBTITLE": "La Salle Barcelona",
 				"TITLE": "Assistant teacher at La Salle",
-				"YEAR": "2019 - Now"
+				"YEAR": "2019 - 2020"
+			},
+			"6": {
+				"DESCRIPTION": "Full development (backend and frontend architecture and deployment) of a web tool focused on e-commerce.  The tool has a REST API and a Javascript SDK.  This tool is developed using Java 17,  Angular 14,  Spring,  Javascript,  Webpack... etc.",
+				"SUBTITLE": "Klai",
+				"TITLE": "Full stack developer",
+				"YEAR": "2021 - 2022"
+			},
+			"7": {
+				"DESCRIPTION": "Master focused on designing electronic and electrical systems for the automotive industry and autonomous vehicles.  Learn the technologies,  trends and tools for this field.",
+				"SUBTITLE": "UPC School",
+				"TITLE": "ELTICA Master",
+				"YEAR": "2022 - Now"
 			}
 		},
 		"SUBTITLE": "Education and experience",

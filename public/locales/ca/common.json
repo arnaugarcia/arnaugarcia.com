@@ -1,8 +1,8 @@
 {
 	"APP": {
-		"DESCRIPTION": "Hola! Sóc Arnau García, un programador amb ganes d'assolir nous reptes i aportar noves coses al món.",
-		"NAME": "Arnau García",
-		"TITLE": "Arnau García - Pàgina web personal i professional"
+		"DESCRIPTION": "Hola! Sóc Arnau García, un programador de Barcelona a qui li encanta la tecnologia,  l'automoció i aprendre coses noves cada dia.",
+		"NAME": "Arnau Garcia",
+		"TITLE": "Arnau Garcia | Programació, Automoció i tecnologia"
 	},
 	"CONTACT": {
 		"ADDRESS": "08629 - Torrelles de Llobregat",
@@ -81,6 +81,21 @@
 				"DESCRIPTION": "Logo de Startup Weekend",
 				"SUBTITLE": "Junt amb companys Opentrends, vam guanyar una experiència de Startup Weekend. Vam desenvolupat una plataforma per convertir els productes alimentaris que no s'han vengut en vendes.",
 				"TITLE": "Startup Weekend"
+			},
+			"ITEM7": {
+				"DESCRIPTION": "Shop The Look Logo",
+				"SUBTITLE": "Eina web per a comerços electrònics.",
+				"TITLE": "Shop The Look"
+			},
+			"ITEM8": {
+				"DESCRIPTION": "Logo de Sallefy",
+				"SUBTITLE": "Plataforma de streaming de música",
+				"TITLE": "Sallefy"
+			},
+			"ITEM9": {
+				"DESCRIPTION": "Logo d'ARS",
+				"SUBTITLE": "Programari que permet mitjançant un Arduino amb un giroscopi connectat,  orienti la pantalla del sistema operatiu.",
+				"TITLE": "Arduino Rotate Screen"
 			}
 		},
 		"SUBTITLE": "Projectes que he desenvolupat i fites assolit",
@@ -88,9 +103,9 @@
 	},
 	"PROFILE": {
 		"BIOGRAPHY": {
-			"PARAGRAPH1": "Sóc un programador amb ganes de superar-me i aportar coses al món. La meva curiositat i passió per la informàtica i la programació va començar de ben petit i encara segueix en augment, dia rere dia, sense perdre les ganes d'aprendre i superar-me.",
-			"PARAGRAPH2": "Actualment estic desenvolupant alguns projectes personals, treballant com a desenvolupador complet, cursant un títol universitari i ajudant com a professor a la universitat.",
-			"TITLE": "SOBRE MI"
+			"PARAGRAPH1": "Sóc un programador de Barcelona a qui encanta la programació,  l'automoció i la tecnologia.  La meva curiositat i passió per aquests camps va començar des de ben petit i encara segueix augmentant,  dia rere dia,  sense perdre les ganes d'aprendre i superar-me.",
+			"PARAGRAPH2": "Actualment estic desenvolupant alguns projectes personals,  treballant com a desenvolupador full-stack a Opentrends i cursant un màster d'Electricitat i Electrònica de l'Automòbil a la UPC (Universitat Politècnica de Catalunya).",
+			"TITLE": "QUI SÓC?"
 		},
 		"SKILLS": {
 			"SKILL1": "Java / Lambdas / Programació reactiva",
@@ -179,7 +194,19 @@
 				"DESCRIPTION": "Juntament amb Alfredo Rueda, desenvolupem i presentem el backend utilitzat per desenvolupar el projecte final de l'assignatura de desenvolupament d'Android.",
 				"SUBTITLE": "La Salle Barcelona",
 				"TITLE": "Professor ajudant a La Salle",
-				"YEAR": "2019 - Actualitat"
+				"YEAR": "2019 - 2020"
+			},
+			"6": {
+				"DESCRIPTION": "Desenvolupament íntegre (backend,  frontend,  arquitectura i desplegament) d'una eina web enfocada a l'e-commerce.  L'eina compta amb una API REST i una SDK a Javacsript.  Aquesta eina està desenvolupada utilitzant Java 17,  Angular 14,  Spring,  Javascript,  Webpack... etc",
+				"SUBTITLE": "Klai",
+				"TITLE": "Programador full-stack",
+				"YEAR": "2021 - 2022"
+			},
+			"7": {
+				"DESCRIPTION": "Màster enfocat per dissenyar sistemes electrònics i elèctrics per a l'automoció i vehicles autònoms.  Apendre les tecnologies,  les tendències i les eines per a aquest camp.",
+				"SUBTITLE": "UPC School",
+				"TITLE": "Màster ELTICA",
+				"YEAR": "2022 - Ara"
 			}
 		},
 		"SUBTITLE": "Educació i experiència",

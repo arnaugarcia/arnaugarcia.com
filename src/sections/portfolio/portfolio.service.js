@@ -2,6 +2,24 @@ const PortfolioService = {
     portfolioItems: () => {
         return [
             {
+                filters: ['angular', 'spring', 'projects'],
+                imageUrl: '/assets/images/portfolio/shopthelook.webp',
+                link: 'https://weareklai.es',
+                subtitle: 'PORTFOLIO.ITEMS.ITEM7.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM7.DESCRIPTION',
+                title: 'PORTFOLIO.ITEMS.ITEM7.TITLE',
+                large: false
+            },
+            {
+                filters: ['angular', 'spring', 'projects'],
+                imageUrl: '/assets/images/portfolio/sallefy.webp',
+                link: null,
+                subtitle: 'PORTFOLIO.ITEMS.ITEM8.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM8.DESCRIPTION',
+                title: 'PORTFOLIO.ITEMS.ITEM8.TITLE',
+                large: false
+            },
+            {
                 filters: ['networks'],
                 imageUrl: '/assets/images/portfolio/cisco.webp',
                 link: null,

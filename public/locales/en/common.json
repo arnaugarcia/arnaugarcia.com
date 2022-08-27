@@ -180,6 +180,12 @@
 				"SUBTITLE": "La Salle Barcelona",
 				"TITLE": "Assistant teacher at La Salle",
 				"YEAR": "2019 - Now"
+			},
+			"6": {
+				"DESCRIPTION": "Full development (backend and frontend architecture and deployment) of a web tool focused on e-commerce.  The tool has a REST API and a Javascript SDK.  This tool is developed using Java 17,  Angular 14,  Spring,  Javascript,  Webpack... etc.",
+				"SUBTITLE": "Klai",
+				"TITLE": "Full stack developer",
+				"YEAR": "2020 - 2021"
 			}
 		},
 		"SUBTITLE": "Education and experience",

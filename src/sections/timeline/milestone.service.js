@@ -2,6 +2,13 @@ export const MilestoneService = {
     milestones: () => {
         return [
             {
+                title: 'RESUME.ITEMS.6.TITLE',
+                subtitle: 'RESUME.ITEMS.6.SUBTITLE',
+                year: 'RESUME.ITEMS.6.YEAR',
+                image: '/assets/images/resume/shopthelook.webp',
+                description: 'RESUME.ITEMS.6.DESCRIPTION'
+            },
+            {
                 title: 'RESUME.ITEMS.5.TITLE',
                 subtitle: 'RESUME.ITEMS.5.SUBTITLE',
                 year: 'RESUME.ITEMS.5.YEAR',

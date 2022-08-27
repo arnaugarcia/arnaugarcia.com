@@ -180,6 +180,12 @@
 				"SUBTITLE": "La Salle Barcelona",
 				"TITLE": "Profesor ayudante en La Salle",
 				"YEAR": "2019 - Actualidad"
+			},
+			"6": {
+				"DESCRIPTION": "Desarrollo integro (backend,  frontend arquitectura y despliegue) de una herramienta web enfocada al e-commerce.  La herramienta cuenta con una API REST y una SDK en Javacsript.  Esta herramienta esta desarrollada utilizando Java 17,  Angular 14,  Spring,  Javascript,  Webpack...  etc",
+				"SUBTITLE": "Klai",
+				"TITLE": "Programador full-stack",
+				"YEAR": "2020 - 2021"
 			}
 		},
 		"SUBTITLE": "Mi educación y mi experiencia",

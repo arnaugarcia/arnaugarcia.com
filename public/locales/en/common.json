@@ -94,7 +94,7 @@
 			},
 			"ITEM9": {
 				"DESCRIPTION": "ARS Logo",
-				"SUBTITLE": "Software which allows that through an Arduino with a gyroscope,  it is capable of orienting the content of the screen.",
+				"SUBTITLE": "Software which allows that through an Arduino with a gyroscope,  it is capable of orienting the operating system screen.",
 				"TITLE": "Arduino Rotate Screen"
 			}
 		},

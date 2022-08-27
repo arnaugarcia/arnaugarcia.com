@@ -94,7 +94,7 @@
 			},
 			"ITEM9": {
 				"DESCRIPTION": "Logo d'ARS",
-				"SUBTITLE": "Programari que permet mitjançant un Arduino amb un giroscopi connectat,  orienti la pantalla.",
+				"SUBTITLE": "Programari que permet mitjançant un Arduino amb un giroscopi connectat,  orienti la pantalla del sistema operatiu.",
 				"TITLE": "Arduino Rotate Screen"
 			}
 		},

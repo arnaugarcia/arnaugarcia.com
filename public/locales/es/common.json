@@ -94,7 +94,7 @@
 			},
 			"ITEM9": {
 				"DESCRIPTION": "Logo de ARS",
-				"SUBTITLE": "Software el cual permite que mediante un Arduino con un giroscopio conectado,  es capaz de orientar el contenido de la pantalla.",
+				"SUBTITLE": "Software el cual permite que mediante un Arduino con un giroscopio conectado,  es capaz de orientar el contenido de la pantalla del sistema operativo.",
 				"TITLE": "Arduino Rotate Screen"
 			}
 		},

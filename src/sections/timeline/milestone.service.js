@@ -12,7 +12,7 @@ export const MilestoneService = {
                 title: 'RESUME.ITEMS.6.TITLE',
                 subtitle: 'RESUME.ITEMS.6.SUBTITLE',
                 year: 'RESUME.ITEMS.6.YEAR',
-                image: '/assets/images/resume/shopthelook.webp',
+                image: '/assets/images/resume/klai-logo.webp',
                 description: 'RESUME.ITEMS.6.DESCRIPTION'
             },
             {

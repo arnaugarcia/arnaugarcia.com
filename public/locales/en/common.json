@@ -91,6 +91,11 @@
 				"DESCRIPTION": "Sallefy logo",
 				"SUBTITLE": "Music streaming platform",
 				"TITLE": "Sallefy"
+			},
+			"ITEM9": {
+				"DESCRIPTION": "ARS Logo",
+				"SUBTITLE": "Software which allows that through an Arduino with a gyroscope,  it is capable of orienting the content of the screen.",
+				"TITLE": "Arduino Rotate Screen"
 			}
 		},
 		"SUBTITLE": "Projects that I've developed and milestones that I reached",
@@ -189,7 +194,7 @@
 				"DESCRIPTION": "Together with Alfredo Rueda we develop and present the backend used for developing the final project of the Android development subject.",
 				"SUBTITLE": "La Salle Barcelona",
 				"TITLE": "Assistant teacher at La Salle",
-				"YEAR": "2019 - Now"
+				"YEAR": "2019 - 2020"
 			},
 			"6": {
 				"DESCRIPTION": "Full development (backend and frontend architecture and deployment) of a web tool focused on e-commerce.  The tool has a REST API and a Javascript SDK.  This tool is developed using Java 17,  Angular 14,  Spring,  Javascript,  Webpack... etc.",

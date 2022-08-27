@@ -91,6 +91,11 @@
 				"DESCRIPTION": "Logo de Sallefy",
 				"SUBTITLE": "Plataforma de streaming de música",
 				"TITLE": "Sallefy"
+			},
+			"ITEM9": {
+				"DESCRIPTION": "Logo de ARS",
+				"SUBTITLE": "Software el cual permite que mediante un Arduino con un giroscopio conectado,  es capaz de orientar el contenido de la pantalla.",
+				"TITLE": "Arduino Rotate Screen"
 			}
 		},
 		"SUBTITLE": "Proyectos que he desarrollado e hitos que he alcanzado",
@@ -189,7 +194,7 @@
 				"DESCRIPTION": "Junto con Alfredo Rueda desarrollamos y presentamos el backend utilizado para desarrollar el proyecto final del tema de desarrollo de Android.",
 				"SUBTITLE": "La Salle Barcelona",
 				"TITLE": "Profesor ayudante en La Salle",
-				"YEAR": "2019 - Actualidad"
+				"YEAR": "2019 - 2020"
 			},
 			"6": {
 				"DESCRIPTION": "Desarrollo integro (backend,  frontend arquitectura y despliegue) de una herramienta web enfocada al e-commerce.  La herramienta cuenta con una API REST y una SDK en Javacsript.  Esta herramienta esta desarrollada utilizando Java 17,  Angular 14,  Spring,  Javascript,  Webpack...  etc",

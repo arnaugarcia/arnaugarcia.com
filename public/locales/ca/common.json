@@ -91,6 +91,11 @@
 				"DESCRIPTION": "Logo de Sallefy",
 				"SUBTITLE": "Plataforma de streaming de música",
 				"TITLE": "Sallefy"
+			},
+			"ITEM9": {
+				"DESCRIPTION": "Logo d'ARS",
+				"SUBTITLE": "Programari que permet mitjançant un Arduino amb un giroscopi connectat,  orienti la pantalla.",
+				"TITLE": "Arduino Rotate Screen"
 			}
 		},
 		"SUBTITLE": "Projectes que he desenvolupat i fites assolit",
@@ -189,7 +194,7 @@
 				"DESCRIPTION": "Juntament amb Alfredo Rueda, desenvolupem i presentem el backend utilitzat per desenvolupar el projecte final de l'assignatura de desenvolupament d'Android.",
 				"SUBTITLE": "La Salle Barcelona",
 				"TITLE": "Professor ajudant a La Salle",
-				"YEAR": "2019 - Actualitat"
+				"YEAR": "2019 - 2020"
 			},
 			"6": {
 				"DESCRIPTION": "Desenvolupament íntegre (backend,  frontend,  arquitectura i desplegament) d'una eina web enfocada a l'e-commerce.  L'eina compta amb una API REST i una SDK a Javacsript.  Aquesta eina està desenvolupada utilitzant Java 17,  Angular 14,  Spring,  Javascript,  Webpack... etc",

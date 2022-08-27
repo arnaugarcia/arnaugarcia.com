@@ -29,6 +29,15 @@ const PortfolioService = {
                 large: false
             },
             {
+                filters: ['java', 'arduino', 'projects'],
+                imageUrl: '/assets/images/portfolio/ars-logo.webp',
+                link: 'https://github.com/ArduinoRotateScreen',
+                subtitle: 'PORTFOLIO.ITEMS.ITEM9.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM9.DESCRIPTION',
+                title: 'PORTFOLIO.ITEMS.ITEM9.TITLE',
+                large: false
+            },
+            {
                 filters: ['angular', 'projects'],
                 imageUrl: '/assets/images/portfolio/uplace.png',
                 link: null,

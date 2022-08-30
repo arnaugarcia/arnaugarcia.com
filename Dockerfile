@@ -1,5 +1,7 @@
 FROM node:alpine
 
+ENV NEXT_PUBLIC_RECAPTCHA_SITE_KEY ${NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+
 # Set working directory
 WORKDIR /usr/app
 

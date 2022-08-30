@@ -1,8 +1,5 @@
 FROM node:alpine
 
-RUN --mount=type=secret,id=NEXT_PUBLIC_RECAPTCHA_SITE_KEY \
-  cat /run/secrets/NEXT_PUBLIC_RECAPTCHA_SITE_KEY
-
 # Set working directory
 WORKDIR /usr/app
 

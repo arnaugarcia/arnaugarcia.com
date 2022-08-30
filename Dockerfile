@@ -26,9 +26,5 @@ EXPOSE 3000
 # The "node" user is provided in the Node.js Alpine base image
 USER node
 
-ENV NEXT_PUBLIC_GOOGLE_MAPS_API_KEY print(os.getenv('INPUT_NEXT_PUBLIC_GOOGLE_MAPS_API_KEY'))
-ENV NEXT_PUBLIC_RECAPTCHA_SITE_KEY print(os.getenv('INPUT_NEXT_PUBLIC_RECAPTCHA_SITE_KEY'))
-ENV RECAPTCHA_SECRET_KEY print(os.getenv('INPUT_RECAPTCHA_SECRET_KEY'))
-
 # Launch app with PM2
 CMD [ "pm2-runtime", "start", "npm", "--", "start" ]

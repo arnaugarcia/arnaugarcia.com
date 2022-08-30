@@ -1,7 +1,7 @@
 FROM node:alpine
 
-RUN --mount=type=id=github_token \
-  cat /run/secrets/github_token
+RUN --mount=type=secret,id=NEXT_PUBLIC_RECAPTCHA_SITE_KEY \
+  cat /run/secrets/NEXT_PUBLIC_RECAPTCHA_SITE_KEY
 
 # Set working directory
 WORKDIR /usr/app

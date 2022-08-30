@@ -29,4 +29,8 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
-          script: docker run --rm -e NEXT_PUBLIC_GOOGLE_MAPS_API_KEY='${{ secrets.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}' -e NEXT_PUBLIC_RECAPTCHA_SITE_KEY='${{ secrets.NEXT_PUBLIC_RECAPTCHA_SITE_KEY }}' -e RECAPTCHA_SECRET_KEY='${{ secrets.RECAPTCHA_SECRET_KEY }}' --name watchtower -v /var/run/docker.sock:/var/run/docker.sock -e REPO_USER=${{ secrets.REPOSITORY_USERNAME }} -e REPO_PASS=${{ secrets.REPOSITORY_PASSWORD }} containrrr/watchtower --run-once --debug --cleanup
+          script: |
+            NEXT_PUBLIC_GOOGLE_MAPS_API_KEY='${{ secrets.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}'
+            NEXT_PUBLIC_RECAPTCHA_SITE_KEY='${{ secrets.NEXT_PUBLIC_RECAPTCHA_SITE_KEY }}'
+            RECAPTCHA_SECRET_KEY='${{ secrets.RECAPTCHA_SECRET_KEY }}'
+            docker run -e NEXT_PUBLIC_GOOGLE_MAPS_API_KEY -e NEXT_PUBLIC_RECAPTCHA_SITE_KEY -e RECAPTCHA_SECRET_KEY --rm --name watchtower -v /var/run/docker.sock:/var/run/docker.sock -e REPO_USER=${{ secrets.REPOSITORY_USERNAME }} -e REPO_PASS=${{ secrets.REPOSITORY_PASSWORD }} containrrr/watchtower --run-once --debug --cleanup

@@ -11,6 +11,7 @@ export default function Document() {
                 async
                 defer
             />
+            <link rel={'canonical'} href={'https://arnaugarcia.com'}/>
             <Head/>
             <body>
             <Main/>

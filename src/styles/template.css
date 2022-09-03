@@ -2220,7 +2220,7 @@ select.form-control-sm:not([size]):not([multiple]) {
 
 .portfolio-overlay {
     position: absolute;
-    background: rgba(30, 30, 30, .5);
+    background: rgba(30, 30, 30, .7);
     top: 0;
     height: 100%;
     width: 100%;
@@ -2238,7 +2238,7 @@ select.form-control-sm:not([size]):not([multiple]) {
 
 .portfolio-title {
     letter-spacing: 3.8px;
-    font-size: 14px;
+    font-size: 2rem;
     color: #fff;
     margin: 0 0 8px
 }
@@ -2246,8 +2246,7 @@ select.form-control-sm:not([size]):not([multiple]) {
 .portfolio-subtitle {
     color: #fff;
     display: block;
-    font-size: 10px;
-    opacity: .7
+    font-size: 1rem;
 }
 
 .portfolio-link {

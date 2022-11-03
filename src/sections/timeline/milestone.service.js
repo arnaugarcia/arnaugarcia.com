@@ -2,13 +2,6 @@ export const MilestoneService = {
     milestones: () => {
         return [
             {
-                title: 'RESUME.ITEMS.7.TITLE',
-                subtitle: 'RESUME.ITEMS.7.SUBTITLE',
-                year: 'RESUME.ITEMS.7.YEAR',
-                image: '/assets/images/resume/upc-eltica.webp',
-                description: 'RESUME.ITEMS.7.DESCRIPTION'
-            },
-            {
                 title: 'RESUME.ITEMS.6.TITLE',
                 subtitle: 'RESUME.ITEMS.6.SUBTITLE',
                 year: 'RESUME.ITEMS.6.YEAR',

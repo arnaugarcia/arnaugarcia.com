@@ -1,5 +1,5 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 import {useEffect, useState} from "react";
 import {SocialService} from "../sections/social/social.service";
 

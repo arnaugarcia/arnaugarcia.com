@@ -2,7 +2,7 @@ import '../styles/globals.scss'
 import '../styles/et-line.css'
 import Head from "next/head";
 import Footer from "../layout/footer";
-import {appWithTranslation, useTranslation} from 'next-i18next';
+import { appWithTranslation, useTranslation } from "i18next-ssg";
 
 const MyApp = ({Component, pageProps}) => {
 

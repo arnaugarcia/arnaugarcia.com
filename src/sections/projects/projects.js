@@ -1,5 +1,5 @@
 import Project from "./project";
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 import {useEffect, useState} from "react";
 import {ProjectsService} from "./projects.service";
 

@@ -1,7 +1,7 @@
 import {useState} from "react";
 import MailService from "./mail.service";
-import {useTranslation} from "next-i18next";
 import {EmailAlert, EmailStatus} from "./email-alert";
+import {useTranslation} from "i18next-ssg";
 
 export default function Contact() {
 

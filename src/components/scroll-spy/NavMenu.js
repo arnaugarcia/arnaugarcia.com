@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {ScrollSpy} from "./ScrollSpy";
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 import Link from 'next/link'
 
 // Abstracted from ScrollSpy to allow for easier customizations

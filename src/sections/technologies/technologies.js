@@ -2,7 +2,7 @@ import 'tiny-slider/dist/tiny-slider.css'
 import Technology from "./technology";
 import {useEffect, useState} from "react";
 import {sliderConfig} from "./slider.constants";
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 import {TechnologiesService} from "./technologies.service";
 
 export default function Technologies() {

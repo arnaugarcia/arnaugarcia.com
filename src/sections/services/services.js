@@ -1,5 +1,5 @@
 import Service from "./service";
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 import {useEffect, useState} from "react";
 import {ServicesService} from "./services.service";
 

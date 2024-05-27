@@ -1,6 +1,6 @@
 import {useEffect, useRef} from "react";
 import TypedT from 'typed.js';
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 import {typedConstants} from "./typed.constants";
 
 export default function Typed() {

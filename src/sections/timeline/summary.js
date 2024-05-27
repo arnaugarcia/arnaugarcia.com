@@ -1,7 +1,7 @@
 import Milestone from "./milestone";
 import {useEffect, useState} from "react";
 import {MilestoneService} from "./milestone.service";
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 
 export default function Summary() {
 

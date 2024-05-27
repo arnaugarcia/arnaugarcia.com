@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Social from "./social";
 import Skill from "./skill";
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 
 export default function Profile() {
     const {t} = useTranslation('common');

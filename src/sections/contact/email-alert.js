@@ -1,4 +1,4 @@
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 
 export const EmailStatus = Object.freeze({
     SENT: 'SENT',

@@ -2,7 +2,7 @@ import styles from './header.module.css'
 import Particles from "react-tsparticles";
 import Typed from "./typed";
 import {particlesConstants} from "./particles.constants";
-import {useTranslation} from "next-i18next";
+import {useTranslation} from "i18next-ssg";
 
 export default function Header() {
     const {t} = useTranslation('common');

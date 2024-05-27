@@ -1,8 +1,13 @@
-import Profile from "../sections/profile/profile";
+import Profile from "../../sections/profile/profile";
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {fab} from '@fortawesome/free-brands-svg-icons';
-import Header from "../sections/header/header";
+import Header from "../../sections/header/header";
 import dynamic from "next/dynamic";
+import Services from "../../sections/services/services";
+import Summary from "../../sections/timeline/summary";
+import Technologies from "../../sections/technologies/technologies";
+import Projects from "../../sections/projects/projects";
+import Contact from "../../sections/contact/contact";
 import Services from "../sections/services/services";
 import Summary from "../sections/timeline/summary";
 import Technologies from "../sections/technologies/technologies";
@@ -10,11 +15,11 @@ import Projects from "../sections/projects/projects";
 import Contact from "../sections/contact/contact";
 import Map from "../sections/map/map";
 
-import {serverSideTranslations} from "next-i18next/serverSideTranslations";
-import {WithNavMenu} from "../components/scroll-spy/NavMenu";
-import {useTranslation} from "next-i18next";
+import {WithNavMenu} from "../../components/scroll-spy/NavMenu";
+import {useTranslation} from "i18next-ssg";
+import { makeStaticProps, getStaticPaths } from "i18next-ssg/server";
 
-const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr: false})
+const Portfolio = dynamic(() => import('../../sections/portfolio/portfolio'), {ssr: false})
 
 const Home = () => {
     const {t} = useTranslation('common');
@@ -56,10 +61,7 @@ const Home = () => {
     )
 }
 
-export const getStaticProps = async ({locale}) => ({
-    props: {
-        ...await serverSideTranslations(locale, ['common']),
-    }
-})
+const getStaticProps = makeStaticProps(["common"]);
+export { getStaticPaths, getStaticProps };
 
 export default Home;

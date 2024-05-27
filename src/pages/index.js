@@ -8,6 +8,7 @@ import Summary from "../sections/timeline/summary";
 import Technologies from "../sections/technologies/technologies";
 import Projects from "../sections/projects/projects";
 import Contact from "../sections/contact/contact";
+import Map from "../sections/map/map";
 
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 import {WithNavMenu} from "../components/scroll-spy/NavMenu";
@@ -18,11 +19,6 @@ const Portfolio = dynamic(() => import('../sections/portfolio/portfolio'), {ssr:
 const Home = () => {
     const {t} = useTranslation('common');
     library.add(fab);
-
-    const Map = dynamic(() => import('../sections/map/map'), {
-        ssr: false, // do not render this on the server side render
-        loading: () => <div>Loading Map...</div>, // placeholder component
-    });
 
     return (
         <WithNavMenu selector="section">
@@ -53,7 +49,7 @@ const Home = () => {
             <section className="module" id="contact" data-nav-title={t('NAVBAR.CONTACT')} data-scrollspy>
                 <Contact/>
             </section>
-            <section className="maps-container" id="map">
+            <section className="maps-container">
                 <Map/>
             </section>
         </WithNavMenu>

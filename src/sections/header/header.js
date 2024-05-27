@@ -9,7 +9,7 @@ export default function Header() {
 
     return (
         <>
-            <Particles className={styles.particles} options={particlesConstants} />
+            <Particles className={styles.particles} options={particlesConstants}/>
             <div className={styles.text}>
                 <div className="row">
                     <div className="col-md-12">

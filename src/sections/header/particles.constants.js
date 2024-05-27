@@ -1,6 +1,11 @@
 export const particlesConstants = {
     detectRetina: true,
     fullScreen: true,
+    style: {
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+    },
     particles: {
         'number': {
             'value': 50,

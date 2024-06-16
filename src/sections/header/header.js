@@ -1,15 +1,28 @@
 import styles from './header.module.css'
-import Particles from "react-tsparticles";
+import Particles, {initParticlesEngine} from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
 import Typed from "./typed";
-import {particlesConstants} from "./particles.constants";
 import {useTranslation} from "i18next-ssg";
+import {useEffect, useState} from "react";
+import {particles} from "./particles.constants";
 
 export default function Header() {
     const {t} = useTranslation('common');
 
+    const [ init, setInit ] = useState(false);
+
+    // this should be run only once per application lifetime
+    useEffect(() => {
+        initParticlesEngine(async (engine) => {
+            await loadSlim(engine);
+        }).then(() => {
+            setInit(true);
+        });
+    }, []);
+
     return (
         <>
-            <Particles className={styles.particles} options={particlesConstants}/>
+            { init && <Particles className={styles.particles} options={particles}/> }
             <div className={styles.text}>
                 <div className="row">
                     <div className="col-md-12">

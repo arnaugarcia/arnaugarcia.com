@@ -1,95 +1,65 @@
-export const particlesConstants = {
-    detectRetina: true,
-    fullScreen: true,
-    style: {
-        position: 'absolute',
-        width: '100%',
-        height: '100%',
+export const particles = {
+    background: {
+        color: {
+            value: "#000000",
+        },
     },
-    particles: {
-        'number': {
-            'value': 50,
-            'density': {
-                'enable': true,
-                'value_area': 700
-            }
-        },
-        'color': {
-            'value': '#4a90e2'
-        },
-        'shape': {
-            'type': 'circle',
-            'stroke': {
-                'width': 0,
-                'color': '#4a90e2'
-            },
-            'polygon': {
-                'nb_sides': 5
-            },
-        },
-        'size': {
-            'value': 3,
-            'random': true,
-            'anim': {
-                'enable': false,
-                'speed': 40,
-                'size_min': 0.1,
-                'sync': false
-            }
-        },
-        'line_linked': {
-            'enable': true,
-            'distance': 150,
-            'color': '#4a90e2',
-            'opacity': 0.4,
-            'width': 1
-        },
-        'move': {
-            'enable': true,
-            'speed': 2,
-            'direction': 'none',
-            'random': false,
-            'straight': false,
-            'out_mode': 'out',
-            'bounce': false,
-            'attract': {
-                'enable': false,
-                'rotateX': 600,
-                'rotateY': 1200
-            }
-        }
-    },
+    fpsLimit: 120,
     interactivity: {
-        detect_on: 'canvas',
         events: {
-            onhover: {
+            onClick: {
                 enable: true,
-                mode: 'grab'
+                mode: "push",
             },
-            onclick: {
+            onHover: {
                 enable: true,
-                mode: 'push'
+                mode: "repulse",
             },
-            resize: true
+            resize: true,
         },
         modes: {
-            grab: {
-                distance: 140,
-                line_linked: {
-                    opacity: 1
-                }
-            },
-            bubble: {
-                distance: 400,
-                size: 40,
-                duration: 2,
-                opacity: 8,
-                speed: 3
+            push: {
+                quantity: 4,
             },
             repulse: {
-                distance: 200,
-                duration: 0.4
-            }
-        }
-    }
-}
+                distance: 100,
+                duration: 1,
+            },
+        },
+    },
+    particles: {
+        color: {
+            value: '#4a90e2',
+        },
+        links: {
+            color: '#4a90e2',
+            distance: 250,
+            enable: true,
+            width: 1,
+        },
+        move: {
+            direction: "none",
+            enable: true,
+            outModes: {
+                default: "bounce",
+            },
+            random: false,
+            speed: 2,
+            straight: false,
+        },
+        number: {
+            density: {
+                enable: true,
+                area: 800,
+            },
+            value: 200,
+        },
+        shape: {
+            type: "circle",
+        },
+        size: {
+            value: { min: 1, max: 5 },
+        },
+    },
+    detectRetina: true
+};

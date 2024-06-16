@@ -19,20 +19,8 @@ export default function Contact() {
         const phone = event.target.phone.value;
         const message = event.target.message.value;
 
-        grecaptcha.execute(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY, {action: 'submit'}).then((token) => {
-            fetch(`/api/captcha?token=${token}`, {method: 'POST'}).then(async (response) => {
-                if (!response.ok) {
-                    setEmailStatus(EmailStatus.CAPTCHA_ERROR);
-                }
-                return await MailService.sendEmail({name, email, phone, message});
-            }).then((response) => {
-                if (response.ok) {
-                    setEmailStatus(EmailStatus.SENT);
-                } else {
-                    setEmailStatus(EmailStatus.ERROR);
-                }
-            })
-        });
+        await MailService.sendEmail({name, email, phone, message})
+            .then((response) => setEmailStatus(response.ok ? EmailStatus.SENT : EmailStatus.ERROR));
     }
 
     return (
@@ -49,7 +37,7 @@ export default function Contact() {
                 <div className="col-md-12">
                     {emailStatus ?
                         <div className="ajax-response text-center">
-                            <EmailAlert status={emailStatus} />
+                            <EmailAlert status={emailStatus}/>
                         </div> :
                         <form id="contact-form" onSubmit={sendMessage}>
                             <div className="row">

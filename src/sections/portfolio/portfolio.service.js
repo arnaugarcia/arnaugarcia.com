@@ -21,7 +21,7 @@ const PortfolioService = {
             },
             {
                 filters: ['networks'],
-                imageUrl: '/assets/images/portfolio/cisco.webp',
+                imageUrl: '/assets/images/portfolio/ccna.png',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM1.SUBTITLE',
                 title: 'PORTFOLIO.ITEMS.ITEM1.TITLE',
@@ -49,7 +49,7 @@ const PortfolioService = {
             },
             {
                 filters: ['angular'],
-                imageUrl: '/assets/images/portfolio/angular.svg',
+                imageUrl: '/assets/images/portfolio/angular.png',
                 link: '#home',
                 subtitle: 'PORTFOLIO.ITEMS.ITEM3.SUBTITLE',
                 description: 'PORTFOLIO.ITEMS.ITEM3.DESCRIPTION',
@@ -69,7 +69,7 @@ const PortfolioService = {
             },
             {
                 filters: ['spring', 'microservices'],
-                imageUrl: '/assets/images/portfolio/springmicroservices.png',
+                imageUrl: '/assets/images/portfolio/spring_microservices.jpeg',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM5.SUBTITLE',
                 description: 'PORTFOLIO.ITEMS.ITEM5.DESCRIPTION',

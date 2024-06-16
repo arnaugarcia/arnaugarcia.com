@@ -15,13 +15,11 @@ jobs:
           node-version: '20.x'
       - run: npm install
       - run: npm run build
-      - name: rsync deployment
-        uses: burnett01/rsync-deployments@7.0.1
+      - name: deploy files to server
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          switches: -avzr --delete
-          path: out/
+          username: ${{ secrets.SFTP_USER }}
+          server: '${{ secrets.SFTP_HOST }}'
+          password: ${{ secrets.SFTP_PASSWORD }}
+          local_path: './out/*'
           remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
-          remote_host: ${{ secrets.SFTP_HOST }}
-          remote_port: ${{ secrets.SFTP_PORT }}
-          remote_user:  ${{ secrets.SFTP_USER }}
-          remote_password: ${{ secrets.SFTP_PASSWORD }}

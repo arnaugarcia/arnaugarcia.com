@@ -8,7 +8,6 @@ import Summary from "../../sections/timeline/summary";
 import Technologies from "../../sections/technologies/technologies";
 import Projects from "../../sections/projects/projects";
 import Contact from "../../sections/contact/contact";
-import Map from "../../sections/map/map";
 
 import {WithNavMenu} from "../../components/scroll-spy/NavMenu";
 import {useTranslation} from "i18next-ssg";
@@ -48,9 +47,6 @@ const Home = () => {
             </section>
             <section className="module" id="contact" data-nav-title={t('NAVBAR.CONTACT')} data-scrollspy>
                 <Contact/>
-            </section>
-            <section className="maps-container">
-                <Map/>
             </section>
         </WithNavMenu>
     )

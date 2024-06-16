@@ -19,7 +19,7 @@ jobs:
         with:
           switches: -avzr --delete
           path: out/
-          remote_path: ${{ variables.SFTP_REMOTE_PATH }}
+          remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
           remote_host: ${{ secrets.SFTP_HOST }}
           remote_port: ${{ secrets.SFTP_PORT }}
           remote_user:  ${{ secrets.SFTP_USER }}

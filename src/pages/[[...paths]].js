@@ -23,8 +23,17 @@ export default function RootRedirectPage() {
   useEffect(() => {
     if (!router.isReady) return;
     const locale = detectLocale();
-    // Hard navigation is more reliable for static export than client routing.
-    window.location.replace(`/${locale}`);
+    const { protocol, host } = window.location;
+    const isLocal =
+      host.startsWith("localhost") ||
+      host.startsWith("127.0.0.1") ||
+      host.endsWith(".local");
+    // Production should always land on HTTPS even if the visitor opened http://
+    const origin =
+      !isLocal && protocol === "http:"
+        ? `https://${host}`
+        : `${protocol}//${host}`;
+    window.location.replace(`${origin}/${locale}`);
   }, [router.isReady]);
 
   return <div>Redirecting...</div>;

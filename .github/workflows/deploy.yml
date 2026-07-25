@@ -33,6 +33,9 @@ jobs:
           test -f out/index.html
           test -f out/en.html
           test -d out/_next
+          test -f out/.htaccess
+          test -f out/sitemap.xml
+          test -f out/robots.txt
 
       - name: Deploy to server
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -43,4 +46,16 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }}
           local_path: './out/*'
           remote_path: './'
+          sftp_only: true
+
+      # `out/*` skips dotfiles; upload HTTPS redirect rules separately
+      - name: Deploy .htaccess
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+        with:
+          username: ${{ secrets.SFTP_USER }}
+          server: ${{ secrets.SFTP_HOST }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          local_path: './out/.htaccess'
+          remote_path: './.htaccess'
           sftp_only: true

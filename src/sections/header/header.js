@@ -1,28 +1,20 @@
 import styles from './header.module.css'
-import Particles, {initParticlesEngine} from "@tsparticles/react";
+import Particles, {ParticlesProvider} from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import Typed from "./typed";
-import {useTranslation} from "i18next-ssg";
-import {useEffect, useState} from "react";
+import {useTranslation} from "next-i18next/pages";
 import {particles} from "./particles.constants";
+
+async function initParticles(engine) {
+    await loadSlim(engine);
+}
 
 export default function Header() {
     const {t} = useTranslation('common');
 
-    const [ init, setInit ] = useState(false);
-
-    // this should be run only once per application lifetime
-    useEffect(() => {
-        initParticlesEngine(async (engine) => {
-            await loadSlim(engine);
-        }).then(() => {
-            setInit(true);
-        });
-    }, []);
-
     return (
-        <>
-            { init && <Particles className={styles.particles} options={particles}/> }
+        <ParticlesProvider init={initParticles}>
+            <Particles className={styles.particles} options={particles}/>
             <div className={styles.text}>
                 <div className="row">
                     <div className="col-md-12">
@@ -36,6 +28,6 @@ export default function Header() {
             <div className="mouse-icon">
                 <div className="wheel"/>
             </div>
-        </>
+        </ParticlesProvider>
     )
 }

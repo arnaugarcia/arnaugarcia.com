@@ -8,6 +8,7 @@ export const ScrollSpy = ({ handleScroll }) => {
 
     useEffect(() => {
         const scrollables = document.querySelectorAll("[data-scrollspy]");
+        const observers = [];
         for (let scrollable of scrollables) {
             const observer = new IntersectionObserver(
                 (entries) => {
@@ -22,7 +23,9 @@ export const ScrollSpy = ({ handleScroll }) => {
                 }
             );
             observer.observe(scrollable);
+            observers.push(observer);
         }
+        return () => observers.forEach((observer) => observer.disconnect());
     }, [handleScroll]);
 
     return null;

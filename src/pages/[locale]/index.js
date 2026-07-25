@@ -1,6 +1,4 @@
 import Profile from "../../sections/profile/profile";
-import {library} from '@fortawesome/fontawesome-svg-core';
-import {fab} from '@fortawesome/free-brands-svg-icons';
 import Header from "../../sections/header/header";
 import dynamic from "next/dynamic";
 import Services from "../../sections/services/services";
@@ -10,14 +8,13 @@ import Projects from "../../sections/projects/projects";
 import Contact from "../../sections/contact/contact";
 
 import {WithNavMenu} from "../../components/scroll-spy/NavMenu";
-import {useTranslation} from "i18next-ssg";
+import {useTranslation} from 'next-i18next/pages';
 import { makeStaticProps, getStaticPaths } from "i18next-ssg/server";
 
 const Portfolio = dynamic(() => import('../../sections/portfolio/portfolio'), {ssr: false})
 
 const Home = () => {
     const {t} = useTranslation('common');
-    library.add(fab);
 
     return (
         <WithNavMenu selector="section">

@@ -2,10 +2,14 @@ import '../styles/globals.scss'
 import '../styles/et-line.css'
 import Head from "next/head";
 import Footer from "../layout/footer";
-import { appWithTranslation, useTranslation } from "i18next-ssg";
+import { appWithTranslation, useTranslation } from 'next-i18next/pages';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import nextI18NextConfig from '../../next-i18next.config';
+
+library.add(fab);
 
 const MyApp = ({Component, pageProps}) => {
-
     const {t} = useTranslation('common');
 
     return (
@@ -24,4 +28,4 @@ const MyApp = ({Component, pageProps}) => {
     )
 }
 
-export default appWithTranslation(MyApp)
+export default appWithTranslation(MyApp, nextI18NextConfig)

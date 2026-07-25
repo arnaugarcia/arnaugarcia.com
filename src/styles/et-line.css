@@ -30,7 +30,8 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-globe, .icon-global, .icon-mobile, .icon-tools, .icon-circle-compass, .icon-layers, .icon-key {
+.icon-globe, .icon-global, .icon-mobile, .icon-tools, .icon-circle-compass, .icon-layers, .icon-key,
+.icon-puzzle, .icon-gears, .icon-strategy, .icon-lightbulb, .icon-cloud, .icon-genius, .icon-briefcase {
     font-family: 'et-line', serif;
     speak: none;
     font-style: normal;

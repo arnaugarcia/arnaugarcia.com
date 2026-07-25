@@ -191,10 +191,10 @@
 				"YEAR": "2021 - 2022"
 			},
 			"5": {
-				"DESCRIPTION": "Formación profesional en sistemas informáticos, aplicaciones web y desarrollo multiplataforma: Java, Android, iOS (Swift), maquetación web, bases de datos y apps híbridas con frameworks JavaScript.",
-				"SUBTITLE": "Stucom",
-				"TITLE": "Formación profesional en desarrollo web y multiplataforma",
-				"YEAR": "2015 - 2018"
+				"DESCRIPTION": "Grado centrado en programación, tecnología y algoritmia: programación fundamental, experiencia de usuario, arquitectura de internet, desarrollo web, apps móviles, metodologías de software, diseño UX y producción multimedia. También obtuve la certificación Cisco CCNA.",
+				"SUBTITLE": "La Salle BCN",
+				"TITLE": "Grado en Técnicas de Aplicaciones de Software",
+				"YEAR": "2018 - 2022"
 			}
 		},
 		"SUBTITLE": "Mi educación y mi experiencia",
@@ -203,32 +203,32 @@
 	"SERVICE": {
 		"SERVICES": {
 			"SERVICE1": {
-				"TEXT": "Desarrollar páginas web es mi especialidad. Puedo desarrollar desde páginas web estáticas y sencillas cómo aplicaciones complejas para grandes empresas.",
-				"TITLE": "Desarrollo Web"
+				"TEXT": "Diseño sistemas escalables de punta a punta: bounded contexts, límites de servicio, APIs y entrega a producción. Arquitectura clara que los equipos pueden evolucionar sin miedo.",
+				"TITLE": "Arquitectura de software"
 			},
 			"SERVICE2": {
-				"TEXT": "Una web responsive es indispensable. Así cómo que esté preparada para navegadores de última generación y pueda ser funcional incluso sin conexión.",
-				"TITLE": "PWA y Responsive"
+				"TEXT": "Modelo dominios complejos con DDD y arquitectura hexagonal, manteniendo las reglas de negocio en el centro y la infraestructura como un detalle.",
+				"TITLE": "Domain-Driven Design"
 			},
 			"SERVICE3": {
-				"TEXT": "Me centro en testar constantemente al usuario para ofrecerle la mejor experiencia posible",
-				"TITLE": "UX & UI"
+				"TEXT": "Experiencia profunda en Java, Spring y microservicios reactivos. Construyo backends fiables con testing sólido, observabilidad y código mantenible.",
+				"TITLE": "Java y plataformas backend"
 			},
 			"SERVICE4": {
-				"TEXT": "Me encanta diseñar la arquitectura de las aplicaciones de una forma creativa y sencilla. Desde la creación de la estructura de los ficheros hasta el desligue a producción.",
-				"TITLE": "Implementación y arquitectura"
+				"TEXT": "Lidero equipos de ingeniería con mentoring, dirección técnica y ownership de entrega: convierto decisiones de arquitectura en práctica compartida.",
+				"TITLE": "Liderazgo de ingeniería"
 			},
 			"SERVICE5": {
-				"TEXT": "Puedo diseñar el esquema adecuado para una base de datos en tecnologías como MySQL y SQL Server. También he trabajado con bases de datos no relacionales como MongoDB",
-				"TITLE": "Gestión de base de datos"
+				"TEXT": "Uso la IA para acelerar diseño, código y reviews, manteniendo el criterio humano en arquitectura, calidad y resultados de producto.",
+				"TITLE": "Ingeniería aumentada con IA"
 			},
 			"SERVICE6": {
-				"TEXT": "Mi objetivo es mantener almacenada de manera segura y encriptada toda la información proporcionada por el usuario en una aplicación",
-				"TITLE": "Seguridad Web"
+				"TEXT": "Sistemas event-driven en AWS y CI/CD moderno. Desde EventBridge y Lambda hasta pipelines que hacen del release algo rutinario, no arriesgado.",
+				"TITLE": "Cloud y sistemas event-driven"
 			}
 		},
-		"SUBTITLE": "Lo que mi experiencia y dedicación me han proporcionado",
-		"TITLE": "Lo que me encanta hacer"
+		"SUBTITLE": "Arquitectura, liderazgo e ingeniería moderna",
+		"TITLE": "En qué me centro"
 	},
 	"SOCIAL": {
 		"GITHUB": {

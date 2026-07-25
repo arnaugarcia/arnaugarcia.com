@@ -40,7 +40,7 @@ export const MilestoneService = {
                 title: 'RESUME.ITEMS.5.TITLE',
                 subtitle: 'RESUME.ITEMS.5.SUBTITLE',
                 year: 'RESUME.ITEMS.5.YEAR',
-                image: '/assets/images/resume/stucom.webp',
+                image: '/assets/images/resume/lasalle.webp',
                 description: 'RESUME.ITEMS.5.DESCRIPTION'
             }
         ]

@@ -3,7 +3,7 @@ import Isotope from 'isotope-layout'
 
 import {useCallback, useEffect, useState} from "react";
 import PortfolioFilter from "./portfolio-filter";
-import {useTranslation} from "i18next-ssg";
+import {useTranslation} from 'next-i18next/pages';
 import PortfolioService from "./portfolio.service";
 import {PortfolioModel} from "./portfolio.model";
 

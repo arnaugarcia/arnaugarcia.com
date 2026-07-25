@@ -8,7 +8,7 @@ import Projects from "../../sections/projects/projects";
 import Contact from "../../sections/contact/contact";
 
 import {WithNavMenu} from "../../components/scroll-spy/NavMenu";
-import {useTranslation} from "i18next-ssg";
+import {useTranslation} from 'next-i18next/pages';
 import { makeStaticProps, getStaticPaths } from "i18next-ssg/server";
 
 const Portfolio = dynamic(() => import('../../sections/portfolio/portfolio'), {ssr: false})

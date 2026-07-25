@@ -1,4 +1,4 @@
-import {useTranslation} from "i18next-ssg";
+import {useTranslation} from 'next-i18next/pages';
 
 export default function PortfolioItem({portfolio}) {
     const {t} = useTranslation('common');

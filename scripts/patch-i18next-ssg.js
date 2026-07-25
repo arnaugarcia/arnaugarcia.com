@@ -76,3 +76,24 @@ for (const { file, contents } of targets) {
   fs.writeFileSync(file, contents);
   console.log(`[patch-i18next-ssg] patched ${path.relative(root, file)}`);
 }
+
+const serverTargets = [
+  path.join(root, "node_modules/i18next-ssg/dist/esm/server/index.js"),
+  path.join(root, "node_modules/i18next-ssg/dist/commonjs/server/index.js"),
+];
+
+for (const file of serverTargets) {
+  if (!fs.existsSync(file)) {
+    console.warn(`[patch-i18next-ssg] skip missing ${file}`);
+    continue;
+  }
+  const original = fs.readFileSync(file, "utf8");
+  const updated = original.replaceAll(
+    "next-i18next/serverSideTranslations",
+    "next-i18next/pages/serverSideTranslations"
+  );
+  if (updated !== original) {
+    fs.writeFileSync(file, updated);
+    console.log(`[patch-i18next-ssg] patched ${path.relative(root, file)}`);
+  }
+}

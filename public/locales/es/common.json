@@ -104,7 +104,7 @@
 	"PROFILE": {
 		"BIOGRAPHY": {
 			"PARAGRAPH1": "Soy un programador de Barcelona al que le encanta la programación,  la automoción y la tecnología. Mi curiosidad y pasión por esos campos empezó desde muy pequeño y aún sigue en aumento,  día tras día,  sin perder las ganas de aprender y superarme.",
-			"PARAGRAPH2": "Actualmente estoy desarrollando algunos proyectos personales y trabajando como desarrollador full-stack en Opentrends.",
+			"PARAGRAPH2": "Actualmente estoy desarrollando algunos proyectos personales y trabajando como Software Architect & Team Lead en WindowSight.",
 			"TITLE": "QUIEN SOY?"
 		},
 		"SKILLS": {
@@ -116,7 +116,7 @@
 			"TITLE": "HABILIDADES"
 		},
 		"SOCIAL": "¿Dónde me puedes encontrar?",
-		"SUBTITLE": "Desarrollador web | Desarrollador full-stack | Desarrollador Multiplataforma",
+		"SUBTITLE": "Software Architect | Team Lead | Desarrollador full-stack",
 		"TITLE": "Arnau García Gallego"
 	},
 	"PROFILE-CONTACT": {
@@ -161,46 +161,40 @@
 		"CV-BUTTON": "Descarga CV",
 		"ITEMS": {
 			"0": {
-				"DESCRIPTION": "Durante mi estancia en Opentrends, he dessarollado proyectos para varias entidades y sectores. Todos estos proyectos siempre están orientados a microservicios utilizando Spring y Angular.",
-				"SUBTITLE": "Opentrends",
-				"TITLE": "Desarrollador Full-Stack",
-				"YEAR": "2018-Ahora"
+				"DESCRIPTION": "Liderando la arquitectura e ingeniería en WindowSight, una plataforma de streaming de arte digital. Definiendo la dirección técnica, mentorizando al equipo y construyendo servicios escalables para exposiciones digitales y entrega de contenido.",
+				"SUBTITLE": "WindowSight",
+				"TITLE": "Software Architect & Team Lead",
+				"YEAR": "2026 - Ahora"
 			},
 			"1": {
-				"DESCRIPTION": "En este grado universitario he profundizado en el desarrollo de software dándome una visión más amplia y robusta. Durante mi transcurso en la universidad he podido ampliar mis conocimientos en todos los campos del desarrollo, desde la arquitectura, bases de datos, algoritmia... etc.",
-				"SUBTITLE": "La Salle Barcelona",
-				"TITLE": "GRADO EN TÉCNICAS DE APLICACIONES DE SOFTWARE",
-				"YEAR": "2018 - Ahora"
+				"DESCRIPTION": "Diseñé y desarrollé servicios backend con Java, DDD, arquitectura hexagonal, Spring Batch y OpenAPI. Construí soluciones event-driven en AWS (EventBridge, Lambda, S3/Delta Lake), estandaricé CI/CD con GitHub Actions y contribuí al procesamiento de datos con Python y Glue Jobs.",
+				"SUBTITLE": "AgileTV",
+				"TITLE": "Software Engineer",
+				"YEAR": "2025 - 2026"
 			},
 			"2": {
-				"DESCRIPTION": "Durante mis estudios en Stucom aprendí las bases para poder programar, ahí cursé un grado medio de sistemas informáticos dónde aprendí las bases de la informática. Seguidamente realicé un grado superior de aplicaciones web dónde aprendí a programar en Java, maquetar una web, bases de datos entre otros. I finalmente realicé otro grado superior de aplicaciones multiplataforma dónde aprendí Android, iOS(Swift) y a crear aplicaciones híbridas utilizando frameworks javascript.",
-				"SUBTITLE": "Stucom",
-				"TITLE": "Formación profesional en desarrollo web y multiplataforma.",
-				"YEAR": "2015 - 2018"
+				"DESCRIPTION": "Arquitectura, diseño y mantenimiento de servicios de la empresa con Java (Spring), microservicios, CQRS, arquitectura hexagonal, DDD y TDD. Trabajo con Kafka, MongoDB, PostgreSQL, OCPP y OCPI.",
+				"SUBTITLE": "EVPassport",
+				"TITLE": "Software Engineer",
+				"YEAR": "2023 - 2025"
 			},
 			"3": {
-				"DESCRIPTION": "Durante mi curso en Wiatchity, estaba desarrollando la interfaz de la plataforma ágil de producción de video en vivo basada en la web",
-				"SUBTITLE": "Watchity",
-				"TITLE": "Desarrollador front-end",
-				"YEAR": "2017 - 2018"
+				"DESCRIPTION": "Desarrollé y mantuve plataformas para el sector educativo, servicios IoT y aplicaciones de gestión municipal con Spring, Angular, React, MySQL y MongoDB. Las aplicaciones se dockerizaron y desplegaron en AWS.",
+				"SUBTITLE": "Opentrends",
+				"TITLE": "Software Engineer",
+				"YEAR": "2018 - 2023"
 			},
 			"4": {
-				"DESCRIPTION": "Junto con 4 compañeros y nuestro profesor expusimos nuestros proyectos finales de grado superior, hablamos sobre JHipster y sus ventajas.",
-				"SUBTITLE": "Barcelona",
-				"TITLE": "Ponente en Angular Camp 2017",
-				"YEAR": "2017 - 2017"
+				"DESCRIPTION": "Desarrollo íntegro (arquitectura backend y frontend y despliegue) de Shop The Look, una herramienta e-commerce con API REST y SDK Javascript. Construida con Java 17, Angular, Spring, Webpack y AWS.",
+				"SUBTITLE": "Klai",
+				"TITLE": "Software Architect",
+				"YEAR": "2021 - 2022"
 			},
 			"5": {
-				"DESCRIPTION": "Junto con Alfredo Rueda desarrollamos y presentamos el backend utilizado para desarrollar el proyecto final del tema de desarrollo de Android.",
-				"SUBTITLE": "La Salle Barcelona",
-				"TITLE": "Profesor ayudante en La Salle",
-				"YEAR": "2019 - 2020"
-			},
-			"6": {
-				"DESCRIPTION": "Desarrollo integro (backend,  frontend arquitectura y despliegue) de una herramienta web enfocada al e-commerce.  La herramienta cuenta con una API REST y una SDK en Javacsript.  Esta herramienta esta desarrollada utilizando Java 17,  Angular 14,  Spring,  Javascript,  Webpack...  etc",
-				"SUBTITLE": "Klai",
-				"TITLE": "Programador full-stack",
-				"YEAR": "2021 - 2022"
+				"DESCRIPTION": "Formación profesional en sistemas informáticos, aplicaciones web y desarrollo multiplataforma: Java, Android, iOS (Swift), maquetación web, bases de datos y apps híbridas con frameworks JavaScript.",
+				"SUBTITLE": "Stucom",
+				"TITLE": "Formación profesional en desarrollo web y multiplataforma",
+				"YEAR": "2015 - 2018"
 			}
 		},
 		"SUBTITLE": "Mi educación y mi experiencia",

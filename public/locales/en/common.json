@@ -191,10 +191,10 @@
 				"YEAR": "2021 - 2022"
 			},
 			"5": {
-				"DESCRIPTION": "Vocational training in computer systems, web applications and cross-platform development: Java, Android, iOS (Swift), web layout, databases and hybrid apps with JavaScript frameworks.",
-				"SUBTITLE": "Stucom",
-				"TITLE": "Vocational training in web development and cross-platform",
-				"YEAR": "2015 - 2018"
+				"DESCRIPTION": "Degree focused on programming, technology and algorithmics: foundational programming, user experience, internet architecture, web development, mobile apps, software methodologies, UX design and multimedia production. Also earned a Cisco CCNA certification.",
+				"SUBTITLE": "La Salle BCN",
+				"TITLE": "Degree in Software Application Techniques",
+				"YEAR": "2018 - 2022"
 			}
 		},
 		"SUBTITLE": "Education and experience",
@@ -203,32 +203,32 @@
 	"SERVICE": {
 		"SERVICES": {
 			"SERVICE1": {
-				"TEXT": "Develop web pages is my best area. I can develop static and simple websites as well as complex applications for big companies.",
-				"TITLE": "Web Development"
+				"TEXT": "I design scalable systems end to end: bounded contexts, service boundaries, APIs and production delivery. Clear architecture that teams can evolve without fear.",
+				"TITLE": "Software Architecture"
 			},
 			"SERVICE2": {
-				"TEXT": "Responsiveness is a must. As well as prepared for last generation browsers and offline work.",
-				"TITLE": "PWA ready and responsive"
+				"TEXT": "I model complex domains with DDD and hexagonal architecture, keeping business rules at the centre and infrastructure as a detail.",
+				"TITLE": "Domain-Driven Design"
 			},
 			"SERVICE3": {
-				"TEXT": "I focus on constant user testing in order to deliver the best User Experience as possible",
-				"TITLE": "UX & UI"
+				"TEXT": "Deep experience with Java, Spring and reactive microservices. I build reliable backends with strong testing, observability and maintainable codebases.",
+				"TITLE": "Java & Backend Platforms"
 			},
 			"SERVICE4": {
-				"TEXT": "I love designing the architecture of the applications in a creative and simple way. From the creation of the file structure to the production deployment.",
-				"TITLE": "Implementation & Architecture"
+				"TEXT": "I lead engineering teams through mentoring, technical direction and delivery ownership — turning architecture decisions into shared practice.",
+				"TITLE": "Engineering Leadership"
 			},
 			"SERVICE5": {
-				"TEXT": "I am able to design the correct schema for a Database in technologies such as MySQL and SQL Server. I have also worked with non relational Databases such as MongoDB",
-				"TITLE": "Database Management"
+				"TEXT": "I use AI to accelerate design, coding and reviews while keeping human judgment on architecture, quality and product outcomes.",
+				"TITLE": "AI-Augmented Engineering"
 			},
 			"SERVICE6": {
-				"TEXT": "My aim is to keep all the information provided by the user securely stored and encrypted in an application ",
-				"TITLE": "Web Security"
+				"TEXT": "Event-driven systems on AWS and modern CI/CD. From EventBridge and Lambda to pipelines that make releases routine instead of risky.",
+				"TITLE": "Cloud & Event-Driven Systems"
 			}
 		},
-		"SUBTITLE": "What my experience and dedication have provided to me",
-		"TITLE": "What I love to do"
+		"SUBTITLE": "Architecture, leadership and modern engineering",
+		"TITLE": "What I focus on"
 	},
 	"SOCIAL": {
 		"GITHUB": {

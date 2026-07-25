@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/generate-sitemap.js",
     "start": "npx --yes serve@latest out",
     "lint": "eslint .",
     "postinstall": "node scripts/patch-i18next-ssg.js"

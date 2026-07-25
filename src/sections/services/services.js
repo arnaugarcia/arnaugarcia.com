@@ -15,6 +15,14 @@ export default function Services() {
     return (
         <div className="container">
             <div className="row">
+                <div className="col-md-12">
+                    <div className="m-title c-align">
+                        <h2>{t('SERVICE.TITLE')}</h2>
+                        <h6>{t('SERVICE.SUBTITLE')}</h6>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
                 {services.map((service, index) => <Service
                     key={index}
                     title={t(service.title)}

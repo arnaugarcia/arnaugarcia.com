@@ -191,10 +191,10 @@
 				"YEAR": "2021 - 2022"
 			},
 			"5": {
-				"DESCRIPTION": "Formació professional en sistemes informàtics, aplicacions web i desenvolupament multiplataforma: Java, Android, iOS (Swift), maquetació web, bases de dades i apps híbrides amb frameworks JavaScript.",
-				"SUBTITLE": "Stucom",
-				"TITLE": "Formació professional en desenvolupament web i multiplataforma",
-				"YEAR": "2015 - 2018"
+				"DESCRIPTION": "Grau centrat en programació, tecnologia i algorísmia: programació fonamental, experiència d'usuari, arquitectura d'internet, desenvolupament web, apps mòbils, metodologies de programari, disseny UX i producció multimèdia. També vaig obtenir la certificació Cisco CCNA.",
+				"SUBTITLE": "La Salle BCN",
+				"TITLE": "Grau en Tècniques d'Aplicacions de Software",
+				"YEAR": "2018 - 2022"
 			}
 		},
 		"SUBTITLE": "Educació i experiència",
@@ -203,32 +203,32 @@
 	"SERVICE": {
 		"SERVICES": {
 			"SERVICE1": {
-				"TEXT": "Desenvolupar pàgines web és el meu millor àmbit. Puc desenvolupar llocs web estàtics i senzills així com aplicacions complexes per a grans empreses.",
-				"TITLE": "Pàgines Web"
+				"TEXT": "Dissenyo sistemes escalables de punta a punta: bounded contexts, límits de servei, APIs i lliurament a producció. Arquitectura clara que els equips poden evolucionar sense por.",
+				"TITLE": "Arquitectura de programari"
 			},
 			"SERVICE2": {
-				"TEXT": "Un web responsive és indispensable. Així com que estigui preparada per a navegadors d'última generació i pugui ser funcional fins i tot sense connexió.",
-				"TITLE": "PWA i Responsive"
+				"TEXT": "Modelo dominis complexes amb DDD i arquitectura hexagonal, mantenint les regles de negoci al centre i la infraestructura com a detall.",
+				"TITLE": "Domain-Driven Design"
 			},
 			"SERVICE3": {
-				"TEXT": "Em centro en testar constantment l'usuari per oferir-li la millor experiència possible",
-				"TITLE": "UX & UI"
+				"TEXT": "Experiència profunda amb Java, Spring i microserveis reactius. Construeixo backends fiables amb testing sòlid, observabilitat i codi mantenible.",
+				"TITLE": "Java i plataformes backend"
 			},
 			"SERVICE4": {
-				"TEXT": "M'encanta dissenyar l'arquitectura de les aplicacions d'una forma creativa i senzilla. Des de la creació de l'estructura dels fitxers fins al desplegament a producció.",
-				"TITLE": "Implementació i arquitectura"
+				"TEXT": "Lidero equips d'enginyeria amb mentoring, direcció tècnica i ownership de lliurament: converteixo decisions d'arquitectura en pràctica compartida.",
+				"TITLE": "Lideratge d'enginyeria"
 			},
 			"SERVICE5": {
-				"TEXT": "Puc dissenyar l'esquema adequat per una base de dades en tecnologies com MySQL i SQL Server. També he treballat amb bases de dades no relacionals com MongoDB",
-				"TITLE": "Gestió de bases de dades"
+				"TEXT": "Utilitzo la IA per accelerar disseny, codi i reviews, mantenint el criteri humà en arquitectura, qualitat i resultats de producte.",
+				"TITLE": "Enginyeria augmentada amb IA"
 			},
 			"SERVICE6": {
-				"TEXT": "El meu objectiu és mantenir emmagatzemada de manera segura i encriptada tota la informació proporcionada per l'usuari en una aplicació",
-				"TITLE": "Seguretat Web"
+				"TEXT": "Sistemes event-driven a AWS i CI/CD modern. Des d'EventBridge i Lambda fins a pipelines que fan del release una rutina, no un risc.",
+				"TITLE": "Cloud i sistemes event-driven"
 			}
 		},
-		"SUBTITLE": "Els coneixements que la meva experiència i dedicació m'han proporcionat",
-		"TITLE": "Allò que m'encanta fer"
+		"SUBTITLE": "Arquitectura, lideratge i enginyeria moderna",
+		"TITLE": "En què em centro"
 	},
 	"SOCIAL": {
 		"GITHUB": {

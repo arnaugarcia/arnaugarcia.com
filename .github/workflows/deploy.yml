@@ -1,25 +1,45 @@
 name: Build and deploy
 
-on: [push]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
+
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22.x'
-      - run: npm install
-      - run: npm run build
-      - name: deploy files to server
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Verify export output
+        run: |
+          test -f out/index.html
+          test -f out/en.html
+          test -d out/_next
+
+      - name: Deploy to server
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           username: ${{ secrets.SFTP_USER }}
-          server: '${{ secrets.SFTP_HOST }}'
+          server: ${{ secrets.SFTP_HOST }}
           password: ${{ secrets.SFTP_PASSWORD }}
           local_path: './out/*'
           remote_path: './'

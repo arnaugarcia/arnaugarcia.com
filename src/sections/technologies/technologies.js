@@ -6,14 +6,33 @@ import {useTranslation} from "i18next-ssg";
 import {TechnologiesService} from "./technologies.service";
 
 export default function Technologies() {
-
     const {t} = useTranslation('common');
     const [technologies, setTechnologies] = useState([]);
 
     useEffect(() => {
-        import('tiny-slider').then(({tns}) => tns(sliderConfig));
         setTechnologies(TechnologiesService.technologies());
     }, []);
+
+    useEffect(() => {
+        if (!technologies.length) return undefined;
+
+        let slider;
+        let cancelled = false;
+
+        import('tiny-slider').then(({tns}) => {
+            if (cancelled) return;
+            const container = document.querySelector(sliderConfig.container);
+            if (!container || !container.children.length) return;
+            slider = tns(sliderConfig);
+        });
+
+        return () => {
+            cancelled = true;
+            if (slider?.destroy) {
+                slider.destroy(true);
+            }
+        };
+    }, [technologies]);
 
     return (<div className="container">
         <div className="row">
@@ -24,7 +43,9 @@ export default function Technologies() {
             </div>
             <div className="col-md-12">
                 <div className="my-slider">
-                    {technologies.map(({title, image}, index) => <Technology key={index} image={image} description={title}/>)}
+                    {technologies.map(({title, image}, index) => (
+                        <Technology key={index} image={image} description={title}/>
+                    ))}
                 </div>
             </div>
         </div>

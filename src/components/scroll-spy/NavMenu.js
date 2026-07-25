@@ -7,12 +7,11 @@ import Link from 'next/link'
 const onScrollUpdate = (entry, isInVewPort) => {
     const {target, boundingClientRect} = entry;
     const menuItem = document.querySelector(`[data-scrollspy-id="${target.id}"]`);
+    if (!menuItem) return;
     if (boundingClientRect.y <= 0 && isInVewPort) {
         menuItem.classList.add("active");
-    } else {
-        if (menuItem.classList.contains("active")) {
-            menuItem.classList.remove("active");
-        }
+    } else if (menuItem.classList.contains("active")) {
+        menuItem.classList.remove("active");
     }
 };
 
@@ -25,13 +24,13 @@ const NavMenu = ({options, scrollNavbarLimit = 5}) => {
     const [languageSubmenuOpen, setLanguageSubmenuOpen] = useState(false);
 
     useEffect(() => {
+        const onScroll = (event) => {
+            setScrollLimit(event.target.documentElement.scrollTop >= scrollNavbarLimit);
+            openNavigation(false);
+        };
         window.addEventListener('scroll', onScroll, {passive: true});
-    })
-
-    const onScroll = (event) => {
-        setScrollLimit(event.target.documentElement.scrollTop >= scrollNavbarLimit);
-        openNavigation(false);
-    }
+        return () => window.removeEventListener('scroll', onScroll);
+    }, [scrollNavbarLimit]);
 
     const toggleNavigation = () => {
         openNavigation(!isNavOpen);
@@ -85,10 +84,10 @@ const NavMenu = ({options, scrollNavbarLimit = 5}) => {
                                     <span className="menu-item-span">{t('NAVBAR.LANGUAGES.TITLE')}</span>
                                 </a>
                                 <ul className="sub-menu">
-                                    {['ca', 'es', 'en'].map((locale, index) => {
+                                    {['ca', 'es', 'en'].map((locale) => {
                                         return (
-                                            <li className="menu-item pointer" key={index}>
-                                                <Link href={'/'} locale={locale}>
+                                            <li className="menu-item pointer" key={locale}>
+                                                <Link href={`/${locale}`}>
                                                     {t(`NAVBAR.LANGUAGES.${locale.toUpperCase()}`)}
                                                 </Link>
                                             </li>
@@ -132,7 +131,7 @@ export const WithNavMenu = ({children, selector}) => {
     }, [selector]);
 
     return (<>
-        <ScrollSpy handleScroll={onScrollUpdate}/>
+        {options.length > 0 && <ScrollSpy handleScroll={onScrollUpdate}/>}
         <NavMenu options={options}/>
         {children}
     </>);

@@ -49,3 +49,45 @@ html {
 .inner-nav .sub-menu li a {
     color: #202020;
 }
+
+/* Summary & project cards — clearer type and contrast */
+.timeline-title {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    color: #202020;
+}
+
+.timeline-description {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+    opacity: 1;
+    color: #5c5c5c;
+}
+
+.timeline > li > .timeline-panel .timeline-body p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #4a4a4a;
+}
+
+.blog-grid .post .post-title,
+.blog-masonry .post .post-title {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+}
+
+.blog-grid .post .post-title a,
+.blog-masonry .post .post-title a {
+    color: #202020;
+}
+
+.blog-grid .post .post-content p,
+.blog-masonry .post .post-content p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #4a4a4a;
+    margin-bottom: 0;
+}

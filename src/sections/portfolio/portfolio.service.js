@@ -2,7 +2,7 @@ const PortfolioService = {
     portfolioItems: () => {
         return [
             {
-                filters: ['automotive', 'can', 'reverse-engineering', 'projects'],
+                filters: ['automotive'],
                 imageUrl: '/assets/images/portfolio/bmw-can-hacking.webp',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM11.SUBTITLE',
@@ -11,7 +11,7 @@ const PortfolioService = {
                 large: false
             },
             {
-                filters: ['spring', 'microservices', 'architecture', 'event-driven'],
+                filters: ['architecture'],
                 imageUrl: '/assets/images/portfolio/spring-modulith-ddd.webp',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM10.SUBTITLE',
@@ -20,7 +20,16 @@ const PortfolioService = {
                 large: false
             },
             {
-                filters: ['angular', 'spring', 'projects'],
+                filters: ['projects', 'frontend'],
+                imageUrl: '/assets/images/portfolio/canbalasch-pos.webp',
+                link: null,
+                subtitle: 'PORTFOLIO.ITEMS.ITEM12.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM12.DESCRIPTION',
+                title: 'PORTFOLIO.ITEMS.ITEM12.TITLE',
+                large: false
+            },
+            {
+                filters: ['projects', 'backend', 'frontend'],
                 imageUrl: '/assets/images/portfolio/shopthelook.webp',
                 link: 'https://weareklai.es',
                 subtitle: 'PORTFOLIO.ITEMS.ITEM7.SUBTITLE',
@@ -29,7 +38,7 @@ const PortfolioService = {
                 large: false
             },
             {
-                filters: ['angular', 'spring', 'projects'],
+                filters: ['projects', 'backend', 'frontend'],
                 imageUrl: '/assets/images/portfolio/sallefy.webp',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM8.SUBTITLE',
@@ -38,7 +47,7 @@ const PortfolioService = {
                 large: false
             },
             {
-                filters: ['networks'],
+                filters: ['projects'],
                 imageUrl: '/assets/images/portfolio/ccna.png',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM1.SUBTITLE',
@@ -47,7 +56,7 @@ const PortfolioService = {
                 large: false
             },
             {
-                filters: ['java', 'arduino', 'projects'],
+                filters: ['projects'],
                 imageUrl: '/assets/images/portfolio/ars-logo.webp',
                 link: 'https://github.com/ArduinoRotateScreen',
                 subtitle: 'PORTFOLIO.ITEMS.ITEM9.SUBTITLE',
@@ -56,44 +65,40 @@ const PortfolioService = {
                 large: false
             },
             {
-                filters: ['angular', 'projects'],
+                filters: ['projects', 'frontend'],
                 imageUrl: '/assets/images/portfolio/uplace.png',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM2.SUBTITLE',
                 description: 'PORTFOLIO.ITEMS.ITEM2.DESCRIPTION',
                 title: 'PORTFOLIO.ITEMS.ITEM2.TITLE',
                 large: false
-
             },
             {
-                filters: ['angular'],
+                filters: ['frontend'],
                 imageUrl: '/assets/images/portfolio/angular.png',
                 link: '#home',
                 subtitle: 'PORTFOLIO.ITEMS.ITEM3.SUBTITLE',
                 description: 'PORTFOLIO.ITEMS.ITEM3.DESCRIPTION',
                 title: 'PORTFOLIO.ITEMS.ITEM3.TITLE',
                 large: false
-
             },
             {
-                filters: ['angular', 'projects'],
+                filters: ['projects', 'frontend'],
                 imageUrl: '/assets/images/portfolio/logo_realstatecamp.svg',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM4.SUBTITLE',
                 description: 'PORTFOLIO.ITEMS.ITEM4.DESCRIPTION',
                 title: 'PORTFOLIO.ITEMS.ITEM4.TITLE',
                 large: false
-
             },
             {
-                filters: ['spring', 'microservices'],
+                filters: ['backend', 'architecture'],
                 imageUrl: '/assets/images/portfolio/spring_microservices.jpeg',
                 link: null,
                 subtitle: 'PORTFOLIO.ITEMS.ITEM5.SUBTITLE',
                 description: 'PORTFOLIO.ITEMS.ITEM5.DESCRIPTION',
                 title: 'PORTFOLIO.ITEMS.ITEM5.TITLE',
                 large: false
-
             },
             {
                 filters: ['startup'],

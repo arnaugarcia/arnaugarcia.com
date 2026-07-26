@@ -96,6 +96,16 @@
 				"DESCRIPTION": "ARS Logo",
 				"SUBTITLE": "Software which allows that through an Arduino with a gyroscope,  it is capable of orienting the operating system screen.",
 				"TITLE": "Arduino Rotate Screen"
+			},
+			"ITEM10": {
+				"DESCRIPTION": "DDD, hexagonal architecture, event-driven design, Spring Modulith and microservices course badge",
+				"SUBTITLE": "Completed a course on Domain-Driven Design, hexagonal architecture, event-driven design, Spring Modulith and microservices",
+				"TITLE": "DDD, Event-Driven & Spring Modulith"
+			},
+			"ITEM11": {
+				"DESCRIPTION": "BMW car hacking and CAN bus reverse engineering project visual",
+				"SUBTITLE": "Hands-on reverse engineering of BMW CAN buses: sniffing, decoding and experimenting with diagnostic and vehicle messages",
+				"TITLE": "BMW CAN Hacking"
 			}
 		},
 		"SUBTITLE": "Projects that I've developed and milestones that I reached",

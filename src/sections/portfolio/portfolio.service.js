@@ -2,6 +2,24 @@ const PortfolioService = {
     portfolioItems: () => {
         return [
             {
+                filters: ['automotive', 'can', 'reverse-engineering', 'projects'],
+                imageUrl: '/assets/images/portfolio/bmw-can-hacking.webp',
+                link: null,
+                subtitle: 'PORTFOLIO.ITEMS.ITEM11.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM11.DESCRIPTION',
+                title: 'PORTFOLIO.ITEMS.ITEM11.TITLE',
+                large: false
+            },
+            {
+                filters: ['spring', 'microservices', 'architecture', 'event-driven'],
+                imageUrl: '/assets/images/portfolio/spring-modulith-ddd.webp',
+                link: null,
+                subtitle: 'PORTFOLIO.ITEMS.ITEM10.SUBTITLE',
+                description: 'PORTFOLIO.ITEMS.ITEM10.DESCRIPTION',
+                title: 'PORTFOLIO.ITEMS.ITEM10.TITLE',
+                large: false
+            },
+            {
                 filters: ['angular', 'spring', 'projects'],
                 imageUrl: '/assets/images/portfolio/shopthelook.webp',
                 link: 'https://weareklai.es',

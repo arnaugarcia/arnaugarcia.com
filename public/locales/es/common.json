@@ -96,6 +96,16 @@
 				"DESCRIPTION": "Logo de ARS",
 				"SUBTITLE": "Software el cual permite que mediante un Arduino con un giroscopio conectado,  es capaz de orientar el contenido de la pantalla del sistema operativo.",
 				"TITLE": "Arduino Rotate Screen"
+			},
+			"ITEM10": {
+				"DESCRIPTION": "Insignia del curso de DDD, arquitectura hexagonal, event-driven design, Spring Modulith y microservicios",
+				"SUBTITLE": "Completé un curso de Domain-Driven Design, arquitectura hexagonal, event-driven design, Spring Modulith y microservicios",
+				"TITLE": "DDD, Event-Driven y Spring Modulith"
+			},
+			"ITEM11": {
+				"DESCRIPTION": "Visual del proyecto de car hacking BMW e ingeniería inversa de CAN",
+				"SUBTITLE": "Ingeniería inversa práctica de buses CAN en BMW: sniffing, decodificación y experimentación con mensajes de diagnóstico y del vehículo",
+				"TITLE": "BMW CAN Hacking"
 			}
 		},
 		"SUBTITLE": "Proyectos que he desarrollado e hitos que he alcanzado",

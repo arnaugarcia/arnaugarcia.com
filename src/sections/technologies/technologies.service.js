@@ -10,6 +10,10 @@ export const TechnologiesService = {
                 image: '/assets/images/technologies/spring.webp'
             },
             {
+                title: 'Apache Kafka logo',
+                image: '/assets/images/technologies/kafka.webp'
+            },
+            {
                 title: 'Angular logo',
                 image: '/assets/images/technologies/angular.webp'
             },

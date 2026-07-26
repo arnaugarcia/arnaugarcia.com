@@ -96,6 +96,16 @@
 				"DESCRIPTION": "Logo d'ARS",
 				"SUBTITLE": "Programari que permet mitjançant un Arduino amb un giroscopi connectat,  orienti la pantalla del sistema operatiu.",
 				"TITLE": "Arduino Rotate Screen"
+			},
+			"ITEM10": {
+				"DESCRIPTION": "Insígnia del curs de DDD, arquitectura hexagonal, event-driven design, Spring Modulith i microserveis",
+				"SUBTITLE": "Vaig completar un curs de Domain-Driven Design, arquitectura hexagonal, event-driven design, Spring Modulith i microserveis",
+				"TITLE": "DDD, Event-Driven i Spring Modulith"
+			},
+			"ITEM11": {
+				"DESCRIPTION": "Visual del projecte de car hacking BMW i enginyeria inversa de CAN",
+				"SUBTITLE": "Enginyeria inversa pràctica de busos CAN en BMW: sniffing, descodificació i experimentació amb missatges de diagnòstic i del vehicle",
+				"TITLE": "BMW CAN Hacking"
 			}
 		},
 		"SUBTITLE": "Projectes que he desenvolupat i fites assolit",

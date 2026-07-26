@@ -48,7 +48,11 @@
 		"PROFILE": "Perfil",
 		"PROJECTS": "Proyectos",
 		"RESUME": "Resumen",
-		"SERVICES": "Servicios"
+		"SERVICES": "Servicios",
+		"THEME": {
+			"DARK": "Modo oscuro",
+			"LIGHT": "Modo claro"
+		}
 	},
 	"PORTFOLIO": {
 		"ITEMS": {

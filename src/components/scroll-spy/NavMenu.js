@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 import {ScrollSpy} from "./ScrollSpy";
 import {useTranslation} from 'next-i18next/pages';
 import Link from 'next/link'
+import {useTheme} from "../../hooks/useTheme";
 
 // Abstracted from ScrollSpy to allow for easier customizations
 const onScrollUpdate = (entry, isInVewPort) => {
@@ -15,9 +16,25 @@ const onScrollUpdate = (entry, isInVewPort) => {
     }
 };
 
+const SunIcon = () => (
+    <svg className="theme-toggle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" strokeWidth="1.8"/>
+        <path fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"
+              d="M12 2.5v2.2M12 19.3v2.2M4.7 4.7l1.6 1.6M17.7 17.7l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.7 19.3l1.6-1.6M17.7 6.3l1.6-1.6"/>
+    </svg>
+);
+
+const MoonIcon = () => (
+    <svg className="theme-toggle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"
+              d="M20.5 14.2A8.2 8.2 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2z"/>
+    </svg>
+);
+
 const NavMenu = ({options, scrollNavbarLimit = 5}) => {
 
     const {t} = useTranslation('common');
+    const {isDark, ready, toggleTheme} = useTheme();
 
     const [scrollLimit, setScrollLimit] = useState(false);
     const [isNavOpen, openNavigation] = useState(false);
@@ -94,6 +111,22 @@ const NavMenu = ({options, scrollNavbarLimit = 5}) => {
                                         )
                                     })}
                                 </ul>
+                            </li>
+                            <li className="theme-toggle-item">
+                                <button
+                                    type="button"
+                                    className="theme-toggle"
+                                    onClick={toggleTheme}
+                                    aria-label={isDark ? t('NAVBAR.THEME.LIGHT') : t('NAVBAR.THEME.DARK')}
+                                    title={isDark ? t('NAVBAR.THEME.LIGHT') : t('NAVBAR.THEME.DARK')}
+                                >
+                                    <span className="menu-item-span">
+                                        {ready ? (isDark ? <SunIcon/> : <MoonIcon/>) : <MoonIcon/>}
+                                        <span className="theme-toggle-label">
+                                            {isDark ? t('NAVBAR.THEME.LIGHT') : t('NAVBAR.THEME.DARK')}
+                                        </span>
+                                    </span>
+                                </button>
                             </li>
                         </ul>
 

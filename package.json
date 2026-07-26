@@ -10,6 +10,7 @@
     "build": "next build && node scripts/generate-sitemap.js",
     "start": "npx --yes serve@latest out",
     "lint": "eslint .",
+    "release": "semantic-release",
     "postinstall": "node scripts/patch-i18next-ssg.js"
   },
   "dependencies": {
@@ -32,10 +33,16 @@
     "typed.js": "^3.0.0"
   },
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^11.0.1",
+    "@semantic-release/github": "^12.0.9",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.1",
     "eslint": "^9.39.5",
     "eslint-config-next": "^16.2.11",
     "eslint-config-prettier": "^10.1.8",
     "sass": "^1.102.0",
+    "semantic-release": "^25.0.8",
     "typescript": "^5.9.3"
   }
 }

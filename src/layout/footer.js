@@ -17,7 +17,12 @@ export default function Footer() {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-6">
-                        <span className="copyright">{t('FOOTER.CONTENT', {year: new Date().getFullYear()})}</span>
+                        <span className="copyright">
+                            {t('FOOTER.CONTENT', {
+                                year: new Date().getFullYear(),
+                                version: process.env.NEXT_PUBLIC_APP_VERSION
+                            })}
+                        </span>
                     </div>
                     <div className="col-md-6">
                         <ul className="social-icons">

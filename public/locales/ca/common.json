@@ -28,7 +28,7 @@
 		"WEB": "https://arnaugarcia.com"
 	},
 	"FOOTER": {
-		"CONTENT": "© {{year}} Arnau Garcia, Tots els drets reservats."
+		"CONTENT": "© {{year}} Arnau Garcia, Tots els drets reservats. · v{{version}}"
 	},
 	"INTRO": {
 		"SUBTITLE": "Un desenvolupador web creatiu ... | Desenvolupador de micro-serveis | Desenvolupador de Spring | Desenvolupador d'Angular | Entusiasta de JHipster | Amant del cafè",

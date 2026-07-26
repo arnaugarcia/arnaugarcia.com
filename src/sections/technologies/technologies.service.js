@@ -62,10 +62,6 @@ export const TechnologiesService = {
                 image: '/assets/images/technologies/kubernetes.webp'
             },
             {
-                title: 'Netflix OSS logo',
-                image: '/assets/images/technologies/netflixoss.webp'
-            },
-            {
                 title: 'Google Cloud logo',
                 image: '/assets/images/technologies/googlecloud.webp'
             }

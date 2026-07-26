@@ -2,15 +2,6 @@ export const ProjectsService = {
     projects: () => {
         return [
             {
-                categories: ['PROJECTS.CATEGORIES.FRONTEND'],
-                title: 'PROJECTS.ITEMS.3.TITLE',
-                description: 'PROJECTS.ITEMS.3.DESCRIPTION',
-                image: 'assets/images/projects/canbalasch-pos.png',
-                imageDescription: 'PROJECTS.ITEMS.3.IMAGE-DESCRIPTION',
-                link: '#projects',
-                date: 'PROJECTS.ITEMS.3.DATE'
-            },
-            {
                 categories: ['PROJECTS.CATEGORIES.IOT', 'PROJECTS.CATEGORIES.CONNECTED-CAR', 'PROJECTS.CATEGORIES.JAVA'],
                 title: 'PROJECTS.ITEMS.0.TITLE',
                 description: 'PROJECTS.ITEMS.0.DESCRIPTION',

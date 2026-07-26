@@ -127,7 +127,7 @@
 			"SKILL2": "Spring / Spring Cloud / Spring Security",
 			"SKILL3": "TDD / Junit / Jest",
 			"SKILL4": "Angular / Javascript / ES6 / Typescript",
-			"SKILL5": "Java Micro-serveis / Spring Cloud / SSO",
+			"SKILL5": "Java Micro-serveis / DDD / Hexagonal / CQRS",
 			"TITLE": "HABILITATS"
 		},
 		"SOCIAL": "On em pots trobar?",
@@ -144,7 +144,6 @@
 			"BACKEND": "Backend",
 			"CONNECTED-CAR": "Cotxe connectat",
 			"DEVOPS": "Devops",
-			"FRONTEND": "Frontend",
 			"IOT": "iot",
 			"JAVA": "Java",
 			"SYSTEM-ADMINISTRATION": "Administració de sistemes"
@@ -169,14 +168,6 @@
 				"SUBTITLE": "Plataforma IOT per domòtica",
 				"TITLE": "IoT | Domòtica",
 				"YEAR": "2019 - 2020"
-			},
-			"3": {
-				"DATE": "",
-				"DESCRIPTION": "TPV a mida per al restaurant CanBalasch, desenvolupat amb Angular i Electron. Cobreix l'operativa diària del restaurant i es comunica per port sèrie amb una impressora de tiquets per a cuina i clients.",
-				"IMAGE-DESCRIPTION": "CanBalasch POS",
-				"SUBTITLE": "Angular · Electron · Impressora sèrie",
-				"TITLE": "CanBalasch POS",
-				"YEAR": ""
 			}
 		},
 		"MORE-BUTTON": "Més Projectes"

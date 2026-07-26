@@ -127,7 +127,7 @@
 			"SKILL2": "Spring / Spring Cloud / Spring Security",
 			"SKILL3": "TDD / Junit / Jest",
 			"SKILL4": "Angular / Javascript / ES6 / Typescript",
-			"SKILL5": "Java Microservicios / Spring Cloud / SSO",
+			"SKILL5": "Java Microservicios / DDD / Hexagonal / CQRS",
 			"TITLE": "HABILIDADES"
 		},
 		"SOCIAL": "¿Dónde me puedes encontrar?",
@@ -144,7 +144,6 @@
 			"BACKEND": "Backend",
 			"CONNECTED-CAR": "Coche conectado",
 			"DEVOPS": "Devops",
-			"FRONTEND": "Frontend",
 			"IOT": "iot",
 			"JAVA": "Java",
 			"SYSTEM-ADMINISTRATION": "Administración de sistemas"
@@ -165,18 +164,10 @@
 				"YEAR": "2019 -2020"
 			},
 			"2": {
-				"DESCRIPTION": "He comenzado a conectar mi casa a internet. He montado una intranet con servicios cloud cómo una VPN, almacenamiento y un sistema de monitorizaje que da información de las luces, consumos y tiepo medio de estacia en cada dispositivo.",
+				"DESCRIPTION": "He comenzado a conectar mi casa a internet. He montado una intranet con servicios cloud como una VPN, almacenamiento y un sistema de monitorizaje que da información de las luces, consumos y tiempo medio de estancia en cada dispositivo.",
 				"SUBTITLE": "Plataforma IOT para domótica",
 				"TITLE": "IoT | Automatización del hogar",
 				"YEAR": "2019 -2020"
-			},
-			"3": {
-				"DATE": "",
-				"DESCRIPTION": "TPV a medida para el restaurante CanBalasch, desarrollado con Angular y Electron. Cubre la operativa diaria del restaurante y se comunica por puerto serie con una impresora de tickets para cocina y clientes.",
-				"IMAGE-DESCRIPTION": "CanBalasch POS",
-				"SUBTITLE": "Angular · Electron · Impresora serie",
-				"TITLE": "CanBalasch POS",
-				"YEAR": ""
 			}
 		},
 		"MORE-BUTTON": "Más proyectos"

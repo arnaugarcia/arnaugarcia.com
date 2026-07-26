@@ -127,7 +127,7 @@
 			"SKILL2": "Spring / Spring Cloud / Spring Security",
 			"SKILL3": "TDD / Junit / Jest",
 			"SKILL4": "Angular / Javascript / ES6 / Typescript",
-			"SKILL5": "Java Microservices / Spring Cloud / SSO",
+			"SKILL5": "Java Microservices / DDD / Hexagonal / CQRS",
 			"TITLE": "SKILLS"
 		},
 		"SOCIAL": "Where can you find me?",
@@ -144,7 +144,6 @@
 			"BACKEND": "Backend",
 			"CONNECTED-CAR": "Connected car",
 			"DEVOPS": "Devops",
-			"FRONTEND": "Frontend",
 			"IOT": "iot",
 			"JAVA": "Java",
 			"SYSTEM-ADMINISTRATION": "Systems Administration"
@@ -169,14 +168,6 @@
 				"SUBTITLE": "IOT platform for home automation",
 				"TITLE": "IoT | Home automation",
 				"YEAR": "2019 - 2020"
-			},
-			"3": {
-				"DATE": "",
-				"DESCRIPTION": "Custom point-of-sale for the CanBalasch restaurant, built with Angular and Electron. Handles day-to-day restaurant operations and talks to a serial ticket printer for kitchen and customer receipts.",
-				"IMAGE-DESCRIPTION": "CanBalasch POS",
-				"SUBTITLE": "Angular · Electron · Serial printer",
-				"TITLE": "CanBalasch POS",
-				"YEAR": ""
 			}
 		},
 		"MORE-BUTTON": "More Projects"
